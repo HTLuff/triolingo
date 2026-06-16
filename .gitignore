@@ -17,3 +17,6 @@ src/data/japanese.json
 .DS_Store
 .vscode/
 *.sw?
+
+# Deployment script (contains your S3 bucket name)
+deploy.sh
