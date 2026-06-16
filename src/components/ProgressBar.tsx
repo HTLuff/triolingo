@@ -3,28 +3,23 @@ import { motion } from 'framer-motion';
 interface ProgressBarProps {
   current: number;
   total: number;
-  hearts: number;
+  onBack: () => void;
 }
 
-export default function ProgressBar({ current, total, hearts }: ProgressBarProps) {
+export default function ProgressBar({ current, total, onBack }: ProgressBarProps) {
   const pct = total > 0 ? (current / total) * 100 : 0;
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50 px-4 pt-3 pb-2 bg-indigo-950/80 backdrop-blur-sm border-b border-white/10">
       <div className="max-w-md mx-auto flex items-center gap-3">
-        {/* Hearts */}
-        <div className="flex gap-0.5 shrink-0">
-          {Array.from({ length: 5 }).map((_, i) => (
-            <motion.span
-              key={i}
-              initial={{ scale: 1 }}
-              animate={{ scale: i < hearts ? 1 : 0.7 }}
-              className={`text-lg leading-none transition-all ${i < hearts ? 'text-red-400' : 'text-white/20'}`}
-            >
-              ❤️
-            </motion.span>
-          ))}
-        </div>
+        {/* Back button */}
+        <button
+          onClick={onBack}
+          className="shrink-0 text-white/40 hover:text-white/80 transition-colors text-xl leading-none"
+          aria-label="Back to menu"
+        >
+          ✕
+        </button>
 
         {/* Progress bar */}
         <div className="flex-1 h-3 bg-white/10 rounded-full overflow-hidden">

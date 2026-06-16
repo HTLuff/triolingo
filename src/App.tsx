@@ -20,7 +20,6 @@ const vocabMap: Record<Language, VocabCard[]> = {
 };
 
 const SESSION_SIZE = 10;
-const MAX_HEARTS = 5;
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -39,7 +38,6 @@ export default function App() {
   // Session state
   const [sessionCards, setSessionCards] = useState<VocabCard[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
-  const [hearts, setHearts] = useState(MAX_HEARTS);
   const [results, setResults] = useState<SessionResult[]>([]);
   const [cardStartTime, setCardStartTime] = useState(Date.now());
 
@@ -89,7 +87,6 @@ export default function App() {
     const deck = buildSession(language, srs, userGender);
     setSessionCards(deck);
     setCurrentIdx(0);
-    setHearts(MAX_HEARTS);
     setResults([]);
     setCardStartTime(Date.now());
     setScreen('session');
@@ -106,19 +103,14 @@ export default function App() {
     setLastPracticed(today);
   }
 
-  function advanceSession(newResults: SessionResult[], correct: boolean, currentHearts: number) {
+  function advanceSession(newResults: SessionResult[], correct: boolean) {
     if (correct) {
       setTotalLearned(t => t + 1);
     }
 
-    const newHearts = correct ? currentHearts : currentHearts - 1;
-    if (!correct) setHearts(newHearts);
-
-    const sessionDone = !correct && newHearts <= 0 || currentIdx + 1 >= sessionCards.length;
-
     setResults(newResults);
 
-    if (sessionDone) {
+    if (currentIdx + 1 >= sessionCards.length) {
       updateStreak();
       setScreen('summary');
     } else {
@@ -133,7 +125,7 @@ export default function App() {
     srs.recordAnswer(card.id, quality);
 
     const result: SessionResult = { card, correct, timeMs: Date.now() - cardStartTime };
-    advanceSession([...results, result], correct, hearts);
+    advanceSession([...results, result], correct);
   }
 
   function handleMCResult(correct: boolean, timeMs: number) {
@@ -142,14 +134,13 @@ export default function App() {
     srs.recordAnswer(card.id, quality);
 
     const result: SessionResult = { card, correct, timeMs };
-    advanceSession([...results, result], correct, hearts);
+    advanceSession([...results, result], correct);
   }
 
   function handleRestart() {
     const deck = buildSession(language, srs, userGender);
     setSessionCards(deck);
     setCurrentIdx(0);
-    setHearts(MAX_HEARTS);
     setResults([]);
     setCardStartTime(Date.now());
     setScreen('session');
@@ -201,7 +192,7 @@ export default function App() {
             exit={{ opacity: 0, x: -40 }}
             className="min-h-screen flex flex-col"
           >
-            <ProgressBar current={currentIdx} total={sessionCards.length} hearts={hearts} />
+            <ProgressBar current={currentIdx} total={sessionCards.length} onBack={() => setScreen('mode')} />
             <div className="flex-1 flex flex-col items-center justify-start pt-24 pb-8">
               <AnimatePresence mode="wait">
                 {mode === 'flashcard' ? (
