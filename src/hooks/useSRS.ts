@@ -35,5 +35,16 @@ export function useSRS(language: string) {
     return cards.filter(card => !srsMap[card.id]);
   }, [srsMap]);
 
-  return { getCardState, recordAnswer, getDueCards, getNewCards, srsMap };
+  const getCategoryProgress = useCallback((cards: VocabCard[]) => {
+    const progress: Record<string, { total: number; mastered: number }> = {};
+    cards.forEach(card => {
+      if (!progress[card.category]) progress[card.category] = { total: 0, mastered: 0 };
+      progress[card.category].total++;
+      const srs = srsMap[card.id];
+      if (srs && srs.interval >= 7) progress[card.category].mastered++;
+    });
+    return progress;
+  }, [srsMap]);
+
+  return { getCardState, recordAnswer, getDueCards, getNewCards, srsMap, getCategoryProgress };
 }

@@ -6,6 +6,7 @@ interface MultipleChoiceProps {
   card: VocabCard;
   allCards: VocabCard[];
   language: Language;
+  reverse?: boolean;
   onResult: (correct: boolean, timeMs: number) => void;
 }
 
@@ -18,7 +19,7 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-export default function MultipleChoice({ card, allCards, language, onResult }: MultipleChoiceProps) {
+export default function MultipleChoice({ card, allCards, language, reverse = false, onResult }: MultipleChoiceProps) {
   const [selected, setSelected] = useState<string | null>(null);
   const [canContinue, setCanContinue] = useState(false);
   const startRef = useRef(Date.now());
@@ -79,8 +80,15 @@ export default function MultipleChoice({ card, allCards, language, onResult }: M
         animate={{ opacity: 1, y: 0 }}
         className="w-full text-center"
       >
-        <p className="text-white/50 text-sm mb-2">Translate into {langLabel[language]}</p>
-        <p className="text-3xl font-bold text-white">{card.english}</p>
+        <p className="text-white/50 text-sm mb-2">{reverse ? `Translate into English` : `Translate into ${langLabel[language]}`}</p>
+        {reverse ? (
+          <div>
+            <p className="font-bold text-white text-center leading-tight" style={{ fontSize: card.target.length > 20 ? '1.4rem' : card.target.length > 10 ? '2rem' : '2.5rem' }}>{card.target}</p>
+            {card.pronunciation && <p className="text-white/40 text-sm mt-1">{card.pronunciation}</p>}
+          </div>
+        ) : (
+          <p className="text-3xl font-bold text-white">{card.english}</p>
+        )}
       </motion.div>
 
       {/* Options */}
@@ -104,6 +112,9 @@ export default function MultipleChoice({ card, allCards, language, onResult }: M
             className={`w-full min-h-16 px-5 py-3 rounded-2xl border font-semibold text-left flex items-center justify-between transition-all ${getOptionStyle(opt)}`}
             disabled={!!selected}
           >
+            {reverse ? (
+              <span style={{ fontSize: '1rem' }} className="leading-snug">{opt.english}</span>
+            ) : (
             <span className="flex flex-col gap-0.5">
               <span style={{ fontSize: '1rem' }} className="leading-snug">
                 {opt.target}
@@ -112,6 +123,7 @@ export default function MultipleChoice({ card, allCards, language, onResult }: M
                 <span className="text-xs font-normal opacity-60">{opt.pronunciation}</span>
               )}
             </span>
+            )}
             <AnimatePresence>
               {selected && opt.id === card.id && (
                 <motion.span

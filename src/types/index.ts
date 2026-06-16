@@ -1,5 +1,5 @@
 export type Language = 'spanish' | 'japanese';
-export type Mode = 'flashcard' | 'multiple-choice';
+export type Mode = 'flashcard' | 'multiple-choice' | 'cloze';
 export type UserGender = 'male' | 'female';
 
 export interface VocabCard {
@@ -9,6 +9,16 @@ export interface VocabCard {
   pronunciation?: string;
   category: string;
   gender?: 'all' | 'male' | 'female';
+  cloze?: string;
+  tense?: string;
+  pronoun?: string;
+  note?: string;
+}
+
+export interface SessionFilters {
+  categories: string[];
+  tenses: string[];
+  reverse: boolean;
 }
 
 export interface SRSData {

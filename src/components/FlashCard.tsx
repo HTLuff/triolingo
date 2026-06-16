@@ -5,10 +5,11 @@ import type { VocabCard, Language } from '../types';
 interface FlashCardProps {
   card: VocabCard;
   language: Language;
+  reverse?: boolean;
   onResult: (correct: boolean) => void;
 }
 
-export default function FlashCard({ card, language: _language, onResult }: FlashCardProps) {
+export default function FlashCard({ card, language: _language, reverse = false, onResult }: FlashCardProps) {
   const [flipped, setFlipped] = useState(false);
   const [answered, setAnswered] = useState<'correct' | 'wrong' | null>(null);
 
@@ -74,14 +75,16 @@ export default function FlashCard({ card, language: _language, onResult }: Flash
             <span className={`text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full ${catColor}`}>
               {card.category}
             </span>
-            <p className="font-bold text-white text-center" style={{ fontSize: card.english.length > 30 ? '1.3rem' : card.english.length > 15 ? '1.8rem' : '2.2rem' }}>{card.english}</p>
+            {reverse ? (
+              <>
+                <p className="font-bold text-white text-center leading-tight" style={{ fontSize: card.target.length > 20 ? '1.4rem' : card.target.length > 10 ? '2rem' : '2.8rem' }}>{card.target}</p>
+                {card.pronunciation && <p className="text-gray-300 text-lg">{card.pronunciation}</p>}
+              </>
+            ) : (
+              <p className="font-bold text-white text-center" style={{ fontSize: card.english.length > 30 ? '1.3rem' : card.english.length > 15 ? '1.8rem' : '2.2rem' }}>{card.english}</p>
+            )}
             {!flipped && (
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.4 }}
-                className="text-white/30 text-sm mt-2"
-              >
+              <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} className="text-white/30 text-sm mt-2">
                 Tap to reveal
               </motion.p>
             )}
@@ -95,16 +98,20 @@ export default function FlashCard({ card, language: _language, onResult }: Flash
             <span className={`text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full ${catColor}`}>
               {card.category}
             </span>
-            <p
-              className="font-bold text-white text-center leading-tight"
-              style={{ fontSize: card.target.length > 20 ? '1.4rem' : card.target.length > 10 ? '2rem' : '2.8rem' }}
-            >
-              {card.target}
-            </p>
-            {card.pronunciation && (
-              <p className="text-gray-300 text-xl">{card.pronunciation}</p>
+            {reverse ? (
+              <p className="font-bold text-white text-center" style={{ fontSize: card.english.length > 30 ? '1.3rem' : card.english.length > 15 ? '1.8rem' : '2.2rem' }}>{card.english}</p>
+            ) : (
+              <>
+                <p className="font-bold text-white text-center leading-tight" style={{ fontSize: card.target.length > 20 ? '1.4rem' : card.target.length > 10 ? '2rem' : '2.8rem' }}>{card.target}</p>
+                {card.pronunciation && <p className="text-gray-300 text-xl">{card.pronunciation}</p>}
+              </>
             )}
-            <p className="text-white/40 text-sm mt-1">{card.english}</p>
+            <p className="text-white/40 text-sm mt-1">{reverse ? card.target : card.english}</p>
+            {card.note && (
+              <div className="w-full mt-2 rounded-xl border border-amber-400/20 px-3 py-2" style={{ background: 'rgba(251,191,36,0.08)' }}>
+                <p className="text-amber-300/80 text-xs leading-relaxed">{card.note}</p>
+              </div>
+            )}
           </div>
         </motion.div>
       </div>
