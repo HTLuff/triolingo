@@ -1,0 +1,10 @@
+[
+  {"id":"es_001","english":"Hello, how are you?","target":"Hola, ¿cómo estás?","pronunciation":"OH-lah, KOH-moh ehs-TAHS","category":"greetings"},
+  {"id":"es_002","english":"Nice to meet you","target":"Encantado de conocerte","pronunciation":"en-kahn-TAH-doh deh koh-noh-SEHR-teh","category":"greetings"},
+  {"id":"es_003","english":"Where do you want to eat?","target":"¿Dónde quieres comer?","pronunciation":"DON-deh KYEH-rehs koh-MEHR","category":"food"},
+  {"id":"es_004","english":"This is delicious!","target":"¡Esto está buenísimo!","pronunciation":"EHS-toh ehs-TAH bweh-NEE-see-moh","category":"food"},
+  {"id":"es_005","english":"The bill, please","target":"La cuenta, por favor","pronunciation":"lah KWEN-tah por fah-BOR","category":"food"},
+  {"id":"es_006","english":"What do you do for work?","target":"¿A qué te dedicas?","pronunciation":"ah keh teh deh-DEE-kahs","category":"chat"},
+  {"id":"es_007","english":"I work in technology","target":"Trabajo en tecnología","pronunciation":"trah-BAH-hoh en tek-noh-loh-HEE-ah","category":"chat"},
+  {"id":"es_008","english":"Cheers!","target":"¡Salud!","pronunciation":"sah-LOOD","category":"going out"}
+]

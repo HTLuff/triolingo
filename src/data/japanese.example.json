@@ -1,0 +1,10 @@
+[
+  {"id":"ja_001","english":"Excuse me","target":"すみません","pronunciation":"soo-mee-mah-sen","category":"basics","gender":"all"},
+  {"id":"ja_002","english":"Thank you very much","target":"ありがとうございます","pronunciation":"ah-ree-gah-toh go-zai-mahss","category":"basics","gender":"all"},
+  {"id":"ja_003","english":"Where is the train station?","target":"駅はどこですか？","pronunciation":"eh-kee wah doh-koh dess kah","category":"trains","gender":"all"},
+  {"id":"ja_004","english":"The bill, please","target":"お会計をお願いします","pronunciation":"oh-kai-kay woh oh-neh-gai shee-mahss","category":"restaurant","gender":"all"},
+  {"id":"ja_005","english":"Is this path safe?","target":"この道は安全ですか？","pronunciation":"koh-noh mee-chee wah an-zen dess kah","category":"hiking","gender":"all"},
+  {"id":"ja_006","english":"I have a reservation","target":"予約があります","pronunciation":"yoh-yah-koo gah ah-ree-mahss","category":"hotel","gender":"all"},
+  {"id":"ja_007","english":"I'm starving (casual, male)","target":"腹減った","pronunciation":"hah-rah het-tah","category":"expressions","gender":"male"},
+  {"id":"ja_008","english":"I'm starving (casual, female)","target":"お腹空いた〜","pronunciation":"oh-nah-kah soo-ee-tah","category":"expressions","gender":"female"}
+]

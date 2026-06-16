@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Env / local config
+.env
+.env.local
+.env.*.local
+
+# Personal vocabulary data — copy *.example.json and rename to *.json to get started
+src/data/spanish.json
+src/data/japanese.json
+
+# Editor
+.DS_Store
+.vscode/
+*.sw?
