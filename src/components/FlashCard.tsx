@@ -69,7 +69,7 @@ export default function FlashCard({ card, language: _language, reverse = false, 
         >
           {/* Front */}
           <div
-            className="absolute inset-0 rounded-3xl border border-white/20 flex flex-col items-center justify-center p-8 gap-4"
+            className="absolute inset-0 rounded-3xl border border-white/20 flex flex-col items-center justify-center p-6 gap-4 overflow-hidden"
             style={{ backfaceVisibility: 'hidden', background: 'rgba(30, 16, 64, 0.97)' }}
           >
             <span className={`text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full ${catColor}`}>
@@ -92,10 +92,10 @@ export default function FlashCard({ card, language: _language, reverse = false, 
 
           {/* Back */}
           <div
-            className="absolute inset-0 rounded-3xl border border-white/20 flex flex-col items-center justify-center p-8 gap-3"
+            className="absolute inset-0 rounded-3xl border border-white/20 flex flex-col items-center justify-center p-6 gap-3 overflow-hidden"
             style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', background: 'rgba(30, 16, 64, 0.97)' }}
           >
-            <span className={`text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full ${catColor}`}>
+            <span className={`text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full shrink-0 ${catColor}`}>
               {card.category}
             </span>
             {reverse ? (
@@ -103,18 +103,29 @@ export default function FlashCard({ card, language: _language, reverse = false, 
             ) : (
               <>
                 <p className="font-bold text-white text-center leading-tight" style={{ fontSize: card.target.length > 20 ? '1.4rem' : card.target.length > 10 ? '2rem' : '2.8rem' }}>{card.target}</p>
-                {card.pronunciation && <p className="text-gray-300 text-xl">{card.pronunciation}</p>}
+                {card.pronunciation && <p className="text-gray-300 text-lg shrink-0">{card.pronunciation}</p>}
               </>
             )}
-            <p className="text-white/40 text-sm mt-1">{reverse ? card.target : card.english}</p>
-            {card.note && (
-              <div className="w-full mt-2 rounded-xl border border-amber-400/20 px-3 py-2" style={{ background: 'rgba(251,191,36,0.08)' }}>
-                <p className="text-amber-300/80 text-xs leading-relaxed">{card.note}</p>
-              </div>
-            )}
+            <p className="text-white/40 text-sm">{reverse ? card.target : card.english}</p>
           </div>
         </motion.div>
       </div>
+
+      {/* Grammar note — shown below card after flip */}
+      <AnimatePresence>
+        {flipped && card.note && (
+          <motion.div
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0 }}
+            transition={{ type: 'spring', stiffness: 300, damping: 28, delay: 0.15 }}
+            className="w-full mt-4 rounded-xl border border-amber-400/20 px-4 py-3"
+            style={{ background: 'rgba(251,191,36,0.08)' }}
+          >
+            <p className="text-amber-300/80 text-xs leading-relaxed">{card.note}</p>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Action buttons appear after flip */}
       <AnimatePresence>
@@ -124,7 +135,7 @@ export default function FlashCard({ card, language: _language, reverse = false, 
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 10 }}
             transition={{ type: 'spring', stiffness: 300, damping: 25, delay: 0.1 }}
-            className="flex gap-4 mt-6 w-full"
+            className="flex gap-4 mt-4 w-full"
           >
             <motion.button
               whileHover={{ scale: 1.04 }}
