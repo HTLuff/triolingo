@@ -18,6 +18,7 @@ const modes = [
   { id: 'flashcard' as Mode, icon: '🃏', title: 'Flashcards', desc: 'Flip to reveal', color: 'from-blue-500/20 to-indigo-500/20', border: 'border-blue-400/30' },
   { id: 'multiple-choice' as Mode, icon: '✏️', title: 'Multiple Choice', desc: 'Pick the translation', color: 'from-emerald-500/20 to-teal-500/20', border: 'border-emerald-400/30' },
   { id: 'cloze' as Mode, icon: '🔤', title: 'Fill the Blank', desc: 'Complete the sentence', color: 'from-violet-500/20 to-purple-500/20', border: 'border-violet-400/30' },
+  { id: 'typing' as Mode, icon: '⌨️', title: 'Type It Out', desc: 'Produce the full translation', color: 'from-rose-500/20 to-pink-500/20', border: 'border-rose-400/30' },
 ];
 
 const tenseLabels: Record<string, string> = {
@@ -33,7 +34,7 @@ const tenseLabels: Record<string, string> = {
   'expression': 'Expressions',
 };
 
-const langLabel: Record<Language, string> = { spanish: '🇪🇸 Español', japanese: '🇯🇵 日本語' };
+const langLabel: Record<Language, string> = { spanish: '🇪🇸 Español', japanese: '🇯🇵 日本語', czech: '🇨🇿 Čeština' };
 
 export default function ModeSelector({
   language, dueCount, availableCategories, availableTenses,
@@ -72,7 +73,7 @@ export default function ModeSelector({
 
       {/* Header */}
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-6 w-full max-w-md">
-        <div className="text-4xl mb-2">{language === 'spanish' ? '🇪🇸' : '🇯🇵'}</div>
+        <div className="text-4xl mb-2">{language === 'spanish' ? '🇪🇸' : language === 'japanese' ? '🇯🇵' : '🇨🇿'}</div>
         <h2 className="text-2xl font-bold text-white">{langLabel[language]}</h2>
         <p className="text-white/50 text-sm mt-2">Choose your study mode</p>
         <motion.div

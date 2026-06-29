@@ -1,5 +1,5 @@
-export type Language = 'spanish' | 'japanese';
-export type Mode = 'flashcard' | 'multiple-choice' | 'cloze';
+export type Language = 'spanish' | 'japanese' | 'czech';
+export type Mode = 'flashcard' | 'multiple-choice' | 'cloze' | 'typing';
 export type UserGender = 'male' | 'female';
 
 export interface VocabCard {

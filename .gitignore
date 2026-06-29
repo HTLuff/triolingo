@@ -12,6 +12,7 @@ dist/
 # Personal vocabulary data — copy *.example.json and rename to *.json to get started
 src/data/spanish.json
 src/data/japanese.json
+src/data/czech.json
 
 # Editor
 .DS_Store

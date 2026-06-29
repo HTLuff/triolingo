@@ -7,11 +7,10 @@ interface LanguageSelectorProps {
 }
 
 function LangCard({ lang, delay, onSelect }: {
-  lang: { id: Language; flag: string; name: string; count: string; desc: string };
+  lang: { id: Language; flag: string; name: string; count: string; desc: string; bg: string; border: string; countColor: string };
   delay: number;
   onSelect: (l: Language) => void;
 }) {
-  const isSpanish = lang.id === 'spanish';
   return (
     <motion.button
       initial={{ opacity: 0, x: -40 }}
@@ -20,12 +19,7 @@ function LangCard({ lang, delay, onSelect }: {
       whileHover={{ scale: 1.03 }}
       whileTap={{ scale: 0.97 }}
       onClick={() => onSelect(lang.id)}
-      style={{
-        background: isSpanish
-          ? 'linear-gradient(135deg, rgba(239,68,68,0.35) 0%, rgba(234,179,8,0.28) 100%)'
-          : 'linear-gradient(135deg, rgba(239,68,68,0.35) 0%, rgba(244,114,182,0.22) 100%)',
-        border: isSpanish ? '1.5px solid rgba(250,204,21,0.55)' : '1.5px solid rgba(248,113,113,0.55)',
-      }}
+      style={{ background: lang.bg, border: lang.border }}
       className="w-full p-5 rounded-2xl backdrop-blur-sm flex items-center gap-4 text-left cursor-pointer transition-shadow hover:shadow-xl hover:shadow-purple-900/40"
     >
       <span className="text-5xl">{lang.flag}</span>
@@ -34,7 +28,7 @@ function LangCard({ lang, delay, onSelect }: {
         <div className="text-white/60 text-sm">{lang.desc}</div>
       </div>
       <div className="text-right">
-        <div className={`text-sm font-semibold ${isSpanish ? 'text-yellow-300' : 'text-red-300'}`}>{lang.count}</div>
+        <div className={`text-sm font-semibold ${lang.countColor}`}>{lang.count}</div>
         <div className="text-white/40 text-xs mt-0.5">to learn</div>
       </div>
     </motion.button>
@@ -42,8 +36,9 @@ function LangCard({ lang, delay, onSelect }: {
 }
 
 const languages = [
-  { id: 'spanish' as Language, flag: '🇪🇸', name: 'Español', count: '95 sentences', desc: 'Spanish' },
-  { id: 'japanese' as Language, flag: '🇯🇵', name: '日本語', count: '100 sentences', desc: 'Japanese' },
+  { id: 'spanish' as Language, flag: '🇪🇸', name: 'Español', count: '95 sentences', desc: 'Spanish', bg: 'linear-gradient(135deg, rgba(239,68,68,0.35) 0%, rgba(234,179,8,0.28) 100%)', border: '1.5px solid rgba(250,204,21,0.55)', countColor: 'text-yellow-300' },
+  { id: 'japanese' as Language, flag: '🇯🇵', name: '日本語', count: '100 sentences', desc: 'Japanese', bg: 'linear-gradient(135deg, rgba(239,68,68,0.35) 0%, rgba(244,114,182,0.22) 100%)', border: '1.5px solid rgba(248,113,113,0.55)', countColor: 'text-red-300' },
+  { id: 'czech' as Language, flag: '🇨🇿', name: 'Čeština', count: '3 sentences', desc: 'Czech', bg: 'linear-gradient(135deg, rgba(30,64,175,0.35) 0%, rgba(220,38,38,0.22) 100%)', border: '1.5px solid rgba(96,165,250,0.55)', countColor: 'text-blue-300' },
 ];
 
 export default function LanguageSelector({ onSelect }: LanguageSelectorProps) {

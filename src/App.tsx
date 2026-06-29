@@ -9,15 +9,18 @@ import GenderSelector from './components/GenderSelector';
 import FlashCard from './components/FlashCard';
 import MultipleChoice from './components/MultipleChoice';
 import ClozeCard from './components/ClozeCard';
+import TypingCard from './components/TypingCard';
 import ProgressBar from './components/ProgressBar';
 import ReviewSummary from './components/ReviewSummary';
 
 import spanishData from './data/spanish.json';
 import japaneseData from './data/japanese.json';
+import czechData from './data/czech.json';
 
 const vocabMap: Record<Language, VocabCard[]> = {
   spanish: spanishData as VocabCard[],
   japanese: japaneseData as VocabCard[],
+  czech: czechData as VocabCard[],
 };
 
 const SESSION_SIZE = 10;
@@ -134,6 +137,12 @@ export default function App() {
     advanceSession([...results, { card, correct, timeMs }], correct);
   }
 
+  function handleTypingResult(correct: boolean, timeMs: number) {
+    const card = sessionCards[currentIdx];
+    srs.recordAnswer(card.id, correct ? (timeMs < 8000 ? 5 : 4) : 1);
+    advanceSession([...results, { card, correct, timeMs }], correct);
+  }
+
   function handleRestart() {
     const deck = buildSession(language, srs, userGender, filters, mode);
     setSessionCards(deck);
@@ -227,7 +236,7 @@ export default function App() {
                   >
                     <MultipleChoice card={currentCard} allCards={allCards} language={language} reverse={filters.reverse} onResult={handleMCResult} />
                   </motion.div>
-                ) : (
+                ) : mode === 'cloze' ? (
                   <motion.div
                     key={`cz-${currentCard.id}`}
                     initial={{ opacity: 0, scale: 0.92 }} animate={{ opacity: 1, scale: 1 }}
@@ -236,6 +245,16 @@ export default function App() {
                     className="w-full max-w-md"
                   >
                     <ClozeCard card={currentCard} allCards={allCards} language={language} onResult={handleClozeResult} />
+                  </motion.div>
+                ) : (
+                  <motion.div
+                    key={`ty-${currentCard.id}`}
+                    initial={{ opacity: 0, scale: 0.92 }} animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.88, x: -30 }}
+                    transition={{ type: 'spring', stiffness: 300, damping: 28 }}
+                    className="w-full max-w-md"
+                  >
+                    <TypingCard card={currentCard} reverse={filters.reverse} onResult={handleTypingResult} />
                   </motion.div>
                 )}
               </AnimatePresence>
