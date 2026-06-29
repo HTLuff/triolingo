@@ -69,6 +69,7 @@ export default function MultipleChoice({ card, allCards, language, reverse = fal
   const langLabel: Record<Language, string> = {
     spanish: 'Spanish',
     japanese: 'Japanese',
+    czech: 'Czech',
   };
 
   return (
