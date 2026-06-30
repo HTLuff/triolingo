@@ -19,6 +19,10 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+function displayTarget(card: VocabCard, language: Language): string {
+  return language === 'japanese' && card.pronunciation ? card.pronunciation : card.target;
+}
+
 export default function MultipleChoice({ card, allCards, language, reverse = false, onResult }: MultipleChoiceProps) {
   const [selected, setSelected] = useState<string | null>(null);
   const [canContinue, setCanContinue] = useState(false);
@@ -83,10 +87,7 @@ export default function MultipleChoice({ card, allCards, language, reverse = fal
       >
         <p className="text-white/50 text-sm mb-2">{reverse ? `Translate into English` : `Translate into ${langLabel[language]}`}</p>
         {reverse ? (
-          <div>
-            <p className="font-bold text-white text-center leading-tight" style={{ fontSize: card.target.length > 20 ? '1.4rem' : card.target.length > 10 ? '2rem' : '2.5rem' }}>{card.target}</p>
-            {card.pronunciation && <p className="text-white/40 text-sm mt-1">{card.pronunciation}</p>}
-          </div>
+          <p className="font-bold text-white text-center leading-tight" style={{ fontSize: displayTarget(card, language).length > 20 ? '1.4rem' : displayTarget(card, language).length > 10 ? '2rem' : '2.5rem' }}>{displayTarget(card, language)}</p>
         ) : (
           <p className="text-3xl font-bold text-white">{card.english}</p>
         )}
@@ -116,14 +117,7 @@ export default function MultipleChoice({ card, allCards, language, reverse = fal
             {reverse ? (
               <span style={{ fontSize: '1rem' }} className="leading-snug">{opt.english}</span>
             ) : (
-            <span className="flex flex-col gap-0.5">
-              <span style={{ fontSize: '1rem' }} className="leading-snug">
-                {opt.target}
-              </span>
-              {opt.pronunciation && (
-                <span className="text-xs font-normal opacity-60">{opt.pronunciation}</span>
-              )}
-            </span>
+              <span style={{ fontSize: '1rem' }} className="leading-snug">{displayTarget(opt, language)}</span>
             )}
             <AnimatePresence>
               {selected && opt.id === card.id && (

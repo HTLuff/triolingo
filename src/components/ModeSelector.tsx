@@ -89,7 +89,7 @@ export default function ModeSelector({
 
       {/* Modes */}
       <div className="w-full max-w-md flex flex-col gap-3 mb-5">
-        {modes.map((mode, i) => (
+        {modes.filter(m => language === 'spanish' || m.id === 'flashcard' || m.id === 'multiple-choice').map((mode, i) => (
           <motion.button
             key={mode.id}
             initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}

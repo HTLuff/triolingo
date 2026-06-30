@@ -9,7 +9,11 @@ interface FlashCardProps {
   onResult: (correct: boolean) => void;
 }
 
-export default function FlashCard({ card, language: _language, reverse = false, onResult }: FlashCardProps) {
+function displayTarget(card: VocabCard, language: Language): string {
+  return language === 'japanese' && card.pronunciation ? card.pronunciation : card.target;
+}
+
+export default function FlashCard({ card, language, reverse = false, onResult }: FlashCardProps) {
   const [flipped, setFlipped] = useState(false);
   const [answered, setAnswered] = useState<'correct' | 'wrong' | null>(null);
 
@@ -76,10 +80,7 @@ export default function FlashCard({ card, language: _language, reverse = false, 
               {card.category}
             </span>
             {reverse ? (
-              <>
-                <p className="font-bold text-white text-center leading-tight" style={{ fontSize: card.target.length > 20 ? '1.4rem' : card.target.length > 10 ? '2rem' : '2.8rem' }}>{card.target}</p>
-                {card.pronunciation && <p className="text-gray-300 text-lg">{card.pronunciation}</p>}
-              </>
+              <p className="font-bold text-white text-center leading-tight" style={{ fontSize: displayTarget(card, language).length > 20 ? '1.4rem' : displayTarget(card, language).length > 10 ? '2rem' : '2.8rem' }}>{displayTarget(card, language)}</p>
             ) : (
               <p className="font-bold text-white text-center" style={{ fontSize: card.english.length > 30 ? '1.3rem' : card.english.length > 15 ? '1.8rem' : '2.2rem' }}>{card.english}</p>
             )}
@@ -101,12 +102,9 @@ export default function FlashCard({ card, language: _language, reverse = false, 
             {reverse ? (
               <p className="font-bold text-white text-center" style={{ fontSize: card.english.length > 30 ? '1.3rem' : card.english.length > 15 ? '1.8rem' : '2.2rem' }}>{card.english}</p>
             ) : (
-              <>
-                <p className="font-bold text-white text-center leading-tight" style={{ fontSize: card.target.length > 20 ? '1.4rem' : card.target.length > 10 ? '2rem' : '2.8rem' }}>{card.target}</p>
-                {card.pronunciation && <p className="text-gray-300 text-lg shrink-0">{card.pronunciation}</p>}
-              </>
+              <p className="font-bold text-white text-center leading-tight" style={{ fontSize: displayTarget(card, language).length > 20 ? '1.4rem' : displayTarget(card, language).length > 10 ? '2rem' : '2.8rem' }}>{displayTarget(card, language)}</p>
             )}
-            <p className="text-white/40 text-sm">{reverse ? card.target : card.english}</p>
+            <p className="text-white/40 text-sm">{reverse ? displayTarget(card, language) : card.english}</p>
           </div>
         </motion.div>
       </div>
