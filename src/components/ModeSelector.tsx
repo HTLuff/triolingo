@@ -17,6 +17,7 @@ interface ModeSelectorProps {
 const modes = [
   { id: 'flashcard' as Mode, icon: '🃏', title: 'Flashcards', desc: 'Flip to reveal', color: 'from-blue-500/20 to-indigo-500/20', border: 'border-blue-400/30' },
   { id: 'multiple-choice' as Mode, icon: '✏️', title: 'Multiple Choice', desc: 'Pick the translation', color: 'from-emerald-500/20 to-teal-500/20', border: 'border-emerald-400/30' },
+  { id: 'sentence-builder' as Mode, icon: '🔀', title: 'Sentence Builder', desc: 'Arrange the words in order', color: 'from-amber-500/20 to-orange-500/20', border: 'border-amber-400/30' },
   { id: 'cloze' as Mode, icon: '🔤', title: 'Fill the Blank', desc: 'Complete the sentence', color: 'from-violet-500/20 to-purple-500/20', border: 'border-violet-400/30' },
   { id: 'typing' as Mode, icon: '⌨️', title: 'Type It Out', desc: 'Produce the full translation', color: 'from-rose-500/20 to-pink-500/20', border: 'border-rose-400/30' },
 ];
