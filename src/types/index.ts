@@ -8,6 +8,7 @@ export interface VocabCard {
   target: string;
   pronunciation?: string;
   category: string;
+  level?: number;
   gender?: 'all' | 'male' | 'female';
   cloze?: string;
   tense?: string;
@@ -32,7 +33,7 @@ export interface CardState extends VocabCard {
   srs: SRSData;
 }
 
-export type AppScreen = 'home' | 'gender' | 'mode' | 'session' | 'summary';
+export type AppScreen = 'home' | 'gender' | 'mode' | 'level' | 'session' | 'summary';
 
 export interface SessionResult {
   card: VocabCard;

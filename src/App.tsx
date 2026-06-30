@@ -6,6 +6,7 @@ import { useLocalStorage } from './hooks/useLocalStorage';
 import LanguageSelector from './components/LanguageSelector';
 import ModeSelector from './components/ModeSelector';
 import GenderSelector from './components/GenderSelector';
+import LevelSelector from './components/LevelSelector';
 import FlashCard from './components/FlashCard';
 import MultipleChoice from './components/MultipleChoice';
 import ClozeCard from './components/ClozeCard';
@@ -38,6 +39,7 @@ export default function App() {
   const [screen, setScreen] = useState<AppScreen>('home');
   const [language, setLanguage] = useState<Language>('spanish');
   const [mode, setMode] = useState<Mode>('flashcard');
+  const [level, setLevel] = useState<number>(1);
   const [filters, setFilters] = useState<SessionFilters>({ categories: [], tenses: [], reverse: false });
 
   // Session state
@@ -58,9 +60,10 @@ export default function App() {
 
   const allCards = useMemo(() => vocabMap[language], [language]);
 
-  function applyFilters(cards: VocabCard[], gender: UserGender, f: SessionFilters, m: Mode): VocabCard[] {
+  function applyFilters(cards: VocabCard[], gender: UserGender, f: SessionFilters, m: Mode, lv?: number): VocabCard[] {
     let filtered = cards.filter(c =>
       (!c.gender || c.gender === 'all' || c.gender === gender) &&
+      (lv === undefined || !c.level || c.level === lv) &&
       (f.categories.length === 0 || f.categories.includes(c.category)) &&
       (f.tenses.length === 0 || !c.tense || f.tenses.includes(c.tense))
     );
@@ -68,10 +71,10 @@ export default function App() {
     return filtered;
   }
 
-  const buildSession = useCallback((lang: Language, currentSrs: ReturnType<typeof useSRS>, gender: UserGender, f: SessionFilters, m: Mode): VocabCard[] => {
+  const buildSession = useCallback((lang: Language, currentSrs: ReturnType<typeof useSRS>, gender: UserGender, f: SessionFilters, m: Mode, lv?: number): VocabCard[] => {
     const cards = vocabMap[lang];
-    const filteredCards = applyFilters(cards, gender, f, m);
-    if (filteredCards.length === 0) return shuffle(applyFilters(cards, gender, { categories: [], tenses: [], reverse: f.reverse }, m)).slice(0, SESSION_SIZE);
+    const filteredCards = applyFilters(cards, gender, f, m, lv);
+    if (filteredCards.length === 0) return shuffle(applyFilters(cards, gender, { categories: [], tenses: [], reverse: f.reverse }, m, lv)).slice(0, SESSION_SIZE);
     const due = currentSrs.getDueCards(filteredCards);
     const deck = due.length > 0 ? shuffle(due).slice(0, SESSION_SIZE) : shuffle(filteredCards).slice(0, SESSION_SIZE);
     return deck;
@@ -91,7 +94,21 @@ export default function App() {
 
   function handleSelectMode(m: Mode) {
     setMode(m);
-    const deck = buildSession(language, srs, userGender, filters, m);
+    if (language === 'spanish') {
+      setScreen('level');
+    } else {
+      const deck = buildSession(language, srs, userGender, filters, m);
+      setSessionCards(deck);
+      setCurrentIdx(0);
+      setResults([]);
+      setCardStartTime(Date.now());
+      setScreen('session');
+    }
+  }
+
+  function handleSelectLevel(lv: number) {
+    setLevel(lv);
+    const deck = buildSession(language, srs, userGender, filters, mode, lv);
     setSessionCards(deck);
     setCurrentIdx(0);
     setResults([]);
@@ -144,7 +161,7 @@ export default function App() {
   }
 
   function handleRestart() {
-    const deck = buildSession(language, srs, userGender, filters, mode);
+    const deck = buildSession(language, srs, userGender, filters, mode, language === 'spanish' ? level : undefined);
     setSessionCards(deck);
     setCurrentIdx(0);
     setResults([]);
@@ -154,14 +171,19 @@ export default function App() {
 
   const dueCount = useMemo(() => {
     const cards = vocabMap[language];
-    const filteredCards = applyFilters(cards, userGender, filters, mode);
+    const lv = language === 'spanish' ? level : undefined;
+    const filteredCards = applyFilters(cards, userGender, filters, mode, lv);
     return srs.getDueCards(filteredCards.length > 0 ? filteredCards : cards.filter(c => !c.gender || c.gender === 'all' || c.gender === userGender)).length;
-  }, [language, srs, userGender, filters, mode]);
+  }, [language, srs, userGender, filters, mode, level]);
 
   const availableCategories = useMemo(() => {
-    const cards = vocabMap[language].filter(c => !c.gender || c.gender === 'all' || c.gender === userGender);
+    const lv = language === 'spanish' ? level : undefined;
+    const cards = vocabMap[language].filter(c =>
+      (!c.gender || c.gender === 'all' || c.gender === userGender) &&
+      (lv === undefined || !c.level || c.level === lv)
+    );
     return [...new Set(cards.map(c => c.category))].sort();
-  }, [language, userGender]);
+  }, [language, userGender, level]);
 
   const availableTenses = useMemo(() => {
     if (language !== 'spanish') return [];
@@ -170,9 +192,13 @@ export default function App() {
   }, [language]);
 
   const categoryProgress = useMemo(() => {
-    const cards = vocabMap[language].filter(c => !c.gender || c.gender === 'all' || c.gender === userGender);
+    const lv = language === 'spanish' ? level : undefined;
+    const cards = vocabMap[language].filter(c =>
+      (!c.gender || c.gender === 'all' || c.gender === userGender) &&
+      (lv === undefined || !c.level || c.level === lv)
+    );
     return srs.getCategoryProgress(cards);
-  }, [language, userGender, srs]);
+  }, [language, userGender, srs, level]);
 
   const currentCard = sessionCards[currentIdx];
 
@@ -204,6 +230,12 @@ export default function App() {
               onSelect={handleSelectMode}
               onBack={() => language === 'japanese' ? setScreen('gender') : setScreen('home')}
             />
+          </motion.div>
+        )}
+
+        {screen === 'level' && (
+          <motion.div key="level" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }}>
+            <LevelSelector onSelect={handleSelectLevel} onBack={() => setScreen('mode')} />
           </motion.div>
         )}
 
