@@ -1,6 +1,6 @@
 import { useState, useCallback, useMemo } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import type { Language, Mode, AppScreen, SessionResult, VocabCard, UserGender, SessionFilters } from './types';
+import type { Language, Mode, AppScreen, SessionResult, VocabCard, UserGender, SessionFilters, Story, StoryLevel } from './types';
 import { useSRS } from './hooks/useSRS';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import LanguageSelector from './components/LanguageSelector';
@@ -12,12 +12,17 @@ import MultipleChoice from './components/MultipleChoice';
 import ClozeCard from './components/ClozeCard';
 import TypingCard from './components/TypingCard';
 import SentenceBuilder from './components/SentenceBuilder';
+import StorySelect from './components/StorySelect';
+import StoryReader from './components/StoryReader';
 import ProgressBar from './components/ProgressBar';
 import ReviewSummary from './components/ReviewSummary';
 
 import spanishData from './data/spanish.json';
 import japaneseData from './data/japanese.json';
 import czechData from './data/czech.json';
+import cafeMadrid from './data/stories/cafe-madrid.json';
+
+const story = cafeMadrid as Story;
 
 const vocabMap: Record<Language, VocabCard[]> = {
   spanish: spanishData as VocabCard[],
@@ -54,6 +59,11 @@ export default function App() {
   const [lastPracticed, setLastPracticed] = useLocalStorage<string>('triolingo_last_practiced', '');
   const [, setTotalLearned] = useLocalStorage<number>('triolingo_total_learned', 0);
   const [userGender, setUserGender] = useLocalStorage<UserGender>('triolingo_gender', 'male');
+
+  // Story state
+  const [storyLevel, setStoryLevel] = useLocalStorage<StoryLevel>('triolingo_story_level', 'a0');
+  const [storyCompleted, setStoryCompleted] = useLocalStorage<number[]>('triolingo_story_completed', []);
+  const [chapterId, setChapterId] = useState<number>(1);
 
   void streak;
 
@@ -96,7 +106,9 @@ export default function App() {
 
   function handleSelectMode(m: Mode) {
     setMode(m);
-    if (language === 'spanish') {
+    if (m === 'story') {
+      setScreen('story-select');
+    } else if (language === 'spanish') {
       setScreen('level');
     } else {
       const deck = buildSession(language, srs, userGender, filters, m);
@@ -117,6 +129,18 @@ export default function App() {
     setCardStartTime(Date.now());
     setScreen('session');
   }
+
+  function handleSelectChapter(id: number) {
+    setChapterId(id);
+    setScreen('story-reader');
+  }
+
+  function handleCompleteChapter(id: number) {
+    setStoryCompleted(prev => (prev.includes(id) ? prev : [...prev, id]));
+    setScreen('story-select');
+  }
+
+  const currentChapter = story.chapters.find(c => c.id === chapterId) ?? story.chapters[0];
 
   function updateStreak() {
     const today = new Date().toDateString();
@@ -244,6 +268,29 @@ export default function App() {
         {screen === 'level' && (
           <motion.div key="level" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }}>
             <LevelSelector onSelect={handleSelectLevel} onBack={() => setScreen('mode')} />
+          </motion.div>
+        )}
+
+        {screen === 'story-select' && (
+          <motion.div key="story-select" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }}>
+            <StorySelect
+              story={story}
+              completed={storyCompleted}
+              onSelectChapter={handleSelectChapter}
+              onBack={() => setScreen('mode')}
+            />
+          </motion.div>
+        )}
+
+        {screen === 'story-reader' && (
+          <motion.div key="story-reader" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }}>
+            <StoryReader
+              chapter={currentChapter}
+              level={storyLevel}
+              onLevelChange={setStoryLevel}
+              onComplete={handleCompleteChapter}
+              onBack={() => setScreen('story-select')}
+            />
           </motion.div>
         )}
 

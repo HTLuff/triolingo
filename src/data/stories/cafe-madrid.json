@@ -1,0 +1,1095 @@
+{
+  "id": "cafe-madrid",
+  "title": "Café en Madrid",
+  "blurb": "Marta works in a small café in Madrid. One morning a new customer walks in. A gentle story about work, coffee and getting to know someone — read it at your level.",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "El café nuevo",
+      "lines": [
+        {
+          "en": "Marta works in a café in Madrid.",
+          "a0": [{ "t": "Marta" }, { "t": "works", "r": "trabaja" }, { "t": "in" }, { "t": "a" }, { "t": "café" }, { "t": "in" }, { "t": "Madrid." }],
+          "a1": [{ "t": "Marta" }, { "t": "trabaja", "g": "works" }, { "t": "in" }, { "t": "a" }, { "t": "café" }, { "t": "in" }, { "t": "Madrid." }],
+          "a2": [{ "t": "Marta" }, { "t": "trabaja", "g": "works" }, { "t": "en", "g": "in" }, { "t": "un", "g": "a" }, { "t": "café" }, { "t": "en", "g": "in" }, { "t": "Madrid." }]
+        },
+        {
+          "en": "The café is called Café Luna.",
+          "a0": [{ "t": "The" }, { "t": "café" }, { "t": "is-called", "r": "se llama" }, { "t": "Café" }, { "t": "Luna." }],
+          "a1": [{ "t": "The" }, { "t": "café" }, { "t": "se llama", "g": "is called" }, { "t": "Café" }, { "t": "Luna." }],
+          "a2": [{ "t": "El", "g": "the" }, { "t": "café" }, { "t": "se llama", "g": "is called" }, { "t": "Café" }, { "t": "Luna." }]
+        },
+        {
+          "en": "It's small but very nice.",
+          "a0": [{ "t": "Is" }, { "t": "small", "r": "pequeño" }, { "t": "but" }, { "t": "very", "r": "muy" }, { "t": "nice.", "r": "bonito" }],
+          "a1": [{ "t": "Is" }, { "t": "pequeño", "g": "small" }, { "t": "but" }, { "t": "muy", "g": "very" }, { "t": "bonito.", "g": "nice" }],
+          "a2": [{ "t": "Es", "g": "it is" }, { "t": "pequeño", "g": "small" }, { "t": "pero", "g": "but" }, { "t": "muy", "g": "very" }, { "t": "bonito.", "g": "nice" }]
+        },
+        {
+          "en": "Every morning Marta opens the café at seven.",
+          "a0": [{ "t": "Every" }, { "t": "morning", "r": "mañana" }, { "t": "Marta" }, { "t": "opens", "r": "abre" }, { "t": "the" }, { "t": "café" }, { "t": "at" }, { "t": "seven.", "r": "las siete" }],
+          "a1": [{ "t": "Every" }, { "t": "mañana", "g": "morning" }, { "t": "Marta" }, { "t": "abre", "g": "opens" }, { "t": "the" }, { "t": "café" }, { "t": "at" }, { "t": "las siete.", "g": "seven" }],
+          "a2": [{ "t": "Cada", "g": "every" }, { "t": "mañana", "g": "morning" }, { "t": "Marta" }, { "t": "abre", "g": "opens" }, { "t": "el", "g": "the" }, { "t": "café" }, { "t": "a", "g": "at" }, { "t": "las siete.", "g": "seven" }]
+        },
+        {
+          "en": "Today a new man comes in.",
+          "a0": [{ "t": "Today" }, { "t": "enters", "r": "entra" }, { "t": "a" }, { "t": "man", "r": "hombre" }, { "t": "new.", "r": "nuevo" }],
+          "a1": [{ "t": "Today" }, { "t": "entra", "g": "comes in" }, { "t": "a" }, { "t": "hombre", "g": "man" }, { "t": "nuevo.", "g": "new" }],
+          "a2": [{ "t": "Hoy", "g": "today" }, { "t": "entra", "g": "comes in" }, { "t": "un", "g": "a" }, { "t": "hombre", "g": "man" }, { "t": "nuevo.", "g": "new" }]
+        },
+        {
+          "en": "He's tall and has brown hair.",
+          "a0": [{ "t": "Is" }, { "t": "tall", "r": "alto" }, { "t": "and" }, { "t": "has", "r": "tiene" }, { "t": "the" }, { "t": "hair", "r": "pelo" }, { "t": "brown.", "r": "castaño" }],
+          "a1": [{ "t": "Is" }, { "t": "alto", "g": "tall" }, { "t": "and" }, { "t": "tiene", "g": "has" }, { "t": "the" }, { "t": "pelo", "g": "hair" }, { "t": "castaño.", "g": "brown" }],
+          "a2": [{ "t": "Es", "g": "he is" }, { "t": "alto", "g": "tall" }, { "t": "y", "g": "and" }, { "t": "tiene", "g": "has" }, { "t": "el", "g": "the" }, { "t": "pelo", "g": "hair" }, { "t": "castaño.", "g": "brown" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Good morning,\" says Marta.",
+          "a0": [{ "t": "\"Good", "r": "buenos" }, { "t": "morning,\"", "r": "días" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Buenos", "g": "good" }, { "t": "días,\"", "g": "day/morning" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Buenos", "g": "good" }, { "t": "días", "g": "day/morning" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Good morning. I want a coffee, please,\" says the man.",
+          "a0": [{ "t": "\"Good", "r": "buenos" }, { "t": "morning.", "r": "días" }, { "t": "Want", "r": "quiero" }, { "t": "a" }, { "t": "coffee,", "r": "café" }, { "t": "please,\"", "r": "por favor" }, { "t": "says", "r": "dice" }, { "t": "the" }, { "t": "man.", "r": "hombre" }],
+          "a1": [{ "t": "\"Buenos", "g": "good" }, { "t": "días.", "g": "morning" }, { "t": "Quiero", "g": "I want" }, { "t": "a" }, { "t": "café,", "g": "coffee" }, { "t": "por favor,\"", "g": "please" }, { "t": "dice", "g": "says" }, { "t": "the" }, { "t": "hombre.", "g": "man" }],
+          "a2": [{ "t": "—Buenos", "g": "good" }, { "t": "días.", "g": "morning" }, { "t": "Quiero", "g": "I want" }, { "t": "un", "g": "a" }, { "t": "café,", "g": "coffee" }, { "t": "por favor", "g": "please" }, { "t": "—dice", "g": "says" }, { "t": "el", "g": "the" }, { "t": "hombre.", "g": "man" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Do you want a black coffee or with milk?\"",
+          "a0": [{ "t": "\"Want", "r": "quieres" }, { "t": "a" }, { "t": "coffee", "r": "café" }, { "t": "black", "r": "solo" }, { "t": "or" }, { "t": "with" }, { "t": "milk?\"", "r": "leche" }],
+          "a1": [{ "t": "\"Quieres", "g": "do you want" }, { "t": "a" }, { "t": "café", "g": "coffee" }, { "t": "solo", "g": "black" }, { "t": "or" }, { "t": "with" }, { "t": "leche?\"", "g": "milk" }],
+          "a2": [{ "t": "—¿Quieres", "g": "do you want" }, { "t": "un", "g": "a" }, { "t": "café", "g": "coffee" }, { "t": "solo", "g": "black" }, { "t": "o", "g": "or" }, { "t": "con", "g": "with" }, { "t": "leche?", "g": "milk" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"With milk, please. And a croissant.\"",
+          "a0": [{ "t": "\"With" }, { "t": "milk,", "r": "leche" }, { "t": "please.", "r": "por favor" }, { "t": "And" }, { "t": "a" }, { "t": "croissant.\"", "r": "un cruasán" }],
+          "a1": [{ "t": "\"With" }, { "t": "leche,", "g": "milk" }, { "t": "por favor.", "g": "please" }, { "t": "And" }, { "t": "a" }, { "t": "cruasán.\"", "g": "croissant" }],
+          "a2": [{ "t": "—Con", "g": "with" }, { "t": "leche,", "g": "milk" }, { "t": "por favor.", "g": "please" }, { "t": "Y", "g": "and" }, { "t": "un", "g": "a" }, { "t": "cruasán.", "g": "croissant" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Of course. Are you new in the neighbourhood?\"",
+          "a0": [{ "t": "\"Of-course.", "r": "claro" }, { "t": "Are" }, { "t": "new", "r": "nuevo" }, { "t": "in" }, { "t": "the" }, { "t": "neighbourhood?\"", "r": "barrio" }],
+          "a1": [{ "t": "\"Claro.", "g": "of course" }, { "t": "Are" }, { "t": "nuevo", "g": "new" }, { "t": "in" }, { "t": "the" }, { "t": "barrio?\"", "g": "neighbourhood" }],
+          "a2": [{ "t": "—Claro.", "g": "of course" }, { "t": "¿Eres", "g": "are you" }, { "t": "nuevo", "g": "new" }, { "t": "en", "g": "in" }, { "t": "el", "g": "the" }, { "t": "barrio?", "g": "neighbourhood" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Yes, I live here now. I work in an office near here.\"",
+          "a0": [{ "t": "\"Yes," }, { "t": "live", "r": "vivo" }, { "t": "here", "r": "aquí" }, { "t": "now.", "r": "ahora" }, { "t": "Work", "r": "trabajo" }, { "t": "in" }, { "t": "an" }, { "t": "office", "r": "oficina" }, { "t": "near", "r": "cerca" }, { "t": "of-here.\"", "r": "de aquí" }],
+          "a1": [{ "t": "\"Yes," }, { "t": "vivo", "g": "I live" }, { "t": "aquí", "g": "here" }, { "t": "ahora.", "g": "now" }, { "t": "Trabajo", "g": "I work" }, { "t": "in" }, { "t": "an" }, { "t": "oficina", "g": "office" }, { "t": "cerca", "g": "near" }, { "t": "de aquí.\"", "g": "from here" }],
+          "a2": [{ "t": "—Sí,", "g": "yes" }, { "t": "vivo", "g": "I live" }, { "t": "aquí", "g": "here" }, { "t": "ahora.", "g": "now" }, { "t": "Trabajo", "g": "I work" }, { "t": "en", "g": "in" }, { "t": "una", "g": "an" }, { "t": "oficina", "g": "office" }, { "t": "cerca", "g": "near" }, { "t": "de aquí.", "g": "from here" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"I'm Daniel,\" says the man.",
+          "a0": [{ "t": "\"Am", "r": "soy" }, { "t": "Daniel,\"" }, { "t": "says", "r": "dice" }, { "t": "the" }, { "t": "man.", "r": "hombre" }],
+          "a1": [{ "t": "\"Soy", "g": "I am" }, { "t": "Daniel,\"" }, { "t": "dice", "g": "says" }, { "t": "the" }, { "t": "hombre.", "g": "man" }],
+          "a2": [{ "t": "—Soy", "g": "I am" }, { "t": "Daniel" }, { "t": "—dice", "g": "says" }, { "t": "el", "g": "the" }, { "t": "hombre.", "g": "man" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Nice to meet you. I'm Marta.\"",
+          "a0": [{ "t": "\"Much", "r": "mucho" }, { "t": "pleasure.", "r": "gusto" }, { "t": "Am", "r": "soy" }, { "t": "Marta.\"" }],
+          "a1": [{ "t": "\"Mucho", "g": "much" }, { "t": "gusto.", "g": "pleasure" }, { "t": "Soy", "g": "I am" }, { "t": "Marta.\"" }],
+          "a2": [{ "t": "—Mucho", "g": "much" }, { "t": "gusto.", "g": "pleasure" }, { "t": "Soy", "g": "I am" }, { "t": "Marta." }]
+        },
+        {
+          "en": "Marta prepares the coffee.",
+          "a0": [{ "t": "Marta" }, { "t": "prepares", "r": "prepara" }, { "t": "the" }, { "t": "coffee.", "r": "café" }],
+          "a1": [{ "t": "Marta" }, { "t": "prepara", "g": "prepares" }, { "t": "the" }, { "t": "café.", "g": "coffee" }],
+          "a2": [{ "t": "Marta" }, { "t": "prepara", "g": "prepares" }, { "t": "el", "g": "the" }, { "t": "café.", "g": "coffee" }]
+        },
+        {
+          "en": "Daniel sits at a table by the window.",
+          "a0": [{ "t": "Daniel" }, { "t": "sits", "r": "se sienta" }, { "t": "at" }, { "t": "a" }, { "t": "table", "r": "mesa" }, { "t": "next-to", "r": "al lado de" }, { "t": "the" }, { "t": "window.", "r": "ventana" }],
+          "a1": [{ "t": "Daniel" }, { "t": "se sienta", "g": "sits" }, { "t": "at" }, { "t": "a" }, { "t": "mesa", "g": "table" }, { "t": "next to" }, { "t": "the" }, { "t": "ventana.", "g": "window" }],
+          "a2": [{ "t": "Daniel" }, { "t": "se sienta", "g": "sits" }, { "t": "en", "g": "at" }, { "t": "una", "g": "a" }, { "t": "mesa", "g": "table" }, { "t": "al lado de", "g": "next to" }, { "t": "la", "g": "the" }, { "t": "ventana.", "g": "window" }]
+        },
+        {
+          "en": "He drinks his coffee slowly and reads the newspaper.",
+          "a0": [{ "t": "Drinks", "r": "bebe" }, { "t": "his" }, { "t": "coffee", "r": "café" }, { "t": "slowly", "r": "despacio" }, { "t": "and" }, { "t": "reads", "r": "lee" }, { "t": "the" }, { "t": "newspaper.", "r": "periódico" }],
+          "a1": [{ "t": "Bebe", "g": "he drinks" }, { "t": "his" }, { "t": "café", "g": "coffee" }, { "t": "despacio", "g": "slowly" }, { "t": "and" }, { "t": "lee", "g": "reads" }, { "t": "the" }, { "t": "periódico.", "g": "newspaper" }],
+          "a2": [{ "t": "Bebe", "g": "he drinks" }, { "t": "su", "g": "his" }, { "t": "café", "g": "coffee" }, { "t": "despacio", "g": "slowly" }, { "t": "y", "g": "and" }, { "t": "lee", "g": "reads" }, { "t": "el", "g": "the" }, { "t": "periódico.", "g": "newspaper" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"The coffee is very good,\" says Daniel.",
+          "a0": [{ "t": "\"The" }, { "t": "coffee", "r": "café" }, { "t": "is", "r": "está" }, { "t": "very", "r": "muy" }, { "t": "good,\"", "r": "bueno" }, { "t": "says", "r": "dice" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"The" }, { "t": "café", "g": "coffee" }, { "t": "está", "g": "is" }, { "t": "muy", "g": "very" }, { "t": "bueno,\"", "g": "good" }, { "t": "dice", "g": "says" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—El", "g": "the" }, { "t": "café", "g": "coffee" }, { "t": "está", "g": "is" }, { "t": "muy", "g": "very" }, { "t": "bueno", "g": "good" }, { "t": "—dice", "g": "says" }, { "t": "Daniel." }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Thank you. See you tomorrow?\"",
+          "a0": [{ "t": "\"Thanks.", "r": "gracias" }, { "t": "Until", "r": "hasta" }, { "t": "tomorrow?\"", "r": "mañana" }],
+          "a1": [{ "t": "\"Gracias.", "g": "thanks" }, { "t": "Hasta", "g": "until" }, { "t": "mañana?\"", "g": "tomorrow" }],
+          "a2": [{ "t": "—Gracias.", "g": "thanks" }, { "t": "¿Hasta", "g": "until" }, { "t": "mañana?", "g": "tomorrow" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Yes, see you tomorrow,\" says Daniel with a smile.",
+          "a0": [{ "t": "\"Yes,", "r": "sí" }, { "t": "until", "r": "hasta" }, { "t": "tomorrow,\"", "r": "mañana" }, { "t": "says", "r": "dice" }, { "t": "Daniel" }, { "t": "with" }, { "t": "a" }, { "t": "smile.", "r": "sonrisa" }],
+          "a1": [{ "t": "\"Sí,", "g": "yes" }, { "t": "hasta", "g": "until" }, { "t": "mañana,\"", "g": "tomorrow" }, { "t": "dice", "g": "says" }, { "t": "Daniel" }, { "t": "with" }, { "t": "a" }, { "t": "sonrisa.", "g": "smile" }],
+          "a2": [{ "t": "—Sí,", "g": "yes" }, { "t": "hasta", "g": "until" }, { "t": "mañana", "g": "tomorrow" }, { "t": "—dice", "g": "says" }, { "t": "Daniel" }, { "t": "con", "g": "with" }, { "t": "una", "g": "a" }, { "t": "sonrisa.", "g": "smile" }]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Otra vez",
+      "lines": [
+        {
+          "en": "The next day Daniel returns to the café.",
+          "a0": [{ "t": "The" }, { "t": "next" }, { "t": "day", "r": "día" }, { "t": "Daniel" }, { "t": "returns", "r": "vuelve" }, { "t": "to-the" }, { "t": "café." }],
+          "a1": [{ "t": "The" }, { "t": "next" }, { "t": "día", "g": "day" }, { "t": "Daniel" }, { "t": "vuelve", "g": "returns" }, { "t": "to-the" }, { "t": "café." }],
+          "a2": [{ "t": "Al", "g": "to the" }, { "t": "día", "g": "day" }, { "t": "siguiente", "g": "next" }, { "t": "Daniel" }, { "t": "vuelve", "g": "returns" }, { "t": "al", "g": "to the" }, { "t": "café." }]
+        },
+        {
+          "en": "Marta sees him and smiles.",
+          "a0": [{ "t": "Marta" }, { "t": "him" }, { "t": "sees", "r": "ve" }, { "t": "and" }, { "t": "smiles.", "r": "sonríe" }],
+          "a1": [{ "t": "Marta" }, { "t": "him" }, { "t": "ve", "g": "sees" }, { "t": "and" }, { "t": "sonríe.", "g": "smiles" }],
+          "a2": [{ "t": "Marta" }, { "t": "lo", "g": "him" }, { "t": "ve", "g": "sees" }, { "t": "y", "g": "and" }, { "t": "sonríe.", "g": "smiles" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Good morning, Daniel,\" says Marta.",
+          "a0": [{ "t": "\"Good", "r": "buenos" }, { "t": "morning,", "r": "días" }, { "t": "Daniel,\"" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Buenos", "g": "good" }, { "t": "días,", "g": "morning" }, { "t": "Daniel,\"" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Buenos", "g": "good" }, { "t": "días,", "g": "morning" }, { "t": "Daniel", "g": "" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Good morning. How are you?\"",
+          "a0": [{ "t": "\"Good", "r": "buenos" }, { "t": "morning.", "r": "días" }, { "t": "How" }, { "t": "are-you?\"", "r": "estás" }],
+          "a1": [{ "t": "\"Buenos", "g": "good" }, { "t": "días.", "g": "morning" }, { "t": "How" }, { "t": "estás?\"", "g": "are you" }],
+          "a2": [{ "t": "—Buenos", "g": "good" }, { "t": "días.", "g": "morning" }, { "t": "¿Cómo", "g": "how" }, { "t": "estás?", "g": "are you" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Very well, thank you. The same as yesterday?\"",
+          "a0": [{ "t": "\"Very", "r": "muy" }, { "t": "well,", "r": "bien" }, { "t": "thanks.", "r": "gracias" }, { "t": "The-same", "r": "lo mismo" }, { "t": "as" }, { "t": "yesterday?\"", "r": "ayer" }],
+          "a1": [{ "t": "\"Muy", "g": "very" }, { "t": "bien,", "g": "well" }, { "t": "gracias.", "g": "thanks" }, { "t": "Lo mismo", "g": "the same" }, { "t": "as" }, { "t": "ayer?\"", "g": "yesterday" }],
+          "a2": [{ "t": "—Muy", "g": "very" }, { "t": "bien,", "g": "well" }, { "t": "gracias.", "g": "thanks" }, { "t": "¿Lo mismo", "g": "the same" }, { "t": "que", "g": "as" }, { "t": "ayer?", "g": "yesterday" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Yes, a coffee with milk, please.\"",
+          "a0": [{ "t": "\"Yes," }, { "t": "a" }, { "t": "coffee", "r": "café" }, { "t": "with" }, { "t": "milk,", "r": "leche" }, { "t": "please.\"", "r": "por favor" }],
+          "a1": [{ "t": "\"Yes," }, { "t": "a" }, { "t": "café", "g": "coffee" }, { "t": "with" }, { "t": "leche,", "g": "milk" }, { "t": "por favor.\"", "g": "please" }],
+          "a2": [{ "t": "—Sí,", "g": "yes" }, { "t": "un", "g": "a" }, { "t": "café", "g": "coffee" }, { "t": "con", "g": "with" }, { "t": "leche,", "g": "milk" }, { "t": "por favor.", "g": "please" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"And a croissant?\"",
+          "a0": [{ "t": "\"And" }, { "t": "a" }, { "t": "croissant?\"", "r": "cruasán" }],
+          "a1": [{ "t": "\"And" }, { "t": "a" }, { "t": "cruasán?\"", "g": "croissant" }],
+          "a2": [{ "t": "—¿Y", "g": "and" }, { "t": "un", "g": "a" }, { "t": "cruasán?", "g": "croissant" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"No, today a toast with tomato.\"",
+          "a0": [{ "t": "\"No," }, { "t": "today", "r": "hoy" }, { "t": "a" }, { "t": "toast", "r": "tostada" }, { "t": "with" }, { "t": "tomato.\"", "r": "tomate" }],
+          "a1": [{ "t": "\"No," }, { "t": "hoy", "g": "today" }, { "t": "a" }, { "t": "tostada", "g": "toast" }, { "t": "with" }, { "t": "tomate.\"", "g": "tomato" }],
+          "a2": [{ "t": "—No,", "g": "no" }, { "t": "hoy", "g": "today" }, { "t": "una", "g": "a" }, { "t": "tostada", "g": "toast" }, { "t": "con", "g": "with" }, { "t": "tomate.", "g": "tomato" }]
+        },
+        {
+          "en": "Marta prepares the toast.",
+          "a0": [{ "t": "Marta" }, { "t": "prepares", "r": "prepara" }, { "t": "the" }, { "t": "toast.", "r": "tostada" }],
+          "a1": [{ "t": "Marta" }, { "t": "prepara", "g": "prepares" }, { "t": "the" }, { "t": "tostada.", "g": "toast" }],
+          "a2": [{ "t": "Marta" }, { "t": "prepara", "g": "prepares" }, { "t": "la", "g": "the" }, { "t": "tostada.", "g": "toast" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Do you work a lot?\" asks Marta.",
+          "a0": [{ "t": "\"Work", "r": "trabajas" }, { "t": "much?\"", "r": "mucho" }, { "t": "asks", "r": "pregunta" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Trabajas", "g": "do you work" }, { "t": "mucho?\"", "g": "much" }, { "t": "pregunta", "g": "asks" }, { "t": "Marta." }],
+          "a2": [{ "t": "—¿Trabajas", "g": "do you work" }, { "t": "mucho?", "g": "much" }, { "t": "—pregunta", "g": "asks" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Yes, I work many hours in the office.\"",
+          "a0": [{ "t": "\"Yes," }, { "t": "work", "r": "trabajo" }, { "t": "many", "r": "muchas" }, { "t": "hours", "r": "horas" }, { "t": "in" }, { "t": "the" }, { "t": "office.\"", "r": "oficina" }],
+          "a1": [{ "t": "\"Yes," }, { "t": "trabajo", "g": "I work" }, { "t": "muchas", "g": "many" }, { "t": "horas", "g": "hours" }, { "t": "in" }, { "t": "the" }, { "t": "oficina.\"", "g": "office" }],
+          "a2": [{ "t": "—Sí,", "g": "yes" }, { "t": "trabajo", "g": "I work" }, { "t": "muchas", "g": "many" }, { "t": "horas", "g": "hours" }, { "t": "en", "g": "in" }, { "t": "la", "g": "the" }, { "t": "oficina.", "g": "office" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"But I like my work.\"",
+          "a0": [{ "t": "\"But" }, { "t": "me" }, { "t": "pleases", "r": "gusta" }, { "t": "my" }, { "t": "work.\"", "r": "trabajo" }],
+          "a1": [{ "t": "\"But" }, { "t": "me" }, { "t": "gusta", "g": "pleases me" }, { "t": "my" }, { "t": "trabajo.\"", "g": "work" }],
+          "a2": [{ "t": "—Pero", "g": "but" }, { "t": "me gusta", "g": "I like" }, { "t": "mi", "g": "my" }, { "t": "trabajo.", "g": "work" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"What do you do?\" asks Marta.",
+          "a0": [{ "t": "\"What" }, { "t": "do-you-do?\"", "r": "haces" }, { "t": "asks", "r": "pregunta" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"What" }, { "t": "haces?\"", "g": "do you do" }, { "t": "pregunta", "g": "asks" }, { "t": "Marta." }],
+          "a2": [{ "t": "—¿Qué", "g": "what" }, { "t": "haces?", "g": "do you do" }, { "t": "—pregunta", "g": "asks" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"I'm an architect. I design houses.\"",
+          "a0": [{ "t": "\"Am", "r": "soy" }, { "t": "architect.", "r": "arquitecto" }, { "t": "Design", "r": "diseño" }, { "t": "houses.\"", "r": "casas" }],
+          "a1": [{ "t": "\"Soy", "g": "I am" }, { "t": "arquitecto.", "g": "architect" }, { "t": "Diseño", "g": "I design" }, { "t": "casas.\"", "g": "houses" }],
+          "a2": [{ "t": "—Soy", "g": "I am" }, { "t": "arquitecto.", "g": "architect" }, { "t": "Diseño", "g": "I design" }, { "t": "casas.", "g": "houses" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"How interesting!\" says Marta.",
+          "a0": [{ "t": "\"What", "r": "qué" }, { "t": "interesting!\"", "r": "interesante" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Qué", "g": "how" }, { "t": "interesante!\"", "g": "interesting" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—¡Qué", "g": "how" }, { "t": "interesante!", "g": "interesting" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "en": "Daniel drinks his coffee and looks at Marta.",
+          "a0": [{ "t": "Daniel" }, { "t": "drinks", "r": "bebe" }, { "t": "his" }, { "t": "coffee", "r": "café" }, { "t": "and" }, { "t": "looks-at", "r": "mira" }, { "t": "Marta." }],
+          "a1": [{ "t": "Daniel" }, { "t": "bebe", "g": "drinks" }, { "t": "his" }, { "t": "café", "g": "coffee" }, { "t": "and" }, { "t": "mira", "g": "looks at" }, { "t": "Marta." }],
+          "a2": [{ "t": "Daniel" }, { "t": "bebe", "g": "drinks" }, { "t": "su", "g": "his" }, { "t": "café", "g": "coffee" }, { "t": "y", "g": "and" }, { "t": "mira", "g": "looks at" }, { "t": "a", "g": "(at)" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"And you? Do you always work here?\"",
+          "a0": [{ "t": "\"And" }, { "t": "you?" }, { "t": "Always", "r": "siempre" }, { "t": "work", "r": "trabajas" }, { "t": "here?\"", "r": "aquí" }],
+          "a1": [{ "t": "\"And" }, { "t": "you?" }, { "t": "Siempre", "g": "always" }, { "t": "trabajas", "g": "you work" }, { "t": "aquí?\"", "g": "here" }],
+          "a2": [{ "t": "—¿Y", "g": "and" }, { "t": "tú?", "g": "you" }, { "t": "¿Siempre", "g": "always" }, { "t": "trabajas", "g": "you work" }, { "t": "aquí?", "g": "here" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Yes, the café is mine,\" says Marta.",
+          "a0": [{ "t": "\"Yes," }, { "t": "the" }, { "t": "café" }, { "t": "is", "r": "es" }, { "t": "mine,\"", "r": "mío" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Yes," }, { "t": "the" }, { "t": "café" }, { "t": "es", "g": "is" }, { "t": "mío,\"", "g": "mine" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Sí,", "g": "yes" }, { "t": "el", "g": "the" }, { "t": "café" }, { "t": "es", "g": "is" }, { "t": "mío", "g": "mine" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"It's a beautiful café,\" says Daniel.",
+          "a0": [{ "t": "\"Is", "r": "es" }, { "t": "a" }, { "t": "café" }, { "t": "beautiful,\"", "r": "precioso" }, { "t": "says", "r": "dice" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"Es", "g": "it is" }, { "t": "a" }, { "t": "café" }, { "t": "precioso,\"", "g": "beautiful" }, { "t": "dice", "g": "says" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—Es", "g": "it is" }, { "t": "un", "g": "a" }, { "t": "café" }, { "t": "precioso", "g": "beautiful" }, { "t": "—dice", "g": "says" }, { "t": "Daniel." }]
+        },
+        {
+          "en": "Marta smiles and feels happy.",
+          "a0": [{ "t": "Marta" }, { "t": "smiles", "r": "sonríe" }, { "t": "and" }, { "t": "feels", "r": "se siente" }, { "t": "happy.", "r": "feliz" }],
+          "a1": [{ "t": "Marta" }, { "t": "sonríe", "g": "smiles" }, { "t": "and" }, { "t": "se siente", "g": "feels" }, { "t": "feliz.", "g": "happy" }],
+          "a2": [{ "t": "Marta" }, { "t": "sonríe", "g": "smiles" }, { "t": "y", "g": "and" }, { "t": "se siente", "g": "feels" }, { "t": "feliz.", "g": "happy" }]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lucía",
+      "lines": [
+        {
+          "en": "Marta works with her friend Lucía.",
+          "a0": [{ "t": "Marta" }, { "t": "works", "r": "trabaja" }, { "t": "with" }, { "t": "her" }, { "t": "friend", "r": "amiga" }, { "t": "Lucía." }],
+          "a1": [{ "t": "Marta" }, { "t": "trabaja", "g": "works" }, { "t": "with" }, { "t": "her" }, { "t": "amiga", "g": "friend" }, { "t": "Lucía." }],
+          "a2": [{ "t": "Marta" }, { "t": "trabaja", "g": "works" }, { "t": "con", "g": "with" }, { "t": "su", "g": "her" }, { "t": "amiga", "g": "friend" }, { "t": "Lucía." }]
+        },
+        {
+          "en": "Lucía is young and very funny.",
+          "a0": [{ "t": "Lucía" }, { "t": "is", "r": "es" }, { "t": "young", "r": "joven" }, { "t": "and" }, { "t": "very", "r": "muy" }, { "t": "funny.", "r": "graciosa" }],
+          "a1": [{ "t": "Lucía" }, { "t": "es", "g": "is" }, { "t": "joven", "g": "young" }, { "t": "and" }, { "t": "muy", "g": "very" }, { "t": "graciosa.", "g": "funny" }],
+          "a2": [{ "t": "Lucía" }, { "t": "es", "g": "is" }, { "t": "joven", "g": "young" }, { "t": "y", "g": "and" }, { "t": "muy", "g": "very" }, { "t": "graciosa.", "g": "funny" }]
+        },
+        {
+          "speaker": "Lucía",
+          "en": "\"Who is that man?\" asks Lucía.",
+          "a0": [{ "t": "\"Who" }, { "t": "is", "r": "es" }, { "t": "that", "r": "ese" }, { "t": "man?\"", "r": "hombre" }, { "t": "asks", "r": "pregunta" }, { "t": "Lucía." }],
+          "a1": [{ "t": "\"Who" }, { "t": "es", "g": "is" }, { "t": "ese", "g": "that" }, { "t": "hombre?\"", "g": "man" }, { "t": "pregunta", "g": "asks" }, { "t": "Lucía." }],
+          "a2": [{ "t": "—¿Quién", "g": "who" }, { "t": "es", "g": "is" }, { "t": "ese", "g": "that" }, { "t": "hombre?", "g": "man" }, { "t": "—pregunta", "g": "asks" }, { "t": "Lucía." }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"He's Daniel, a new customer,\" answers Marta.",
+          "a0": [{ "t": "\"Is", "r": "es" }, { "t": "Daniel," }, { "t": "a" }, { "t": "customer", "r": "cliente" }, { "t": "new,\"", "r": "nuevo" }, { "t": "answers", "r": "responde" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Es", "g": "he is" }, { "t": "Daniel," }, { "t": "a" }, { "t": "cliente", "g": "customer" }, { "t": "nuevo,\"", "g": "new" }, { "t": "responde", "g": "answers" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Es", "g": "he is" }, { "t": "Daniel,", "g": "" }, { "t": "un", "g": "a" }, { "t": "cliente", "g": "customer" }, { "t": "nuevo", "g": "new" }, { "t": "—responde", "g": "answers" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Lucía",
+          "en": "\"He's very handsome,\" says Lucía with a smile.",
+          "a0": [{ "t": "\"Is", "r": "es" }, { "t": "very", "r": "muy" }, { "t": "handsome,\"", "r": "guapo" }, { "t": "says", "r": "dice" }, { "t": "Lucía" }, { "t": "with" }, { "t": "a" }, { "t": "smile.", "r": "sonrisa" }],
+          "a1": [{ "t": "\"Es", "g": "he is" }, { "t": "muy", "g": "very" }, { "t": "guapo,\"", "g": "handsome" }, { "t": "dice", "g": "says" }, { "t": "Lucía" }, { "t": "with" }, { "t": "a" }, { "t": "sonrisa.", "g": "smile" }],
+          "a2": [{ "t": "—Es", "g": "he is" }, { "t": "muy", "g": "very" }, { "t": "guapo", "g": "handsome" }, { "t": "—dice", "g": "says" }, { "t": "Lucía" }, { "t": "con", "g": "with" }, { "t": "una", "g": "a" }, { "t": "sonrisa.", "g": "smile" }]
+        },
+        {
+          "en": "Marta laughs but doesn't answer.",
+          "a0": [{ "t": "Marta" }, { "t": "laughs", "r": "ríe" }, { "t": "but" }, { "t": "not" }, { "t": "answers.", "r": "responde" }],
+          "a1": [{ "t": "Marta" }, { "t": "ríe", "g": "laughs" }, { "t": "but" }, { "t": "not" }, { "t": "responde.", "g": "answers" }],
+          "a2": [{ "t": "Marta" }, { "t": "ríe", "g": "laughs" }, { "t": "pero", "g": "but" }, { "t": "no", "g": "not" }, { "t": "responde.", "g": "answers" }]
+        },
+        {
+          "en": "The café is full this morning.",
+          "a0": [{ "t": "The" }, { "t": "café" }, { "t": "is", "r": "está" }, { "t": "full", "r": "lleno" }, { "t": "this" }, { "t": "morning.", "r": "mañana" }],
+          "a1": [{ "t": "The" }, { "t": "café" }, { "t": "está", "g": "is" }, { "t": "lleno", "g": "full" }, { "t": "this" }, { "t": "mañana.", "g": "morning" }],
+          "a2": [{ "t": "El", "g": "the" }, { "t": "café" }, { "t": "está", "g": "is" }, { "t": "lleno", "g": "full" }, { "t": "esta", "g": "this" }, { "t": "mañana.", "g": "morning" }]
+        },
+        {
+          "en": "Many people want breakfast.",
+          "a0": [{ "t": "Much", "r": "mucha" }, { "t": "people", "r": "gente" }, { "t": "wants", "r": "quiere" }, { "t": "breakfast.", "r": "desayunar" }],
+          "a1": [{ "t": "Mucha", "g": "much" }, { "t": "gente", "g": "people" }, { "t": "quiere", "g": "wants" }, { "t": "desayunar.", "g": "to have breakfast" }],
+          "a2": [{ "t": "Mucha", "g": "much" }, { "t": "gente", "g": "people" }, { "t": "quiere", "g": "wants" }, { "t": "desayunar.", "g": "to have breakfast" }]
+        },
+        {
+          "en": "A woman orders an orange juice.",
+          "a0": [{ "t": "A" }, { "t": "woman", "r": "mujer" }, { "t": "orders", "r": "pide" }, { "t": "an" }, { "t": "juice", "r": "zumo" }, { "t": "of-orange.", "r": "de naranja" }],
+          "a1": [{ "t": "A" }, { "t": "mujer", "g": "woman" }, { "t": "pide", "g": "orders" }, { "t": "an" }, { "t": "zumo", "g": "juice" }, { "t": "de naranja.", "g": "of orange" }],
+          "a2": [{ "t": "Una", "g": "a" }, { "t": "mujer", "g": "woman" }, { "t": "pide", "g": "orders" }, { "t": "un", "g": "a" }, { "t": "zumo", "g": "juice" }, { "t": "de naranja.", "g": "of orange" }]
+        },
+        {
+          "en": "Another man wants a Spanish omelette.",
+          "a0": [{ "t": "Another", "r": "otro" }, { "t": "man", "r": "hombre" }, { "t": "wants", "r": "quiere" }, { "t": "a" }, { "t": "omelette.", "r": "tortilla" }],
+          "a1": [{ "t": "Otro", "g": "another" }, { "t": "hombre", "g": "man" }, { "t": "quiere", "g": "wants" }, { "t": "a" }, { "t": "tortilla.", "g": "omelette" }],
+          "a2": [{ "t": "Otro", "g": "another" }, { "t": "hombre", "g": "man" }, { "t": "quiere", "g": "wants" }, { "t": "una", "g": "a" }, { "t": "tortilla.", "g": "omelette" }]
+        },
+        {
+          "en": "Marta and Lucía work fast.",
+          "a0": [{ "t": "Marta" }, { "t": "and" }, { "t": "Lucía" }, { "t": "work", "r": "trabajan" }, { "t": "fast.", "r": "rápido" }],
+          "a1": [{ "t": "Marta" }, { "t": "and" }, { "t": "Lucía" }, { "t": "trabajan", "g": "work" }, { "t": "rápido.", "g": "fast" }],
+          "a2": [{ "t": "Marta", "g": "" }, { "t": "y", "g": "and" }, { "t": "Lucía", "g": "" }, { "t": "trabajan", "g": "work" }, { "t": "rápido.", "g": "fast" }]
+        },
+        {
+          "speaker": "Lucía",
+          "en": "\"I'm very tired,\" says Lucía.",
+          "a0": [{ "t": "\"Am", "r": "estoy" }, { "t": "very", "r": "muy" }, { "t": "tired,\"", "r": "cansada" }, { "t": "says", "r": "dice" }, { "t": "Lucía." }],
+          "a1": [{ "t": "\"Estoy", "g": "I am" }, { "t": "muy", "g": "very" }, { "t": "cansada,\"", "g": "tired" }, { "t": "dice", "g": "says" }, { "t": "Lucía." }],
+          "a2": [{ "t": "—Estoy", "g": "I am" }, { "t": "muy", "g": "very" }, { "t": "cansada", "g": "tired" }, { "t": "—dice", "g": "says" }, { "t": "Lucía." }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Me too, but I like the work,\" says Marta.",
+          "a0": [{ "t": "\"Me" }, { "t": "too,", "r": "también" }, { "t": "but" }, { "t": "me" }, { "t": "pleases", "r": "gusta" }, { "t": "the" }, { "t": "work,\"", "r": "trabajo" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Me" }, { "t": "también,", "g": "too" }, { "t": "but" }, { "t": "me" }, { "t": "gusta", "g": "pleases me" }, { "t": "the" }, { "t": "trabajo,\"", "g": "work" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Yo", "g": "I" }, { "t": "también,", "g": "too" }, { "t": "pero", "g": "but" }, { "t": "me gusta", "g": "I like" }, { "t": "el", "g": "the" }, { "t": "trabajo", "g": "work" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "en": "At twelve the café is calm again.",
+          "a0": [{ "t": "At" }, { "t": "twelve", "r": "las doce" }, { "t": "the" }, { "t": "café" }, { "t": "is", "r": "está" }, { "t": "calm", "r": "tranquilo" }, { "t": "again.", "r": "otra vez" }],
+          "a1": [{ "t": "At" }, { "t": "las doce", "g": "twelve" }, { "t": "the" }, { "t": "café" }, { "t": "está", "g": "is" }, { "t": "tranquilo", "g": "calm" }, { "t": "otra vez.", "g": "again" }],
+          "a2": [{ "t": "A", "g": "at" }, { "t": "las doce", "g": "twelve" }, { "t": "el", "g": "the" }, { "t": "café" }, { "t": "está", "g": "is" }, { "t": "tranquilo", "g": "calm" }, { "t": "otra vez.", "g": "again" }]
+        },
+        {
+          "en": "Lucía makes two coffees for them.",
+          "a0": [{ "t": "Lucía" }, { "t": "makes", "r": "hace" }, { "t": "two", "r": "dos" }, { "t": "coffees", "r": "cafés" }, { "t": "for-them.", "r": "para ellas" }],
+          "a1": [{ "t": "Lucía" }, { "t": "hace", "g": "makes" }, { "t": "dos", "g": "two" }, { "t": "cafés", "g": "coffees" }, { "t": "for them." }],
+          "a2": [{ "t": "Lucía" }, { "t": "hace", "g": "makes" }, { "t": "dos", "g": "two" }, { "t": "cafés", "g": "coffees" }, { "t": "para", "g": "for" }, { "t": "ellas.", "g": "them" }]
+        },
+        {
+          "speaker": "Lucía",
+          "en": "\"Do you like Daniel?\" asks Lucía.",
+          "a0": [{ "t": "\"You" }, { "t": "pleases", "r": "gusta" }, { "t": "Daniel?\"" }, { "t": "asks", "r": "pregunta" }, { "t": "Lucía." }],
+          "a1": [{ "t": "\"Te" }, { "t": "gusta", "g": "do you like" }, { "t": "Daniel?\"" }, { "t": "pregunta", "g": "asks" }, { "t": "Lucía." }],
+          "a2": [{ "t": "—¿Te gusta", "g": "do you like" }, { "t": "Daniel?", "g": "" }, { "t": "—pregunta", "g": "asks" }, { "t": "Lucía." }]
+        },
+        {
+          "en": "Marta doesn't say anything.",
+          "a0": [{ "t": "Marta" }, { "t": "not" }, { "t": "says", "r": "dice" }, { "t": "nothing.", "r": "nada" }],
+          "a1": [{ "t": "Marta" }, { "t": "not" }, { "t": "dice", "g": "says" }, { "t": "nada.", "g": "nothing" }],
+          "a2": [{ "t": "Marta" }, { "t": "no", "g": "not" }, { "t": "dice", "g": "says" }, { "t": "nada.", "g": "nothing" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"A little,\" she answers finally.",
+          "a0": [{ "t": "\"A" }, { "t": "little,\"", "r": "un poco" }, { "t": "answers", "r": "responde" }, { "t": "finally.", "r": "por fin" }],
+          "a1": [{ "t": "\"Un poco,\"", "g": "a little" }, { "t": "responde", "g": "answers" }, { "t": "por fin.", "g": "finally" }],
+          "a2": [{ "t": "—Un poco", "g": "a little" }, { "t": "—responde", "g": "answers" }, { "t": "por fin.", "g": "finally" }]
+        },
+        {
+          "en": "Lucía laughs and hugs her friend.",
+          "a0": [{ "t": "Lucía" }, { "t": "laughs", "r": "ríe" }, { "t": "and" }, { "t": "hugs", "r": "abraza" }, { "t": "her" }, { "t": "friend.", "r": "amiga" }],
+          "a1": [{ "t": "Lucía" }, { "t": "ríe", "g": "laughs" }, { "t": "and" }, { "t": "abraza", "g": "hugs" }, { "t": "her" }, { "t": "amiga.", "g": "friend" }],
+          "a2": [{ "t": "Lucía" }, { "t": "ríe", "g": "laughs" }, { "t": "y", "g": "and" }, { "t": "abraza", "g": "hugs" }, { "t": "a", "g": "(to)" }, { "t": "su", "g": "her" }, { "t": "amiga.", "g": "friend" }]
+        },
+        {
+          "speaker": "Lucía",
+          "en": "\"You have to invite him!\" says Lucía.",
+          "a0": [{ "t": "\"Have", "r": "tienes que" }, { "t": "invite-him!\"", "r": "invitarlo" }, { "t": "says", "r": "dice" }, { "t": "Lucía." }],
+          "a1": [{ "t": "\"Tienes que", "g": "you have to" }, { "t": "invitarlo!\"", "g": "invite him" }, { "t": "dice", "g": "says" }, { "t": "Lucía." }],
+          "a2": [{ "t": "—¡Tienes que", "g": "you have to" }, { "t": "invitarlo!", "g": "invite him" }, { "t": "—dice", "g": "says" }, { "t": "Lucía." }]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "La invitación",
+      "lines": [
+        {
+          "en": "The next morning Daniel arrives early.",
+          "a0": [{ "t": "The" }, { "t": "next" }, { "t": "morning", "r": "mañana" }, { "t": "Daniel" }, { "t": "arrives", "r": "llega" }, { "t": "early.", "r": "temprano" }],
+          "a1": [{ "t": "The" }, { "t": "next" }, { "t": "mañana", "g": "morning" }, { "t": "Daniel" }, { "t": "llega", "g": "arrives" }, { "t": "temprano.", "g": "early" }],
+          "a2": [{ "t": "A la", "g": "the" }, { "t": "mañana", "g": "morning" }, { "t": "siguiente", "g": "next" }, { "t": "Daniel" }, { "t": "llega", "g": "arrives" }, { "t": "temprano.", "g": "early" }]
+        },
+        {
+          "en": "He's a bit nervous.",
+          "a0": [{ "t": "Is", "r": "está" }, { "t": "a-bit", "r": "un poco" }, { "t": "nervous.", "r": "nervioso" }],
+          "a1": [{ "t": "Está", "g": "he is" }, { "t": "un poco", "g": "a bit" }, { "t": "nervioso.", "g": "nervous" }],
+          "a2": [{ "t": "Está", "g": "he is" }, { "t": "un poco", "g": "a bit" }, { "t": "nervioso.", "g": "nervous" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Marta, can I ask you something?\" says Daniel.",
+          "a0": [{ "t": "\"Marta," }, { "t": "can", "r": "puedo" }, { "t": "ask-you", "r": "preguntarte" }, { "t": "something?\"", "r": "algo" }, { "t": "says", "r": "dice" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"Marta," }, { "t": "puedo", "g": "can I" }, { "t": "preguntarte", "g": "ask you" }, { "t": "algo?\"", "g": "something" }, { "t": "dice", "g": "says" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—Marta,", "g": "" }, { "t": "¿puedo", "g": "can I" }, { "t": "preguntarte", "g": "ask you" }, { "t": "algo?", "g": "something" }, { "t": "—dice", "g": "says" }, { "t": "Daniel." }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Of course,\" answers Marta.",
+          "a0": [{ "t": "\"Of-course,\"", "r": "claro" }, { "t": "answers", "r": "responde" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Claro,\"", "g": "of course" }, { "t": "responde", "g": "answers" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Claro", "g": "of course" }, { "t": "—responde", "g": "answers" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Do you want to have dinner with me tonight?\"",
+          "a0": [{ "t": "\"Want", "r": "quieres" }, { "t": "to-have-dinner", "r": "cenar" }, { "t": "with-me", "r": "conmigo" }, { "t": "tonight?\"", "r": "esta noche" }],
+          "a1": [{ "t": "\"Quieres", "g": "do you want" }, { "t": "cenar", "g": "to have dinner" }, { "t": "conmigo", "g": "with me" }, { "t": "esta noche?\"", "g": "tonight" }],
+          "a2": [{ "t": "—¿Quieres", "g": "do you want" }, { "t": "cenar", "g": "to have dinner" }, { "t": "conmigo", "g": "with me" }, { "t": "esta", "g": "this" }, { "t": "noche?", "g": "night" }]
+        },
+        {
+          "en": "Marta is surprised but happy.",
+          "a0": [{ "t": "Marta" }, { "t": "is", "r": "está" }, { "t": "surprised", "r": "sorprendida" }, { "t": "but" }, { "t": "happy.", "r": "contenta" }],
+          "a1": [{ "t": "Marta" }, { "t": "está", "g": "is" }, { "t": "sorprendida", "g": "surprised" }, { "t": "but" }, { "t": "contenta.", "g": "happy" }],
+          "a2": [{ "t": "Marta" }, { "t": "está", "g": "is" }, { "t": "sorprendida", "g": "surprised" }, { "t": "pero", "g": "but" }, { "t": "contenta.", "g": "happy" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Yes, I'd love to,\" she answers.",
+          "a0": [{ "t": "\"Yes," }, { "t": "me" }, { "t": "would-love,\"", "r": "encantaría" }, { "t": "answers.", "r": "responde" }],
+          "a1": [{ "t": "\"Yes," }, { "t": "me" }, { "t": "encantaría,\"", "g": "I'd love to" }, { "t": "responde.", "g": "answers" }],
+          "a2": [{ "t": "—Sí,", "g": "yes" }, { "t": "me encantaría", "g": "I'd love to" }, { "t": "—responde.", "g": "answers" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Perfect. At nine, in the restaurant on the square?\"",
+          "a0": [{ "t": "\"Perfect.", "r": "perfecto" }, { "t": "At" }, { "t": "nine,", "r": "las nueve" }, { "t": "in" }, { "t": "the" }, { "t": "restaurant", "r": "restaurante" }, { "t": "of-the" }, { "t": "square?\"", "r": "plaza" }],
+          "a1": [{ "t": "\"Perfecto.", "g": "perfect" }, { "t": "At" }, { "t": "las nueve,", "g": "nine" }, { "t": "in" }, { "t": "the" }, { "t": "restaurante", "g": "restaurant" }, { "t": "of the" }, { "t": "plaza?\"", "g": "square" }],
+          "a2": [{ "t": "—Perfecto.", "g": "perfect" }, { "t": "¿A", "g": "at" }, { "t": "las nueve,", "g": "nine" }, { "t": "en", "g": "in" }, { "t": "el", "g": "the" }, { "t": "restaurante", "g": "restaurant" }, { "t": "de la", "g": "of the" }, { "t": "plaza?", "g": "square" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Very good. See you tonight.\"",
+          "a0": [{ "t": "\"Very", "r": "muy" }, { "t": "good.", "r": "bien" }, { "t": "Until", "r": "hasta" }, { "t": "tonight.\"", "r": "esta noche" }],
+          "a1": [{ "t": "\"Muy", "g": "very" }, { "t": "bien.", "g": "good" }, { "t": "Hasta", "g": "until" }, { "t": "esta noche.\"", "g": "tonight" }],
+          "a2": [{ "t": "—Muy", "g": "very" }, { "t": "bien.", "g": "good" }, { "t": "Hasta", "g": "until" }, { "t": "esta", "g": "this" }, { "t": "noche.", "g": "night" }]
+        },
+        {
+          "en": "Daniel leaves the café content.",
+          "a0": [{ "t": "Daniel" }, { "t": "leaves", "r": "sale" }, { "t": "of-the" }, { "t": "café" }, { "t": "content.", "r": "contento" }],
+          "a1": [{ "t": "Daniel" }, { "t": "sale", "g": "leaves" }, { "t": "of the" }, { "t": "café" }, { "t": "contento.", "g": "content" }],
+          "a2": [{ "t": "Daniel" }, { "t": "sale", "g": "leaves" }, { "t": "del", "g": "of the" }, { "t": "café" }, { "t": "contento.", "g": "content" }]
+        },
+        {
+          "en": "Lucía looks at Marta and laughs.",
+          "a0": [{ "t": "Lucía" }, { "t": "looks-at", "r": "mira" }, { "t": "Marta" }, { "t": "and" }, { "t": "laughs.", "r": "ríe" }],
+          "a1": [{ "t": "Lucía" }, { "t": "mira", "g": "looks at" }, { "t": "Marta" }, { "t": "and" }, { "t": "ríe.", "g": "laughs" }],
+          "a2": [{ "t": "Lucía" }, { "t": "mira", "g": "looks at" }, { "t": "a", "g": "(at)" }, { "t": "Marta" }, { "t": "y", "g": "and" }, { "t": "ríe.", "g": "laughs" }]
+        },
+        {
+          "speaker": "Lucía",
+          "en": "\"You have a date!\" says Lucía.",
+          "a0": [{ "t": "\"Have", "r": "tienes" }, { "t": "a" }, { "t": "date!\"", "r": "cita" }, { "t": "says", "r": "dice" }, { "t": "Lucía." }],
+          "a1": [{ "t": "\"Tienes", "g": "you have" }, { "t": "a" }, { "t": "cita!\"", "g": "date" }, { "t": "dice", "g": "says" }, { "t": "Lucía." }],
+          "a2": [{ "t": "—¡Tienes", "g": "you have" }, { "t": "una", "g": "a" }, { "t": "cita!", "g": "date" }, { "t": "—dice", "g": "says" }, { "t": "Lucía." }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Yes, I'm a little nervous,\" says Marta.",
+          "a0": [{ "t": "\"Yes," }, { "t": "am", "r": "estoy" }, { "t": "a-little", "r": "un poco" }, { "t": "nervous,\"", "r": "nerviosa" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Yes," }, { "t": "estoy", "g": "I am" }, { "t": "un poco", "g": "a little" }, { "t": "nerviosa,\"", "g": "nervous" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Sí,", "g": "yes" }, { "t": "estoy", "g": "I am" }, { "t": "un poco", "g": "a little" }, { "t": "nerviosa", "g": "nervous" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Lucía",
+          "en": "\"You're going to have a great time,\" says Lucía.",
+          "a0": [{ "t": "\"It", "r": "lo" }, { "t": "will-pass", "r": "vas a pasar" }, { "t": "great,\"", "r": "genial" }, { "t": "says", "r": "dice" }, { "t": "Lucía." }],
+          "a1": [{ "t": "\"Lo", "g": "it" }, { "t": "vas a pasar", "g": "you're going to have" }, { "t": "genial,\"", "g": "great" }, { "t": "dice", "g": "says" }, { "t": "Lucía." }],
+          "a2": [{ "t": "—Lo", "g": "it" }, { "t": "vas a pasar", "g": "you're going to have" }, { "t": "genial", "g": "great" }, { "t": "—dice", "g": "says" }, { "t": "Lucía." }]
+        },
+        {
+          "en": "In the afternoon Marta goes home.",
+          "a0": [{ "t": "In" }, { "t": "the" }, { "t": "afternoon", "r": "tarde" }, { "t": "Marta" }, { "t": "goes", "r": "va" }, { "t": "to-home.", "r": "a casa" }],
+          "a1": [{ "t": "In" }, { "t": "the" }, { "t": "tarde", "g": "afternoon" }, { "t": "Marta" }, { "t": "va", "g": "goes" }, { "t": "a casa.", "g": "home" }],
+          "a2": [{ "t": "Por la", "g": "in the" }, { "t": "tarde", "g": "afternoon" }, { "t": "Marta" }, { "t": "va", "g": "goes" }, { "t": "a", "g": "to" }, { "t": "casa.", "g": "home" }]
+        },
+        {
+          "en": "She chooses a pretty dress.",
+          "a0": [{ "t": "Chooses", "r": "elige" }, { "t": "a" }, { "t": "dress", "r": "vestido" }, { "t": "pretty.", "r": "bonito" }],
+          "a1": [{ "t": "Elige", "g": "she chooses" }, { "t": "a" }, { "t": "vestido", "g": "dress" }, { "t": "bonito.", "g": "pretty" }],
+          "a2": [{ "t": "Elige", "g": "she chooses" }, { "t": "un", "g": "a" }, { "t": "vestido", "g": "dress" }, { "t": "bonito.", "g": "pretty" }]
+        },
+        {
+          "en": "She looks at herself in the mirror.",
+          "a0": [{ "t": "Looks-at-herself", "r": "se mira" }, { "t": "in" }, { "t": "the" }, { "t": "mirror.", "r": "espejo" }],
+          "a1": [{ "t": "Se mira", "g": "she looks at herself" }, { "t": "in" }, { "t": "the" }, { "t": "espejo.", "g": "mirror" }],
+          "a2": [{ "t": "Se mira", "g": "she looks at herself" }, { "t": "en", "g": "in" }, { "t": "el", "g": "the" }, { "t": "espejo.", "g": "mirror" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Am I ready?\" she thinks.",
+          "a0": [{ "t": "\"Am", "r": "estoy" }, { "t": "ready?\"", "r": "lista" }, { "t": "thinks.", "r": "piensa" }],
+          "a1": [{ "t": "\"Estoy", "g": "am I" }, { "t": "lista?\"", "g": "ready" }, { "t": "piensa.", "g": "thinks" }],
+          "a2": [{ "t": "—¿Estoy", "g": "am I" }, { "t": "lista?", "g": "ready" }, { "t": "—piensa.", "g": "thinks" }]
+        },
+        {
+          "en": "At nine she arrives at the restaurant.",
+          "a0": [{ "t": "At" }, { "t": "nine", "r": "las nueve" }, { "t": "arrives", "r": "llega" }, { "t": "to-the" }, { "t": "restaurant.", "r": "restaurante" }],
+          "a1": [{ "t": "At" }, { "t": "las nueve", "g": "nine" }, { "t": "llega", "g": "she arrives" }, { "t": "to-the" }, { "t": "restaurante.", "g": "restaurant" }],
+          "a2": [{ "t": "A", "g": "at" }, { "t": "las nueve", "g": "nine" }, { "t": "llega", "g": "she arrives" }, { "t": "al", "g": "to the" }, { "t": "restaurante.", "g": "restaurant" }]
+        },
+        {
+          "en": "Daniel is waiting for her with flowers.",
+          "a0": [{ "t": "Daniel" }, { "t": "her" }, { "t": "waits-for", "r": "espera" }, { "t": "with" }, { "t": "flowers.", "r": "flores" }],
+          "a1": [{ "t": "Daniel" }, { "t": "her" }, { "t": "espera", "g": "waits for" }, { "t": "with" }, { "t": "flores.", "g": "flowers" }],
+          "a2": [{ "t": "Daniel" }, { "t": "la", "g": "her" }, { "t": "espera", "g": "waits for" }, { "t": "con", "g": "with" }, { "t": "flores.", "g": "flowers" }]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "La cena",
+      "lines": [
+        {
+          "en": "The restaurant is small and romantic.",
+          "a0": [{ "t": "The" }, { "t": "restaurant", "r": "restaurante" }, { "t": "is", "r": "es" }, { "t": "small", "r": "pequeño" }, { "t": "and" }, { "t": "romantic.", "r": "romántico" }],
+          "a1": [{ "t": "The" }, { "t": "restaurante", "g": "restaurant" }, { "t": "es", "g": "is" }, { "t": "pequeño", "g": "small" }, { "t": "and" }, { "t": "romántico.", "g": "romantic" }],
+          "a2": [{ "t": "El", "g": "the" }, { "t": "restaurante", "g": "restaurant" }, { "t": "es", "g": "is" }, { "t": "pequeño", "g": "small" }, { "t": "y", "g": "and" }, { "t": "romántico.", "g": "romantic" }]
+        },
+        {
+          "en": "They sit at a table near the window.",
+          "a0": [{ "t": "Sit-down", "r": "se sientan" }, { "t": "at" }, { "t": "a" }, { "t": "table", "r": "mesa" }, { "t": "near", "r": "cerca de" }, { "t": "the" }, { "t": "window.", "r": "ventana" }],
+          "a1": [{ "t": "Se sientan", "g": "they sit" }, { "t": "at" }, { "t": "a" }, { "t": "mesa", "g": "table" }, { "t": "near" }, { "t": "the" }, { "t": "ventana.", "g": "window" }],
+          "a2": [{ "t": "Se sientan", "g": "they sit" }, { "t": "en", "g": "at" }, { "t": "una", "g": "a" }, { "t": "mesa", "g": "table" }, { "t": "cerca de", "g": "near" }, { "t": "la", "g": "the" }, { "t": "ventana.", "g": "window" }]
+        },
+        {
+          "en": "A waiter brings the menu.",
+          "a0": [{ "t": "A" }, { "t": "waiter", "r": "camarero" }, { "t": "brings", "r": "trae" }, { "t": "the" }, { "t": "menu.", "r": "carta" }],
+          "a1": [{ "t": "A" }, { "t": "camarero", "g": "waiter" }, { "t": "trae", "g": "brings" }, { "t": "the" }, { "t": "carta.", "g": "menu" }],
+          "a2": [{ "t": "Un", "g": "a" }, { "t": "camarero", "g": "waiter" }, { "t": "trae", "g": "brings" }, { "t": "la", "g": "the" }, { "t": "carta.", "g": "menu" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"What do you want to drink?\" asks Daniel.",
+          "a0": [{ "t": "\"What" }, { "t": "want", "r": "quieres" }, { "t": "to-drink?\"", "r": "beber" }, { "t": "asks", "r": "pregunta" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"What" }, { "t": "quieres", "g": "do you want" }, { "t": "beber?\"", "g": "to drink" }, { "t": "pregunta", "g": "asks" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—¿Qué", "g": "what" }, { "t": "quieres", "g": "do you want" }, { "t": "beber?", "g": "to drink" }, { "t": "—pregunta", "g": "asks" }, { "t": "Daniel." }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"A glass of red wine, please.\"",
+          "a0": [{ "t": "\"A" }, { "t": "glass", "r": "copa" }, { "t": "of" }, { "t": "wine", "r": "vino" }, { "t": "red,", "r": "tinto" }, { "t": "please.\"", "r": "por favor" }],
+          "a1": [{ "t": "\"A" }, { "t": "copa", "g": "glass" }, { "t": "of" }, { "t": "vino", "g": "wine" }, { "t": "tinto,", "g": "red" }, { "t": "por favor.\"", "g": "please" }],
+          "a2": [{ "t": "—Una", "g": "a" }, { "t": "copa", "g": "glass" }, { "t": "de", "g": "of" }, { "t": "vino", "g": "wine" }, { "t": "tinto,", "g": "red" }, { "t": "por favor.", "g": "please" }]
+        },
+        {
+          "en": "Daniel orders wine and water.",
+          "a0": [{ "t": "Daniel" }, { "t": "orders", "r": "pide" }, { "t": "wine", "r": "vino" }, { "t": "and" }, { "t": "water.", "r": "agua" }],
+          "a1": [{ "t": "Daniel" }, { "t": "pide", "g": "orders" }, { "t": "vino", "g": "wine" }, { "t": "and" }, { "t": "agua.", "g": "water" }],
+          "a2": [{ "t": "Daniel" }, { "t": "pide", "g": "orders" }, { "t": "vino", "g": "wine" }, { "t": "y", "g": "and" }, { "t": "agua.", "g": "water" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"The fish here is very good,\" says Daniel.",
+          "a0": [{ "t": "\"The" }, { "t": "fish", "r": "pescado" }, { "t": "here", "r": "de aquí" }, { "t": "is", "r": "está" }, { "t": "very", "r": "muy" }, { "t": "good,\"", "r": "bueno" }, { "t": "says", "r": "dice" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"The" }, { "t": "pescado", "g": "fish" }, { "t": "here" }, { "t": "está", "g": "is" }, { "t": "muy", "g": "very" }, { "t": "bueno,\"", "g": "good" }, { "t": "dice", "g": "says" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—El", "g": "the" }, { "t": "pescado", "g": "fish" }, { "t": "de aquí", "g": "here" }, { "t": "está", "g": "is" }, { "t": "muy", "g": "very" }, { "t": "bueno", "g": "good" }, { "t": "—dice", "g": "says" }, { "t": "Daniel." }]
+        },
+        {
+          "en": "Marta orders fish and Daniel chicken.",
+          "a0": [{ "t": "Marta" }, { "t": "orders", "r": "pide" }, { "t": "fish", "r": "pescado" }, { "t": "and" }, { "t": "Daniel" }, { "t": "chicken.", "r": "pollo" }],
+          "a1": [{ "t": "Marta" }, { "t": "pide", "g": "orders" }, { "t": "pescado", "g": "fish" }, { "t": "and" }, { "t": "Daniel" }, { "t": "pollo.", "g": "chicken" }],
+          "a2": [{ "t": "Marta" }, { "t": "pide", "g": "orders" }, { "t": "pescado", "g": "fish" }, { "t": "y", "g": "and" }, { "t": "Daniel", "g": "" }, { "t": "pollo.", "g": "chicken" }]
+        },
+        {
+          "en": "They talk about their families.",
+          "a0": [{ "t": "Talk", "r": "hablan" }, { "t": "about" }, { "t": "their" }, { "t": "families.", "r": "familias" }],
+          "a1": [{ "t": "Hablan", "g": "they talk" }, { "t": "about" }, { "t": "their" }, { "t": "familias.", "g": "families" }],
+          "a2": [{ "t": "Hablan", "g": "they talk" }, { "t": "de", "g": "about" }, { "t": "sus", "g": "their" }, { "t": "familias.", "g": "families" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"I have a brother and a sister,\" says Marta.",
+          "a0": [{ "t": "\"Have", "r": "tengo" }, { "t": "a" }, { "t": "brother", "r": "hermano" }, { "t": "and" }, { "t": "a" }, { "t": "sister,\"", "r": "hermana" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Tengo", "g": "I have" }, { "t": "a" }, { "t": "hermano", "g": "brother" }, { "t": "and" }, { "t": "a" }, { "t": "hermana,\"", "g": "sister" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Tengo", "g": "I have" }, { "t": "un", "g": "a" }, { "t": "hermano", "g": "brother" }, { "t": "y", "g": "and" }, { "t": "una", "g": "a" }, { "t": "hermana", "g": "sister" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"I don't have siblings,\" says Daniel.",
+          "a0": [{ "t": "\"Not" }, { "t": "have", "r": "tengo" }, { "t": "siblings,\"", "r": "hermanos" }, { "t": "says", "r": "dice" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"Not" }, { "t": "tengo", "g": "I have" }, { "t": "hermanos,\"", "g": "siblings" }, { "t": "dice", "g": "says" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—No", "g": "not" }, { "t": "tengo", "g": "I have" }, { "t": "hermanos", "g": "siblings" }, { "t": "—dice", "g": "says" }, { "t": "Daniel." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"I live alone, but I have many friends.\"",
+          "a0": [{ "t": "\"Live", "r": "vivo" }, { "t": "alone,", "r": "solo" }, { "t": "but" }, { "t": "have", "r": "tengo" }, { "t": "many", "r": "muchos" }, { "t": "friends.\"", "r": "amigos" }],
+          "a1": [{ "t": "\"Vivo", "g": "I live" }, { "t": "solo,", "g": "alone" }, { "t": "but" }, { "t": "tengo", "g": "I have" }, { "t": "muchos", "g": "many" }, { "t": "amigos.\"", "g": "friends" }],
+          "a2": [{ "t": "—Vivo", "g": "I live" }, { "t": "solo,", "g": "alone" }, { "t": "pero", "g": "but" }, { "t": "tengo", "g": "I have" }, { "t": "muchos", "g": "many" }, { "t": "amigos.", "g": "friends" }]
+        },
+        {
+          "en": "The food arrives and it's delicious.",
+          "a0": [{ "t": "The" }, { "t": "food", "r": "comida" }, { "t": "arrives", "r": "llega" }, { "t": "and" }, { "t": "is", "r": "está" }, { "t": "delicious.", "r": "deliciosa" }],
+          "a1": [{ "t": "The" }, { "t": "comida", "g": "food" }, { "t": "llega", "g": "arrives" }, { "t": "and" }, { "t": "está", "g": "is" }, { "t": "deliciosa.", "g": "delicious" }],
+          "a2": [{ "t": "La", "g": "the" }, { "t": "comida", "g": "food" }, { "t": "llega", "g": "arrives" }, { "t": "y", "g": "and" }, { "t": "está", "g": "is" }, { "t": "deliciosa.", "g": "delicious" }]
+        },
+        {
+          "en": "They laugh and talk for hours.",
+          "a0": [{ "t": "Laugh", "r": "ríen" }, { "t": "and" }, { "t": "talk", "r": "hablan" }, { "t": "for", "r": "durante" }, { "t": "hours.", "r": "horas" }],
+          "a1": [{ "t": "Ríen", "g": "they laugh" }, { "t": "and" }, { "t": "hablan", "g": "talk" }, { "t": "for" }, { "t": "horas.", "g": "hours" }],
+          "a2": [{ "t": "Ríen", "g": "they laugh" }, { "t": "y", "g": "and" }, { "t": "hablan", "g": "talk" }, { "t": "durante", "g": "for" }, { "t": "horas.", "g": "hours" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"I'm having a very good time,\" says Marta.",
+          "a0": [{ "t": "\"It", "r": "lo" }, { "t": "am-passing", "r": "estoy pasando" }, { "t": "very", "r": "muy" }, { "t": "well,\"", "r": "bien" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Lo", "g": "it" }, { "t": "estoy pasando", "g": "I'm having" }, { "t": "muy", "g": "very" }, { "t": "bien,\"", "g": "well" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Lo", "g": "it" }, { "t": "estoy pasando", "g": "I'm having" }, { "t": "muy", "g": "very" }, { "t": "bien", "g": "well" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Me too,\" answers Daniel.",
+          "a0": [{ "t": "\"Me" }, { "t": "too,\"", "r": "también" }, { "t": "answers", "r": "responde" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"Me" }, { "t": "también,\"", "g": "too" }, { "t": "responde", "g": "answers" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—Yo", "g": "I" }, { "t": "también", "g": "too" }, { "t": "—responde", "g": "answers" }, { "t": "Daniel." }]
+        },
+        {
+          "en": "At the end Daniel asks for the bill.",
+          "a0": [{ "t": "At" }, { "t": "the" }, { "t": "end", "r": "final" }, { "t": "Daniel" }, { "t": "asks-for", "r": "pide" }, { "t": "the" }, { "t": "bill.", "r": "cuenta" }],
+          "a1": [{ "t": "At" }, { "t": "the" }, { "t": "final", "g": "end" }, { "t": "Daniel" }, { "t": "pide", "g": "asks for" }, { "t": "the" }, { "t": "cuenta.", "g": "bill" }],
+          "a2": [{ "t": "Al", "g": "at the" }, { "t": "final", "g": "end" }, { "t": "Daniel" }, { "t": "pide", "g": "asks for" }, { "t": "la", "g": "the" }, { "t": "cuenta.", "g": "bill" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Thank you for the dinner,\" says Marta.",
+          "a0": [{ "t": "\"Thanks", "r": "gracias" }, { "t": "for" }, { "t": "the" }, { "t": "dinner,\"", "r": "cena" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Gracias", "g": "thanks" }, { "t": "for" }, { "t": "the" }, { "t": "cena,\"", "g": "dinner" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Gracias", "g": "thanks" }, { "t": "por", "g": "for" }, { "t": "la", "g": "the" }, { "t": "cena", "g": "dinner" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Thank you for coming,\" says Daniel.",
+          "a0": [{ "t": "\"Thanks", "r": "gracias" }, { "t": "for" }, { "t": "coming,\"", "r": "venir" }, { "t": "says", "r": "dice" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"Gracias", "g": "thanks" }, { "t": "for" }, { "t": "venir,\"", "g": "coming" }, { "t": "dice", "g": "says" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—Gracias", "g": "thanks" }, { "t": "por", "g": "for" }, { "t": "venir", "g": "coming" }, { "t": "—dice", "g": "says" }, { "t": "Daniel." }]
+        },
+        {
+          "en": "They leave the restaurant together.",
+          "a0": [{ "t": "Leave", "r": "salen" }, { "t": "of-the" }, { "t": "restaurant", "r": "restaurante" }, { "t": "together.", "r": "juntos" }],
+          "a1": [{ "t": "Salen", "g": "they leave" }, { "t": "of the" }, { "t": "restaurante", "g": "restaurant" }, { "t": "juntos.", "g": "together" }],
+          "a2": [{ "t": "Salen", "g": "they leave" }, { "t": "del", "g": "of the" }, { "t": "restaurante", "g": "restaurant" }, { "t": "juntos.", "g": "together" }]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Un problema en la oficina",
+      "lines": [
+        {
+          "en": "Monday Daniel has a difficult day.",
+          "a0": [{ "t": "Monday", "r": "lunes" }, { "t": "Daniel" }, { "t": "has", "r": "tiene" }, { "t": "a" }, { "t": "day", "r": "día" }, { "t": "difficult.", "r": "difícil" }],
+          "a1": [{ "t": "Lunes", "g": "Monday" }, { "t": "Daniel" }, { "t": "tiene", "g": "has" }, { "t": "a" }, { "t": "día", "g": "day" }, { "t": "difícil.", "g": "difficult" }],
+          "a2": [{ "t": "El lunes", "g": "Monday" }, { "t": "Daniel" }, { "t": "tiene", "g": "has" }, { "t": "un", "g": "a" }, { "t": "día", "g": "day" }, { "t": "difícil.", "g": "difficult" }]
+        },
+        {
+          "en": "There's a problem at the office.",
+          "a0": [{ "t": "There-is", "r": "hay" }, { "t": "a" }, { "t": "problem", "r": "problema" }, { "t": "in" }, { "t": "the" }, { "t": "office.", "r": "oficina" }],
+          "a1": [{ "t": "Hay", "g": "there is" }, { "t": "a" }, { "t": "problema", "g": "problem" }, { "t": "in" }, { "t": "the" }, { "t": "oficina.", "g": "office" }],
+          "a2": [{ "t": "Hay", "g": "there is" }, { "t": "un", "g": "a" }, { "t": "problema", "g": "problem" }, { "t": "en", "g": "in" }, { "t": "la", "g": "the" }, { "t": "oficina.", "g": "office" }]
+        },
+        {
+          "en": "His boss is angry.",
+          "a0": [{ "t": "His" }, { "t": "boss", "r": "jefe" }, { "t": "is", "r": "está" }, { "t": "angry.", "r": "enfadado" }],
+          "a1": [{ "t": "His" }, { "t": "jefe", "g": "boss" }, { "t": "está", "g": "is" }, { "t": "enfadado.", "g": "angry" }],
+          "a2": [{ "t": "Su", "g": "his" }, { "t": "jefe", "g": "boss" }, { "t": "está", "g": "is" }, { "t": "enfadado.", "g": "angry" }]
+        },
+        {
+          "speaker": "Boss",
+          "en": "\"We need the project today,\" says the boss.",
+          "a0": [{ "t": "\"Need", "r": "necesitamos" }, { "t": "the" }, { "t": "project", "r": "proyecto" }, { "t": "today,\"", "r": "hoy" }, { "t": "says", "r": "dice" }, { "t": "the" }, { "t": "boss.", "r": "jefe" }],
+          "a1": [{ "t": "\"Necesitamos", "g": "we need" }, { "t": "the" }, { "t": "proyecto", "g": "project" }, { "t": "hoy,\"", "g": "today" }, { "t": "dice", "g": "says" }, { "t": "the" }, { "t": "jefe.", "g": "boss" }],
+          "a2": [{ "t": "—Necesitamos", "g": "we need" }, { "t": "el", "g": "the" }, { "t": "proyecto", "g": "project" }, { "t": "hoy", "g": "today" }, { "t": "—dice", "g": "says" }, { "t": "el", "g": "the" }, { "t": "jefe.", "g": "boss" }]
+        },
+        {
+          "en": "Daniel works all day without a break.",
+          "a0": [{ "t": "Daniel" }, { "t": "works", "r": "trabaja" }, { "t": "all", "r": "todo" }, { "t": "the" }, { "t": "day", "r": "día" }, { "t": "without", "r": "sin" }, { "t": "break.", "r": "descanso" }],
+          "a1": [{ "t": "Daniel" }, { "t": "trabaja", "g": "works" }, { "t": "all" }, { "t": "the" }, { "t": "día", "g": "day" }, { "t": "sin", "g": "without" }, { "t": "descanso.", "g": "break" }],
+          "a2": [{ "t": "Daniel" }, { "t": "trabaja", "g": "works" }, { "t": "todo", "g": "all" }, { "t": "el", "g": "the" }, { "t": "día", "g": "day" }, { "t": "sin", "g": "without" }, { "t": "descanso.", "g": "break" }]
+        },
+        {
+          "en": "He doesn't have time to eat.",
+          "a0": [{ "t": "Not" }, { "t": "has", "r": "tiene" }, { "t": "time", "r": "tiempo" }, { "t": "to-eat.", "r": "para comer" }],
+          "a1": [{ "t": "Not" }, { "t": "tiene", "g": "he has" }, { "t": "tiempo", "g": "time" }, { "t": "para comer.", "g": "to eat" }],
+          "a2": [{ "t": "No", "g": "not" }, { "t": "tiene", "g": "he has" }, { "t": "tiempo", "g": "time" }, { "t": "para", "g": "to" }, { "t": "comer.", "g": "eat" }]
+        },
+        {
+          "en": "In the afternoon he's very tired.",
+          "a0": [{ "t": "In" }, { "t": "the" }, { "t": "afternoon", "r": "tarde" }, { "t": "is", "r": "está" }, { "t": "very", "r": "muy" }, { "t": "tired.", "r": "cansado" }],
+          "a1": [{ "t": "In" }, { "t": "the" }, { "t": "tarde", "g": "afternoon" }, { "t": "está", "g": "he is" }, { "t": "muy", "g": "very" }, { "t": "cansado.", "g": "tired" }],
+          "a2": [{ "t": "Por la", "g": "in the" }, { "t": "tarde", "g": "afternoon" }, { "t": "está", "g": "he is" }, { "t": "muy", "g": "very" }, { "t": "cansado.", "g": "tired" }]
+        },
+        {
+          "en": "He thinks about Marta and the café.",
+          "a0": [{ "t": "Thinks", "r": "piensa" }, { "t": "about" }, { "t": "Marta" }, { "t": "and" }, { "t": "the" }, { "t": "café." }],
+          "a1": [{ "t": "Piensa", "g": "he thinks" }, { "t": "about" }, { "t": "Marta" }, { "t": "and" }, { "t": "the" }, { "t": "café." }],
+          "a2": [{ "t": "Piensa", "g": "he thinks" }, { "t": "en", "g": "about" }, { "t": "Marta", "g": "" }, { "t": "y", "g": "and" }, { "t": "el", "g": "the" }, { "t": "café." }]
+        },
+        {
+          "en": "He wants to see her.",
+          "a0": [{ "t": "Wants", "r": "quiere" }, { "t": "to-see-her.", "r": "verla" }],
+          "a1": [{ "t": "Quiere", "g": "he wants" }, { "t": "verla.", "g": "to see her" }],
+          "a2": [{ "t": "Quiere", "g": "he wants" }, { "t": "verla.", "g": "to see her" }]
+        },
+        {
+          "en": "At six Daniel finishes the work.",
+          "a0": [{ "t": "At" }, { "t": "six", "r": "las seis" }, { "t": "Daniel" }, { "t": "finishes", "r": "termina" }, { "t": "the" }, { "t": "work.", "r": "trabajo" }],
+          "a1": [{ "t": "At" }, { "t": "las seis", "g": "six" }, { "t": "Daniel" }, { "t": "termina", "g": "finishes" }, { "t": "the" }, { "t": "trabajo.", "g": "work" }],
+          "a2": [{ "t": "A", "g": "at" }, { "t": "las seis", "g": "six" }, { "t": "Daniel" }, { "t": "termina", "g": "finishes" }, { "t": "el", "g": "the" }, { "t": "trabajo.", "g": "work" }]
+        },
+        {
+          "en": "He goes to the café quickly.",
+          "a0": [{ "t": "Goes", "r": "va" }, { "t": "to-the" }, { "t": "café" }, { "t": "quickly.", "r": "rápido" }],
+          "a1": [{ "t": "Va", "g": "he goes" }, { "t": "to-the" }, { "t": "café" }, { "t": "rápido.", "g": "quickly" }],
+          "a2": [{ "t": "Va", "g": "he goes" }, { "t": "al", "g": "to the" }, { "t": "café" }, { "t": "rápido.", "g": "quickly" }]
+        },
+        {
+          "en": "Marta sees his tired face.",
+          "a0": [{ "t": "Marta" }, { "t": "sees", "r": "ve" }, { "t": "his" }, { "t": "face", "r": "cara" }, { "t": "tired.", "r": "cansada" }],
+          "a1": [{ "t": "Marta" }, { "t": "ve", "g": "sees" }, { "t": "his" }, { "t": "cara", "g": "face" }, { "t": "cansada.", "g": "tired" }],
+          "a2": [{ "t": "Marta" }, { "t": "ve", "g": "sees" }, { "t": "su", "g": "his" }, { "t": "cara", "g": "face" }, { "t": "cansada.", "g": "tired" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"What's wrong?\" asks Marta.",
+          "a0": [{ "t": "\"What" }, { "t": "you-happens?\"", "r": "te pasa" }, { "t": "asks", "r": "pregunta" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"What" }, { "t": "te pasa?\"", "g": "is wrong with you" }, { "t": "pregunta", "g": "asks" }, { "t": "Marta." }],
+          "a2": [{ "t": "—¿Qué", "g": "what" }, { "t": "te pasa?", "g": "is wrong with you" }, { "t": "—pregunta", "g": "asks" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"A bad day at work,\" answers Daniel.",
+          "a0": [{ "t": "\"A" }, { "t": "day", "r": "día" }, { "t": "bad", "r": "malo" }, { "t": "in" }, { "t": "the" }, { "t": "work,\"", "r": "trabajo" }, { "t": "answers", "r": "responde" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"A" }, { "t": "día", "g": "day" }, { "t": "malo", "g": "bad" }, { "t": "in" }, { "t": "the" }, { "t": "trabajo,\"", "g": "work" }, { "t": "responde", "g": "answers" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—Un", "g": "a" }, { "t": "día", "g": "day" }, { "t": "malo", "g": "bad" }, { "t": "en", "g": "in" }, { "t": "el", "g": "the" }, { "t": "trabajo", "g": "work" }, { "t": "—responde", "g": "answers" }, { "t": "Daniel." }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Sit down. I'll make you a coffee.\"",
+          "a0": [{ "t": "\"Sit-down.", "r": "siéntate" }, { "t": "You", "r": "te" }, { "t": "make", "r": "hago" }, { "t": "a" }, { "t": "coffee.\"", "r": "café" }],
+          "a1": [{ "t": "\"Siéntate.", "g": "sit down" }, { "t": "Te", "g": "you" }, { "t": "hago", "g": "I make" }, { "t": "a" }, { "t": "café.\"", "g": "coffee" }],
+          "a2": [{ "t": "—Siéntate.", "g": "sit down" }, { "t": "Te", "g": "for you" }, { "t": "hago", "g": "I make" }, { "t": "un", "g": "a" }, { "t": "café.", "g": "coffee" }]
+        },
+        {
+          "en": "Marta prepares a coffee and a cake.",
+          "a0": [{ "t": "Marta" }, { "t": "prepares", "r": "prepara" }, { "t": "a" }, { "t": "coffee", "r": "café" }, { "t": "and" }, { "t": "a" }, { "t": "cake.", "r": "pastel" }],
+          "a1": [{ "t": "Marta" }, { "t": "prepara", "g": "prepares" }, { "t": "a" }, { "t": "café", "g": "coffee" }, { "t": "and" }, { "t": "a" }, { "t": "pastel.", "g": "cake" }],
+          "a2": [{ "t": "Marta" }, { "t": "prepara", "g": "prepares" }, { "t": "un", "g": "a" }, { "t": "café", "g": "coffee" }, { "t": "y", "g": "and" }, { "t": "un", "g": "a" }, { "t": "pastel.", "g": "cake" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Thank you, Marta. You're very kind.\"",
+          "a0": [{ "t": "\"Thanks,", "r": "gracias" }, { "t": "Marta." }, { "t": "Are", "r": "eres" }, { "t": "very", "r": "muy" }, { "t": "kind.\"", "r": "amable" }],
+          "a1": [{ "t": "\"Gracias,", "g": "thanks" }, { "t": "Marta." }, { "t": "Eres", "g": "you are" }, { "t": "muy", "g": "very" }, { "t": "amable.\"", "g": "kind" }],
+          "a2": [{ "t": "—Gracias,", "g": "thanks" }, { "t": "Marta.", "g": "" }, { "t": "Eres", "g": "you are" }, { "t": "muy", "g": "very" }, { "t": "amable.", "g": "kind" }]
+        },
+        {
+          "en": "Daniel drinks the coffee and relaxes.",
+          "a0": [{ "t": "Daniel" }, { "t": "drinks", "r": "bebe" }, { "t": "the" }, { "t": "coffee", "r": "café" }, { "t": "and" }, { "t": "relaxes.", "r": "se relaja" }],
+          "a1": [{ "t": "Daniel" }, { "t": "bebe", "g": "drinks" }, { "t": "the" }, { "t": "café", "g": "coffee" }, { "t": "and" }, { "t": "se relaja.", "g": "relaxes" }],
+          "a2": [{ "t": "Daniel" }, { "t": "bebe", "g": "drinks" }, { "t": "el", "g": "the" }, { "t": "café", "g": "coffee" }, { "t": "y", "g": "and" }, { "t": "se relaja.", "g": "relaxes" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"With you everything is better,\" he says.",
+          "a0": [{ "t": "\"With-you", "r": "contigo" }, { "t": "everything", "r": "todo" }, { "t": "is", "r": "es" }, { "t": "better,\"", "r": "mejor" }, { "t": "says.", "r": "dice" }],
+          "a1": [{ "t": "\"Contigo", "g": "with you" }, { "t": "todo", "g": "everything" }, { "t": "es", "g": "is" }, { "t": "mejor,\"", "g": "better" }, { "t": "dice.", "g": "he says" }],
+          "a2": [{ "t": "—Contigo", "g": "with you" }, { "t": "todo", "g": "everything" }, { "t": "es", "g": "is" }, { "t": "mejor", "g": "better" }, { "t": "—dice.", "g": "he says" }]
+        },
+        {
+          "en": "Marta smiles and takes his hand.",
+          "a0": [{ "t": "Marta" }, { "t": "smiles", "r": "sonríe" }, { "t": "and" }, { "t": "him" }, { "t": "takes", "r": "coge" }, { "t": "the" }, { "t": "hand.", "r": "mano" }],
+          "a1": [{ "t": "Marta" }, { "t": "sonríe", "g": "smiles" }, { "t": "and" }, { "t": "him" }, { "t": "coge", "g": "takes" }, { "t": "the" }, { "t": "mano.", "g": "hand" }],
+          "a2": [{ "t": "Marta" }, { "t": "sonríe", "g": "smiles" }, { "t": "y", "g": "and" }, { "t": "le", "g": "him" }, { "t": "coge", "g": "takes" }, { "t": "la", "g": "the" }, { "t": "mano.", "g": "hand" }]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "La lluvia",
+      "lines": [
+        {
+          "en": "It's raining a lot in Madrid.",
+          "a0": [{ "t": "Rains", "r": "llueve" }, { "t": "much", "r": "mucho" }, { "t": "in" }, { "t": "Madrid." }],
+          "a1": [{ "t": "Llueve", "g": "it rains" }, { "t": "mucho", "g": "a lot" }, { "t": "in" }, { "t": "Madrid." }],
+          "a2": [{ "t": "Llueve", "g": "it rains" }, { "t": "mucho", "g": "a lot" }, { "t": "en", "g": "in" }, { "t": "Madrid." }]
+        },
+        {
+          "en": "The café is empty this morning.",
+          "a0": [{ "t": "The" }, { "t": "café" }, { "t": "is", "r": "está" }, { "t": "empty", "r": "vacío" }, { "t": "this" }, { "t": "morning.", "r": "mañana" }],
+          "a1": [{ "t": "The" }, { "t": "café" }, { "t": "está", "g": "is" }, { "t": "vacío", "g": "empty" }, { "t": "this" }, { "t": "mañana.", "g": "morning" }],
+          "a2": [{ "t": "El", "g": "the" }, { "t": "café" }, { "t": "está", "g": "is" }, { "t": "vacío", "g": "empty" }, { "t": "esta", "g": "this" }, { "t": "mañana.", "g": "morning" }]
+        },
+        {
+          "en": "Marta looks through the window.",
+          "a0": [{ "t": "Marta" }, { "t": "looks", "r": "mira" }, { "t": "through" }, { "t": "the" }, { "t": "window.", "r": "ventana" }],
+          "a1": [{ "t": "Marta" }, { "t": "mira", "g": "looks" }, { "t": "through" }, { "t": "the" }, { "t": "ventana.", "g": "window" }],
+          "a2": [{ "t": "Marta" }, { "t": "mira", "g": "looks" }, { "t": "por", "g": "through" }, { "t": "la", "g": "the" }, { "t": "ventana.", "g": "window" }]
+        },
+        {
+          "en": "There are no customers.",
+          "a0": [{ "t": "Not" }, { "t": "there-are", "r": "hay" }, { "t": "customers.", "r": "clientes" }],
+          "a1": [{ "t": "Not" }, { "t": "hay", "g": "there are" }, { "t": "clientes.", "g": "customers" }],
+          "a2": [{ "t": "No", "g": "not" }, { "t": "hay", "g": "there are" }, { "t": "clientes.", "g": "customers" }]
+        },
+        {
+          "en": "Suddenly Daniel arrives, wet.",
+          "a0": [{ "t": "Suddenly", "r": "de repente" }, { "t": "Daniel" }, { "t": "arrives", "r": "llega" }, { "t": "wet.", "r": "mojado" }],
+          "a1": [{ "t": "De repente", "g": "suddenly" }, { "t": "Daniel" }, { "t": "llega", "g": "arrives" }, { "t": "mojado.", "g": "wet" }],
+          "a2": [{ "t": "De repente", "g": "suddenly" }, { "t": "Daniel", "g": "" }, { "t": "llega", "g": "arrives" }, { "t": "mojado.", "g": "wet" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"It's raining a lot!\" he says, laughing.",
+          "a0": [{ "t": "\"Rains", "r": "llueve" }, { "t": "much!\"", "r": "mucho" }, { "t": "says", "r": "dice" }, { "t": "laughing.", "r": "riendo" }],
+          "a1": [{ "t": "\"Llueve", "g": "it rains" }, { "t": "mucho!\"", "g": "a lot" }, { "t": "dice", "g": "says" }, { "t": "riendo.", "g": "laughing" }],
+          "a2": [{ "t": "—¡Llueve", "g": "it rains" }, { "t": "mucho!", "g": "a lot" }, { "t": "—dice", "g": "says" }, { "t": "riendo.", "g": "laughing" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"You don't have an umbrella?\" asks Marta.",
+          "a0": [{ "t": "\"Not" }, { "t": "have", "r": "tienes" }, { "t": "umbrella?\"", "r": "paraguas" }, { "t": "asks", "r": "pregunta" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Not" }, { "t": "tienes", "g": "you have" }, { "t": "paraguas?\"", "g": "umbrella" }, { "t": "pregunta", "g": "asks" }, { "t": "Marta." }],
+          "a2": [{ "t": "—¿No", "g": "not" }, { "t": "tienes", "g": "you have" }, { "t": "paraguas?", "g": "umbrella" }, { "t": "—pregunta", "g": "asks" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"No, I forgot it at home.\"",
+          "a0": [{ "t": "\"No," }, { "t": "it" }, { "t": "forgot", "r": "olvidé" }, { "t": "in" }, { "t": "home.\"", "r": "casa" }],
+          "a1": [{ "t": "\"No," }, { "t": "lo" }, { "t": "olvidé", "g": "I forgot" }, { "t": "in" }, { "t": "casa.\"", "g": "home" }],
+          "a2": [{ "t": "—No,", "g": "no" }, { "t": "lo", "g": "it" }, { "t": "olvidé", "g": "I forgot" }, { "t": "en", "g": "at" }, { "t": "casa.", "g": "home" }]
+        },
+        {
+          "en": "Marta gives him a towel.",
+          "a0": [{ "t": "Marta" }, { "t": "him" }, { "t": "gives", "r": "da" }, { "t": "a" }, { "t": "towel.", "r": "toalla" }],
+          "a1": [{ "t": "Marta" }, { "t": "him" }, { "t": "da", "g": "gives" }, { "t": "a" }, { "t": "toalla.", "g": "towel" }],
+          "a2": [{ "t": "Marta" }, { "t": "le", "g": "him" }, { "t": "da", "g": "gives" }, { "t": "una", "g": "a" }, { "t": "toalla.", "g": "towel" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Sit down here, near me.\"",
+          "a0": [{ "t": "\"Sit-down", "r": "siéntate" }, { "t": "here,", "r": "aquí" }, { "t": "near", "r": "cerca de" }, { "t": "me.\"", "r": "mí" }],
+          "a1": [{ "t": "\"Siéntate", "g": "sit down" }, { "t": "aquí,", "g": "here" }, { "t": "near", "g": "cerca de" }, { "t": "me.\"" }],
+          "a2": [{ "t": "—Siéntate", "g": "sit down" }, { "t": "aquí,", "g": "here" }, { "t": "cerca de", "g": "near" }, { "t": "mí.", "g": "me" }]
+        },
+        {
+          "en": "They drink coffee and listen to the rain.",
+          "a0": [{ "t": "Drink", "r": "beben" }, { "t": "coffee", "r": "café" }, { "t": "and" }, { "t": "listen-to", "r": "escuchan" }, { "t": "the" }, { "t": "rain.", "r": "lluvia" }],
+          "a1": [{ "t": "Beben", "g": "they drink" }, { "t": "café", "g": "coffee" }, { "t": "and" }, { "t": "escuchan", "g": "listen to" }, { "t": "the" }, { "t": "lluvia.", "g": "rain" }],
+          "a2": [{ "t": "Beben", "g": "they drink" }, { "t": "café", "g": "coffee" }, { "t": "y", "g": "and" }, { "t": "escuchan", "g": "listen to" }, { "t": "la", "g": "the" }, { "t": "lluvia.", "g": "rain" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"I like these calm days,\" says Marta.",
+          "a0": [{ "t": "\"Me" }, { "t": "please", "r": "gustan" }, { "t": "these" }, { "t": "days", "r": "días" }, { "t": "calm,\"", "r": "tranquilos" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Me" }, { "t": "gustan", "g": "I like" }, { "t": "these" }, { "t": "días", "g": "days" }, { "t": "tranquilos,\"", "g": "calm" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Me gustan", "g": "I like" }, { "t": "estos", "g": "these" }, { "t": "días", "g": "days" }, { "t": "tranquilos", "g": "calm" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Me too, with you,\" says Daniel.",
+          "a0": [{ "t": "\"Me" }, { "t": "too,", "r": "también" }, { "t": "with-you,\"", "r": "contigo" }, { "t": "says", "r": "dice" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"Me" }, { "t": "también,", "g": "too" }, { "t": "contigo,\"", "g": "with you" }, { "t": "dice", "g": "says" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—Yo", "g": "I" }, { "t": "también,", "g": "too" }, { "t": "contigo", "g": "with you" }, { "t": "—dice", "g": "says" }, { "t": "Daniel." }]
+        },
+        {
+          "en": "Daniel takes Marta's hand.",
+          "a0": [{ "t": "Daniel" }, { "t": "takes", "r": "coge" }, { "t": "the" }, { "t": "hand", "r": "mano" }, { "t": "of" }, { "t": "Marta." }],
+          "a1": [{ "t": "Daniel" }, { "t": "coge", "g": "takes" }, { "t": "the" }, { "t": "mano", "g": "hand" }, { "t": "of" }, { "t": "Marta." }],
+          "a2": [{ "t": "Daniel" }, { "t": "coge", "g": "takes" }, { "t": "la", "g": "the" }, { "t": "mano", "g": "hand" }, { "t": "de", "g": "of" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Marta, I like you a lot.\"",
+          "a0": [{ "t": "\"Marta," }, { "t": "me" }, { "t": "you-please", "r": "gustas" }, { "t": "much.\"", "r": "mucho" }],
+          "a1": [{ "t": "\"Marta," }, { "t": "me" }, { "t": "gustas", "g": "I like you" }, { "t": "mucho.\"", "g": "a lot" }],
+          "a2": [{ "t": "—Marta,", "g": "" }, { "t": "me gustas", "g": "I like you" }, { "t": "mucho.", "g": "a lot" }]
+        },
+        {
+          "en": "Marta looks at him and smiles.",
+          "a0": [{ "t": "Marta" }, { "t": "him" }, { "t": "looks-at", "r": "mira" }, { "t": "and" }, { "t": "smiles.", "r": "sonríe" }],
+          "a1": [{ "t": "Marta" }, { "t": "him" }, { "t": "mira", "g": "looks at" }, { "t": "and" }, { "t": "sonríe.", "g": "smiles" }],
+          "a2": [{ "t": "Marta" }, { "t": "lo", "g": "him" }, { "t": "mira", "g": "looks at" }, { "t": "y", "g": "and" }, { "t": "sonríe.", "g": "smiles" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"I like you too,\" she answers.",
+          "a0": [{ "t": "\"Me" }, { "t": "you-please", "r": "gustas" }, { "t": "too,\"", "r": "también" }, { "t": "answers.", "r": "responde" }],
+          "a1": [{ "t": "\"Me" }, { "t": "gustas", "g": "I like you" }, { "t": "también,\"", "g": "too" }, { "t": "responde.", "g": "answers" }],
+          "a2": [{ "t": "—Tú", "g": "you" }, { "t": "también", "g": "too" }, { "t": "me gustas", "g": "I like" }, { "t": "—responde.", "g": "answers" }]
+        },
+        {
+          "en": "Outside it keeps raining.",
+          "a0": [{ "t": "Outside", "r": "fuera" }, { "t": "keeps", "r": "sigue" }, { "t": "raining.", "r": "lloviendo" }],
+          "a1": [{ "t": "Fuera", "g": "outside" }, { "t": "sigue", "g": "keeps" }, { "t": "lloviendo.", "g": "raining" }],
+          "a2": [{ "t": "Fuera", "g": "outside" }, { "t": "sigue", "g": "keeps" }, { "t": "lloviendo.", "g": "raining" }]
+        },
+        {
+          "en": "But inside the café there's warmth.",
+          "a0": [{ "t": "But" }, { "t": "inside", "r": "dentro" }, { "t": "of-the" }, { "t": "café" }, { "t": "there-is", "r": "hay" }, { "t": "warmth.", "r": "calor" }],
+          "a1": [{ "t": "But" }, { "t": "dentro", "g": "inside" }, { "t": "of the" }, { "t": "café" }, { "t": "hay", "g": "there is" }, { "t": "calor.", "g": "warmth" }],
+          "a2": [{ "t": "Pero", "g": "but" }, { "t": "dentro", "g": "inside" }, { "t": "del", "g": "of the" }, { "t": "café" }, { "t": "hay", "g": "there is" }, { "t": "calor.", "g": "warmth" }]
+        },
+        {
+          "en": "The two are happy together.",
+          "a0": [{ "t": "The" }, { "t": "two", "r": "dos" }, { "t": "are", "r": "están" }, { "t": "happy", "r": "felices" }, { "t": "together.", "r": "juntos" }],
+          "a1": [{ "t": "The" }, { "t": "dos", "g": "two" }, { "t": "están", "g": "are" }, { "t": "felices", "g": "happy" }, { "t": "juntos.", "g": "together" }],
+          "a2": [{ "t": "Los", "g": "the" }, { "t": "dos", "g": "two" }, { "t": "están", "g": "are" }, { "t": "felices", "g": "happy" }, { "t": "juntos.", "g": "together" }]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "El futuro",
+      "lines": [
+        {
+          "en": "It's spring in Madrid.",
+          "a0": [{ "t": "Is", "r": "es" }, { "t": "spring", "r": "primavera" }, { "t": "in" }, { "t": "Madrid." }],
+          "a1": [{ "t": "Es", "g": "it is" }, { "t": "primavera", "g": "spring" }, { "t": "in" }, { "t": "Madrid." }],
+          "a2": [{ "t": "Es", "g": "it is" }, { "t": "primavera", "g": "spring" }, { "t": "en", "g": "in" }, { "t": "Madrid." }]
+        },
+        {
+          "en": "Daniel and Marta are together every day.",
+          "a0": [{ "t": "Daniel" }, { "t": "and" }, { "t": "Marta" }, { "t": "are", "r": "están" }, { "t": "together", "r": "juntos" }, { "t": "every", "r": "todos" }, { "t": "the-days.", "r": "los días" }],
+          "a1": [{ "t": "Daniel" }, { "t": "and" }, { "t": "Marta" }, { "t": "están", "g": "are" }, { "t": "juntos", "g": "together" }, { "t": "todos los días.", "g": "every day" }],
+          "a2": [{ "t": "Daniel", "g": "" }, { "t": "y", "g": "and" }, { "t": "Marta", "g": "" }, { "t": "están", "g": "are" }, { "t": "juntos", "g": "together" }, { "t": "todos", "g": "all" }, { "t": "los", "g": "the" }, { "t": "días.", "g": "days" }]
+        },
+        {
+          "en": "This morning Daniel has news.",
+          "a0": [{ "t": "This" }, { "t": "morning", "r": "mañana" }, { "t": "Daniel" }, { "t": "has", "r": "tiene" }, { "t": "news.", "r": "una noticia" }],
+          "a1": [{ "t": "This" }, { "t": "mañana", "g": "morning" }, { "t": "Daniel" }, { "t": "tiene", "g": "has" }, { "t": "una noticia.", "g": "news" }],
+          "a2": [{ "t": "Esta", "g": "this" }, { "t": "mañana", "g": "morning" }, { "t": "Daniel" }, { "t": "tiene", "g": "has" }, { "t": "una", "g": "a" }, { "t": "noticia.", "g": "news" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"I have a new job,\" says Daniel.",
+          "a0": [{ "t": "\"Have", "r": "tengo" }, { "t": "a" }, { "t": "work", "r": "trabajo" }, { "t": "new,\"", "r": "nuevo" }, { "t": "says", "r": "dice" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"Tengo", "g": "I have" }, { "t": "a" }, { "t": "trabajo", "g": "job" }, { "t": "nuevo,\"", "g": "new" }, { "t": "dice", "g": "says" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—Tengo", "g": "I have" }, { "t": "un", "g": "a" }, { "t": "trabajo", "g": "job" }, { "t": "nuevo", "g": "new" }, { "t": "—dice", "g": "says" }, { "t": "Daniel." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Now I work near the café.\"",
+          "a0": [{ "t": "\"Now", "r": "ahora" }, { "t": "work", "r": "trabajo" }, { "t": "near", "r": "cerca" }, { "t": "of-the" }, { "t": "café.\"" }],
+          "a1": [{ "t": "\"Ahora", "g": "now" }, { "t": "trabajo", "g": "I work" }, { "t": "cerca", "g": "near" }, { "t": "of the" }, { "t": "café.\"" }],
+          "a2": [{ "t": "—Ahora", "g": "now" }, { "t": "trabajo", "g": "I work" }, { "t": "cerca", "g": "near" }, { "t": "del", "g": "of the" }, { "t": "café.", "g": "" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"That's wonderful!\" says Marta.",
+          "a0": [{ "t": "\"That", "r": "eso" }, { "t": "is", "r": "es" }, { "t": "wonderful!\"", "r": "maravilloso" }, { "t": "says", "r": "dice" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Eso", "g": "that" }, { "t": "es", "g": "is" }, { "t": "maravilloso!\"", "g": "wonderful" }, { "t": "dice", "g": "says" }, { "t": "Marta." }],
+          "a2": [{ "t": "—¡Eso", "g": "that" }, { "t": "es", "g": "is" }, { "t": "maravilloso!", "g": "wonderful" }, { "t": "—dice", "g": "says" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"Now I can come every morning.\"",
+          "a0": [{ "t": "\"Now", "r": "ahora" }, { "t": "can", "r": "puedo" }, { "t": "come", "r": "venir" }, { "t": "every", "r": "cada" }, { "t": "morning.\"", "r": "mañana" }],
+          "a1": [{ "t": "\"Ahora", "g": "now" }, { "t": "puedo", "g": "I can" }, { "t": "venir", "g": "come" }, { "t": "cada", "g": "every" }, { "t": "mañana.\"", "g": "morning" }],
+          "a2": [{ "t": "—Ahora", "g": "now" }, { "t": "puedo", "g": "I can" }, { "t": "venir", "g": "come" }, { "t": "cada", "g": "every" }, { "t": "mañana.", "g": "morning" }]
+        },
+        {
+          "en": "Marta is very happy.",
+          "a0": [{ "t": "Marta" }, { "t": "is", "r": "está" }, { "t": "very", "r": "muy" }, { "t": "happy.", "r": "feliz" }],
+          "a1": [{ "t": "Marta" }, { "t": "está", "g": "is" }, { "t": "muy", "g": "very" }, { "t": "feliz.", "g": "happy" }],
+          "a2": [{ "t": "Marta" }, { "t": "está", "g": "is" }, { "t": "muy", "g": "very" }, { "t": "feliz.", "g": "happy" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"And I have an idea for the café,\" she says.",
+          "a0": [{ "t": "\"And" }, { "t": "have", "r": "tengo" }, { "t": "an" }, { "t": "idea", "r": "idea" }, { "t": "for" }, { "t": "the" }, { "t": "café,\"", "r": "café" }, { "t": "says.", "r": "dice" }],
+          "a1": [{ "t": "\"And" }, { "t": "tengo", "g": "I have" }, { "t": "an" }, { "t": "idea", "g": "idea" }, { "t": "for" }, { "t": "the" }, { "t": "café,\"" }, { "t": "dice.", "g": "she says" }],
+          "a2": [{ "t": "—Y", "g": "and" }, { "t": "tengo", "g": "I have" }, { "t": "una", "g": "an" }, { "t": "idea", "g": "idea" }, { "t": "para", "g": "for" }, { "t": "el", "g": "the" }, { "t": "café", "g": "" }, { "t": "—dice.", "g": "she says" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"I want to open a small terrace.\"",
+          "a0": [{ "t": "\"Want", "r": "quiero" }, { "t": "to-open", "r": "abrir" }, { "t": "a" }, { "t": "terrace", "r": "terraza" }, { "t": "small.\"", "r": "pequeña" }],
+          "a1": [{ "t": "\"Quiero", "g": "I want" }, { "t": "abrir", "g": "to open" }, { "t": "a" }, { "t": "terraza", "g": "terrace" }, { "t": "pequeña.\"", "g": "small" }],
+          "a2": [{ "t": "—Quiero", "g": "I want" }, { "t": "abrir", "g": "to open" }, { "t": "una", "g": "a" }, { "t": "terraza", "g": "terrace" }, { "t": "pequeña.", "g": "small" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"People can eat outside in summer.\"",
+          "a0": [{ "t": "\"The-people", "r": "la gente" }, { "t": "can", "r": "puede" }, { "t": "eat", "r": "comer" }, { "t": "outside", "r": "fuera" }, { "t": "in" }, { "t": "summer.\"", "r": "verano" }],
+          "a1": [{ "t": "\"La gente", "g": "people" }, { "t": "puede", "g": "can" }, { "t": "comer", "g": "eat" }, { "t": "fuera", "g": "outside" }, { "t": "in" }, { "t": "verano.\"", "g": "summer" }],
+          "a2": [{ "t": "—La", "g": "the" }, { "t": "gente", "g": "people" }, { "t": "puede", "g": "can" }, { "t": "comer", "g": "eat" }, { "t": "fuera", "g": "outside" }, { "t": "en", "g": "in" }, { "t": "verano.", "g": "summer" }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"It's a great idea,\" says Daniel.",
+          "a0": [{ "t": "\"Is", "r": "es" }, { "t": "a" }, { "t": "idea", "r": "idea" }, { "t": "great,\"", "r": "estupenda" }, { "t": "says", "r": "dice" }, { "t": "Daniel." }],
+          "a1": [{ "t": "\"Es", "g": "it is" }, { "t": "a" }, { "t": "idea", "g": "idea" }, { "t": "estupenda,\"", "g": "great" }, { "t": "dice", "g": "says" }, { "t": "Daniel." }],
+          "a2": [{ "t": "—Es", "g": "it is" }, { "t": "una", "g": "a" }, { "t": "idea", "g": "idea" }, { "t": "estupenda", "g": "great" }, { "t": "—dice", "g": "says" }, { "t": "Daniel." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"I can help you on the weekends.\"",
+          "a0": [{ "t": "\"You", "r": "te" }, { "t": "can", "r": "puedo" }, { "t": "help", "r": "ayudar" }, { "t": "the" }, { "t": "weekends.\"", "r": "fines de semana" }],
+          "a1": [{ "t": "\"Te", "g": "you" }, { "t": "puedo", "g": "I can" }, { "t": "ayudar", "g": "help" }, { "t": "the" }, { "t": "fines de semana.\"", "g": "weekends" }],
+          "a2": [{ "t": "—Te", "g": "you" }, { "t": "puedo", "g": "I can" }, { "t": "ayudar", "g": "help" }, { "t": "los", "g": "the" }, { "t": "fines de semana.", "g": "weekends" }]
+        },
+        {
+          "en": "Lucía arrives and hears everything.",
+          "a0": [{ "t": "Lucía" }, { "t": "arrives", "r": "llega" }, { "t": "and" }, { "t": "hears", "r": "oye" }, { "t": "everything.", "r": "todo" }],
+          "a1": [{ "t": "Lucía" }, { "t": "llega", "g": "arrives" }, { "t": "and" }, { "t": "oye", "g": "hears" }, { "t": "todo.", "g": "everything" }],
+          "a2": [{ "t": "Lucía" }, { "t": "llega", "g": "arrives" }, { "t": "y", "g": "and" }, { "t": "oye", "g": "hears" }, { "t": "todo.", "g": "everything" }]
+        },
+        {
+          "speaker": "Lucía",
+          "en": "\"You two are a great team,\" says Lucía.",
+          "a0": [{ "t": "\"Are", "r": "sois" }, { "t": "a" }, { "t": "team", "r": "equipo" }, { "t": "great,\"", "r": "estupendo" }, { "t": "says", "r": "dice" }, { "t": "Lucía." }],
+          "a1": [{ "t": "\"Sois", "g": "you two are" }, { "t": "a" }, { "t": "equipo", "g": "team" }, { "t": "estupendo,\"", "g": "great" }, { "t": "dice", "g": "says" }, { "t": "Lucía." }],
+          "a2": [{ "t": "—Sois", "g": "you two are" }, { "t": "un", "g": "a" }, { "t": "equipo", "g": "team" }, { "t": "estupendo", "g": "great" }, { "t": "—dice", "g": "says" }, { "t": "Lucía." }]
+        },
+        {
+          "en": "They all laugh together.",
+          "a0": [{ "t": "Laugh", "r": "ríen" }, { "t": "all", "r": "todos" }, { "t": "together.", "r": "juntos" }],
+          "a1": [{ "t": "Ríen", "g": "they laugh" }, { "t": "todos", "g": "all" }, { "t": "juntos.", "g": "together" }],
+          "a2": [{ "t": "Ríen", "g": "they laugh" }, { "t": "todos", "g": "all" }, { "t": "juntos.", "g": "together" }]
+        },
+        {
+          "en": "Daniel kisses Marta.",
+          "a0": [{ "t": "Daniel" }, { "t": "kisses", "r": "besa" }, { "t": "Marta." }],
+          "a1": [{ "t": "Daniel" }, { "t": "besa", "g": "kisses" }, { "t": "Marta." }],
+          "a2": [{ "t": "Daniel" }, { "t": "besa", "g": "kisses" }, { "t": "a", "g": "(to)" }, { "t": "Marta." }]
+        },
+        {
+          "speaker": "Daniel",
+          "en": "\"I'm very happy with you,\" he says.",
+          "a0": [{ "t": "\"Am", "r": "soy" }, { "t": "very", "r": "muy" }, { "t": "happy", "r": "feliz" }, { "t": "with-you,\"", "r": "contigo" }, { "t": "says.", "r": "dice" }],
+          "a1": [{ "t": "\"Soy", "g": "I am" }, { "t": "muy", "g": "very" }, { "t": "feliz", "g": "happy" }, { "t": "contigo,\"", "g": "with you" }, { "t": "dice.", "g": "he says" }],
+          "a2": [{ "t": "—Soy", "g": "I am" }, { "t": "muy", "g": "very" }, { "t": "feliz", "g": "happy" }, { "t": "contigo", "g": "with you" }, { "t": "—dice.", "g": "he says" }]
+        },
+        {
+          "speaker": "Marta",
+          "en": "\"Me too,\" answers Marta.",
+          "a0": [{ "t": "\"Me" }, { "t": "too,\"", "r": "también" }, { "t": "answers", "r": "responde" }, { "t": "Marta." }],
+          "a1": [{ "t": "\"Me" }, { "t": "también,\"", "g": "too" }, { "t": "responde", "g": "answers" }, { "t": "Marta." }],
+          "a2": [{ "t": "—Yo", "g": "I" }, { "t": "también", "g": "too" }, { "t": "—responde", "g": "answers" }, { "t": "Marta." }]
+        },
+        {
+          "en": "And in the Café Luna, a new story begins.",
+          "a0": [{ "t": "And" }, { "t": "in" }, { "t": "the" }, { "t": "Café" }, { "t": "Luna," }, { "t": "a" }, { "t": "story", "r": "historia" }, { "t": "new", "r": "nueva" }, { "t": "begins.", "r": "empieza" }],
+          "a1": [{ "t": "And" }, { "t": "in" }, { "t": "the" }, { "t": "Café" }, { "t": "Luna," }, { "t": "a" }, { "t": "historia", "g": "story" }, { "t": "nueva", "g": "new" }, { "t": "empieza.", "g": "begins" }],
+          "a2": [{ "t": "Y", "g": "and" }, { "t": "en", "g": "in" }, { "t": "el", "g": "the" }, { "t": "Café", "g": "" }, { "t": "Luna,", "g": "" }, { "t": "empieza", "g": "begins" }, { "t": "una", "g": "a" }, { "t": "nueva", "g": "new" }, { "t": "historia.", "g": "story" }]
+        }
+      ]
+    }
+  ]
+}
