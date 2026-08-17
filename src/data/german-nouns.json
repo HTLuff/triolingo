@@ -1,0 +1,968 @@
+[
+  {
+    "word": "Mann",
+    "english": "man",
+    "gender": "der",
+    "plural": "Männer",
+    "category": "people"
+  },
+  {
+    "word": "Frau",
+    "english": "woman",
+    "gender": "die",
+    "plural": "Frauen",
+    "category": "people"
+  },
+  {
+    "word": "Kind",
+    "english": "child",
+    "gender": "das",
+    "plural": "Kinder",
+    "category": "people"
+  },
+  {
+    "word": "Freund",
+    "english": "friend",
+    "gender": "der",
+    "plural": "Freunde",
+    "category": "people"
+  },
+  {
+    "word": "Freundin",
+    "english": "friend (f)",
+    "gender": "die",
+    "plural": "Freundinnen",
+    "category": "people"
+  },
+  {
+    "word": "Bruder",
+    "english": "brother",
+    "gender": "der",
+    "plural": "Brüder",
+    "category": "people"
+  },
+  {
+    "word": "Schwester",
+    "english": "sister",
+    "gender": "die",
+    "plural": "Schwestern",
+    "category": "people"
+  },
+  {
+    "word": "Vater",
+    "english": "father",
+    "gender": "der",
+    "plural": "Väter",
+    "category": "people"
+  },
+  {
+    "word": "Mutter",
+    "english": "mother",
+    "gender": "die",
+    "plural": "Mütter",
+    "category": "people"
+  },
+  {
+    "word": "Sohn",
+    "english": "son",
+    "gender": "der",
+    "plural": "Söhne",
+    "category": "people"
+  },
+  {
+    "word": "Tochter",
+    "english": "daughter",
+    "gender": "die",
+    "plural": "Töchter",
+    "category": "people"
+  },
+  {
+    "word": "Familie",
+    "english": "family",
+    "gender": "die",
+    "plural": "Familien",
+    "category": "people"
+  },
+  {
+    "word": "Lehrer",
+    "english": "teacher",
+    "gender": "der",
+    "plural": "Lehrer",
+    "category": "people"
+  },
+  {
+    "word": "Arzt",
+    "english": "doctor",
+    "gender": "der",
+    "plural": "Ärzte",
+    "category": "people"
+  },
+  {
+    "word": "Ärztin",
+    "english": "doctor (f)",
+    "gender": "die",
+    "plural": "Ärztinnen",
+    "category": "people"
+  },
+  {
+    "word": "Kollege",
+    "english": "colleague",
+    "gender": "der",
+    "plural": "Kollegen",
+    "category": "people"
+  },
+  {
+    "word": "Chef",
+    "english": "boss",
+    "gender": "der",
+    "plural": "Chefs",
+    "category": "people"
+  },
+  {
+    "word": "Name",
+    "english": "name",
+    "gender": "der",
+    "plural": "Namen",
+    "category": "people"
+  },
+  {
+    "word": "Haus",
+    "english": "house",
+    "gender": "das",
+    "plural": "Häuser",
+    "category": "home"
+  },
+  {
+    "word": "Wohnung",
+    "english": "flat",
+    "gender": "die",
+    "plural": "Wohnungen",
+    "category": "home"
+  },
+  {
+    "word": "Zimmer",
+    "english": "room",
+    "gender": "das",
+    "plural": "Zimmer",
+    "category": "home"
+  },
+  {
+    "word": "Küche",
+    "english": "kitchen",
+    "gender": "die",
+    "plural": "Küchen",
+    "category": "home"
+  },
+  {
+    "word": "Bad",
+    "english": "bathroom",
+    "gender": "das",
+    "plural": "Bäder",
+    "category": "home"
+  },
+  {
+    "word": "Bett",
+    "english": "bed",
+    "gender": "das",
+    "plural": "Betten",
+    "category": "home"
+  },
+  {
+    "word": "Tisch",
+    "english": "table",
+    "gender": "der",
+    "plural": "Tische",
+    "category": "home"
+  },
+  {
+    "word": "Stuhl",
+    "english": "chair",
+    "gender": "der",
+    "plural": "Stühle",
+    "category": "home"
+  },
+  {
+    "word": "Tür",
+    "english": "door",
+    "gender": "die",
+    "plural": "Türen",
+    "category": "home"
+  },
+  {
+    "word": "Fenster",
+    "english": "window",
+    "gender": "das",
+    "plural": "Fenster",
+    "category": "home"
+  },
+  {
+    "word": "Lampe",
+    "english": "lamp",
+    "gender": "die",
+    "plural": "Lampen",
+    "category": "home"
+  },
+  {
+    "word": "Schrank",
+    "english": "cupboard",
+    "gender": "der",
+    "plural": "Schränke",
+    "category": "home"
+  },
+  {
+    "word": "Spiegel",
+    "english": "mirror",
+    "gender": "der",
+    "plural": "Spiegel",
+    "category": "home"
+  },
+  {
+    "word": "Dusche",
+    "english": "shower",
+    "gender": "die",
+    "plural": "Duschen",
+    "category": "home"
+  },
+  {
+    "word": "Schlüssel",
+    "english": "key",
+    "gender": "der",
+    "plural": "Schlüssel",
+    "category": "home"
+  },
+  {
+    "word": "Garten",
+    "english": "garden",
+    "gender": "der",
+    "plural": "Gärten",
+    "category": "home"
+  },
+  {
+    "word": "Wand",
+    "english": "wall",
+    "gender": "die",
+    "plural": "Wände",
+    "category": "home"
+  },
+  {
+    "word": "Boden",
+    "english": "floor",
+    "gender": "der",
+    "plural": "Böden",
+    "category": "home"
+  },
+  {
+    "word": "Brot",
+    "english": "bread",
+    "gender": "das",
+    "plural": "Brote",
+    "category": "food"
+  },
+  {
+    "word": "Ei",
+    "english": "egg",
+    "gender": "das",
+    "plural": "Eier",
+    "category": "food"
+  },
+  {
+    "word": "Apfel",
+    "english": "apple",
+    "gender": "der",
+    "plural": "Äpfel",
+    "category": "food"
+  },
+  {
+    "word": "Kartoffel",
+    "english": "potato",
+    "gender": "die",
+    "plural": "Kartoffeln",
+    "category": "food"
+  },
+  {
+    "word": "Tomate",
+    "english": "tomato",
+    "gender": "die",
+    "plural": "Tomaten",
+    "category": "food"
+  },
+  {
+    "word": "Zwiebel",
+    "english": "onion",
+    "gender": "die",
+    "plural": "Zwiebeln",
+    "category": "food"
+  },
+  {
+    "word": "Suppe",
+    "english": "soup",
+    "gender": "die",
+    "plural": "Suppen",
+    "category": "food"
+  },
+  {
+    "word": "Salat",
+    "english": "salad",
+    "gender": "der",
+    "plural": "Salate",
+    "category": "food"
+  },
+  {
+    "word": "Fisch",
+    "english": "fish",
+    "gender": "der",
+    "plural": "Fische",
+    "category": "food"
+  },
+  {
+    "word": "Käse",
+    "english": "cheese",
+    "gender": "der",
+    "plural": "Käse",
+    "category": "food"
+  },
+  {
+    "word": "Kaffee",
+    "english": "coffee",
+    "gender": "der",
+    "plural": "Kaffees",
+    "category": "food"
+  },
+  {
+    "word": "Bier",
+    "english": "beer",
+    "gender": "das",
+    "plural": "Biere",
+    "category": "food"
+  },
+  {
+    "word": "Wein",
+    "english": "wine",
+    "gender": "der",
+    "plural": "Weine",
+    "category": "food"
+  },
+  {
+    "word": "Glas",
+    "english": "glass",
+    "gender": "das",
+    "plural": "Gläser",
+    "category": "food"
+  },
+  {
+    "word": "Teller",
+    "english": "plate",
+    "gender": "der",
+    "plural": "Teller",
+    "category": "food"
+  },
+  {
+    "word": "Löffel",
+    "english": "spoon",
+    "gender": "der",
+    "plural": "Löffel",
+    "category": "food"
+  },
+  {
+    "word": "Messer",
+    "english": "knife",
+    "gender": "das",
+    "plural": "Messer",
+    "category": "food"
+  },
+  {
+    "word": "Frühstück",
+    "english": "breakfast",
+    "gender": "das",
+    "plural": "Frühstücke",
+    "category": "food"
+  },
+  {
+    "word": "Rechnung",
+    "english": "bill",
+    "gender": "die",
+    "plural": "Rechnungen",
+    "category": "food"
+  },
+  {
+    "word": "Arbeit",
+    "english": "work",
+    "gender": "die",
+    "plural": "Arbeiten",
+    "category": "work"
+  },
+  {
+    "word": "Büro",
+    "english": "office",
+    "gender": "das",
+    "plural": "Büros",
+    "category": "work"
+  },
+  {
+    "word": "Firma",
+    "english": "company",
+    "gender": "die",
+    "plural": "Firmen",
+    "category": "work"
+  },
+  {
+    "word": "Schule",
+    "english": "school",
+    "gender": "die",
+    "plural": "Schulen",
+    "category": "work"
+  },
+  {
+    "word": "Buch",
+    "english": "book",
+    "gender": "das",
+    "plural": "Bücher",
+    "category": "work"
+  },
+  {
+    "word": "Papier",
+    "english": "paper",
+    "gender": "das",
+    "plural": "Papiere",
+    "category": "work"
+  },
+  {
+    "word": "Brief",
+    "english": "letter",
+    "gender": "der",
+    "plural": "Briefe",
+    "category": "work"
+  },
+  {
+    "word": "Computer",
+    "english": "computer",
+    "gender": "der",
+    "plural": "Computer",
+    "category": "work"
+  },
+  {
+    "word": "Handy",
+    "english": "mobile phone",
+    "gender": "das",
+    "plural": "Handys",
+    "category": "work"
+  },
+  {
+    "word": "Frage",
+    "english": "question",
+    "gender": "die",
+    "plural": "Fragen",
+    "category": "work"
+  },
+  {
+    "word": "Antwort",
+    "english": "answer",
+    "gender": "die",
+    "plural": "Antworten",
+    "category": "work"
+  },
+  {
+    "word": "Wort",
+    "english": "word",
+    "gender": "das",
+    "plural": "Wörter",
+    "category": "work"
+  },
+  {
+    "word": "Sprache",
+    "english": "language",
+    "gender": "die",
+    "plural": "Sprachen",
+    "category": "work"
+  },
+  {
+    "word": "Beispiel",
+    "english": "example",
+    "gender": "das",
+    "plural": "Beispiele",
+    "category": "work"
+  },
+  {
+    "word": "Problem",
+    "english": "problem",
+    "gender": "das",
+    "plural": "Probleme",
+    "category": "work"
+  },
+  {
+    "word": "Idee",
+    "english": "idea",
+    "gender": "die",
+    "plural": "Ideen",
+    "category": "work"
+  },
+  {
+    "word": "Zeitung",
+    "english": "newspaper",
+    "gender": "die",
+    "plural": "Zeitungen",
+    "category": "work"
+  },
+  {
+    "word": "Preis",
+    "english": "price",
+    "gender": "der",
+    "plural": "Preise",
+    "category": "work"
+  },
+  {
+    "word": "Stadt",
+    "english": "city",
+    "gender": "die",
+    "plural": "Städte",
+    "category": "city"
+  },
+  {
+    "word": "Straße",
+    "english": "street",
+    "gender": "die",
+    "plural": "Straßen",
+    "category": "city"
+  },
+  {
+    "word": "Platz",
+    "english": "square",
+    "gender": "der",
+    "plural": "Plätze",
+    "category": "city"
+  },
+  {
+    "word": "Weg",
+    "english": "way / path",
+    "gender": "der",
+    "plural": "Wege",
+    "category": "city"
+  },
+  {
+    "word": "Bahnhof",
+    "english": "station",
+    "gender": "der",
+    "plural": "Bahnhöfe",
+    "category": "city"
+  },
+  {
+    "word": "Zug",
+    "english": "train",
+    "gender": "der",
+    "plural": "Züge",
+    "category": "city"
+  },
+  {
+    "word": "Bus",
+    "english": "bus",
+    "gender": "der",
+    "plural": "Busse",
+    "category": "city"
+  },
+  {
+    "word": "Auto",
+    "english": "car",
+    "gender": "das",
+    "plural": "Autos",
+    "category": "city"
+  },
+  {
+    "word": "Fahrrad",
+    "english": "bicycle",
+    "gender": "das",
+    "plural": "Fahrräder",
+    "category": "city"
+  },
+  {
+    "word": "Flugzeug",
+    "english": "plane",
+    "gender": "das",
+    "plural": "Flugzeuge",
+    "category": "city"
+  },
+  {
+    "word": "Flughafen",
+    "english": "airport",
+    "gender": "der",
+    "plural": "Flughäfen",
+    "category": "city"
+  },
+  {
+    "word": "Hotel",
+    "english": "hotel",
+    "gender": "das",
+    "plural": "Hotels",
+    "category": "city"
+  },
+  {
+    "word": "Restaurant",
+    "english": "restaurant",
+    "gender": "das",
+    "plural": "Restaurants",
+    "category": "city"
+  },
+  {
+    "word": "Café",
+    "english": "café",
+    "gender": "das",
+    "plural": "Cafés",
+    "category": "city"
+  },
+  {
+    "word": "Kino",
+    "english": "cinema",
+    "gender": "das",
+    "plural": "Kinos",
+    "category": "city"
+  },
+  {
+    "word": "Kirche",
+    "english": "church",
+    "gender": "die",
+    "plural": "Kirchen",
+    "category": "city"
+  },
+  {
+    "word": "Brücke",
+    "english": "bridge",
+    "gender": "die",
+    "plural": "Brücken",
+    "category": "city"
+  },
+  {
+    "word": "Bank",
+    "english": "bank",
+    "gender": "die",
+    "plural": "Banken",
+    "category": "city"
+  },
+  {
+    "word": "Karte",
+    "english": "card / map",
+    "gender": "die",
+    "plural": "Karten",
+    "category": "city"
+  },
+  {
+    "word": "Fahrkarte",
+    "english": "ticket",
+    "gender": "die",
+    "plural": "Fahrkarten",
+    "category": "city"
+  },
+  {
+    "word": "Koffer",
+    "english": "suitcase",
+    "gender": "der",
+    "plural": "Koffer",
+    "category": "city"
+  },
+  {
+    "word": "Reise",
+    "english": "trip",
+    "gender": "die",
+    "plural": "Reisen",
+    "category": "city"
+  },
+  {
+    "word": "Land",
+    "english": "country",
+    "gender": "das",
+    "plural": "Länder",
+    "category": "city"
+  },
+  {
+    "word": "Dorf",
+    "english": "village",
+    "gender": "das",
+    "plural": "Dörfer",
+    "category": "city"
+  },
+  {
+    "word": "Tag",
+    "english": "day",
+    "gender": "der",
+    "plural": "Tage",
+    "category": "time"
+  },
+  {
+    "word": "Woche",
+    "english": "week",
+    "gender": "die",
+    "plural": "Wochen",
+    "category": "time"
+  },
+  {
+    "word": "Monat",
+    "english": "month",
+    "gender": "der",
+    "plural": "Monate",
+    "category": "time"
+  },
+  {
+    "word": "Jahr",
+    "english": "year",
+    "gender": "das",
+    "plural": "Jahre",
+    "category": "time"
+  },
+  {
+    "word": "Stunde",
+    "english": "hour",
+    "gender": "die",
+    "plural": "Stunden",
+    "category": "time"
+  },
+  {
+    "word": "Minute",
+    "english": "minute",
+    "gender": "die",
+    "plural": "Minuten",
+    "category": "time"
+  },
+  {
+    "word": "Nacht",
+    "english": "night",
+    "gender": "die",
+    "plural": "Nächte",
+    "category": "time"
+  },
+  {
+    "word": "Abend",
+    "english": "evening",
+    "gender": "der",
+    "plural": "Abende",
+    "category": "time"
+  },
+  {
+    "word": "Morgen",
+    "english": "morning",
+    "gender": "der",
+    "plural": "Morgen",
+    "category": "time"
+  },
+  {
+    "word": "Zeit",
+    "english": "time",
+    "gender": "die",
+    "plural": "Zeiten",
+    "category": "time"
+  },
+  {
+    "word": "Wochenende",
+    "english": "weekend",
+    "gender": "das",
+    "plural": "Wochenenden",
+    "category": "time"
+  },
+  {
+    "word": "Uhr",
+    "english": "clock",
+    "gender": "die",
+    "plural": "Uhren",
+    "category": "time"
+  },
+  {
+    "word": "Sommer",
+    "english": "summer",
+    "gender": "der",
+    "plural": "Sommer",
+    "category": "time"
+  },
+  {
+    "word": "Winter",
+    "english": "winter",
+    "gender": "der",
+    "plural": "Winter",
+    "category": "time"
+  },
+  {
+    "word": "Urlaub",
+    "english": "holiday",
+    "gender": "der",
+    "plural": "Urlaube",
+    "category": "time"
+  },
+  {
+    "word": "Baum",
+    "english": "tree",
+    "gender": "der",
+    "plural": "Bäume",
+    "category": "nature"
+  },
+  {
+    "word": "Blume",
+    "english": "flower",
+    "gender": "die",
+    "plural": "Blumen",
+    "category": "nature"
+  },
+  {
+    "word": "Berg",
+    "english": "mountain",
+    "gender": "der",
+    "plural": "Berge",
+    "category": "nature"
+  },
+  {
+    "word": "Fluss",
+    "english": "river",
+    "gender": "der",
+    "plural": "Flüsse",
+    "category": "nature"
+  },
+  {
+    "word": "See",
+    "english": "lake",
+    "gender": "der",
+    "plural": "Seen",
+    "category": "nature"
+  },
+  {
+    "word": "Meer",
+    "english": "sea",
+    "gender": "das",
+    "plural": "Meere",
+    "category": "nature"
+  },
+  {
+    "word": "Hund",
+    "english": "dog",
+    "gender": "der",
+    "plural": "Hunde",
+    "category": "nature"
+  },
+  {
+    "word": "Katze",
+    "english": "cat",
+    "gender": "die",
+    "plural": "Katzen",
+    "category": "nature"
+  },
+  {
+    "word": "Kopf",
+    "english": "head",
+    "gender": "der",
+    "plural": "Köpfe",
+    "category": "body"
+  },
+  {
+    "word": "Hand",
+    "english": "hand",
+    "gender": "die",
+    "plural": "Hände",
+    "category": "body"
+  },
+  {
+    "word": "Arm",
+    "english": "arm",
+    "gender": "der",
+    "plural": "Arme",
+    "category": "body"
+  },
+  {
+    "word": "Bein",
+    "english": "leg",
+    "gender": "das",
+    "plural": "Beine",
+    "category": "body"
+  },
+  {
+    "word": "Fuß",
+    "english": "foot",
+    "gender": "der",
+    "plural": "Füße",
+    "category": "body"
+  },
+  {
+    "word": "Auge",
+    "english": "eye",
+    "gender": "das",
+    "plural": "Augen",
+    "category": "body"
+  },
+  {
+    "word": "Ohr",
+    "english": "ear",
+    "gender": "das",
+    "plural": "Ohren",
+    "category": "body"
+  },
+  {
+    "word": "Nase",
+    "english": "nose",
+    "gender": "die",
+    "plural": "Nasen",
+    "category": "body"
+  },
+  {
+    "word": "Gesicht",
+    "english": "face",
+    "gender": "das",
+    "plural": "Gesichter",
+    "category": "body"
+  },
+  {
+    "word": "Herz",
+    "english": "heart",
+    "gender": "das",
+    "plural": "Herzen",
+    "category": "body"
+  },
+  {
+    "word": "Film",
+    "english": "film",
+    "gender": "der",
+    "plural": "Filme",
+    "category": "leisure"
+  },
+  {
+    "word": "Lied",
+    "english": "song",
+    "gender": "das",
+    "plural": "Lieder",
+    "category": "leisure"
+  },
+  {
+    "word": "Bild",
+    "english": "picture",
+    "gender": "das",
+    "plural": "Bilder",
+    "category": "leisure"
+  },
+  {
+    "word": "Foto",
+    "english": "photo",
+    "gender": "das",
+    "plural": "Fotos",
+    "category": "leisure"
+  },
+  {
+    "word": "Spiel",
+    "english": "game",
+    "gender": "das",
+    "plural": "Spiele",
+    "category": "leisure"
+  },
+  {
+    "word": "Party",
+    "english": "party",
+    "gender": "die",
+    "plural": "Partys",
+    "category": "leisure"
+  },
+  {
+    "word": "Hemd",
+    "english": "shirt",
+    "gender": "das",
+    "plural": "Hemden",
+    "category": "leisure"
+  },
+  {
+    "word": "Kleid",
+    "english": "dress",
+    "gender": "das",
+    "plural": "Kleider",
+    "category": "leisure"
+  }
+]

@@ -2,7 +2,7 @@ import { useState, useCallback, useMemo } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import type {
   Language, Mode, AppScreen, SessionResult, VocabCard, UserGender, SessionFilters,
-  Story, StoryLevel, Verb, QuickfireConfig, QuickfireAnswer,
+  Story, StoryLevel, Verb, Noun, CaseFrame, QuickfireConfig, RapidAnswer, RapidPrompt,
 } from './types';
 import { useSRS } from './hooks/useSRS';
 import { useLocalStorage } from './hooks/useLocalStorage';
@@ -18,25 +18,48 @@ import SentenceBuilder from './components/SentenceBuilder';
 import StorySelect from './components/StorySelect';
 import StoryReader from './components/StoryReader';
 import QuickfireSetup from './components/QuickfireSetup';
-import Quickfire from './components/Quickfire';
-import QuickfireSummary from './components/QuickfireSummary';
+import RapidRound from './components/RapidRound';
+import RapidSummary from './components/RapidSummary';
 import ProgressBar from './components/ProgressBar';
 import ReviewSummary from './components/ReviewSummary';
-import { filterVerbs } from './utils/quickfire';
+import { filterVerbs, buildVerbPrompt, buildGenderPrompt, buildCasePrompt } from './utils/rapid';
+import { langConfig, hasLevels } from './config/languages';
 
 import spanishData from './data/spanish.json';
+import germanData from './data/german.json';
 import japaneseData from './data/japanese.json';
 import czechData from './data/czech.json';
 import spanishVerbs from './data/spanish-verbs.json';
+import germanVerbs from './data/german-verbs.json';
+import germanNouns from './data/german-nouns.json';
+import germanCases from './data/german-cases.json';
 import cafeMadrid from './data/stories/cafe-madrid.json';
-
-const story = cafeMadrid as Story;
-const verbs = spanishVerbs as Verb[];
+import cafeMuenchen from './data/stories/cafe-muenchen.json';
 
 const vocabMap: Record<Language, VocabCard[]> = {
   spanish: spanishData as VocabCard[],
+  german: germanData as VocabCard[],
   japanese: japaneseData as VocabCard[],
   czech: czechData as VocabCard[],
+};
+
+const verbsMap: Partial<Record<Language, Verb[]>> = {
+  spanish: spanishVerbs as Verb[],
+  german: germanVerbs as Verb[],
+};
+
+const storyMap: Partial<Record<Language, Story>> = {
+  spanish: cafeMadrid as Story,
+  german: cafeMuenchen as Story,
+};
+
+const nouns = germanNouns as Noun[];
+const caseFrames = germanCases as CaseFrame[];
+
+/** Default drill setup per language, used until the learner changes it. */
+const defaultQuickfire: Record<string, QuickfireConfig> = {
+  spanish: { tenses: ['present', 'preterite'], focus: 'all' },
+  german: { tenses: ['praesens', 'perfekt'], focus: 'all' },
 };
 
 const SESSION_SIZE = 10;
@@ -74,14 +97,13 @@ export default function App() {
   const [storyCompleted, setStoryCompleted] = useLocalStorage<number[]>('triolingo_story_completed', []);
   const [chapterId, setChapterId] = useState<number>(1);
 
-  // Quickfire state
-  const [quickfireConfig, setQuickfireConfig] = useLocalStorage<QuickfireConfig>(
-    'triolingo_quickfire_config',
-    { tenses: ['present', 'preterite'], focus: 'all' },
+  // Timed-drill state (quickfire, der/die/das, cases)
+  const [quickfireConfigs, setQuickfireConfigs] = useLocalStorage<Record<string, QuickfireConfig>>(
+    'triolingo_quickfire_configs', defaultQuickfire,
   );
-  const [quickfireBests, setQuickfireBests] = useLocalStorage<Record<string, number>>('triolingo_quickfire_bests', {});
-  const [quickfireAnswers, setQuickfireAnswers] = useState<QuickfireAnswer[]>([]);
-  const [quickfireNewBest, setQuickfireNewBest] = useState(false);
+  const [rapidBests, setRapidBests] = useLocalStorage<Record<string, number>>('triolingo_quickfire_bests', {});
+  const [rapidAnswers, setRapidAnswers] = useState<RapidAnswer[]>([]);
+  const [rapidNewBest, setRapidNewBest] = useState(false);
 
   void streak;
 
@@ -128,7 +150,9 @@ export default function App() {
       setScreen('story-select');
     } else if (m === 'quickfire') {
       setScreen('quickfire-setup');
-    } else if (language === 'spanish') {
+    } else if (m === 'noun-gender' || m === 'cases') {
+      setScreen('rapid-round');
+    } else if (hasLevels(language)) {
       setScreen('level');
     } else {
       const deck = buildSession(language, srs, userGender, filters, m);
@@ -160,20 +184,50 @@ export default function App() {
     setScreen('story-select');
   }
 
-  const currentChapter = story.chapters.find(c => c.id === chapterId) ?? story.chapters[0];
+  const story = storyMap[language];
+  const currentChapter = story?.chapters.find(c => c.id === chapterId) ?? story?.chapters[0];
+
+  const config = langConfig(language);
+  const verbs = verbsMap[language] ?? [];
+
+  /**
+   * A saved setup can name tenses the current language doesn't have (Spanish
+   * 'preterite' vs German 'praeteritum'), so fall back to that language's default.
+   */
+  const quickfireConfig = useMemo(() => {
+    const saved = quickfireConfigs[language];
+    const valid = config.verbTenses.map(t => t.id);
+    const tenses = (saved?.tenses ?? []).filter(t => valid.includes(t));
+    if (!saved || tenses.length === 0) return defaultQuickfire[language] ?? { tenses: valid.slice(0, 2), focus: 'all' as const };
+    return { ...saved, tenses };
+  }, [quickfireConfigs, language, config]);
+
+  function setQuickfireConfig(next: QuickfireConfig) {
+    setQuickfireConfigs(prev => ({ ...prev, [language]: next }));
+  }
+
+  const quickfireVerbs = useMemo(() => filterVerbs(verbs, quickfireConfig.focus), [verbs, quickfireConfig.focus]);
 
   // Records are kept per setup — a present-only round isn't the same challenge as all six tenses.
-  const quickfireKey = `${quickfireConfig.focus}:${[...quickfireConfig.tenses].sort().join(',')}`;
-  const quickfireBest = quickfireBests[quickfireKey] ?? 0;
-  const quickfireVerbs = useMemo(() => filterVerbs(verbs, quickfireConfig.focus), [quickfireConfig.focus]);
+  const rapidKey =
+    mode === 'quickfire'
+      ? `${language}:verbs:${quickfireConfig.focus}:${[...quickfireConfig.tenses].sort().join(',')}`
+      : `${language}:${mode}`;
+  const rapidBest = rapidBests[rapidKey] ?? 0;
 
-  function handleQuickfireFinish(answers: QuickfireAnswer[]) {
+  const makePrompt = useCallback((recentIds: string[]): RapidPrompt => {
+    if (mode === 'noun-gender') return buildGenderPrompt(nouns, recentIds);
+    if (mode === 'cases') return buildCasePrompt(caseFrames, recentIds);
+    return buildVerbPrompt(quickfireVerbs, quickfireConfig.tenses, config.verbPersons, config.verbTenses, recentIds);
+  }, [mode, quickfireVerbs, quickfireConfig.tenses, config]);
+
+  function handleRapidFinish(answers: RapidAnswer[]) {
     const score = answers.filter(a => a.correct).length;
-    const beat = score > quickfireBest;
-    if (beat) setQuickfireBests(prev => ({ ...prev, [quickfireKey]: score }));
-    setQuickfireAnswers(answers);
-    setQuickfireNewBest(beat);
-    setScreen('quickfire-summary');
+    const beat = score > rapidBest;
+    if (beat) setRapidBests(prev => ({ ...prev, [rapidKey]: score }));
+    setRapidAnswers(answers);
+    setRapidNewBest(beat);
+    setScreen('rapid-summary');
   }
 
   function updateStreak() {
@@ -227,7 +281,7 @@ export default function App() {
   }
 
   function handleRestart() {
-    const deck = buildSession(language, srs, userGender, filters, mode, language === 'spanish' ? level : undefined);
+    const deck = buildSession(language, srs, userGender, filters, mode, hasLevels(language) ? level : undefined);
     setSessionCards(deck);
     setCurrentIdx(0);
     setResults([]);
@@ -237,13 +291,13 @@ export default function App() {
 
   const dueCount = useMemo(() => {
     const cards = vocabMap[language];
-    const lv = language === 'spanish' ? level : undefined;
+    const lv = hasLevels(language) ? level : undefined;
     const filteredCards = applyFilters(cards, userGender, filters, mode, lv);
     return srs.getDueCards(filteredCards.length > 0 ? filteredCards : cards.filter(c => !c.gender || c.gender === 'all' || c.gender === userGender)).length;
   }, [language, srs, userGender, filters, mode, level]);
 
   const availableCategories = useMemo(() => {
-    const lv = language === 'spanish' ? level : undefined;
+    const lv = hasLevels(language) ? level : undefined;
     const cards = vocabMap[language].filter(c =>
       (!c.gender || c.gender === 'all' || c.gender === userGender) &&
       (lv === undefined || !c.level || c.level === lv)
@@ -252,13 +306,13 @@ export default function App() {
   }, [language, userGender, level]);
 
   const availableTenses = useMemo(() => {
-    if (language !== 'spanish') return [];
+    if (Object.keys(config.tenseLabels).length === 0) return [];
     const cards = vocabMap[language];
     return [...new Set(cards.map(c => c.tense).filter(Boolean) as string[])].sort();
   }, [language]);
 
   const categoryProgress = useMemo(() => {
-    const lv = language === 'spanish' ? level : undefined;
+    const lv = hasLevels(language) ? level : undefined;
     const cards = vocabMap[language].filter(c =>
       (!c.gender || c.gender === 'all' || c.gender === userGender) &&
       (lv === undefined || !c.level || c.level === lv)
@@ -301,11 +355,11 @@ export default function App() {
 
         {screen === 'level' && (
           <motion.div key="level" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }}>
-            <LevelSelector onSelect={handleSelectLevel} onBack={() => setScreen('mode')} />
+            <LevelSelector language={language} onSelect={handleSelectLevel} onBack={() => setScreen('mode')} />
           </motion.div>
         )}
 
-        {screen === 'story-select' && (
+        {screen === 'story-select' && story && (
           <motion.div key="story-select" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }}>
             <StorySelect
               story={story}
@@ -316,10 +370,11 @@ export default function App() {
           </motion.div>
         )}
 
-        {screen === 'story-reader' && (
+        {screen === 'story-reader' && story && currentChapter && (
           <motion.div key="story-reader" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }}>
             <StoryReader
               chapter={currentChapter}
+              language={language}
               level={storyLevel}
               onLevelChange={setStoryLevel}
               onComplete={handleCompleteChapter}
@@ -331,35 +386,37 @@ export default function App() {
         {screen === 'quickfire-setup' && (
           <motion.div key="quickfire-setup" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }}>
             <QuickfireSetup
+              language={language}
               config={quickfireConfig}
               onConfigChange={setQuickfireConfig}
-              best={quickfireBest}
+              best={rapidBest}
               verbCount={quickfireVerbs.length}
-              onStart={() => setScreen('quickfire')}
+              onStart={() => setScreen('rapid-round')}
               onBack={() => setScreen('mode')}
             />
           </motion.div>
         )}
 
-        {screen === 'quickfire' && (
-          <motion.div key="quickfire" initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }}>
-            <Quickfire
-              verbs={quickfireVerbs}
-              tenses={quickfireConfig.tenses}
-              onFinish={handleQuickfireFinish}
-              onQuit={() => setScreen('quickfire-setup')}
+        {screen === 'rapid-round' && (
+          <motion.div key="rapid-round" initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }}>
+            <RapidRound
+              key={`${language}-${mode}`}
+              makePrompt={makePrompt}
+              onFinish={handleRapidFinish}
+              onQuit={() => setScreen(mode === 'quickfire' ? 'quickfire-setup' : 'mode')}
             />
           </motion.div>
         )}
 
-        {screen === 'quickfire-summary' && (
-          <motion.div key="quickfire-summary" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0 }}>
-            <QuickfireSummary
-              answers={quickfireAnswers}
-              best={quickfireBest}
-              isNewBest={quickfireNewBest}
-              onReplay={() => setScreen('quickfire')}
-              onSettings={() => setScreen('quickfire-setup')}
+        {screen === 'rapid-summary' && (
+          <motion.div key="rapid-summary" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0 }}>
+            <RapidSummary
+              answers={rapidAnswers}
+              best={rapidBest}
+              isNewBest={rapidNewBest}
+              settingsLabel={mode === 'quickfire' ? 'Change tenses' : undefined}
+              onReplay={() => setScreen('rapid-round')}
+              onSettings={mode === 'quickfire' ? () => setScreen('quickfire-setup') : undefined}
               onHome={() => setScreen('home')}
             />
           </motion.div>
@@ -422,7 +479,7 @@ export default function App() {
                     transition={{ type: 'spring', stiffness: 300, damping: 28 }}
                     className="w-full max-w-md"
                   >
-                    <SentenceBuilder card={currentCard} onResult={handleSentenceBuilderResult} />
+                    <SentenceBuilder card={currentCard} language={language} onResult={handleSentenceBuilderResult} />
                   </motion.div>
                 )}
               </AnimatePresence>

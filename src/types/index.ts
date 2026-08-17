@@ -1,5 +1,7 @@
-export type Language = 'spanish' | 'japanese' | 'czech';
-export type Mode = 'flashcard' | 'multiple-choice' | 'cloze' | 'typing' | 'sentence-builder' | 'story' | 'quickfire';
+export type Language = 'spanish' | 'japanese' | 'czech' | 'german';
+export type Mode =
+  | 'flashcard' | 'multiple-choice' | 'cloze' | 'typing' | 'sentence-builder'
+  | 'story' | 'quickfire' | 'noun-gender' | 'cases';
 export type UserGender = 'male' | 'female';
 export type StoryLevel = 'a0' | 'a1' | 'a2';
 
@@ -65,38 +67,71 @@ export interface CardState extends VocabCard {
 export type AppScreen =
   | 'home' | 'gender' | 'mode' | 'level' | 'session' | 'summary'
   | 'story-select' | 'story-reader'
-  | 'quickfire-setup' | 'quickfire' | 'quickfire-summary';
+  | 'quickfire-setup' | 'rapid-round' | 'rapid-summary';
 
-export type VerbTense = 'present' | 'preterite' | 'imperfect' | 'future' | 'conditional' | 'subjunctive';
-export type VerbPerson = 'yo' | 'tu' | 'el' | 'nosotros' | 'ellos';
-/** How the verb behaves: regular, spelling-only change, stem-changing, or fully irregular. */
-export type VerbKind = 'regular' | 'spelling' | 'stem' | 'irregular';
-/** Which slice of the verb list a quickfire round draws from. */
+/**
+ * Tense and person ids are plain strings because each language brings its own set
+ * — Spanish has `present`/`yo`, German has `praesens`/`ich`. The labels and the
+ * available ids live in the language config, so adding a language is data, not code.
+ */
+export type VerbTenseId = string;
+export type VerbPersonId = string;
+
+/** How the verb behaves. Drives the regular/tricky filter on the setup screen. */
+export type VerbKind =
+  | 'regular' | 'spelling' | 'stem' | 'irregular'   // Spanish
+  | 'strong' | 'mixed' | 'modal' | 'separable';     // German
+/** Which slice of the verb list a round draws from. */
 export type VerbFocus = 'all' | 'tricky' | 'regular';
 
 export interface Verb {
   infinitive: string;
   english: string;
   kind: VerbKind;
-  conjugations: Record<VerbTense, Record<VerbPerson, string>>;
+  conjugations: Record<VerbTenseId, Record<VerbPersonId, string>>;
 }
 
-export interface QuickfirePrompt {
-  verb: Verb;
-  tense: VerbTense;
-  person: VerbPerson;
+/** A German noun, for the der/die/das drill. */
+export interface Noun {
+  word: string;
+  english: string;
+  gender: 'der' | 'die' | 'das';
+  plural: string;
+  category: string;
+}
+
+/** One fill-the-article frame, for the case drill. */
+export interface CaseFrame {
+  id: string;
+  sentence: string;        // contains ___ where the article goes
+  english: string;
+  answer: string;
+  case: 'nominative' | 'accusative' | 'dative';
+  trigger?: string;        // the preposition or verb that forces the case
+}
+
+/**
+ * One question in a timed round. Verbs, noun gender and case frames all reduce to
+ * this shape, so the round and summary screens don't care which drill produced it.
+ */
+export interface RapidPrompt {
+  id: string;
+  main: string;            // the big text: an infinitive, a noun, a sentence frame
+  sub?: string;            // English gloss under it
+  chips: string[];         // context pills: person, tense, case…
   answer: string;
   options: string[];
+  note?: string;           // extra detail revealed after answering (plural, trigger word)
 }
 
-export interface QuickfireAnswer {
-  prompt: QuickfirePrompt;
+export interface RapidAnswer {
+  prompt: RapidPrompt;
   chosen: string;
   correct: boolean;
 }
 
 export interface QuickfireConfig {
-  tenses: VerbTense[];
+  tenses: VerbTenseId[];
   focus: VerbFocus;
 }
 

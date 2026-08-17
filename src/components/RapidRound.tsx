@@ -1,27 +1,41 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import type { Verb, VerbTense, QuickfirePrompt, QuickfireAnswer } from '../types';
-import { buildPrompt, personLabels, tenseLabels, ROUND_SECONDS } from '../utils/quickfire';
+import type { RapidPrompt, RapidAnswer } from '../types';
+import { ROUND_SECONDS } from '../utils/rapid';
 
-interface QuickfireProps {
-  verbs: Verb[];
-  tenses: VerbTense[];
-  onFinish: (answers: QuickfireAnswer[]) => void;
+interface RapidRoundProps {
+  /** Produces the next question, avoiding anything in `recentIds`. */
+  makePrompt: (recentIds: string[]) => RapidPrompt;
+  onFinish: (answers: RapidAnswer[]) => void;
   onQuit: () => void;
 }
 
 const CORRECT_DELAY = 250;
 const WRONG_DELAY = 1100;
 
-export default function Quickfire({ verbs, tenses, onFinish, onQuit }: QuickfireProps) {
-  const [prompt, setPrompt] = useState<QuickfirePrompt>(() => buildPrompt(verbs, tenses));
+/** Perfekt forms like "habe gesprochen" need to shrink to fit the option button. */
+function optionSize(text: string): string {
+  if (text.length > 18) return 'text-sm';
+  if (text.length > 12) return 'text-base';
+  return 'text-lg';
+}
+
+export default function RapidRound({ makePrompt, onFinish, onQuit }: RapidRoundProps) {
+  // Both callbacks are recreated by the parent on every render. Holding them in
+  // refs keeps the countdown effect out of their dependency list — otherwise the
+  // interval, and with it the round, would restart on every render.
+  const makeRef = useRef(makePrompt);
+  const finishRef = useRef(onFinish);
+  useEffect(() => { makeRef.current = makePrompt; finishRef.current = onFinish; });
+
+  const [prompt, setPrompt] = useState<RapidPrompt>(() => makePrompt([]));
   const [chosen, setChosen] = useState<string | null>(null);
-  const [answers, setAnswers] = useState<QuickfireAnswer[]>([]);
+  const [answers, setAnswers] = useState<RapidAnswer[]>([]);
   const [remaining, setRemaining] = useState(ROUND_SECONDS * 1000);
 
-  const answersRef = useRef<QuickfireAnswer[]>([]);
+  const answersRef = useRef<RapidAnswer[]>([]);
   const recentRef = useRef<string[]>([]);
-  const endRef = useRef(Date.now() + ROUND_SECONDS * 1000);
+  const endRef = useRef(0);   // set when the countdown starts, on mount
   const advanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const finishedRef = useRef(false);
 
@@ -36,11 +50,12 @@ export default function Quickfire({ verbs, tenses, onFinish, onQuit }: Quickfire
     if (finishedRef.current) return;
     finishedRef.current = true;
     if (advanceRef.current) clearTimeout(advanceRef.current);
-    onFinish(answersRef.current);
-  }, [onFinish]);
+    finishRef.current(answersRef.current);
+  }, []);
 
-  // countdown
+  // Runs once: the round's clock starts on mount and isn't restarted by re-renders.
   useEffect(() => {
+    endRef.current = Date.now() + ROUND_SECONDS * 1000;
     const id = setInterval(() => {
       const left = endRef.current - Date.now();
       setRemaining(left > 0 ? left : 0);
@@ -62,17 +77,15 @@ export default function Quickfire({ verbs, tenses, onFinish, onQuit }: Quickfire
     const next = [...answersRef.current, { prompt, chosen: option, correct }];
     answersRef.current = next;
     setAnswers(next);
-
-    recentRef.current = [`${prompt.verb.infinitive}|${prompt.tense}|${prompt.person}`, ...recentRef.current].slice(0, 12);
+    recentRef.current = [prompt.id, ...recentRef.current].slice(0, 12);
 
     advanceRef.current = setTimeout(() => {
       if (finishedRef.current) return;
-      setPrompt(buildPrompt(verbs, tenses, recentRef.current));
+      setPrompt(makeRef.current(recentRef.current));
       setChosen(null);
     }, correct ? CORRECT_DELAY : WRONG_DELAY);
-  }, [chosen, prompt, verbs, tenses]);
+  }, [chosen, prompt]);
 
-  // 1–4 keyboard shortcuts
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       const idx = Number(e.key) - 1;
@@ -85,6 +98,8 @@ export default function Quickfire({ verbs, tenses, onFinish, onQuit }: Quickfire
   const seconds = Math.ceil(remaining / 1000);
   const pct = (remaining / (ROUND_SECONDS * 1000)) * 100;
   const low = remaining <= 10000;
+  const revealed = chosen !== null;
+  const missed = revealed && chosen !== prompt.answer;
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -123,40 +138,46 @@ export default function Quickfire({ verbs, tenses, onFinish, onQuit }: Quickfire
 
       <div className="flex-1 flex flex-col items-center justify-center px-4 pt-20 pb-8">
         <div className="w-full max-w-md">
-          {/* Prompt */}
           <AnimatePresence mode="wait">
             <motion.div
-              key={`${prompt.verb.infinitive}-${prompt.tense}-${prompt.person}-${answers.length}`}
+              key={`${prompt.id}-${answers.length}`}
               initial={{ opacity: 0, y: -12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 12 }}
               transition={{ duration: 0.15 }}
               className="text-center mb-8"
             >
-              <div className="text-4xl font-bold text-white">{prompt.verb.infinitive}</div>
-              <div className="text-white/40 text-sm mt-1">{prompt.verb.english}</div>
-              <div className="flex items-center justify-center gap-2 mt-4">
-                <span className="px-3 py-1 rounded-full bg-violet-500/25 border border-violet-400/40 text-violet-200 text-sm font-semibold">
-                  {personLabels[prompt.person]}
-                </span>
-                <span className="px-3 py-1 rounded-full bg-emerald-500/25 border border-emerald-400/40 text-emerald-200 text-sm font-semibold">
-                  {tenseLabels[prompt.tense]}
-                </span>
+              <div className={`font-bold text-white ${prompt.main.length > 28 ? 'text-2xl' : 'text-4xl'}`}>
+                {prompt.main}
+              </div>
+              {prompt.sub && <div className="text-white/40 text-sm mt-1">{prompt.sub}</div>}
+              <div className="flex items-center justify-center gap-2 mt-4 flex-wrap">
+                {prompt.chips.map((chip, i) => (
+                  <span
+                    key={chip}
+                    className={`px-3 py-1 rounded-full text-sm font-semibold border ${
+                      i === 0
+                        ? 'bg-violet-500/25 border-violet-400/40 text-violet-200'
+                        : 'bg-emerald-500/25 border-emerald-400/40 text-emerald-200'
+                    }`}
+                  >
+                    {chip}
+                  </span>
+                ))}
               </div>
             </motion.div>
           </AnimatePresence>
 
-          {/* Options */}
-          <div className="grid grid-cols-2 gap-3">
+          {/* Options — three articles sit in a row, everything else in a 2×2 grid */}
+          <div className={prompt.options.length === 3 ? 'grid grid-cols-3 gap-3' : 'grid grid-cols-2 gap-3'}>
             {prompt.options.map(option => {
               const isChosen = chosen === option;
               const isAnswer = option === prompt.answer;
-              const revealed = chosen !== null;
               return (
                 <motion.button
-                  key={`${prompt.verb.infinitive}-${prompt.tense}-${prompt.person}-${option}`}
+                  key={`${prompt.id}-${option}`}
                   whileTap={{ scale: revealed ? 1 : 0.96 }}
                   onClick={() => answer(option)}
                   disabled={revealed}
-                  className={`min-h-16 px-3 py-3 rounded-2xl border font-semibold text-lg break-words transition-colors ${
+                  className={`min-h-16 px-3 py-3 rounded-2xl border font-semibold break-words transition-colors ${optionSize(option)} ${
                     revealed
                       ? isAnswer
                         ? 'bg-green-500/25 border-green-400/60 text-green-200'
@@ -175,14 +196,18 @@ export default function Quickfire({ verbs, tenses, onFinish, onQuit }: Quickfire
           {/* Miss explainer */}
           <div className="h-14 mt-4">
             <AnimatePresence>
-              {chosen !== null && chosen !== prompt.answer && (
+              {missed && (
                 <motion.div
                   initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
                   className="text-center"
                 >
                   <p className="text-white/50 text-sm">
-                    {personLabels[prompt.person]} · {tenseLabels[prompt.tense].toLowerCase()} →{' '}
-                    <span className="text-green-300 font-bold">{prompt.answer}</span>
+                    {prompt.note ?? (
+                      <>
+                        {prompt.chips.join(' · ')} →{' '}
+                        <span className="text-green-300 font-bold">{prompt.answer}</span>
+                      </>
+                    )}
                   </p>
                 </motion.div>
               )}

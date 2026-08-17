@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import type { VocabCard } from '../types';
+import type { VocabCard, Language } from '../types';
+import { langConfig } from '../config/languages';
 
 interface Tile {
   id: number;
@@ -9,6 +10,7 @@ interface Tile {
 
 interface SentenceBuilderProps {
   card: VocabCard;
+  language: Language;
   onResult: (correct: boolean, timeMs: number) => void;
 }
 
@@ -25,7 +27,7 @@ function makeTiles(target: string): Tile[] {
   return target.split(' ').map((word, i) => ({ id: i, word }));
 }
 
-export default function SentenceBuilder({ card, onResult }: SentenceBuilderProps) {
+export default function SentenceBuilder({ card, language, onResult }: SentenceBuilderProps) {
   const [bankTiles, setBankTiles] = useState<Tile[]>(() => shuffle(makeTiles(card.target)));
   const [answerTiles, setAnswerTiles] = useState<Tile[]>([]);
   const [checked, setChecked] = useState(false);
@@ -74,7 +76,7 @@ export default function SentenceBuilder({ card, onResult }: SentenceBuilderProps
         animate={{ opacity: 1, y: 0 }}
         className="w-full text-center"
       >
-        <p className="text-white/50 text-sm mb-2">Build the sentence in Spanish</p>
+        <p className="text-white/50 text-sm mb-2">Build the sentence in {langConfig(language).english}</p>
         <p className="text-3xl font-bold text-white">{card.english}</p>
       </motion.div>
 

@@ -1,0 +1,4232 @@
+[
+  {
+    "infinitive": "machen",
+    "english": "to do / make",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "mache",
+        "du": "machst",
+        "er": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "sie": "machen"
+      },
+      "praeteritum": {
+        "ich": "machte",
+        "du": "machtest",
+        "er": "machte",
+        "wir": "machten",
+        "ihr": "machtet",
+        "sie": "machten"
+      },
+      "perfekt": {
+        "ich": "habe gemacht",
+        "du": "hast gemacht",
+        "er": "hat gemacht",
+        "wir": "haben gemacht",
+        "ihr": "habt gemacht",
+        "sie": "haben gemacht"
+      },
+      "futur": {
+        "ich": "werde machen",
+        "du": "wirst machen",
+        "er": "wird machen",
+        "wir": "werden machen",
+        "ihr": "werdet machen",
+        "sie": "werden machen"
+      },
+      "konjunktiv2": {
+        "ich": "würde machen",
+        "du": "würdest machen",
+        "er": "würde machen",
+        "wir": "würden machen",
+        "ihr": "würdet machen",
+        "sie": "würden machen"
+      }
+    }
+  },
+  {
+    "infinitive": "sagen",
+    "english": "to say",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "sage",
+        "du": "sagst",
+        "er": "sagt",
+        "wir": "sagen",
+        "ihr": "sagt",
+        "sie": "sagen"
+      },
+      "praeteritum": {
+        "ich": "sagte",
+        "du": "sagtest",
+        "er": "sagte",
+        "wir": "sagten",
+        "ihr": "sagtet",
+        "sie": "sagten"
+      },
+      "perfekt": {
+        "ich": "habe gesagt",
+        "du": "hast gesagt",
+        "er": "hat gesagt",
+        "wir": "haben gesagt",
+        "ihr": "habt gesagt",
+        "sie": "haben gesagt"
+      },
+      "futur": {
+        "ich": "werde sagen",
+        "du": "wirst sagen",
+        "er": "wird sagen",
+        "wir": "werden sagen",
+        "ihr": "werdet sagen",
+        "sie": "werden sagen"
+      },
+      "konjunktiv2": {
+        "ich": "würde sagen",
+        "du": "würdest sagen",
+        "er": "würde sagen",
+        "wir": "würden sagen",
+        "ihr": "würdet sagen",
+        "sie": "würden sagen"
+      }
+    }
+  },
+  {
+    "infinitive": "fragen",
+    "english": "to ask",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "frage",
+        "du": "fragst",
+        "er": "fragt",
+        "wir": "fragen",
+        "ihr": "fragt",
+        "sie": "fragen"
+      },
+      "praeteritum": {
+        "ich": "fragte",
+        "du": "fragtest",
+        "er": "fragte",
+        "wir": "fragten",
+        "ihr": "fragtet",
+        "sie": "fragten"
+      },
+      "perfekt": {
+        "ich": "habe gefragt",
+        "du": "hast gefragt",
+        "er": "hat gefragt",
+        "wir": "haben gefragt",
+        "ihr": "habt gefragt",
+        "sie": "haben gefragt"
+      },
+      "futur": {
+        "ich": "werde fragen",
+        "du": "wirst fragen",
+        "er": "wird fragen",
+        "wir": "werden fragen",
+        "ihr": "werdet fragen",
+        "sie": "werden fragen"
+      },
+      "konjunktiv2": {
+        "ich": "würde fragen",
+        "du": "würdest fragen",
+        "er": "würde fragen",
+        "wir": "würden fragen",
+        "ihr": "würdet fragen",
+        "sie": "würden fragen"
+      }
+    }
+  },
+  {
+    "infinitive": "spielen",
+    "english": "to play",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "spiele",
+        "du": "spielst",
+        "er": "spielt",
+        "wir": "spielen",
+        "ihr": "spielt",
+        "sie": "spielen"
+      },
+      "praeteritum": {
+        "ich": "spielte",
+        "du": "spieltest",
+        "er": "spielte",
+        "wir": "spielten",
+        "ihr": "spieltet",
+        "sie": "spielten"
+      },
+      "perfekt": {
+        "ich": "habe gespielt",
+        "du": "hast gespielt",
+        "er": "hat gespielt",
+        "wir": "haben gespielt",
+        "ihr": "habt gespielt",
+        "sie": "haben gespielt"
+      },
+      "futur": {
+        "ich": "werde spielen",
+        "du": "wirst spielen",
+        "er": "wird spielen",
+        "wir": "werden spielen",
+        "ihr": "werdet spielen",
+        "sie": "werden spielen"
+      },
+      "konjunktiv2": {
+        "ich": "würde spielen",
+        "du": "würdest spielen",
+        "er": "würde spielen",
+        "wir": "würden spielen",
+        "ihr": "würdet spielen",
+        "sie": "würden spielen"
+      }
+    }
+  },
+  {
+    "infinitive": "lernen",
+    "english": "to learn",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "lerne",
+        "du": "lernst",
+        "er": "lernt",
+        "wir": "lernen",
+        "ihr": "lernt",
+        "sie": "lernen"
+      },
+      "praeteritum": {
+        "ich": "lernte",
+        "du": "lerntest",
+        "er": "lernte",
+        "wir": "lernten",
+        "ihr": "lerntet",
+        "sie": "lernten"
+      },
+      "perfekt": {
+        "ich": "habe gelernt",
+        "du": "hast gelernt",
+        "er": "hat gelernt",
+        "wir": "haben gelernt",
+        "ihr": "habt gelernt",
+        "sie": "haben gelernt"
+      },
+      "futur": {
+        "ich": "werde lernen",
+        "du": "wirst lernen",
+        "er": "wird lernen",
+        "wir": "werden lernen",
+        "ihr": "werdet lernen",
+        "sie": "werden lernen"
+      },
+      "konjunktiv2": {
+        "ich": "würde lernen",
+        "du": "würdest lernen",
+        "er": "würde lernen",
+        "wir": "würden lernen",
+        "ihr": "würdet lernen",
+        "sie": "würden lernen"
+      }
+    }
+  },
+  {
+    "infinitive": "wohnen",
+    "english": "to live / reside",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "wohne",
+        "du": "wohnst",
+        "er": "wohnt",
+        "wir": "wohnen",
+        "ihr": "wohnt",
+        "sie": "wohnen"
+      },
+      "praeteritum": {
+        "ich": "wohnte",
+        "du": "wohntest",
+        "er": "wohnte",
+        "wir": "wohnten",
+        "ihr": "wohntet",
+        "sie": "wohnten"
+      },
+      "perfekt": {
+        "ich": "habe gewohnt",
+        "du": "hast gewohnt",
+        "er": "hat gewohnt",
+        "wir": "haben gewohnt",
+        "ihr": "habt gewohnt",
+        "sie": "haben gewohnt"
+      },
+      "futur": {
+        "ich": "werde wohnen",
+        "du": "wirst wohnen",
+        "er": "wird wohnen",
+        "wir": "werden wohnen",
+        "ihr": "werdet wohnen",
+        "sie": "werden wohnen"
+      },
+      "konjunktiv2": {
+        "ich": "würde wohnen",
+        "du": "würdest wohnen",
+        "er": "würde wohnen",
+        "wir": "würden wohnen",
+        "ihr": "würdet wohnen",
+        "sie": "würden wohnen"
+      }
+    }
+  },
+  {
+    "infinitive": "kaufen",
+    "english": "to buy",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "er": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "sie": "kaufen"
+      },
+      "praeteritum": {
+        "ich": "kaufte",
+        "du": "kauftest",
+        "er": "kaufte",
+        "wir": "kauften",
+        "ihr": "kauftet",
+        "sie": "kauften"
+      },
+      "perfekt": {
+        "ich": "habe gekauft",
+        "du": "hast gekauft",
+        "er": "hat gekauft",
+        "wir": "haben gekauft",
+        "ihr": "habt gekauft",
+        "sie": "haben gekauft"
+      },
+      "futur": {
+        "ich": "werde kaufen",
+        "du": "wirst kaufen",
+        "er": "wird kaufen",
+        "wir": "werden kaufen",
+        "ihr": "werdet kaufen",
+        "sie": "werden kaufen"
+      },
+      "konjunktiv2": {
+        "ich": "würde kaufen",
+        "du": "würdest kaufen",
+        "er": "würde kaufen",
+        "wir": "würden kaufen",
+        "ihr": "würdet kaufen",
+        "sie": "würden kaufen"
+      }
+    }
+  },
+  {
+    "infinitive": "kochen",
+    "english": "to cook",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "koche",
+        "du": "kochst",
+        "er": "kocht",
+        "wir": "kochen",
+        "ihr": "kocht",
+        "sie": "kochen"
+      },
+      "praeteritum": {
+        "ich": "kochte",
+        "du": "kochtest",
+        "er": "kochte",
+        "wir": "kochten",
+        "ihr": "kochtet",
+        "sie": "kochten"
+      },
+      "perfekt": {
+        "ich": "habe gekocht",
+        "du": "hast gekocht",
+        "er": "hat gekocht",
+        "wir": "haben gekocht",
+        "ihr": "habt gekocht",
+        "sie": "haben gekocht"
+      },
+      "futur": {
+        "ich": "werde kochen",
+        "du": "wirst kochen",
+        "er": "wird kochen",
+        "wir": "werden kochen",
+        "ihr": "werdet kochen",
+        "sie": "werden kochen"
+      },
+      "konjunktiv2": {
+        "ich": "würde kochen",
+        "du": "würdest kochen",
+        "er": "würde kochen",
+        "wir": "würden kochen",
+        "ihr": "würdet kochen",
+        "sie": "würden kochen"
+      }
+    }
+  },
+  {
+    "infinitive": "lachen",
+    "english": "to laugh",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "lache",
+        "du": "lachst",
+        "er": "lacht",
+        "wir": "lachen",
+        "ihr": "lacht",
+        "sie": "lachen"
+      },
+      "praeteritum": {
+        "ich": "lachte",
+        "du": "lachtest",
+        "er": "lachte",
+        "wir": "lachten",
+        "ihr": "lachtet",
+        "sie": "lachten"
+      },
+      "perfekt": {
+        "ich": "habe gelacht",
+        "du": "hast gelacht",
+        "er": "hat gelacht",
+        "wir": "haben gelacht",
+        "ihr": "habt gelacht",
+        "sie": "haben gelacht"
+      },
+      "futur": {
+        "ich": "werde lachen",
+        "du": "wirst lachen",
+        "er": "wird lachen",
+        "wir": "werden lachen",
+        "ihr": "werdet lachen",
+        "sie": "werden lachen"
+      },
+      "konjunktiv2": {
+        "ich": "würde lachen",
+        "du": "würdest lachen",
+        "er": "würde lachen",
+        "wir": "würden lachen",
+        "ihr": "würdet lachen",
+        "sie": "würden lachen"
+      }
+    }
+  },
+  {
+    "infinitive": "hören",
+    "english": "to hear",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "höre",
+        "du": "hörst",
+        "er": "hört",
+        "wir": "hören",
+        "ihr": "hört",
+        "sie": "hören"
+      },
+      "praeteritum": {
+        "ich": "hörte",
+        "du": "hörtest",
+        "er": "hörte",
+        "wir": "hörten",
+        "ihr": "hörtet",
+        "sie": "hörten"
+      },
+      "perfekt": {
+        "ich": "habe gehört",
+        "du": "hast gehört",
+        "er": "hat gehört",
+        "wir": "haben gehört",
+        "ihr": "habt gehört",
+        "sie": "haben gehört"
+      },
+      "futur": {
+        "ich": "werde hören",
+        "du": "wirst hören",
+        "er": "wird hören",
+        "wir": "werden hören",
+        "ihr": "werdet hören",
+        "sie": "werden hören"
+      },
+      "konjunktiv2": {
+        "ich": "würde hören",
+        "du": "würdest hören",
+        "er": "würde hören",
+        "wir": "würden hören",
+        "ihr": "würdet hören",
+        "sie": "würden hören"
+      }
+    }
+  },
+  {
+    "infinitive": "leben",
+    "english": "to live",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "lebe",
+        "du": "lebst",
+        "er": "lebt",
+        "wir": "leben",
+        "ihr": "lebt",
+        "sie": "leben"
+      },
+      "praeteritum": {
+        "ich": "lebte",
+        "du": "lebtest",
+        "er": "lebte",
+        "wir": "lebten",
+        "ihr": "lebtet",
+        "sie": "lebten"
+      },
+      "perfekt": {
+        "ich": "habe gelebt",
+        "du": "hast gelebt",
+        "er": "hat gelebt",
+        "wir": "haben gelebt",
+        "ihr": "habt gelebt",
+        "sie": "haben gelebt"
+      },
+      "futur": {
+        "ich": "werde leben",
+        "du": "wirst leben",
+        "er": "wird leben",
+        "wir": "werden leben",
+        "ihr": "werdet leben",
+        "sie": "werden leben"
+      },
+      "konjunktiv2": {
+        "ich": "würde leben",
+        "du": "würdest leben",
+        "er": "würde leben",
+        "wir": "würden leben",
+        "ihr": "würdet leben",
+        "sie": "würden leben"
+      }
+    }
+  },
+  {
+    "infinitive": "lieben",
+    "english": "to love",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "liebe",
+        "du": "liebst",
+        "er": "liebt",
+        "wir": "lieben",
+        "ihr": "liebt",
+        "sie": "lieben"
+      },
+      "praeteritum": {
+        "ich": "liebte",
+        "du": "liebtest",
+        "er": "liebte",
+        "wir": "liebten",
+        "ihr": "liebtet",
+        "sie": "liebten"
+      },
+      "perfekt": {
+        "ich": "habe geliebt",
+        "du": "hast geliebt",
+        "er": "hat geliebt",
+        "wir": "haben geliebt",
+        "ihr": "habt geliebt",
+        "sie": "haben geliebt"
+      },
+      "futur": {
+        "ich": "werde lieben",
+        "du": "wirst lieben",
+        "er": "wird lieben",
+        "wir": "werden lieben",
+        "ihr": "werdet lieben",
+        "sie": "werden lieben"
+      },
+      "konjunktiv2": {
+        "ich": "würde lieben",
+        "du": "würdest lieben",
+        "er": "würde lieben",
+        "wir": "würden lieben",
+        "ihr": "würdet lieben",
+        "sie": "würden lieben"
+      }
+    }
+  },
+  {
+    "infinitive": "brauchen",
+    "english": "to need",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "brauche",
+        "du": "brauchst",
+        "er": "braucht",
+        "wir": "brauchen",
+        "ihr": "braucht",
+        "sie": "brauchen"
+      },
+      "praeteritum": {
+        "ich": "brauchte",
+        "du": "brauchtest",
+        "er": "brauchte",
+        "wir": "brauchten",
+        "ihr": "brauchtet",
+        "sie": "brauchten"
+      },
+      "perfekt": {
+        "ich": "habe gebraucht",
+        "du": "hast gebraucht",
+        "er": "hat gebraucht",
+        "wir": "haben gebraucht",
+        "ihr": "habt gebraucht",
+        "sie": "haben gebraucht"
+      },
+      "futur": {
+        "ich": "werde brauchen",
+        "du": "wirst brauchen",
+        "er": "wird brauchen",
+        "wir": "werden brauchen",
+        "ihr": "werdet brauchen",
+        "sie": "werden brauchen"
+      },
+      "konjunktiv2": {
+        "ich": "würde brauchen",
+        "du": "würdest brauchen",
+        "er": "würde brauchen",
+        "wir": "würden brauchen",
+        "ihr": "würdet brauchen",
+        "sie": "würden brauchen"
+      }
+    }
+  },
+  {
+    "infinitive": "suchen",
+    "english": "to look for",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "suche",
+        "du": "suchst",
+        "er": "sucht",
+        "wir": "suchen",
+        "ihr": "sucht",
+        "sie": "suchen"
+      },
+      "praeteritum": {
+        "ich": "suchte",
+        "du": "suchtest",
+        "er": "suchte",
+        "wir": "suchten",
+        "ihr": "suchtet",
+        "sie": "suchten"
+      },
+      "perfekt": {
+        "ich": "habe gesucht",
+        "du": "hast gesucht",
+        "er": "hat gesucht",
+        "wir": "haben gesucht",
+        "ihr": "habt gesucht",
+        "sie": "haben gesucht"
+      },
+      "futur": {
+        "ich": "werde suchen",
+        "du": "wirst suchen",
+        "er": "wird suchen",
+        "wir": "werden suchen",
+        "ihr": "werdet suchen",
+        "sie": "werden suchen"
+      },
+      "konjunktiv2": {
+        "ich": "würde suchen",
+        "du": "würdest suchen",
+        "er": "würde suchen",
+        "wir": "würden suchen",
+        "ihr": "würdet suchen",
+        "sie": "würden suchen"
+      }
+    }
+  },
+  {
+    "infinitive": "zeigen",
+    "english": "to show",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "zeige",
+        "du": "zeigst",
+        "er": "zeigt",
+        "wir": "zeigen",
+        "ihr": "zeigt",
+        "sie": "zeigen"
+      },
+      "praeteritum": {
+        "ich": "zeigte",
+        "du": "zeigtest",
+        "er": "zeigte",
+        "wir": "zeigten",
+        "ihr": "zeigtet",
+        "sie": "zeigten"
+      },
+      "perfekt": {
+        "ich": "habe gezeigt",
+        "du": "hast gezeigt",
+        "er": "hat gezeigt",
+        "wir": "haben gezeigt",
+        "ihr": "habt gezeigt",
+        "sie": "haben gezeigt"
+      },
+      "futur": {
+        "ich": "werde zeigen",
+        "du": "wirst zeigen",
+        "er": "wird zeigen",
+        "wir": "werden zeigen",
+        "ihr": "werdet zeigen",
+        "sie": "werden zeigen"
+      },
+      "konjunktiv2": {
+        "ich": "würde zeigen",
+        "du": "würdest zeigen",
+        "er": "würde zeigen",
+        "wir": "würden zeigen",
+        "ihr": "würdet zeigen",
+        "sie": "würden zeigen"
+      }
+    }
+  },
+  {
+    "infinitive": "stellen",
+    "english": "to put / place",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "stelle",
+        "du": "stellst",
+        "er": "stellt",
+        "wir": "stellen",
+        "ihr": "stellt",
+        "sie": "stellen"
+      },
+      "praeteritum": {
+        "ich": "stellte",
+        "du": "stelltest",
+        "er": "stellte",
+        "wir": "stellten",
+        "ihr": "stelltet",
+        "sie": "stellten"
+      },
+      "perfekt": {
+        "ich": "habe gestellt",
+        "du": "hast gestellt",
+        "er": "hat gestellt",
+        "wir": "haben gestellt",
+        "ihr": "habt gestellt",
+        "sie": "haben gestellt"
+      },
+      "futur": {
+        "ich": "werde stellen",
+        "du": "wirst stellen",
+        "er": "wird stellen",
+        "wir": "werden stellen",
+        "ihr": "werdet stellen",
+        "sie": "werden stellen"
+      },
+      "konjunktiv2": {
+        "ich": "würde stellen",
+        "du": "würdest stellen",
+        "er": "würde stellen",
+        "wir": "würden stellen",
+        "ihr": "würdet stellen",
+        "sie": "würden stellen"
+      }
+    }
+  },
+  {
+    "infinitive": "legen",
+    "english": "to lay",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "lege",
+        "du": "legst",
+        "er": "legt",
+        "wir": "legen",
+        "ihr": "legt",
+        "sie": "legen"
+      },
+      "praeteritum": {
+        "ich": "legte",
+        "du": "legtest",
+        "er": "legte",
+        "wir": "legten",
+        "ihr": "legtet",
+        "sie": "legten"
+      },
+      "perfekt": {
+        "ich": "habe gelegt",
+        "du": "hast gelegt",
+        "er": "hat gelegt",
+        "wir": "haben gelegt",
+        "ihr": "habt gelegt",
+        "sie": "haben gelegt"
+      },
+      "futur": {
+        "ich": "werde legen",
+        "du": "wirst legen",
+        "er": "wird legen",
+        "wir": "werden legen",
+        "ihr": "werdet legen",
+        "sie": "werden legen"
+      },
+      "konjunktiv2": {
+        "ich": "würde legen",
+        "du": "würdest legen",
+        "er": "würde legen",
+        "wir": "würden legen",
+        "ihr": "würdet legen",
+        "sie": "würden legen"
+      }
+    }
+  },
+  {
+    "infinitive": "glauben",
+    "english": "to believe",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "glaube",
+        "du": "glaubst",
+        "er": "glaubt",
+        "wir": "glauben",
+        "ihr": "glaubt",
+        "sie": "glauben"
+      },
+      "praeteritum": {
+        "ich": "glaubte",
+        "du": "glaubtest",
+        "er": "glaubte",
+        "wir": "glaubten",
+        "ihr": "glaubtet",
+        "sie": "glaubten"
+      },
+      "perfekt": {
+        "ich": "habe geglaubt",
+        "du": "hast geglaubt",
+        "er": "hat geglaubt",
+        "wir": "haben geglaubt",
+        "ihr": "habt geglaubt",
+        "sie": "haben geglaubt"
+      },
+      "futur": {
+        "ich": "werde glauben",
+        "du": "wirst glauben",
+        "er": "wird glauben",
+        "wir": "werden glauben",
+        "ihr": "werdet glauben",
+        "sie": "werden glauben"
+      },
+      "konjunktiv2": {
+        "ich": "würde glauben",
+        "du": "würdest glauben",
+        "er": "würde glauben",
+        "wir": "würden glauben",
+        "ihr": "würdet glauben",
+        "sie": "würden glauben"
+      }
+    }
+  },
+  {
+    "infinitive": "danken",
+    "english": "to thank",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "danke",
+        "du": "dankst",
+        "er": "dankt",
+        "wir": "danken",
+        "ihr": "dankt",
+        "sie": "danken"
+      },
+      "praeteritum": {
+        "ich": "dankte",
+        "du": "danktest",
+        "er": "dankte",
+        "wir": "dankten",
+        "ihr": "danktet",
+        "sie": "dankten"
+      },
+      "perfekt": {
+        "ich": "habe gedankt",
+        "du": "hast gedankt",
+        "er": "hat gedankt",
+        "wir": "haben gedankt",
+        "ihr": "habt gedankt",
+        "sie": "haben gedankt"
+      },
+      "futur": {
+        "ich": "werde danken",
+        "du": "wirst danken",
+        "er": "wird danken",
+        "wir": "werden danken",
+        "ihr": "werdet danken",
+        "sie": "werden danken"
+      },
+      "konjunktiv2": {
+        "ich": "würde danken",
+        "du": "würdest danken",
+        "er": "würde danken",
+        "wir": "würden danken",
+        "ihr": "würdet danken",
+        "sie": "würden danken"
+      }
+    }
+  },
+  {
+    "infinitive": "tanzen",
+    "english": "to dance",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "tanze",
+        "du": "tanzt",
+        "er": "tanzt",
+        "wir": "tanzen",
+        "ihr": "tanzt",
+        "sie": "tanzen"
+      },
+      "praeteritum": {
+        "ich": "tanzte",
+        "du": "tanztest",
+        "er": "tanzte",
+        "wir": "tanzten",
+        "ihr": "tanztet",
+        "sie": "tanzten"
+      },
+      "perfekt": {
+        "ich": "habe getanzt",
+        "du": "hast getanzt",
+        "er": "hat getanzt",
+        "wir": "haben getanzt",
+        "ihr": "habt getanzt",
+        "sie": "haben getanzt"
+      },
+      "futur": {
+        "ich": "werde tanzen",
+        "du": "wirst tanzen",
+        "er": "wird tanzen",
+        "wir": "werden tanzen",
+        "ihr": "werdet tanzen",
+        "sie": "werden tanzen"
+      },
+      "konjunktiv2": {
+        "ich": "würde tanzen",
+        "du": "würdest tanzen",
+        "er": "würde tanzen",
+        "wir": "würden tanzen",
+        "ihr": "würdet tanzen",
+        "sie": "würden tanzen"
+      }
+    }
+  },
+  {
+    "infinitive": "arbeiten",
+    "english": "to work",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "arbeite",
+        "du": "arbeitest",
+        "er": "arbeitet",
+        "wir": "arbeiten",
+        "ihr": "arbeitet",
+        "sie": "arbeiten"
+      },
+      "praeteritum": {
+        "ich": "arbeitete",
+        "du": "arbeitetest",
+        "er": "arbeitete",
+        "wir": "arbeiteten",
+        "ihr": "arbeitetet",
+        "sie": "arbeiteten"
+      },
+      "perfekt": {
+        "ich": "habe gearbeitet",
+        "du": "hast gearbeitet",
+        "er": "hat gearbeitet",
+        "wir": "haben gearbeitet",
+        "ihr": "habt gearbeitet",
+        "sie": "haben gearbeitet"
+      },
+      "futur": {
+        "ich": "werde arbeiten",
+        "du": "wirst arbeiten",
+        "er": "wird arbeiten",
+        "wir": "werden arbeiten",
+        "ihr": "werdet arbeiten",
+        "sie": "werden arbeiten"
+      },
+      "konjunktiv2": {
+        "ich": "würde arbeiten",
+        "du": "würdest arbeiten",
+        "er": "würde arbeiten",
+        "wir": "würden arbeiten",
+        "ihr": "würdet arbeiten",
+        "sie": "würden arbeiten"
+      }
+    }
+  },
+  {
+    "infinitive": "warten",
+    "english": "to wait",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "warte",
+        "du": "wartest",
+        "er": "wartet",
+        "wir": "warten",
+        "ihr": "wartet",
+        "sie": "warten"
+      },
+      "praeteritum": {
+        "ich": "wartete",
+        "du": "wartetest",
+        "er": "wartete",
+        "wir": "warteten",
+        "ihr": "wartetet",
+        "sie": "warteten"
+      },
+      "perfekt": {
+        "ich": "habe gewartet",
+        "du": "hast gewartet",
+        "er": "hat gewartet",
+        "wir": "haben gewartet",
+        "ihr": "habt gewartet",
+        "sie": "haben gewartet"
+      },
+      "futur": {
+        "ich": "werde warten",
+        "du": "wirst warten",
+        "er": "wird warten",
+        "wir": "werden warten",
+        "ihr": "werdet warten",
+        "sie": "werden warten"
+      },
+      "konjunktiv2": {
+        "ich": "würde warten",
+        "du": "würdest warten",
+        "er": "würde warten",
+        "wir": "würden warten",
+        "ihr": "würdet warten",
+        "sie": "würden warten"
+      }
+    }
+  },
+  {
+    "infinitive": "reden",
+    "english": "to talk",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "rede",
+        "du": "redest",
+        "er": "redet",
+        "wir": "reden",
+        "ihr": "redet",
+        "sie": "reden"
+      },
+      "praeteritum": {
+        "ich": "redete",
+        "du": "redetest",
+        "er": "redete",
+        "wir": "redeten",
+        "ihr": "redetet",
+        "sie": "redeten"
+      },
+      "perfekt": {
+        "ich": "habe geredet",
+        "du": "hast geredet",
+        "er": "hat geredet",
+        "wir": "haben geredet",
+        "ihr": "habt geredet",
+        "sie": "haben geredet"
+      },
+      "futur": {
+        "ich": "werde reden",
+        "du": "wirst reden",
+        "er": "wird reden",
+        "wir": "werden reden",
+        "ihr": "werdet reden",
+        "sie": "werden reden"
+      },
+      "konjunktiv2": {
+        "ich": "würde reden",
+        "du": "würdest reden",
+        "er": "würde reden",
+        "wir": "würden reden",
+        "ihr": "würdet reden",
+        "sie": "würden reden"
+      }
+    }
+  },
+  {
+    "infinitive": "öffnen",
+    "english": "to open",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "öffne",
+        "du": "öffnest",
+        "er": "öffnet",
+        "wir": "öffnen",
+        "ihr": "öffnet",
+        "sie": "öffnen"
+      },
+      "praeteritum": {
+        "ich": "öffnete",
+        "du": "öffnetest",
+        "er": "öffnete",
+        "wir": "öffneten",
+        "ihr": "öffnetet",
+        "sie": "öffneten"
+      },
+      "perfekt": {
+        "ich": "habe geöffnet",
+        "du": "hast geöffnet",
+        "er": "hat geöffnet",
+        "wir": "haben geöffnet",
+        "ihr": "habt geöffnet",
+        "sie": "haben geöffnet"
+      },
+      "futur": {
+        "ich": "werde öffnen",
+        "du": "wirst öffnen",
+        "er": "wird öffnen",
+        "wir": "werden öffnen",
+        "ihr": "werdet öffnen",
+        "sie": "werden öffnen"
+      },
+      "konjunktiv2": {
+        "ich": "würde öffnen",
+        "du": "würdest öffnen",
+        "er": "würde öffnen",
+        "wir": "würden öffnen",
+        "ihr": "würdet öffnen",
+        "sie": "würden öffnen"
+      }
+    }
+  },
+  {
+    "infinitive": "reisen",
+    "english": "to travel",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "reise",
+        "du": "reist",
+        "er": "reist",
+        "wir": "reisen",
+        "ihr": "reist",
+        "sie": "reisen"
+      },
+      "praeteritum": {
+        "ich": "reiste",
+        "du": "reistest",
+        "er": "reiste",
+        "wir": "reisten",
+        "ihr": "reistet",
+        "sie": "reisten"
+      },
+      "perfekt": {
+        "ich": "bin gereist",
+        "du": "bist gereist",
+        "er": "ist gereist",
+        "wir": "sind gereist",
+        "ihr": "seid gereist",
+        "sie": "sind gereist"
+      },
+      "futur": {
+        "ich": "werde reisen",
+        "du": "wirst reisen",
+        "er": "wird reisen",
+        "wir": "werden reisen",
+        "ihr": "werdet reisen",
+        "sie": "werden reisen"
+      },
+      "konjunktiv2": {
+        "ich": "würde reisen",
+        "du": "würdest reisen",
+        "er": "würde reisen",
+        "wir": "würden reisen",
+        "ihr": "würdet reisen",
+        "sie": "würden reisen"
+      }
+    }
+  },
+  {
+    "infinitive": "besuchen",
+    "english": "to visit",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "besuche",
+        "du": "besuchst",
+        "er": "besucht",
+        "wir": "besuchen",
+        "ihr": "besucht",
+        "sie": "besuchen"
+      },
+      "praeteritum": {
+        "ich": "besuchte",
+        "du": "besuchtest",
+        "er": "besuchte",
+        "wir": "besuchten",
+        "ihr": "besuchtet",
+        "sie": "besuchten"
+      },
+      "perfekt": {
+        "ich": "habe besucht",
+        "du": "hast besucht",
+        "er": "hat besucht",
+        "wir": "haben besucht",
+        "ihr": "habt besucht",
+        "sie": "haben besucht"
+      },
+      "futur": {
+        "ich": "werde besuchen",
+        "du": "wirst besuchen",
+        "er": "wird besuchen",
+        "wir": "werden besuchen",
+        "ihr": "werdet besuchen",
+        "sie": "werden besuchen"
+      },
+      "konjunktiv2": {
+        "ich": "würde besuchen",
+        "du": "würdest besuchen",
+        "er": "würde besuchen",
+        "wir": "würden besuchen",
+        "ihr": "würdet besuchen",
+        "sie": "würden besuchen"
+      }
+    }
+  },
+  {
+    "infinitive": "erzählen",
+    "english": "to tell",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "erzähle",
+        "du": "erzählst",
+        "er": "erzählt",
+        "wir": "erzählen",
+        "ihr": "erzählt",
+        "sie": "erzählen"
+      },
+      "praeteritum": {
+        "ich": "erzählte",
+        "du": "erzähltest",
+        "er": "erzählte",
+        "wir": "erzählten",
+        "ihr": "erzähltet",
+        "sie": "erzählten"
+      },
+      "perfekt": {
+        "ich": "habe erzählt",
+        "du": "hast erzählt",
+        "er": "hat erzählt",
+        "wir": "haben erzählt",
+        "ihr": "habt erzählt",
+        "sie": "haben erzählt"
+      },
+      "futur": {
+        "ich": "werde erzählen",
+        "du": "wirst erzählen",
+        "er": "wird erzählen",
+        "wir": "werden erzählen",
+        "ihr": "werdet erzählen",
+        "sie": "werden erzählen"
+      },
+      "konjunktiv2": {
+        "ich": "würde erzählen",
+        "du": "würdest erzählen",
+        "er": "würde erzählen",
+        "wir": "würden erzählen",
+        "ihr": "würdet erzählen",
+        "sie": "würden erzählen"
+      }
+    }
+  },
+  {
+    "infinitive": "verkaufen",
+    "english": "to sell",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "verkaufe",
+        "du": "verkaufst",
+        "er": "verkauft",
+        "wir": "verkaufen",
+        "ihr": "verkauft",
+        "sie": "verkaufen"
+      },
+      "praeteritum": {
+        "ich": "verkaufte",
+        "du": "verkauftest",
+        "er": "verkaufte",
+        "wir": "verkauften",
+        "ihr": "verkauftet",
+        "sie": "verkauften"
+      },
+      "perfekt": {
+        "ich": "habe verkauft",
+        "du": "hast verkauft",
+        "er": "hat verkauft",
+        "wir": "haben verkauft",
+        "ihr": "habt verkauft",
+        "sie": "haben verkauft"
+      },
+      "futur": {
+        "ich": "werde verkaufen",
+        "du": "wirst verkaufen",
+        "er": "wird verkaufen",
+        "wir": "werden verkaufen",
+        "ihr": "werdet verkaufen",
+        "sie": "werden verkaufen"
+      },
+      "konjunktiv2": {
+        "ich": "würde verkaufen",
+        "du": "würdest verkaufen",
+        "er": "würde verkaufen",
+        "wir": "würden verkaufen",
+        "ihr": "würdet verkaufen",
+        "sie": "würden verkaufen"
+      }
+    }
+  },
+  {
+    "infinitive": "bezahlen",
+    "english": "to pay",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "bezahle",
+        "du": "bezahlst",
+        "er": "bezahlt",
+        "wir": "bezahlen",
+        "ihr": "bezahlt",
+        "sie": "bezahlen"
+      },
+      "praeteritum": {
+        "ich": "bezahlte",
+        "du": "bezahltest",
+        "er": "bezahlte",
+        "wir": "bezahlten",
+        "ihr": "bezahltet",
+        "sie": "bezahlten"
+      },
+      "perfekt": {
+        "ich": "habe bezahlt",
+        "du": "hast bezahlt",
+        "er": "hat bezahlt",
+        "wir": "haben bezahlt",
+        "ihr": "habt bezahlt",
+        "sie": "haben bezahlt"
+      },
+      "futur": {
+        "ich": "werde bezahlen",
+        "du": "wirst bezahlen",
+        "er": "wird bezahlen",
+        "wir": "werden bezahlen",
+        "ihr": "werdet bezahlen",
+        "sie": "werden bezahlen"
+      },
+      "konjunktiv2": {
+        "ich": "würde bezahlen",
+        "du": "würdest bezahlen",
+        "er": "würde bezahlen",
+        "wir": "würden bezahlen",
+        "ihr": "würdet bezahlen",
+        "sie": "würden bezahlen"
+      }
+    }
+  },
+  {
+    "infinitive": "studieren",
+    "english": "to study",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "studiere",
+        "du": "studierst",
+        "er": "studiert",
+        "wir": "studieren",
+        "ihr": "studiert",
+        "sie": "studieren"
+      },
+      "praeteritum": {
+        "ich": "studierte",
+        "du": "studiertest",
+        "er": "studierte",
+        "wir": "studierten",
+        "ihr": "studiertet",
+        "sie": "studierten"
+      },
+      "perfekt": {
+        "ich": "habe studiert",
+        "du": "hast studiert",
+        "er": "hat studiert",
+        "wir": "haben studiert",
+        "ihr": "habt studiert",
+        "sie": "haben studiert"
+      },
+      "futur": {
+        "ich": "werde studieren",
+        "du": "wirst studieren",
+        "er": "wird studieren",
+        "wir": "werden studieren",
+        "ihr": "werdet studieren",
+        "sie": "werden studieren"
+      },
+      "konjunktiv2": {
+        "ich": "würde studieren",
+        "du": "würdest studieren",
+        "er": "würde studieren",
+        "wir": "würden studieren",
+        "ihr": "würdet studieren",
+        "sie": "würden studieren"
+      }
+    }
+  },
+  {
+    "infinitive": "telefonieren",
+    "english": "to phone",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "telefoniere",
+        "du": "telefonierst",
+        "er": "telefoniert",
+        "wir": "telefonieren",
+        "ihr": "telefoniert",
+        "sie": "telefonieren"
+      },
+      "praeteritum": {
+        "ich": "telefonierte",
+        "du": "telefoniertest",
+        "er": "telefonierte",
+        "wir": "telefonierten",
+        "ihr": "telefoniertet",
+        "sie": "telefonierten"
+      },
+      "perfekt": {
+        "ich": "habe telefoniert",
+        "du": "hast telefoniert",
+        "er": "hat telefoniert",
+        "wir": "haben telefoniert",
+        "ihr": "habt telefoniert",
+        "sie": "haben telefoniert"
+      },
+      "futur": {
+        "ich": "werde telefonieren",
+        "du": "wirst telefonieren",
+        "er": "wird telefonieren",
+        "wir": "werden telefonieren",
+        "ihr": "werdet telefonieren",
+        "sie": "werden telefonieren"
+      },
+      "konjunktiv2": {
+        "ich": "würde telefonieren",
+        "du": "würdest telefonieren",
+        "er": "würde telefonieren",
+        "wir": "würden telefonieren",
+        "ihr": "würdet telefonieren",
+        "sie": "würden telefonieren"
+      }
+    }
+  },
+  {
+    "infinitive": "probieren",
+    "english": "to try",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "probiere",
+        "du": "probierst",
+        "er": "probiert",
+        "wir": "probieren",
+        "ihr": "probiert",
+        "sie": "probieren"
+      },
+      "praeteritum": {
+        "ich": "probierte",
+        "du": "probiertest",
+        "er": "probierte",
+        "wir": "probierten",
+        "ihr": "probiertet",
+        "sie": "probierten"
+      },
+      "perfekt": {
+        "ich": "habe probiert",
+        "du": "hast probiert",
+        "er": "hat probiert",
+        "wir": "haben probiert",
+        "ihr": "habt probiert",
+        "sie": "haben probiert"
+      },
+      "futur": {
+        "ich": "werde probieren",
+        "du": "wirst probieren",
+        "er": "wird probieren",
+        "wir": "werden probieren",
+        "ihr": "werdet probieren",
+        "sie": "werden probieren"
+      },
+      "konjunktiv2": {
+        "ich": "würde probieren",
+        "du": "würdest probieren",
+        "er": "würde probieren",
+        "wir": "würden probieren",
+        "ihr": "würdet probieren",
+        "sie": "würden probieren"
+      }
+    }
+  },
+  {
+    "infinitive": "passieren",
+    "english": "to happen",
+    "kind": "regular",
+    "conjugations": {
+      "praesens": {
+        "ich": "passiere",
+        "du": "passierst",
+        "er": "passiert",
+        "wir": "passieren",
+        "ihr": "passiert",
+        "sie": "passieren"
+      },
+      "praeteritum": {
+        "ich": "passierte",
+        "du": "passiertest",
+        "er": "passierte",
+        "wir": "passierten",
+        "ihr": "passiertet",
+        "sie": "passierten"
+      },
+      "perfekt": {
+        "ich": "bin passiert",
+        "du": "bist passiert",
+        "er": "ist passiert",
+        "wir": "sind passiert",
+        "ihr": "seid passiert",
+        "sie": "sind passiert"
+      },
+      "futur": {
+        "ich": "werde passieren",
+        "du": "wirst passieren",
+        "er": "wird passieren",
+        "wir": "werden passieren",
+        "ihr": "werdet passieren",
+        "sie": "werden passieren"
+      },
+      "konjunktiv2": {
+        "ich": "würde passieren",
+        "du": "würdest passieren",
+        "er": "würde passieren",
+        "wir": "würden passieren",
+        "ihr": "würdet passieren",
+        "sie": "würden passieren"
+      }
+    }
+  },
+  {
+    "infinitive": "sein",
+    "english": "to be",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "bin",
+        "du": "bist",
+        "er": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "sie": "sind"
+      },
+      "praeteritum": {
+        "ich": "war",
+        "du": "warst",
+        "er": "war",
+        "wir": "waren",
+        "ihr": "wart",
+        "sie": "waren"
+      },
+      "perfekt": {
+        "ich": "bin gewesen",
+        "du": "bist gewesen",
+        "er": "ist gewesen",
+        "wir": "sind gewesen",
+        "ihr": "seid gewesen",
+        "sie": "sind gewesen"
+      },
+      "futur": {
+        "ich": "werde sein",
+        "du": "wirst sein",
+        "er": "wird sein",
+        "wir": "werden sein",
+        "ihr": "werdet sein",
+        "sie": "werden sein"
+      },
+      "konjunktiv2": {
+        "ich": "wäre",
+        "du": "wärst",
+        "er": "wäre",
+        "wir": "wären",
+        "ihr": "wärt",
+        "sie": "wären"
+      }
+    }
+  },
+  {
+    "infinitive": "haben",
+    "english": "to have",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "habe",
+        "du": "hast",
+        "er": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "sie": "haben"
+      },
+      "praeteritum": {
+        "ich": "hatte",
+        "du": "hattest",
+        "er": "hatte",
+        "wir": "hatten",
+        "ihr": "hattet",
+        "sie": "hatten"
+      },
+      "perfekt": {
+        "ich": "habe gehabt",
+        "du": "hast gehabt",
+        "er": "hat gehabt",
+        "wir": "haben gehabt",
+        "ihr": "habt gehabt",
+        "sie": "haben gehabt"
+      },
+      "futur": {
+        "ich": "werde haben",
+        "du": "wirst haben",
+        "er": "wird haben",
+        "wir": "werden haben",
+        "ihr": "werdet haben",
+        "sie": "werden haben"
+      },
+      "konjunktiv2": {
+        "ich": "hätte",
+        "du": "hättest",
+        "er": "hätte",
+        "wir": "hätten",
+        "ihr": "hättet",
+        "sie": "hätten"
+      }
+    }
+  },
+  {
+    "infinitive": "werden",
+    "english": "to become",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "werde",
+        "du": "wirst",
+        "er": "wird",
+        "wir": "werden",
+        "ihr": "werdet",
+        "sie": "werden"
+      },
+      "praeteritum": {
+        "ich": "wurde",
+        "du": "wurdest",
+        "er": "wurde",
+        "wir": "wurden",
+        "ihr": "wurdet",
+        "sie": "wurden"
+      },
+      "perfekt": {
+        "ich": "bin geworden",
+        "du": "bist geworden",
+        "er": "ist geworden",
+        "wir": "sind geworden",
+        "ihr": "seid geworden",
+        "sie": "sind geworden"
+      },
+      "futur": {
+        "ich": "werde werden",
+        "du": "wirst werden",
+        "er": "wird werden",
+        "wir": "werden werden",
+        "ihr": "werdet werden",
+        "sie": "werden werden"
+      },
+      "konjunktiv2": {
+        "ich": "würde",
+        "du": "würdest",
+        "er": "würde",
+        "wir": "würden",
+        "ihr": "würdet",
+        "sie": "würden"
+      }
+    }
+  },
+  {
+    "infinitive": "gehen",
+    "english": "to go",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "sie": "gehen"
+      },
+      "praeteritum": {
+        "ich": "ging",
+        "du": "gingst",
+        "er": "ging",
+        "wir": "gingen",
+        "ihr": "gingt",
+        "sie": "gingen"
+      },
+      "perfekt": {
+        "ich": "bin gegangen",
+        "du": "bist gegangen",
+        "er": "ist gegangen",
+        "wir": "sind gegangen",
+        "ihr": "seid gegangen",
+        "sie": "sind gegangen"
+      },
+      "futur": {
+        "ich": "werde gehen",
+        "du": "wirst gehen",
+        "er": "wird gehen",
+        "wir": "werden gehen",
+        "ihr": "werdet gehen",
+        "sie": "werden gehen"
+      },
+      "konjunktiv2": {
+        "ich": "ginge",
+        "du": "gingest",
+        "er": "ginge",
+        "wir": "gingen",
+        "ihr": "ginget",
+        "sie": "gingen"
+      }
+    }
+  },
+  {
+    "infinitive": "kommen",
+    "english": "to come",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "komme",
+        "du": "kommst",
+        "er": "kommt",
+        "wir": "kommen",
+        "ihr": "kommt",
+        "sie": "kommen"
+      },
+      "praeteritum": {
+        "ich": "kam",
+        "du": "kamst",
+        "er": "kam",
+        "wir": "kamen",
+        "ihr": "kamt",
+        "sie": "kamen"
+      },
+      "perfekt": {
+        "ich": "bin gekommen",
+        "du": "bist gekommen",
+        "er": "ist gekommen",
+        "wir": "sind gekommen",
+        "ihr": "seid gekommen",
+        "sie": "sind gekommen"
+      },
+      "futur": {
+        "ich": "werde kommen",
+        "du": "wirst kommen",
+        "er": "wird kommen",
+        "wir": "werden kommen",
+        "ihr": "werdet kommen",
+        "sie": "werden kommen"
+      },
+      "konjunktiv2": {
+        "ich": "käme",
+        "du": "kämest",
+        "er": "käme",
+        "wir": "kämen",
+        "ihr": "kämet",
+        "sie": "kämen"
+      }
+    }
+  },
+  {
+    "infinitive": "sehen",
+    "english": "to see",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "sehe",
+        "du": "siehst",
+        "er": "sieht",
+        "wir": "sehen",
+        "ihr": "seht",
+        "sie": "sehen"
+      },
+      "praeteritum": {
+        "ich": "sah",
+        "du": "sahst",
+        "er": "sah",
+        "wir": "sahen",
+        "ihr": "saht",
+        "sie": "sahen"
+      },
+      "perfekt": {
+        "ich": "habe gesehen",
+        "du": "hast gesehen",
+        "er": "hat gesehen",
+        "wir": "haben gesehen",
+        "ihr": "habt gesehen",
+        "sie": "haben gesehen"
+      },
+      "futur": {
+        "ich": "werde sehen",
+        "du": "wirst sehen",
+        "er": "wird sehen",
+        "wir": "werden sehen",
+        "ihr": "werdet sehen",
+        "sie": "werden sehen"
+      },
+      "konjunktiv2": {
+        "ich": "sähe",
+        "du": "sähest",
+        "er": "sähe",
+        "wir": "sähen",
+        "ihr": "sähet",
+        "sie": "sähen"
+      }
+    }
+  },
+  {
+    "infinitive": "geben",
+    "english": "to give",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "gebe",
+        "du": "gibst",
+        "er": "gibt",
+        "wir": "geben",
+        "ihr": "gebt",
+        "sie": "geben"
+      },
+      "praeteritum": {
+        "ich": "gab",
+        "du": "gabst",
+        "er": "gab",
+        "wir": "gaben",
+        "ihr": "gabt",
+        "sie": "gaben"
+      },
+      "perfekt": {
+        "ich": "habe gegeben",
+        "du": "hast gegeben",
+        "er": "hat gegeben",
+        "wir": "haben gegeben",
+        "ihr": "habt gegeben",
+        "sie": "haben gegeben"
+      },
+      "futur": {
+        "ich": "werde geben",
+        "du": "wirst geben",
+        "er": "wird geben",
+        "wir": "werden geben",
+        "ihr": "werdet geben",
+        "sie": "werden geben"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe",
+        "du": "gäbest",
+        "er": "gäbe",
+        "wir": "gäben",
+        "ihr": "gäbet",
+        "sie": "gäben"
+      }
+    }
+  },
+  {
+    "infinitive": "nehmen",
+    "english": "to take",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "nehme",
+        "du": "nimmst",
+        "er": "nimmt",
+        "wir": "nehmen",
+        "ihr": "nehmt",
+        "sie": "nehmen"
+      },
+      "praeteritum": {
+        "ich": "nahm",
+        "du": "nahmst",
+        "er": "nahm",
+        "wir": "nahmen",
+        "ihr": "nahmt",
+        "sie": "nahmen"
+      },
+      "perfekt": {
+        "ich": "habe genommen",
+        "du": "hast genommen",
+        "er": "hat genommen",
+        "wir": "haben genommen",
+        "ihr": "habt genommen",
+        "sie": "haben genommen"
+      },
+      "futur": {
+        "ich": "werde nehmen",
+        "du": "wirst nehmen",
+        "er": "wird nehmen",
+        "wir": "werden nehmen",
+        "ihr": "werdet nehmen",
+        "sie": "werden nehmen"
+      },
+      "konjunktiv2": {
+        "ich": "nähme",
+        "du": "nähmest",
+        "er": "nähme",
+        "wir": "nähmen",
+        "ihr": "nähmet",
+        "sie": "nähmen"
+      }
+    }
+  },
+  {
+    "infinitive": "sprechen",
+    "english": "to speak",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "spreche",
+        "du": "sprichst",
+        "er": "spricht",
+        "wir": "sprechen",
+        "ihr": "sprecht",
+        "sie": "sprechen"
+      },
+      "praeteritum": {
+        "ich": "sprach",
+        "du": "sprachst",
+        "er": "sprach",
+        "wir": "sprachen",
+        "ihr": "spracht",
+        "sie": "sprachen"
+      },
+      "perfekt": {
+        "ich": "habe gesprochen",
+        "du": "hast gesprochen",
+        "er": "hat gesprochen",
+        "wir": "haben gesprochen",
+        "ihr": "habt gesprochen",
+        "sie": "haben gesprochen"
+      },
+      "futur": {
+        "ich": "werde sprechen",
+        "du": "wirst sprechen",
+        "er": "wird sprechen",
+        "wir": "werden sprechen",
+        "ihr": "werdet sprechen",
+        "sie": "werden sprechen"
+      },
+      "konjunktiv2": {
+        "ich": "würde sprechen",
+        "du": "würdest sprechen",
+        "er": "würde sprechen",
+        "wir": "würden sprechen",
+        "ihr": "würdet sprechen",
+        "sie": "würden sprechen"
+      }
+    }
+  },
+  {
+    "infinitive": "essen",
+    "english": "to eat",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "esse",
+        "du": "isst",
+        "er": "isst",
+        "wir": "essen",
+        "ihr": "esst",
+        "sie": "essen"
+      },
+      "praeteritum": {
+        "ich": "aß",
+        "du": "aßest",
+        "er": "aß",
+        "wir": "aßen",
+        "ihr": "aßt",
+        "sie": "aßen"
+      },
+      "perfekt": {
+        "ich": "habe gegessen",
+        "du": "hast gegessen",
+        "er": "hat gegessen",
+        "wir": "haben gegessen",
+        "ihr": "habt gegessen",
+        "sie": "haben gegessen"
+      },
+      "futur": {
+        "ich": "werde essen",
+        "du": "wirst essen",
+        "er": "wird essen",
+        "wir": "werden essen",
+        "ihr": "werdet essen",
+        "sie": "werden essen"
+      },
+      "konjunktiv2": {
+        "ich": "würde essen",
+        "du": "würdest essen",
+        "er": "würde essen",
+        "wir": "würden essen",
+        "ihr": "würdet essen",
+        "sie": "würden essen"
+      }
+    }
+  },
+  {
+    "infinitive": "trinken",
+    "english": "to drink",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "trinke",
+        "du": "trinkst",
+        "er": "trinkt",
+        "wir": "trinken",
+        "ihr": "trinkt",
+        "sie": "trinken"
+      },
+      "praeteritum": {
+        "ich": "trank",
+        "du": "trankst",
+        "er": "trank",
+        "wir": "tranken",
+        "ihr": "trankt",
+        "sie": "tranken"
+      },
+      "perfekt": {
+        "ich": "habe getrunken",
+        "du": "hast getrunken",
+        "er": "hat getrunken",
+        "wir": "haben getrunken",
+        "ihr": "habt getrunken",
+        "sie": "haben getrunken"
+      },
+      "futur": {
+        "ich": "werde trinken",
+        "du": "wirst trinken",
+        "er": "wird trinken",
+        "wir": "werden trinken",
+        "ihr": "werdet trinken",
+        "sie": "werden trinken"
+      },
+      "konjunktiv2": {
+        "ich": "würde trinken",
+        "du": "würdest trinken",
+        "er": "würde trinken",
+        "wir": "würden trinken",
+        "ihr": "würdet trinken",
+        "sie": "würden trinken"
+      }
+    }
+  },
+  {
+    "infinitive": "fahren",
+    "english": "to drive / go",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "fahre",
+        "du": "fährst",
+        "er": "fährt",
+        "wir": "fahren",
+        "ihr": "fahrt",
+        "sie": "fahren"
+      },
+      "praeteritum": {
+        "ich": "fuhr",
+        "du": "fuhrst",
+        "er": "fuhr",
+        "wir": "fuhren",
+        "ihr": "fuhrt",
+        "sie": "fuhren"
+      },
+      "perfekt": {
+        "ich": "bin gefahren",
+        "du": "bist gefahren",
+        "er": "ist gefahren",
+        "wir": "sind gefahren",
+        "ihr": "seid gefahren",
+        "sie": "sind gefahren"
+      },
+      "futur": {
+        "ich": "werde fahren",
+        "du": "wirst fahren",
+        "er": "wird fahren",
+        "wir": "werden fahren",
+        "ihr": "werdet fahren",
+        "sie": "werden fahren"
+      },
+      "konjunktiv2": {
+        "ich": "würde fahren",
+        "du": "würdest fahren",
+        "er": "würde fahren",
+        "wir": "würden fahren",
+        "ihr": "würdet fahren",
+        "sie": "würden fahren"
+      }
+    }
+  },
+  {
+    "infinitive": "laufen",
+    "english": "to run / walk",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "laufe",
+        "du": "läufst",
+        "er": "läuft",
+        "wir": "laufen",
+        "ihr": "lauft",
+        "sie": "laufen"
+      },
+      "praeteritum": {
+        "ich": "lief",
+        "du": "liefst",
+        "er": "lief",
+        "wir": "liefen",
+        "ihr": "lieft",
+        "sie": "liefen"
+      },
+      "perfekt": {
+        "ich": "bin gelaufen",
+        "du": "bist gelaufen",
+        "er": "ist gelaufen",
+        "wir": "sind gelaufen",
+        "ihr": "seid gelaufen",
+        "sie": "sind gelaufen"
+      },
+      "futur": {
+        "ich": "werde laufen",
+        "du": "wirst laufen",
+        "er": "wird laufen",
+        "wir": "werden laufen",
+        "ihr": "werdet laufen",
+        "sie": "werden laufen"
+      },
+      "konjunktiv2": {
+        "ich": "würde laufen",
+        "du": "würdest laufen",
+        "er": "würde laufen",
+        "wir": "würden laufen",
+        "ihr": "würdet laufen",
+        "sie": "würden laufen"
+      }
+    }
+  },
+  {
+    "infinitive": "lesen",
+    "english": "to read",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "lese",
+        "du": "liest",
+        "er": "liest",
+        "wir": "lesen",
+        "ihr": "lest",
+        "sie": "lesen"
+      },
+      "praeteritum": {
+        "ich": "las",
+        "du": "lasest",
+        "er": "las",
+        "wir": "lasen",
+        "ihr": "last",
+        "sie": "lasen"
+      },
+      "perfekt": {
+        "ich": "habe gelesen",
+        "du": "hast gelesen",
+        "er": "hat gelesen",
+        "wir": "haben gelesen",
+        "ihr": "habt gelesen",
+        "sie": "haben gelesen"
+      },
+      "futur": {
+        "ich": "werde lesen",
+        "du": "wirst lesen",
+        "er": "wird lesen",
+        "wir": "werden lesen",
+        "ihr": "werdet lesen",
+        "sie": "werden lesen"
+      },
+      "konjunktiv2": {
+        "ich": "würde lesen",
+        "du": "würdest lesen",
+        "er": "würde lesen",
+        "wir": "würden lesen",
+        "ihr": "würdet lesen",
+        "sie": "würden lesen"
+      }
+    }
+  },
+  {
+    "infinitive": "schreiben",
+    "english": "to write",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "schreibe",
+        "du": "schreibst",
+        "er": "schreibt",
+        "wir": "schreiben",
+        "ihr": "schreibt",
+        "sie": "schreiben"
+      },
+      "praeteritum": {
+        "ich": "schrieb",
+        "du": "schriebst",
+        "er": "schrieb",
+        "wir": "schrieben",
+        "ihr": "schriebt",
+        "sie": "schrieben"
+      },
+      "perfekt": {
+        "ich": "habe geschrieben",
+        "du": "hast geschrieben",
+        "er": "hat geschrieben",
+        "wir": "haben geschrieben",
+        "ihr": "habt geschrieben",
+        "sie": "haben geschrieben"
+      },
+      "futur": {
+        "ich": "werde schreiben",
+        "du": "wirst schreiben",
+        "er": "wird schreiben",
+        "wir": "werden schreiben",
+        "ihr": "werdet schreiben",
+        "sie": "werden schreiben"
+      },
+      "konjunktiv2": {
+        "ich": "würde schreiben",
+        "du": "würdest schreiben",
+        "er": "würde schreiben",
+        "wir": "würden schreiben",
+        "ihr": "würdet schreiben",
+        "sie": "würden schreiben"
+      }
+    }
+  },
+  {
+    "infinitive": "schlafen",
+    "english": "to sleep",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "er": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "sie": "schlafen"
+      },
+      "praeteritum": {
+        "ich": "schlief",
+        "du": "schliefst",
+        "er": "schlief",
+        "wir": "schliefen",
+        "ihr": "schlieft",
+        "sie": "schliefen"
+      },
+      "perfekt": {
+        "ich": "habe geschlafen",
+        "du": "hast geschlafen",
+        "er": "hat geschlafen",
+        "wir": "haben geschlafen",
+        "ihr": "habt geschlafen",
+        "sie": "haben geschlafen"
+      },
+      "futur": {
+        "ich": "werde schlafen",
+        "du": "wirst schlafen",
+        "er": "wird schlafen",
+        "wir": "werden schlafen",
+        "ihr": "werdet schlafen",
+        "sie": "werden schlafen"
+      },
+      "konjunktiv2": {
+        "ich": "würde schlafen",
+        "du": "würdest schlafen",
+        "er": "würde schlafen",
+        "wir": "würden schlafen",
+        "ihr": "würdet schlafen",
+        "sie": "würden schlafen"
+      }
+    }
+  },
+  {
+    "infinitive": "tragen",
+    "english": "to carry / wear",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "trage",
+        "du": "trägst",
+        "er": "trägt",
+        "wir": "tragen",
+        "ihr": "tragt",
+        "sie": "tragen"
+      },
+      "praeteritum": {
+        "ich": "trug",
+        "du": "trugst",
+        "er": "trug",
+        "wir": "trugen",
+        "ihr": "trugt",
+        "sie": "trugen"
+      },
+      "perfekt": {
+        "ich": "habe getragen",
+        "du": "hast getragen",
+        "er": "hat getragen",
+        "wir": "haben getragen",
+        "ihr": "habt getragen",
+        "sie": "haben getragen"
+      },
+      "futur": {
+        "ich": "werde tragen",
+        "du": "wirst tragen",
+        "er": "wird tragen",
+        "wir": "werden tragen",
+        "ihr": "werdet tragen",
+        "sie": "werden tragen"
+      },
+      "konjunktiv2": {
+        "ich": "würde tragen",
+        "du": "würdest tragen",
+        "er": "würde tragen",
+        "wir": "würden tragen",
+        "ihr": "würdet tragen",
+        "sie": "würden tragen"
+      }
+    }
+  },
+  {
+    "infinitive": "finden",
+    "english": "to find",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "finde",
+        "du": "findest",
+        "er": "findet",
+        "wir": "finden",
+        "ihr": "findet",
+        "sie": "finden"
+      },
+      "praeteritum": {
+        "ich": "fand",
+        "du": "fandest",
+        "er": "fand",
+        "wir": "fanden",
+        "ihr": "fandet",
+        "sie": "fanden"
+      },
+      "perfekt": {
+        "ich": "habe gefunden",
+        "du": "hast gefunden",
+        "er": "hat gefunden",
+        "wir": "haben gefunden",
+        "ihr": "habt gefunden",
+        "sie": "haben gefunden"
+      },
+      "futur": {
+        "ich": "werde finden",
+        "du": "wirst finden",
+        "er": "wird finden",
+        "wir": "werden finden",
+        "ihr": "werdet finden",
+        "sie": "werden finden"
+      },
+      "konjunktiv2": {
+        "ich": "fände",
+        "du": "fändest",
+        "er": "fände",
+        "wir": "fänden",
+        "ihr": "fändet",
+        "sie": "fänden"
+      }
+    }
+  },
+  {
+    "infinitive": "sitzen",
+    "english": "to sit",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "sitze",
+        "du": "sitzt",
+        "er": "sitzt",
+        "wir": "sitzen",
+        "ihr": "sitzt",
+        "sie": "sitzen"
+      },
+      "praeteritum": {
+        "ich": "saß",
+        "du": "saßest",
+        "er": "saß",
+        "wir": "saßen",
+        "ihr": "saßt",
+        "sie": "saßen"
+      },
+      "perfekt": {
+        "ich": "habe gesessen",
+        "du": "hast gesessen",
+        "er": "hat gesessen",
+        "wir": "haben gesessen",
+        "ihr": "habt gesessen",
+        "sie": "haben gesessen"
+      },
+      "futur": {
+        "ich": "werde sitzen",
+        "du": "wirst sitzen",
+        "er": "wird sitzen",
+        "wir": "werden sitzen",
+        "ihr": "werdet sitzen",
+        "sie": "werden sitzen"
+      },
+      "konjunktiv2": {
+        "ich": "würde sitzen",
+        "du": "würdest sitzen",
+        "er": "würde sitzen",
+        "wir": "würden sitzen",
+        "ihr": "würdet sitzen",
+        "sie": "würden sitzen"
+      }
+    }
+  },
+  {
+    "infinitive": "stehen",
+    "english": "to stand",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "stehe",
+        "du": "stehst",
+        "er": "steht",
+        "wir": "stehen",
+        "ihr": "steht",
+        "sie": "stehen"
+      },
+      "praeteritum": {
+        "ich": "stand",
+        "du": "standest",
+        "er": "stand",
+        "wir": "standen",
+        "ihr": "standet",
+        "sie": "standen"
+      },
+      "perfekt": {
+        "ich": "habe gestanden",
+        "du": "hast gestanden",
+        "er": "hat gestanden",
+        "wir": "haben gestanden",
+        "ihr": "habt gestanden",
+        "sie": "haben gestanden"
+      },
+      "futur": {
+        "ich": "werde stehen",
+        "du": "wirst stehen",
+        "er": "wird stehen",
+        "wir": "werden stehen",
+        "ihr": "werdet stehen",
+        "sie": "werden stehen"
+      },
+      "konjunktiv2": {
+        "ich": "würde stehen",
+        "du": "würdest stehen",
+        "er": "würde stehen",
+        "wir": "würden stehen",
+        "ihr": "würdet stehen",
+        "sie": "würden stehen"
+      }
+    }
+  },
+  {
+    "infinitive": "liegen",
+    "english": "to lie / be located",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "liege",
+        "du": "liegst",
+        "er": "liegt",
+        "wir": "liegen",
+        "ihr": "liegt",
+        "sie": "liegen"
+      },
+      "praeteritum": {
+        "ich": "lag",
+        "du": "lagst",
+        "er": "lag",
+        "wir": "lagen",
+        "ihr": "lagt",
+        "sie": "lagen"
+      },
+      "perfekt": {
+        "ich": "habe gelegen",
+        "du": "hast gelegen",
+        "er": "hat gelegen",
+        "wir": "haben gelegen",
+        "ihr": "habt gelegen",
+        "sie": "haben gelegen"
+      },
+      "futur": {
+        "ich": "werde liegen",
+        "du": "wirst liegen",
+        "er": "wird liegen",
+        "wir": "werden liegen",
+        "ihr": "werdet liegen",
+        "sie": "werden liegen"
+      },
+      "konjunktiv2": {
+        "ich": "würde liegen",
+        "du": "würdest liegen",
+        "er": "würde liegen",
+        "wir": "würden liegen",
+        "ihr": "würdet liegen",
+        "sie": "würden liegen"
+      }
+    }
+  },
+  {
+    "infinitive": "bleiben",
+    "english": "to stay",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "bleibe",
+        "du": "bleibst",
+        "er": "bleibt",
+        "wir": "bleiben",
+        "ihr": "bleibt",
+        "sie": "bleiben"
+      },
+      "praeteritum": {
+        "ich": "blieb",
+        "du": "bliebst",
+        "er": "blieb",
+        "wir": "blieben",
+        "ihr": "bliebt",
+        "sie": "blieben"
+      },
+      "perfekt": {
+        "ich": "bin geblieben",
+        "du": "bist geblieben",
+        "er": "ist geblieben",
+        "wir": "sind geblieben",
+        "ihr": "seid geblieben",
+        "sie": "sind geblieben"
+      },
+      "futur": {
+        "ich": "werde bleiben",
+        "du": "wirst bleiben",
+        "er": "wird bleiben",
+        "wir": "werden bleiben",
+        "ihr": "werdet bleiben",
+        "sie": "werden bleiben"
+      },
+      "konjunktiv2": {
+        "ich": "würde bleiben",
+        "du": "würdest bleiben",
+        "er": "würde bleiben",
+        "wir": "würden bleiben",
+        "ihr": "würdet bleiben",
+        "sie": "würden bleiben"
+      }
+    }
+  },
+  {
+    "infinitive": "heißen",
+    "english": "to be called",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "heiße",
+        "du": "heißt",
+        "er": "heißt",
+        "wir": "heißen",
+        "ihr": "heißt",
+        "sie": "heißen"
+      },
+      "praeteritum": {
+        "ich": "hieß",
+        "du": "hießest",
+        "er": "hieß",
+        "wir": "hießen",
+        "ihr": "hießt",
+        "sie": "hießen"
+      },
+      "perfekt": {
+        "ich": "habe geheißen",
+        "du": "hast geheißen",
+        "er": "hat geheißen",
+        "wir": "haben geheißen",
+        "ihr": "habt geheißen",
+        "sie": "haben geheißen"
+      },
+      "futur": {
+        "ich": "werde heißen",
+        "du": "wirst heißen",
+        "er": "wird heißen",
+        "wir": "werden heißen",
+        "ihr": "werdet heißen",
+        "sie": "werden heißen"
+      },
+      "konjunktiv2": {
+        "ich": "würde heißen",
+        "du": "würdest heißen",
+        "er": "würde heißen",
+        "wir": "würden heißen",
+        "ihr": "würdet heißen",
+        "sie": "würden heißen"
+      }
+    }
+  },
+  {
+    "infinitive": "halten",
+    "english": "to hold / stop",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "halte",
+        "du": "hältst",
+        "er": "hält",
+        "wir": "halten",
+        "ihr": "haltet",
+        "sie": "halten"
+      },
+      "praeteritum": {
+        "ich": "hielt",
+        "du": "hieltest",
+        "er": "hielt",
+        "wir": "hielten",
+        "ihr": "hieltet",
+        "sie": "hielten"
+      },
+      "perfekt": {
+        "ich": "habe gehalten",
+        "du": "hast gehalten",
+        "er": "hat gehalten",
+        "wir": "haben gehalten",
+        "ihr": "habt gehalten",
+        "sie": "haben gehalten"
+      },
+      "futur": {
+        "ich": "werde halten",
+        "du": "wirst halten",
+        "er": "wird halten",
+        "wir": "werden halten",
+        "ihr": "werdet halten",
+        "sie": "werden halten"
+      },
+      "konjunktiv2": {
+        "ich": "würde halten",
+        "du": "würdest halten",
+        "er": "würde halten",
+        "wir": "würden halten",
+        "ihr": "würdet halten",
+        "sie": "würden halten"
+      }
+    }
+  },
+  {
+    "infinitive": "helfen",
+    "english": "to help",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "helfe",
+        "du": "hilfst",
+        "er": "hilft",
+        "wir": "helfen",
+        "ihr": "helft",
+        "sie": "helfen"
+      },
+      "praeteritum": {
+        "ich": "half",
+        "du": "halfst",
+        "er": "half",
+        "wir": "halfen",
+        "ihr": "halft",
+        "sie": "halfen"
+      },
+      "perfekt": {
+        "ich": "habe geholfen",
+        "du": "hast geholfen",
+        "er": "hat geholfen",
+        "wir": "haben geholfen",
+        "ihr": "habt geholfen",
+        "sie": "haben geholfen"
+      },
+      "futur": {
+        "ich": "werde helfen",
+        "du": "wirst helfen",
+        "er": "wird helfen",
+        "wir": "werden helfen",
+        "ihr": "werdet helfen",
+        "sie": "werden helfen"
+      },
+      "konjunktiv2": {
+        "ich": "würde helfen",
+        "du": "würdest helfen",
+        "er": "würde helfen",
+        "wir": "würden helfen",
+        "ihr": "würdet helfen",
+        "sie": "würden helfen"
+      }
+    }
+  },
+  {
+    "infinitive": "treffen",
+    "english": "to meet",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "treffe",
+        "du": "triffst",
+        "er": "trifft",
+        "wir": "treffen",
+        "ihr": "trefft",
+        "sie": "treffen"
+      },
+      "praeteritum": {
+        "ich": "traf",
+        "du": "trafst",
+        "er": "traf",
+        "wir": "trafen",
+        "ihr": "traft",
+        "sie": "trafen"
+      },
+      "perfekt": {
+        "ich": "habe getroffen",
+        "du": "hast getroffen",
+        "er": "hat getroffen",
+        "wir": "haben getroffen",
+        "ihr": "habt getroffen",
+        "sie": "haben getroffen"
+      },
+      "futur": {
+        "ich": "werde treffen",
+        "du": "wirst treffen",
+        "er": "wird treffen",
+        "wir": "werden treffen",
+        "ihr": "werdet treffen",
+        "sie": "werden treffen"
+      },
+      "konjunktiv2": {
+        "ich": "würde treffen",
+        "du": "würdest treffen",
+        "er": "würde treffen",
+        "wir": "würden treffen",
+        "ihr": "würdet treffen",
+        "sie": "würden treffen"
+      }
+    }
+  },
+  {
+    "infinitive": "vergessen",
+    "english": "to forget",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "vergesse",
+        "du": "vergisst",
+        "er": "vergisst",
+        "wir": "vergessen",
+        "ihr": "vergesst",
+        "sie": "vergessen"
+      },
+      "praeteritum": {
+        "ich": "vergaß",
+        "du": "vergaßest",
+        "er": "vergaß",
+        "wir": "vergaßen",
+        "ihr": "vergaßt",
+        "sie": "vergaßen"
+      },
+      "perfekt": {
+        "ich": "habe vergessen",
+        "du": "hast vergessen",
+        "er": "hat vergessen",
+        "wir": "haben vergessen",
+        "ihr": "habt vergessen",
+        "sie": "haben vergessen"
+      },
+      "futur": {
+        "ich": "werde vergessen",
+        "du": "wirst vergessen",
+        "er": "wird vergessen",
+        "wir": "werden vergessen",
+        "ihr": "werdet vergessen",
+        "sie": "werden vergessen"
+      },
+      "konjunktiv2": {
+        "ich": "würde vergessen",
+        "du": "würdest vergessen",
+        "er": "würde vergessen",
+        "wir": "würden vergessen",
+        "ihr": "würdet vergessen",
+        "sie": "würden vergessen"
+      }
+    }
+  },
+  {
+    "infinitive": "verstehen",
+    "english": "to understand",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "verstehe",
+        "du": "verstehst",
+        "er": "versteht",
+        "wir": "verstehen",
+        "ihr": "versteht",
+        "sie": "verstehen"
+      },
+      "praeteritum": {
+        "ich": "verstand",
+        "du": "verstandest",
+        "er": "verstand",
+        "wir": "verstanden",
+        "ihr": "verstandet",
+        "sie": "verstanden"
+      },
+      "perfekt": {
+        "ich": "habe verstanden",
+        "du": "hast verstanden",
+        "er": "hat verstanden",
+        "wir": "haben verstanden",
+        "ihr": "habt verstanden",
+        "sie": "haben verstanden"
+      },
+      "futur": {
+        "ich": "werde verstehen",
+        "du": "wirst verstehen",
+        "er": "wird verstehen",
+        "wir": "werden verstehen",
+        "ihr": "werdet verstehen",
+        "sie": "werden verstehen"
+      },
+      "konjunktiv2": {
+        "ich": "würde verstehen",
+        "du": "würdest verstehen",
+        "er": "würde verstehen",
+        "wir": "würden verstehen",
+        "ihr": "würdet verstehen",
+        "sie": "würden verstehen"
+      }
+    }
+  },
+  {
+    "infinitive": "gefallen",
+    "english": "to please / like",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "gefalle",
+        "du": "gefällst",
+        "er": "gefällt",
+        "wir": "gefallen",
+        "ihr": "gefallt",
+        "sie": "gefallen"
+      },
+      "praeteritum": {
+        "ich": "gefiel",
+        "du": "gefielst",
+        "er": "gefiel",
+        "wir": "gefielen",
+        "ihr": "gefielt",
+        "sie": "gefielen"
+      },
+      "perfekt": {
+        "ich": "habe gefallen",
+        "du": "hast gefallen",
+        "er": "hat gefallen",
+        "wir": "haben gefallen",
+        "ihr": "habt gefallen",
+        "sie": "haben gefallen"
+      },
+      "futur": {
+        "ich": "werde gefallen",
+        "du": "wirst gefallen",
+        "er": "wird gefallen",
+        "wir": "werden gefallen",
+        "ihr": "werdet gefallen",
+        "sie": "werden gefallen"
+      },
+      "konjunktiv2": {
+        "ich": "würde gefallen",
+        "du": "würdest gefallen",
+        "er": "würde gefallen",
+        "wir": "würden gefallen",
+        "ihr": "würdet gefallen",
+        "sie": "würden gefallen"
+      }
+    }
+  },
+  {
+    "infinitive": "bekommen",
+    "english": "to receive",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "bekomme",
+        "du": "bekommst",
+        "er": "bekommt",
+        "wir": "bekommen",
+        "ihr": "bekommt",
+        "sie": "bekommen"
+      },
+      "praeteritum": {
+        "ich": "bekam",
+        "du": "bekamst",
+        "er": "bekam",
+        "wir": "bekamen",
+        "ihr": "bekamt",
+        "sie": "bekamen"
+      },
+      "perfekt": {
+        "ich": "habe bekommen",
+        "du": "hast bekommen",
+        "er": "hat bekommen",
+        "wir": "haben bekommen",
+        "ihr": "habt bekommen",
+        "sie": "haben bekommen"
+      },
+      "futur": {
+        "ich": "werde bekommen",
+        "du": "wirst bekommen",
+        "er": "wird bekommen",
+        "wir": "werden bekommen",
+        "ihr": "werdet bekommen",
+        "sie": "werden bekommen"
+      },
+      "konjunktiv2": {
+        "ich": "würde bekommen",
+        "du": "würdest bekommen",
+        "er": "würde bekommen",
+        "wir": "würden bekommen",
+        "ihr": "würdet bekommen",
+        "sie": "würden bekommen"
+      }
+    }
+  },
+  {
+    "infinitive": "beginnen",
+    "english": "to begin",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "beginne",
+        "du": "beginnst",
+        "er": "beginnt",
+        "wir": "beginnen",
+        "ihr": "beginnt",
+        "sie": "beginnen"
+      },
+      "praeteritum": {
+        "ich": "begann",
+        "du": "begannst",
+        "er": "begann",
+        "wir": "begannen",
+        "ihr": "begannt",
+        "sie": "begannen"
+      },
+      "perfekt": {
+        "ich": "habe begonnen",
+        "du": "hast begonnen",
+        "er": "hat begonnen",
+        "wir": "haben begonnen",
+        "ihr": "habt begonnen",
+        "sie": "haben begonnen"
+      },
+      "futur": {
+        "ich": "werde beginnen",
+        "du": "wirst beginnen",
+        "er": "wird beginnen",
+        "wir": "werden beginnen",
+        "ihr": "werdet beginnen",
+        "sie": "werden beginnen"
+      },
+      "konjunktiv2": {
+        "ich": "würde beginnen",
+        "du": "würdest beginnen",
+        "er": "würde beginnen",
+        "wir": "würden beginnen",
+        "ihr": "würdet beginnen",
+        "sie": "würden beginnen"
+      }
+    }
+  },
+  {
+    "infinitive": "gewinnen",
+    "english": "to win",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "gewinne",
+        "du": "gewinnst",
+        "er": "gewinnt",
+        "wir": "gewinnen",
+        "ihr": "gewinnt",
+        "sie": "gewinnen"
+      },
+      "praeteritum": {
+        "ich": "gewann",
+        "du": "gewannst",
+        "er": "gewann",
+        "wir": "gewannen",
+        "ihr": "gewannt",
+        "sie": "gewannen"
+      },
+      "perfekt": {
+        "ich": "habe gewonnen",
+        "du": "hast gewonnen",
+        "er": "hat gewonnen",
+        "wir": "haben gewonnen",
+        "ihr": "habt gewonnen",
+        "sie": "haben gewonnen"
+      },
+      "futur": {
+        "ich": "werde gewinnen",
+        "du": "wirst gewinnen",
+        "er": "wird gewinnen",
+        "wir": "werden gewinnen",
+        "ihr": "werdet gewinnen",
+        "sie": "werden gewinnen"
+      },
+      "konjunktiv2": {
+        "ich": "würde gewinnen",
+        "du": "würdest gewinnen",
+        "er": "würde gewinnen",
+        "wir": "würden gewinnen",
+        "ihr": "würdet gewinnen",
+        "sie": "würden gewinnen"
+      }
+    }
+  },
+  {
+    "infinitive": "singen",
+    "english": "to sing",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "singe",
+        "du": "singst",
+        "er": "singt",
+        "wir": "singen",
+        "ihr": "singt",
+        "sie": "singen"
+      },
+      "praeteritum": {
+        "ich": "sang",
+        "du": "sangst",
+        "er": "sang",
+        "wir": "sangen",
+        "ihr": "sangt",
+        "sie": "sangen"
+      },
+      "perfekt": {
+        "ich": "habe gesungen",
+        "du": "hast gesungen",
+        "er": "hat gesungen",
+        "wir": "haben gesungen",
+        "ihr": "habt gesungen",
+        "sie": "haben gesungen"
+      },
+      "futur": {
+        "ich": "werde singen",
+        "du": "wirst singen",
+        "er": "wird singen",
+        "wir": "werden singen",
+        "ihr": "werdet singen",
+        "sie": "werden singen"
+      },
+      "konjunktiv2": {
+        "ich": "würde singen",
+        "du": "würdest singen",
+        "er": "würde singen",
+        "wir": "würden singen",
+        "ihr": "würdet singen",
+        "sie": "würden singen"
+      }
+    }
+  },
+  {
+    "infinitive": "fliegen",
+    "english": "to fly",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "fliege",
+        "du": "fliegst",
+        "er": "fliegt",
+        "wir": "fliegen",
+        "ihr": "fliegt",
+        "sie": "fliegen"
+      },
+      "praeteritum": {
+        "ich": "flog",
+        "du": "flogst",
+        "er": "flog",
+        "wir": "flogen",
+        "ihr": "flogt",
+        "sie": "flogen"
+      },
+      "perfekt": {
+        "ich": "bin geflogen",
+        "du": "bist geflogen",
+        "er": "ist geflogen",
+        "wir": "sind geflogen",
+        "ihr": "seid geflogen",
+        "sie": "sind geflogen"
+      },
+      "futur": {
+        "ich": "werde fliegen",
+        "du": "wirst fliegen",
+        "er": "wird fliegen",
+        "wir": "werden fliegen",
+        "ihr": "werdet fliegen",
+        "sie": "werden fliegen"
+      },
+      "konjunktiv2": {
+        "ich": "würde fliegen",
+        "du": "würdest fliegen",
+        "er": "würde fliegen",
+        "wir": "würden fliegen",
+        "ihr": "würdet fliegen",
+        "sie": "würden fliegen"
+      }
+    }
+  },
+  {
+    "infinitive": "schwimmen",
+    "english": "to swim",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "schwimme",
+        "du": "schwimmst",
+        "er": "schwimmt",
+        "wir": "schwimmen",
+        "ihr": "schwimmt",
+        "sie": "schwimmen"
+      },
+      "praeteritum": {
+        "ich": "schwamm",
+        "du": "schwammst",
+        "er": "schwamm",
+        "wir": "schwammen",
+        "ihr": "schwammt",
+        "sie": "schwammen"
+      },
+      "perfekt": {
+        "ich": "bin geschwommen",
+        "du": "bist geschwommen",
+        "er": "ist geschwommen",
+        "wir": "sind geschwommen",
+        "ihr": "seid geschwommen",
+        "sie": "sind geschwommen"
+      },
+      "futur": {
+        "ich": "werde schwimmen",
+        "du": "wirst schwimmen",
+        "er": "wird schwimmen",
+        "wir": "werden schwimmen",
+        "ihr": "werdet schwimmen",
+        "sie": "werden schwimmen"
+      },
+      "konjunktiv2": {
+        "ich": "würde schwimmen",
+        "du": "würdest schwimmen",
+        "er": "würde schwimmen",
+        "wir": "würden schwimmen",
+        "ihr": "würdet schwimmen",
+        "sie": "würden schwimmen"
+      }
+    }
+  },
+  {
+    "infinitive": "waschen",
+    "english": "to wash",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "wasche",
+        "du": "wäschst",
+        "er": "wäscht",
+        "wir": "waschen",
+        "ihr": "wascht",
+        "sie": "waschen"
+      },
+      "praeteritum": {
+        "ich": "wusch",
+        "du": "wuschst",
+        "er": "wusch",
+        "wir": "wuschen",
+        "ihr": "wuscht",
+        "sie": "wuschen"
+      },
+      "perfekt": {
+        "ich": "habe gewaschen",
+        "du": "hast gewaschen",
+        "er": "hat gewaschen",
+        "wir": "haben gewaschen",
+        "ihr": "habt gewaschen",
+        "sie": "haben gewaschen"
+      },
+      "futur": {
+        "ich": "werde waschen",
+        "du": "wirst waschen",
+        "er": "wird waschen",
+        "wir": "werden waschen",
+        "ihr": "werdet waschen",
+        "sie": "werden waschen"
+      },
+      "konjunktiv2": {
+        "ich": "würde waschen",
+        "du": "würdest waschen",
+        "er": "würde waschen",
+        "wir": "würden waschen",
+        "ihr": "würdet waschen",
+        "sie": "würden waschen"
+      }
+    }
+  },
+  {
+    "infinitive": "rufen",
+    "english": "to call / shout",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "rufe",
+        "du": "rufst",
+        "er": "ruft",
+        "wir": "rufen",
+        "ihr": "ruft",
+        "sie": "rufen"
+      },
+      "praeteritum": {
+        "ich": "rief",
+        "du": "riefst",
+        "er": "rief",
+        "wir": "riefen",
+        "ihr": "rieft",
+        "sie": "riefen"
+      },
+      "perfekt": {
+        "ich": "habe gerufen",
+        "du": "hast gerufen",
+        "er": "hat gerufen",
+        "wir": "haben gerufen",
+        "ihr": "habt gerufen",
+        "sie": "haben gerufen"
+      },
+      "futur": {
+        "ich": "werde rufen",
+        "du": "wirst rufen",
+        "er": "wird rufen",
+        "wir": "werden rufen",
+        "ihr": "werdet rufen",
+        "sie": "werden rufen"
+      },
+      "konjunktiv2": {
+        "ich": "würde rufen",
+        "du": "würdest rufen",
+        "er": "würde rufen",
+        "wir": "würden rufen",
+        "ihr": "würdet rufen",
+        "sie": "würden rufen"
+      }
+    }
+  },
+  {
+    "infinitive": "lassen",
+    "english": "to let / leave",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "lasse",
+        "du": "lässt",
+        "er": "lässt",
+        "wir": "lassen",
+        "ihr": "lasst",
+        "sie": "lassen"
+      },
+      "praeteritum": {
+        "ich": "ließ",
+        "du": "ließest",
+        "er": "ließ",
+        "wir": "ließen",
+        "ihr": "ließt",
+        "sie": "ließen"
+      },
+      "perfekt": {
+        "ich": "habe gelassen",
+        "du": "hast gelassen",
+        "er": "hat gelassen",
+        "wir": "haben gelassen",
+        "ihr": "habt gelassen",
+        "sie": "haben gelassen"
+      },
+      "futur": {
+        "ich": "werde lassen",
+        "du": "wirst lassen",
+        "er": "wird lassen",
+        "wir": "werden lassen",
+        "ihr": "werdet lassen",
+        "sie": "werden lassen"
+      },
+      "konjunktiv2": {
+        "ich": "würde lassen",
+        "du": "würdest lassen",
+        "er": "würde lassen",
+        "wir": "würden lassen",
+        "ihr": "würdet lassen",
+        "sie": "würden lassen"
+      }
+    }
+  },
+  {
+    "infinitive": "fallen",
+    "english": "to fall",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "falle",
+        "du": "fällst",
+        "er": "fällt",
+        "wir": "fallen",
+        "ihr": "fallt",
+        "sie": "fallen"
+      },
+      "praeteritum": {
+        "ich": "fiel",
+        "du": "fielst",
+        "er": "fiel",
+        "wir": "fielen",
+        "ihr": "fielt",
+        "sie": "fielen"
+      },
+      "perfekt": {
+        "ich": "bin gefallen",
+        "du": "bist gefallen",
+        "er": "ist gefallen",
+        "wir": "sind gefallen",
+        "ihr": "seid gefallen",
+        "sie": "sind gefallen"
+      },
+      "futur": {
+        "ich": "werde fallen",
+        "du": "wirst fallen",
+        "er": "wird fallen",
+        "wir": "werden fallen",
+        "ihr": "werdet fallen",
+        "sie": "werden fallen"
+      },
+      "konjunktiv2": {
+        "ich": "würde fallen",
+        "du": "würdest fallen",
+        "er": "würde fallen",
+        "wir": "würden fallen",
+        "ihr": "würdet fallen",
+        "sie": "würden fallen"
+      }
+    }
+  },
+  {
+    "infinitive": "tun",
+    "english": "to do",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "tue",
+        "du": "tust",
+        "er": "tut",
+        "wir": "tun",
+        "ihr": "tut",
+        "sie": "tun"
+      },
+      "praeteritum": {
+        "ich": "tat",
+        "du": "tatest",
+        "er": "tat",
+        "wir": "taten",
+        "ihr": "tatet",
+        "sie": "taten"
+      },
+      "perfekt": {
+        "ich": "habe getan",
+        "du": "hast getan",
+        "er": "hat getan",
+        "wir": "haben getan",
+        "ihr": "habt getan",
+        "sie": "haben getan"
+      },
+      "futur": {
+        "ich": "werde tun",
+        "du": "wirst tun",
+        "er": "wird tun",
+        "wir": "werden tun",
+        "ihr": "werdet tun",
+        "sie": "werden tun"
+      },
+      "konjunktiv2": {
+        "ich": "würde tun",
+        "du": "würdest tun",
+        "er": "würde tun",
+        "wir": "würden tun",
+        "ihr": "würdet tun",
+        "sie": "würden tun"
+      }
+    }
+  },
+  {
+    "infinitive": "ziehen",
+    "english": "to pull / move",
+    "kind": "strong",
+    "conjugations": {
+      "praesens": {
+        "ich": "ziehe",
+        "du": "ziehst",
+        "er": "zieht",
+        "wir": "ziehen",
+        "ihr": "zieht",
+        "sie": "ziehen"
+      },
+      "praeteritum": {
+        "ich": "zog",
+        "du": "zogst",
+        "er": "zog",
+        "wir": "zogen",
+        "ihr": "zogt",
+        "sie": "zogen"
+      },
+      "perfekt": {
+        "ich": "habe gezogen",
+        "du": "hast gezogen",
+        "er": "hat gezogen",
+        "wir": "haben gezogen",
+        "ihr": "habt gezogen",
+        "sie": "haben gezogen"
+      },
+      "futur": {
+        "ich": "werde ziehen",
+        "du": "wirst ziehen",
+        "er": "wird ziehen",
+        "wir": "werden ziehen",
+        "ihr": "werdet ziehen",
+        "sie": "werden ziehen"
+      },
+      "konjunktiv2": {
+        "ich": "würde ziehen",
+        "du": "würdest ziehen",
+        "er": "würde ziehen",
+        "wir": "würden ziehen",
+        "ihr": "würdet ziehen",
+        "sie": "würden ziehen"
+      }
+    }
+  },
+  {
+    "infinitive": "bringen",
+    "english": "to bring",
+    "kind": "mixed",
+    "conjugations": {
+      "praesens": {
+        "ich": "bringe",
+        "du": "bringst",
+        "er": "bringt",
+        "wir": "bringen",
+        "ihr": "bringt",
+        "sie": "bringen"
+      },
+      "praeteritum": {
+        "ich": "brachte",
+        "du": "brachtest",
+        "er": "brachte",
+        "wir": "brachten",
+        "ihr": "brachtet",
+        "sie": "brachten"
+      },
+      "perfekt": {
+        "ich": "habe gebracht",
+        "du": "hast gebracht",
+        "er": "hat gebracht",
+        "wir": "haben gebracht",
+        "ihr": "habt gebracht",
+        "sie": "haben gebracht"
+      },
+      "futur": {
+        "ich": "werde bringen",
+        "du": "wirst bringen",
+        "er": "wird bringen",
+        "wir": "werden bringen",
+        "ihr": "werdet bringen",
+        "sie": "werden bringen"
+      },
+      "konjunktiv2": {
+        "ich": "würde bringen",
+        "du": "würdest bringen",
+        "er": "würde bringen",
+        "wir": "würden bringen",
+        "ihr": "würdet bringen",
+        "sie": "würden bringen"
+      }
+    }
+  },
+  {
+    "infinitive": "denken",
+    "english": "to think",
+    "kind": "mixed",
+    "conjugations": {
+      "praesens": {
+        "ich": "denke",
+        "du": "denkst",
+        "er": "denkt",
+        "wir": "denken",
+        "ihr": "denkt",
+        "sie": "denken"
+      },
+      "praeteritum": {
+        "ich": "dachte",
+        "du": "dachtest",
+        "er": "dachte",
+        "wir": "dachten",
+        "ihr": "dachtet",
+        "sie": "dachten"
+      },
+      "perfekt": {
+        "ich": "habe gedacht",
+        "du": "hast gedacht",
+        "er": "hat gedacht",
+        "wir": "haben gedacht",
+        "ihr": "habt gedacht",
+        "sie": "haben gedacht"
+      },
+      "futur": {
+        "ich": "werde denken",
+        "du": "wirst denken",
+        "er": "wird denken",
+        "wir": "werden denken",
+        "ihr": "werdet denken",
+        "sie": "werden denken"
+      },
+      "konjunktiv2": {
+        "ich": "würde denken",
+        "du": "würdest denken",
+        "er": "würde denken",
+        "wir": "würden denken",
+        "ihr": "würdet denken",
+        "sie": "würden denken"
+      }
+    }
+  },
+  {
+    "infinitive": "kennen",
+    "english": "to know (be familiar with)",
+    "kind": "mixed",
+    "conjugations": {
+      "praesens": {
+        "ich": "kenne",
+        "du": "kennst",
+        "er": "kennt",
+        "wir": "kennen",
+        "ihr": "kennt",
+        "sie": "kennen"
+      },
+      "praeteritum": {
+        "ich": "kannte",
+        "du": "kanntest",
+        "er": "kannte",
+        "wir": "kannten",
+        "ihr": "kanntet",
+        "sie": "kannten"
+      },
+      "perfekt": {
+        "ich": "habe gekannt",
+        "du": "hast gekannt",
+        "er": "hat gekannt",
+        "wir": "haben gekannt",
+        "ihr": "habt gekannt",
+        "sie": "haben gekannt"
+      },
+      "futur": {
+        "ich": "werde kennen",
+        "du": "wirst kennen",
+        "er": "wird kennen",
+        "wir": "werden kennen",
+        "ihr": "werdet kennen",
+        "sie": "werden kennen"
+      },
+      "konjunktiv2": {
+        "ich": "würde kennen",
+        "du": "würdest kennen",
+        "er": "würde kennen",
+        "wir": "würden kennen",
+        "ihr": "würdet kennen",
+        "sie": "würden kennen"
+      }
+    }
+  },
+  {
+    "infinitive": "wissen",
+    "english": "to know (facts)",
+    "kind": "mixed",
+    "conjugations": {
+      "praesens": {
+        "ich": "weiß",
+        "du": "weißt",
+        "er": "weiß",
+        "wir": "wissen",
+        "ihr": "wisst",
+        "sie": "wissen"
+      },
+      "praeteritum": {
+        "ich": "wusste",
+        "du": "wusstest",
+        "er": "wusste",
+        "wir": "wussten",
+        "ihr": "wusstet",
+        "sie": "wussten"
+      },
+      "perfekt": {
+        "ich": "habe gewusst",
+        "du": "hast gewusst",
+        "er": "hat gewusst",
+        "wir": "haben gewusst",
+        "ihr": "habt gewusst",
+        "sie": "haben gewusst"
+      },
+      "futur": {
+        "ich": "werde wissen",
+        "du": "wirst wissen",
+        "er": "wird wissen",
+        "wir": "werden wissen",
+        "ihr": "werdet wissen",
+        "sie": "werden wissen"
+      },
+      "konjunktiv2": {
+        "ich": "wüsste",
+        "du": "wüsstest",
+        "er": "wüsste",
+        "wir": "wüssten",
+        "ihr": "wüsstet",
+        "sie": "wüssten"
+      }
+    }
+  },
+  {
+    "infinitive": "können",
+    "english": "can / to be able to",
+    "kind": "modal",
+    "conjugations": {
+      "praesens": {
+        "ich": "kann",
+        "du": "kannst",
+        "er": "kann",
+        "wir": "können",
+        "ihr": "könnt",
+        "sie": "können"
+      },
+      "praeteritum": {
+        "ich": "konnte",
+        "du": "konntest",
+        "er": "konnte",
+        "wir": "konnten",
+        "ihr": "konntet",
+        "sie": "konnten"
+      },
+      "perfekt": {
+        "ich": "habe gekonnt",
+        "du": "hast gekonnt",
+        "er": "hat gekonnt",
+        "wir": "haben gekonnt",
+        "ihr": "habt gekonnt",
+        "sie": "haben gekonnt"
+      },
+      "futur": {
+        "ich": "werde können",
+        "du": "wirst können",
+        "er": "wird können",
+        "wir": "werden können",
+        "ihr": "werdet können",
+        "sie": "werden können"
+      },
+      "konjunktiv2": {
+        "ich": "könnte",
+        "du": "könntest",
+        "er": "könnte",
+        "wir": "könnten",
+        "ihr": "könntet",
+        "sie": "könnten"
+      }
+    }
+  },
+  {
+    "infinitive": "müssen",
+    "english": "must / to have to",
+    "kind": "modal",
+    "conjugations": {
+      "praesens": {
+        "ich": "muss",
+        "du": "musst",
+        "er": "muss",
+        "wir": "müssen",
+        "ihr": "müsst",
+        "sie": "müssen"
+      },
+      "praeteritum": {
+        "ich": "musste",
+        "du": "musstest",
+        "er": "musste",
+        "wir": "mussten",
+        "ihr": "musstet",
+        "sie": "mussten"
+      },
+      "perfekt": {
+        "ich": "habe gemusst",
+        "du": "hast gemusst",
+        "er": "hat gemusst",
+        "wir": "haben gemusst",
+        "ihr": "habt gemusst",
+        "sie": "haben gemusst"
+      },
+      "futur": {
+        "ich": "werde müssen",
+        "du": "wirst müssen",
+        "er": "wird müssen",
+        "wir": "werden müssen",
+        "ihr": "werdet müssen",
+        "sie": "werden müssen"
+      },
+      "konjunktiv2": {
+        "ich": "müsste",
+        "du": "müsstest",
+        "er": "müsste",
+        "wir": "müssten",
+        "ihr": "müsstet",
+        "sie": "müssten"
+      }
+    }
+  },
+  {
+    "infinitive": "wollen",
+    "english": "to want to",
+    "kind": "modal",
+    "conjugations": {
+      "praesens": {
+        "ich": "will",
+        "du": "willst",
+        "er": "will",
+        "wir": "wollen",
+        "ihr": "wollt",
+        "sie": "wollen"
+      },
+      "praeteritum": {
+        "ich": "wollte",
+        "du": "wolltest",
+        "er": "wollte",
+        "wir": "wollten",
+        "ihr": "wolltet",
+        "sie": "wollten"
+      },
+      "perfekt": {
+        "ich": "habe gewollt",
+        "du": "hast gewollt",
+        "er": "hat gewollt",
+        "wir": "haben gewollt",
+        "ihr": "habt gewollt",
+        "sie": "haben gewollt"
+      },
+      "futur": {
+        "ich": "werde wollen",
+        "du": "wirst wollen",
+        "er": "wird wollen",
+        "wir": "werden wollen",
+        "ihr": "werdet wollen",
+        "sie": "werden wollen"
+      },
+      "konjunktiv2": {
+        "ich": "wollte",
+        "du": "wolltest",
+        "er": "wollte",
+        "wir": "wollten",
+        "ihr": "wolltet",
+        "sie": "wollten"
+      }
+    }
+  },
+  {
+    "infinitive": "sollen",
+    "english": "should / to be supposed to",
+    "kind": "modal",
+    "conjugations": {
+      "praesens": {
+        "ich": "soll",
+        "du": "sollst",
+        "er": "soll",
+        "wir": "sollen",
+        "ihr": "sollt",
+        "sie": "sollen"
+      },
+      "praeteritum": {
+        "ich": "sollte",
+        "du": "solltest",
+        "er": "sollte",
+        "wir": "sollten",
+        "ihr": "solltet",
+        "sie": "sollten"
+      },
+      "perfekt": {
+        "ich": "habe gesollt",
+        "du": "hast gesollt",
+        "er": "hat gesollt",
+        "wir": "haben gesollt",
+        "ihr": "habt gesollt",
+        "sie": "haben gesollt"
+      },
+      "futur": {
+        "ich": "werde sollen",
+        "du": "wirst sollen",
+        "er": "wird sollen",
+        "wir": "werden sollen",
+        "ihr": "werdet sollen",
+        "sie": "werden sollen"
+      },
+      "konjunktiv2": {
+        "ich": "sollte",
+        "du": "solltest",
+        "er": "sollte",
+        "wir": "sollten",
+        "ihr": "solltet",
+        "sie": "sollten"
+      }
+    }
+  },
+  {
+    "infinitive": "dürfen",
+    "english": "may / to be allowed to",
+    "kind": "modal",
+    "conjugations": {
+      "praesens": {
+        "ich": "darf",
+        "du": "darfst",
+        "er": "darf",
+        "wir": "dürfen",
+        "ihr": "dürft",
+        "sie": "dürfen"
+      },
+      "praeteritum": {
+        "ich": "durfte",
+        "du": "durftest",
+        "er": "durfte",
+        "wir": "durften",
+        "ihr": "durftet",
+        "sie": "durften"
+      },
+      "perfekt": {
+        "ich": "habe gedurft",
+        "du": "hast gedurft",
+        "er": "hat gedurft",
+        "wir": "haben gedurft",
+        "ihr": "habt gedurft",
+        "sie": "haben gedurft"
+      },
+      "futur": {
+        "ich": "werde dürfen",
+        "du": "wirst dürfen",
+        "er": "wird dürfen",
+        "wir": "werden dürfen",
+        "ihr": "werdet dürfen",
+        "sie": "werden dürfen"
+      },
+      "konjunktiv2": {
+        "ich": "dürfte",
+        "du": "dürftest",
+        "er": "dürfte",
+        "wir": "dürften",
+        "ihr": "dürftet",
+        "sie": "dürften"
+      }
+    }
+  },
+  {
+    "infinitive": "mögen",
+    "english": "to like",
+    "kind": "modal",
+    "conjugations": {
+      "praesens": {
+        "ich": "mag",
+        "du": "magst",
+        "er": "mag",
+        "wir": "mögen",
+        "ihr": "mögt",
+        "sie": "mögen"
+      },
+      "praeteritum": {
+        "ich": "mochte",
+        "du": "mochtest",
+        "er": "mochte",
+        "wir": "mochten",
+        "ihr": "mochtet",
+        "sie": "mochten"
+      },
+      "perfekt": {
+        "ich": "habe gemocht",
+        "du": "hast gemocht",
+        "er": "hat gemocht",
+        "wir": "haben gemocht",
+        "ihr": "habt gemocht",
+        "sie": "haben gemocht"
+      },
+      "futur": {
+        "ich": "werde mögen",
+        "du": "wirst mögen",
+        "er": "wird mögen",
+        "wir": "werden mögen",
+        "ihr": "werdet mögen",
+        "sie": "werden mögen"
+      },
+      "konjunktiv2": {
+        "ich": "möchte",
+        "du": "möchtest",
+        "er": "möchte",
+        "wir": "möchten",
+        "ihr": "möchtet",
+        "sie": "möchten"
+      }
+    }
+  },
+  {
+    "infinitive": "aufstehen",
+    "english": "to get up",
+    "kind": "separable",
+    "conjugations": {
+      "praesens": {
+        "ich": "stehe auf",
+        "du": "stehst auf",
+        "er": "steht auf",
+        "wir": "stehen auf",
+        "ihr": "steht auf",
+        "sie": "stehen auf"
+      },
+      "praeteritum": {
+        "ich": "stand auf",
+        "du": "standest auf",
+        "er": "stand auf",
+        "wir": "standen auf",
+        "ihr": "standet auf",
+        "sie": "standen auf"
+      },
+      "perfekt": {
+        "ich": "bin aufgestanden",
+        "du": "bist aufgestanden",
+        "er": "ist aufgestanden",
+        "wir": "sind aufgestanden",
+        "ihr": "seid aufgestanden",
+        "sie": "sind aufgestanden"
+      },
+      "futur": {
+        "ich": "werde aufstehen",
+        "du": "wirst aufstehen",
+        "er": "wird aufstehen",
+        "wir": "werden aufstehen",
+        "ihr": "werdet aufstehen",
+        "sie": "werden aufstehen"
+      },
+      "konjunktiv2": {
+        "ich": "würde aufstehen",
+        "du": "würdest aufstehen",
+        "er": "würde aufstehen",
+        "wir": "würden aufstehen",
+        "ihr": "würdet aufstehen",
+        "sie": "würden aufstehen"
+      }
+    }
+  },
+  {
+    "infinitive": "anrufen",
+    "english": "to call (phone)",
+    "kind": "separable",
+    "conjugations": {
+      "praesens": {
+        "ich": "rufe an",
+        "du": "rufst an",
+        "er": "ruft an",
+        "wir": "rufen an",
+        "ihr": "ruft an",
+        "sie": "rufen an"
+      },
+      "praeteritum": {
+        "ich": "rief an",
+        "du": "riefst an",
+        "er": "rief an",
+        "wir": "riefen an",
+        "ihr": "rieft an",
+        "sie": "riefen an"
+      },
+      "perfekt": {
+        "ich": "habe angerufen",
+        "du": "hast angerufen",
+        "er": "hat angerufen",
+        "wir": "haben angerufen",
+        "ihr": "habt angerufen",
+        "sie": "haben angerufen"
+      },
+      "futur": {
+        "ich": "werde anrufen",
+        "du": "wirst anrufen",
+        "er": "wird anrufen",
+        "wir": "werden anrufen",
+        "ihr": "werdet anrufen",
+        "sie": "werden anrufen"
+      },
+      "konjunktiv2": {
+        "ich": "würde anrufen",
+        "du": "würdest anrufen",
+        "er": "würde anrufen",
+        "wir": "würden anrufen",
+        "ihr": "würdet anrufen",
+        "sie": "würden anrufen"
+      }
+    }
+  },
+  {
+    "infinitive": "einkaufen",
+    "english": "to shop",
+    "kind": "separable",
+    "conjugations": {
+      "praesens": {
+        "ich": "kaufe ein",
+        "du": "kaufst ein",
+        "er": "kauft ein",
+        "wir": "kaufen ein",
+        "ihr": "kauft ein",
+        "sie": "kaufen ein"
+      },
+      "praeteritum": {
+        "ich": "kaufte ein",
+        "du": "kauftest ein",
+        "er": "kaufte ein",
+        "wir": "kauften ein",
+        "ihr": "kauftet ein",
+        "sie": "kauften ein"
+      },
+      "perfekt": {
+        "ich": "habe eingekauft",
+        "du": "hast eingekauft",
+        "er": "hat eingekauft",
+        "wir": "haben eingekauft",
+        "ihr": "habt eingekauft",
+        "sie": "haben eingekauft"
+      },
+      "futur": {
+        "ich": "werde einkaufen",
+        "du": "wirst einkaufen",
+        "er": "wird einkaufen",
+        "wir": "werden einkaufen",
+        "ihr": "werdet einkaufen",
+        "sie": "werden einkaufen"
+      },
+      "konjunktiv2": {
+        "ich": "würde einkaufen",
+        "du": "würdest einkaufen",
+        "er": "würde einkaufen",
+        "wir": "würden einkaufen",
+        "ihr": "würdet einkaufen",
+        "sie": "würden einkaufen"
+      }
+    }
+  },
+  {
+    "infinitive": "mitkommen",
+    "english": "to come along",
+    "kind": "separable",
+    "conjugations": {
+      "praesens": {
+        "ich": "komme mit",
+        "du": "kommst mit",
+        "er": "kommt mit",
+        "wir": "kommen mit",
+        "ihr": "kommt mit",
+        "sie": "kommen mit"
+      },
+      "praeteritum": {
+        "ich": "kam mit",
+        "du": "kamst mit",
+        "er": "kam mit",
+        "wir": "kamen mit",
+        "ihr": "kamt mit",
+        "sie": "kamen mit"
+      },
+      "perfekt": {
+        "ich": "bin mitgekommen",
+        "du": "bist mitgekommen",
+        "er": "ist mitgekommen",
+        "wir": "sind mitgekommen",
+        "ihr": "seid mitgekommen",
+        "sie": "sind mitgekommen"
+      },
+      "futur": {
+        "ich": "werde mitkommen",
+        "du": "wirst mitkommen",
+        "er": "wird mitkommen",
+        "wir": "werden mitkommen",
+        "ihr": "werdet mitkommen",
+        "sie": "werden mitkommen"
+      },
+      "konjunktiv2": {
+        "ich": "würde mitkommen",
+        "du": "würdest mitkommen",
+        "er": "würde mitkommen",
+        "wir": "würden mitkommen",
+        "ihr": "würdet mitkommen",
+        "sie": "würden mitkommen"
+      }
+    }
+  },
+  {
+    "infinitive": "ankommen",
+    "english": "to arrive",
+    "kind": "separable",
+    "conjugations": {
+      "praesens": {
+        "ich": "komme an",
+        "du": "kommst an",
+        "er": "kommt an",
+        "wir": "kommen an",
+        "ihr": "kommt an",
+        "sie": "kommen an"
+      },
+      "praeteritum": {
+        "ich": "kam an",
+        "du": "kamst an",
+        "er": "kam an",
+        "wir": "kamen an",
+        "ihr": "kamt an",
+        "sie": "kamen an"
+      },
+      "perfekt": {
+        "ich": "bin angekommen",
+        "du": "bist angekommen",
+        "er": "ist angekommen",
+        "wir": "sind angekommen",
+        "ihr": "seid angekommen",
+        "sie": "sind angekommen"
+      },
+      "futur": {
+        "ich": "werde ankommen",
+        "du": "wirst ankommen",
+        "er": "wird ankommen",
+        "wir": "werden ankommen",
+        "ihr": "werdet ankommen",
+        "sie": "werden ankommen"
+      },
+      "konjunktiv2": {
+        "ich": "würde ankommen",
+        "du": "würdest ankommen",
+        "er": "würde ankommen",
+        "wir": "würden ankommen",
+        "ihr": "würdet ankommen",
+        "sie": "würden ankommen"
+      }
+    }
+  },
+  {
+    "infinitive": "anfangen",
+    "english": "to start",
+    "kind": "separable",
+    "conjugations": {
+      "praesens": {
+        "ich": "fange an",
+        "du": "fängst an",
+        "er": "fängt an",
+        "wir": "fangen an",
+        "ihr": "fangt an",
+        "sie": "fangen an"
+      },
+      "praeteritum": {
+        "ich": "fing an",
+        "du": "fingst an",
+        "er": "fing an",
+        "wir": "fingen an",
+        "ihr": "fingt an",
+        "sie": "fingen an"
+      },
+      "perfekt": {
+        "ich": "habe angefangen",
+        "du": "hast angefangen",
+        "er": "hat angefangen",
+        "wir": "haben angefangen",
+        "ihr": "habt angefangen",
+        "sie": "haben angefangen"
+      },
+      "futur": {
+        "ich": "werde anfangen",
+        "du": "wirst anfangen",
+        "er": "wird anfangen",
+        "wir": "werden anfangen",
+        "ihr": "werdet anfangen",
+        "sie": "werden anfangen"
+      },
+      "konjunktiv2": {
+        "ich": "würde anfangen",
+        "du": "würdest anfangen",
+        "er": "würde anfangen",
+        "wir": "würden anfangen",
+        "ihr": "würdet anfangen",
+        "sie": "würden anfangen"
+      }
+    }
+  }
+]

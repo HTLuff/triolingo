@@ -1,27 +1,25 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import type { StoryChapter, StoryLevel, StoryToken } from '../types';
+import type { StoryChapter, StoryLevel, StoryToken, Language } from '../types';
+import { langConfig } from '../config/languages';
 
 interface StoryReaderProps {
   chapter: StoryChapter;
+  language: Language;
   level: StoryLevel;
   onLevelChange: (level: StoryLevel) => void;
   onComplete: (chapterId: number) => void;
   onBack: () => void;
 }
 
-const levels: { id: StoryLevel; label: string; desc: string }[] = [
-  { id: 'a0', label: 'A0', desc: 'English words, Spanish order' },
-  { id: 'a1', label: 'A1', desc: 'Key words in Spanish' },
-  { id: 'a2', label: 'A2', desc: 'Real Spanish' },
-];
+const LEVEL_IDS: StoryLevel[] = ['a0', 'a1', 'a2'];
 
 function tappable(tok: StoryToken): boolean {
   return !!(tok.r && tok.r.length) || !!(tok.g && tok.g.length);
 }
 
-function reveal(tok: StoryToken): { label: string; value: string } | null {
-  if (tok.r && tok.r.length) return { label: '🇪🇸', value: tok.r };
+function reveal(tok: StoryToken, flag: string): { label: string; value: string } | null {
+  if (tok.r && tok.r.length) return { label: flag, value: tok.r };
   if (tok.g && tok.g.length) return { label: 'EN', value: tok.g };
   return null;
 }
@@ -33,8 +31,9 @@ interface ActiveReveal {
   value: string;
 }
 
-export default function StoryReader({ chapter, level, onLevelChange, onComplete, onBack }: StoryReaderProps) {
+export default function StoryReader({ chapter, language, level, onLevelChange, onComplete, onBack }: StoryReaderProps) {
   const [active, setActive] = useState<ActiveReveal | null>(null);
+  const { flag, storyLevelDesc } = langConfig(language);
 
   // Close any open reveal when the level or chapter changes.
   useEffect(() => { setActive(null); }, [level, chapter.id]);
@@ -59,20 +58,20 @@ export default function StoryReader({ chapter, level, onLevelChange, onComplete,
 
         {/* Level toggle */}
         <div className="max-w-md mx-auto mt-3 flex gap-1.5 p-1 bg-white/5 rounded-xl border border-white/10">
-          {levels.map(l => (
+          {LEVEL_IDS.map(id => (
             <button
-              key={l.id}
-              onClick={() => onLevelChange(l.id)}
+              key={id}
+              onClick={() => onLevelChange(id)}
               className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-colors ${
-                level === l.id ? 'bg-violet-500/40 text-violet-100' : 'text-white/40 hover:text-white/70'
+                level === id ? 'bg-violet-500/40 text-violet-100' : 'text-white/40 hover:text-white/70'
               }`}
             >
-              {l.label}
+              {id.toUpperCase()}
             </button>
           ))}
         </div>
         <p className="max-w-md mx-auto mt-1.5 text-center text-white/30 text-xs">
-          {levels.find(l => l.id === level)?.desc} · tap a word to reveal
+          {storyLevelDesc[level]} · tap a word to reveal
         </p>
       </div>
 
@@ -96,7 +95,7 @@ export default function StoryReader({ chapter, level, onLevelChange, onComplete,
                 )}
                 {tokens.map((tok, ti) => {
                   const key = `${li}-${ti}`;
-                  const rev = reveal(tok);
+                  const rev = reveal(tok, flag);
                   const canTap = tappable(tok) && rev;
                   const isOpen = active?.key === key;
                   if (!canTap || !rev) {

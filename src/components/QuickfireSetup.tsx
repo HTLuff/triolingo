@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
-import type { QuickfireConfig, VerbTense, VerbFocus } from '../types';
-import { ALL_TENSES, ROUND_SECONDS, tenseLabels, tenseHints } from '../utils/quickfire';
+import type { QuickfireConfig, VerbTenseId, VerbFocus, Language } from '../types';
+import { langConfig } from '../config/languages';
+import { ROUND_SECONDS } from '../utils/rapid';
 
 interface QuickfireSetupProps {
+  language: Language;
   config: QuickfireConfig;
   onConfigChange: (c: QuickfireConfig) => void;
   best: number;
@@ -13,12 +15,16 @@ interface QuickfireSetupProps {
 
 const focusOptions: { id: VerbFocus; label: string; desc: string }[] = [
   { id: 'all', label: 'All verbs', desc: 'Everything in the deck' },
-  { id: 'tricky', label: 'Tricky only', desc: 'Stem-changing + irregular' },
+  { id: 'tricky', label: 'Tricky only', desc: 'Irregular, strong and stem-changing' },
   { id: 'regular', label: 'Regular only', desc: 'Straight endings' },
 ];
 
-export default function QuickfireSetup({ config, onConfigChange, best, verbCount, onStart, onBack }: QuickfireSetupProps) {
-  function toggleTense(t: VerbTense) {
+export default function QuickfireSetup({
+  language, config, onConfigChange, best, verbCount, onStart, onBack,
+}: QuickfireSetupProps) {
+  const { verbTenses, flag } = langConfig(language);
+
+  function toggleTense(t: VerbTenseId) {
     const next = config.tenses.includes(t)
       ? config.tenses.filter(x => x !== t)
       : [...config.tenses, t];
@@ -40,7 +46,7 @@ export default function QuickfireSetup({ config, onConfigChange, best, verbCount
 
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-7 w-full max-w-md">
         <div className="text-4xl mb-2">⚡</div>
-        <h2 className="text-2xl font-bold text-white">Quickfire</h2>
+        <h2 className="text-2xl font-bold text-white">Quickfire {flag}</h2>
         <p className="text-white/50 text-sm mt-2">
           As many conjugations as you can in {ROUND_SECONDS} seconds
         </p>
@@ -58,20 +64,20 @@ export default function QuickfireSetup({ config, onConfigChange, best, verbCount
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="w-full max-w-md mb-6">
         <span className="text-white/60 text-xs font-semibold uppercase tracking-wider block mb-2">Tenses</span>
         <div className="grid grid-cols-2 gap-2">
-          {ALL_TENSES.map(t => {
-            const active = config.tenses.includes(t);
+          {verbTenses.map(t => {
+            const active = config.tenses.includes(t.id);
             return (
               <button
-                key={t}
-                onClick={() => toggleTense(t)}
+                key={t.id}
+                onClick={() => toggleTense(t.id)}
                 className={`px-3 py-2.5 rounded-xl border text-left transition-colors ${
                   active
                     ? 'bg-emerald-500/25 border-emerald-400/50 text-emerald-200'
                     : 'bg-white/5 border-white/15 text-white/50 hover:text-white/70'
                 }`}
               >
-                <div className="text-sm font-semibold">{tenseLabels[t]}</div>
-                <div className={`text-xs ${active ? 'text-emerald-300/60' : 'text-white/30'}`}>{tenseHints[t]}</div>
+                <div className="text-sm font-semibold">{t.label}</div>
+                <div className={`text-xs ${active ? 'text-emerald-300/60' : 'text-white/30'}`}>{t.hint}</div>
               </button>
             );
           })}

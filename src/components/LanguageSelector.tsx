@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import type { Language } from '../types';
 import { useLocalStorage } from '../hooks/useLocalStorage';
+import { LANGUAGES, LANGUAGE_ORDER } from '../config/languages';
 
 interface LanguageSelectorProps {
   onSelect: (lang: Language) => void;
@@ -35,11 +36,10 @@ function LangCard({ lang, delay, onSelect }: {
   );
 }
 
-const languages = [
-  { id: 'spanish' as Language, flag: '🇪🇸', name: 'Español', count: '95 sentences', desc: 'Spanish', bg: 'linear-gradient(135deg, rgba(239,68,68,0.35) 0%, rgba(234,179,8,0.28) 100%)', border: '1.5px solid rgba(250,204,21,0.55)', countColor: 'text-yellow-300' },
-  { id: 'japanese' as Language, flag: '🇯🇵', name: '日本語', count: '100 sentences', desc: 'Japanese', bg: 'linear-gradient(135deg, rgba(239,68,68,0.35) 0%, rgba(244,114,182,0.22) 100%)', border: '1.5px solid rgba(248,113,113,0.55)', countColor: 'text-red-300' },
-  { id: 'czech' as Language, flag: '🇨🇿', name: 'Čeština', count: '3 sentences', desc: 'Czech', bg: 'linear-gradient(135deg, rgba(30,64,175,0.35) 0%, rgba(220,38,38,0.22) 100%)', border: '1.5px solid rgba(96,165,250,0.55)', countColor: 'text-blue-300' },
-];
+const languages = LANGUAGE_ORDER.map(id => {
+  const c = LANGUAGES[id];
+  return { id: c.id, flag: c.flag, name: c.name, desc: c.english, ...c.home };
+});
 
 export default function LanguageSelector({ onSelect }: LanguageSelectorProps) {
   const [streak] = useLocalStorage<number>('triolingo_streak', 0);

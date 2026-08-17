@@ -1,32 +1,16 @@
 import { motion } from 'framer-motion';
+import type { Language } from '../types';
+import { langConfig } from '../config/languages';
 
 interface LevelSelectorProps {
+  language: Language;
   onSelect: (level: number) => void;
   onBack: () => void;
 }
 
-const levels = [
-  {
-    id: 1,
-    label: 'Level 1',
-    sublabel: 'A1 / A2',
-    desc: 'Present, preterite, everyday phrases',
-    color: 'from-emerald-500/20 to-teal-500/20',
-    border: 'border-emerald-400/30',
-    dot: 'bg-emerald-400',
-  },
-  {
-    id: 2,
-    label: 'Level 2',
-    sublabel: 'B1',
-    desc: 'Imperfect, conditional, future, perfect',
-    color: 'from-violet-500/20 to-purple-500/20',
-    border: 'border-violet-400/30',
-    dot: 'bg-violet-400',
-  },
-];
 
-export default function LevelSelector({ onSelect, onBack }: LevelSelectorProps) {
+export default function LevelSelector({ language, onSelect, onBack }: LevelSelectorProps) {
+  const { flag, levels } = langConfig(language);
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-950 via-purple-900 to-slate-900 flex flex-col items-center justify-start px-4 py-10">
       <div className="w-full max-w-md mb-6">
@@ -40,7 +24,7 @@ export default function LevelSelector({ onSelect, onBack }: LevelSelectorProps) 
       </div>
 
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-8 w-full max-w-md">
-        <div className="text-4xl mb-2">🇪🇸</div>
+        <div className="text-4xl mb-2">{flag}</div>
         <h2 className="text-2xl font-bold text-white">Choose your level</h2>
         <p className="text-white/50 text-sm mt-2">Pick where you're at</p>
       </motion.div>

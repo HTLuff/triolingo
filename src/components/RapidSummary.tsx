@@ -1,17 +1,20 @@
 import { motion } from 'framer-motion';
-import type { QuickfireAnswer } from '../types';
-import { personLabels, tenseLabels } from '../utils/quickfire';
+import type { RapidAnswer } from '../types';
 
-interface QuickfireSummaryProps {
-  answers: QuickfireAnswer[];
+interface RapidSummaryProps {
+  answers: RapidAnswer[];
   best: number;
   isNewBest: boolean;
+  /** Label for the setup button, e.g. "Change tenses". Hidden when there's nothing to configure. */
+  settingsLabel?: string;
   onReplay: () => void;
-  onSettings: () => void;
+  onSettings?: () => void;
   onHome: () => void;
 }
 
-export default function QuickfireSummary({ answers, best, isNewBest, onReplay, onSettings, onHome }: QuickfireSummaryProps) {
+export default function RapidSummary({
+  answers, best, isNewBest, settingsLabel, onReplay, onSettings, onHome,
+}: RapidSummaryProps) {
   const score = answers.filter(a => a.correct).length;
   const total = answers.length;
   const accuracy = total > 0 ? Math.round((score / total) * 100) : 0;
@@ -75,20 +78,18 @@ export default function QuickfireSummary({ answers, best, isNewBest, onReplay, o
           <div className="flex flex-col gap-2">
             {missed.map((a, i) => (
               <motion.div
-                key={`${a.prompt.verb.infinitive}-${a.prompt.tense}-${a.prompt.person}-${i}`}
+                key={`${a.prompt.id}-${i}`}
                 initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 + i * 0.05 }}
                 className="flex items-center gap-3 p-3 rounded-xl border bg-red-500/10 border-red-400/20"
               >
                 <div className="flex-1 min-w-0">
-                  <div className="text-white font-medium truncate">{a.prompt.verb.infinitive}</div>
-                  <div className="text-white/40 text-xs">
-                    {personLabels[a.prompt.person]} · {tenseLabels[a.prompt.tense].toLowerCase()}
-                  </div>
+                  <div className="text-white font-medium truncate">{a.prompt.main}</div>
+                  <div className="text-white/40 text-xs truncate">{a.prompt.chips.join(' · ')}</div>
                 </div>
-                <div className="text-right shrink-0">
-                  <div className="text-green-300 font-bold">{a.prompt.answer}</div>
-                  <div className="text-red-300/60 text-xs line-through">{a.chosen}</div>
+                <div className="text-right shrink-0 max-w-[45%]">
+                  <div className="text-green-300 font-bold break-words">{a.prompt.answer}</div>
+                  <div className="text-red-300/60 text-xs line-through break-words">{a.chosen}</div>
                 </div>
               </motion.div>
             ))}
@@ -107,13 +108,15 @@ export default function QuickfireSummary({ answers, best, isNewBest, onReplay, o
         >
           Go again ⚡
         </motion.button>
-        <motion.button
-          whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
-          onClick={onSettings}
-          className="w-full min-h-14 rounded-2xl bg-white/5 border border-white/15 text-white/70 font-semibold text-lg hover:bg-white/10 transition-colors"
-        >
-          Change tenses
-        </motion.button>
+        {onSettings && settingsLabel && (
+          <motion.button
+            whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
+            onClick={onSettings}
+            className="w-full min-h-14 rounded-2xl bg-white/5 border border-white/15 text-white/70 font-semibold text-lg hover:bg-white/10 transition-colors"
+          >
+            {settingsLabel}
+          </motion.button>
+        )}
         <motion.button
           whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
           onClick={onHome}

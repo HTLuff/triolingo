@@ -1,0 +1,570 @@
+[
+  {
+    "id": "de_case_001",
+    "sentence": "___ Mann arbeitet in München.",
+    "english": "The man works in Munich.",
+    "answer": "der",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_002",
+    "sentence": "___ Frau heißt Anna.",
+    "english": "The woman is called Anna.",
+    "answer": "die",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_003",
+    "sentence": "___ Kind spielt im Garten.",
+    "english": "The child is playing in the garden.",
+    "answer": "das",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_004",
+    "sentence": "___ Zug kommt um acht.",
+    "english": "The train comes at eight.",
+    "answer": "der",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_005",
+    "sentence": "Wo ist ___ Schlüssel?",
+    "english": "Where is the key?",
+    "answer": "der",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_006",
+    "sentence": "___ Suppe schmeckt gut.",
+    "english": "The soup tastes good.",
+    "answer": "die",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_007",
+    "sentence": "___ Hotel ist teuer.",
+    "english": "The hotel is expensive.",
+    "answer": "das",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_008",
+    "sentence": "Das ist ___ Freund von mir.",
+    "english": "That's a friend of mine.",
+    "answer": "ein",
+    "case": "nominative",
+    "trigger": "after sein"
+  },
+  {
+    "id": "de_case_009",
+    "sentence": "Hier ist ___ Buch.",
+    "english": "Here is a book.",
+    "answer": "ein",
+    "case": "nominative",
+    "trigger": "after sein"
+  },
+  {
+    "id": "de_case_010",
+    "sentence": "Das ist ___ gute Idee!",
+    "english": "That's a good idea!",
+    "answer": "eine",
+    "case": "nominative",
+    "trigger": "after sein"
+  },
+  {
+    "id": "de_case_011",
+    "sentence": "___ Bruder wohnt in Berlin.",
+    "english": "My brother lives in Berlin.",
+    "answer": "mein",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_012",
+    "sentence": "___ Schwester kommt morgen.",
+    "english": "My sister comes tomorrow.",
+    "answer": "meine",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_013",
+    "sentence": "___ Wohnung ist klein.",
+    "english": "The flat is small.",
+    "answer": "die",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_014",
+    "sentence": "___ Auto steht draußen.",
+    "english": "The car is outside.",
+    "answer": "das",
+    "case": "nominative",
+    "trigger": "subject"
+  },
+  {
+    "id": "de_case_015",
+    "sentence": "Ich sehe ___ Mann.",
+    "english": "I see the man.",
+    "answer": "den",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_016",
+    "sentence": "Ich kaufe ___ Buch.",
+    "english": "I'm buying the book.",
+    "answer": "das",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_017",
+    "sentence": "Ich trinke ___ Kaffee.",
+    "english": "I'm drinking the coffee.",
+    "answer": "den",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_018",
+    "sentence": "Sie liest ___ Zeitung.",
+    "english": "She reads the newspaper.",
+    "answer": "die",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_019",
+    "sentence": "Er isst ___ Apfel.",
+    "english": "He eats the apple.",
+    "answer": "den",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_020",
+    "sentence": "Ich suche ___ Bahnhof.",
+    "english": "I'm looking for the station.",
+    "answer": "den",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_021",
+    "sentence": "Kennst du ___ Lehrerin?",
+    "english": "Do you know the teacher?",
+    "answer": "die",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_022",
+    "sentence": "Ich sehe ___ Kind.",
+    "english": "I see the child.",
+    "answer": "das",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_023",
+    "sentence": "Wir besuchen ___ Stadt.",
+    "english": "We're visiting the city.",
+    "answer": "die",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_024",
+    "sentence": "Ich nehme ___ Zug.",
+    "english": "I'm taking the train.",
+    "answer": "den",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_025",
+    "sentence": "Er trägt ___ Hemd.",
+    "english": "He's wearing the shirt.",
+    "answer": "das",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_026",
+    "sentence": "Wir haben ___ Hund.",
+    "english": "We have a dog.",
+    "answer": "einen",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_027",
+    "sentence": "Ich brauche ___ Stuhl.",
+    "english": "I need a chair.",
+    "answer": "einen",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_028",
+    "sentence": "Sie hat ___ Bruder.",
+    "english": "She has a brother.",
+    "answer": "einen",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_029",
+    "sentence": "Ich habe ___ Frage.",
+    "english": "I have a question.",
+    "answer": "eine",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_030",
+    "sentence": "Ich möchte ___ Bier.",
+    "english": "I'd like a beer.",
+    "answer": "ein",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_031",
+    "sentence": "Wir suchen ___ Wohnung.",
+    "english": "We're looking for a flat.",
+    "answer": "eine",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_032",
+    "sentence": "Ich rufe ___ Arzt an.",
+    "english": "I'm calling the doctor.",
+    "answer": "den",
+    "case": "accusative",
+    "trigger": "direct object"
+  },
+  {
+    "id": "de_case_033",
+    "sentence": "Das Geschenk ist für ___ Freund.",
+    "english": "The present is for the friend.",
+    "answer": "den",
+    "case": "accusative",
+    "trigger": "für"
+  },
+  {
+    "id": "de_case_034",
+    "sentence": "Ich mache das für ___ Familie.",
+    "english": "I'm doing this for the family.",
+    "answer": "die",
+    "case": "accusative",
+    "trigger": "für"
+  },
+  {
+    "id": "de_case_035",
+    "sentence": "Wir gehen durch ___ Garten.",
+    "english": "We're walking through the garden.",
+    "answer": "den",
+    "case": "accusative",
+    "trigger": "durch"
+  },
+  {
+    "id": "de_case_036",
+    "sentence": "Er kommt ohne ___ Auto.",
+    "english": "He's coming without the car.",
+    "answer": "das",
+    "case": "accusative",
+    "trigger": "ohne"
+  },
+  {
+    "id": "de_case_037",
+    "sentence": "Ich fahre ohne ___ Koffer.",
+    "english": "I'm travelling without the suitcase.",
+    "answer": "den",
+    "case": "accusative",
+    "trigger": "ohne"
+  },
+  {
+    "id": "de_case_038",
+    "sentence": "Sie kauft ein Buch für ___ Kind.",
+    "english": "She's buying a book for the child.",
+    "answer": "das",
+    "case": "accusative",
+    "trigger": "für"
+  },
+  {
+    "id": "de_case_039",
+    "sentence": "Ich gehe in ___ Küche.",
+    "english": "I'm going into the kitchen.",
+    "answer": "die",
+    "case": "accusative",
+    "trigger": "in + motion"
+  },
+  {
+    "id": "de_case_040",
+    "sentence": "Er legt das Buch auf ___ Tisch.",
+    "english": "He puts the book on the table.",
+    "answer": "den",
+    "case": "accusative",
+    "trigger": "auf + motion"
+  },
+  {
+    "id": "de_case_041",
+    "sentence": "Stell die Lampe neben ___ Bett.",
+    "english": "Put the lamp next to the bed.",
+    "answer": "das",
+    "case": "accusative",
+    "trigger": "neben + motion"
+  },
+  {
+    "id": "de_case_042",
+    "sentence": "Ich helfe ___ Mann.",
+    "english": "I'm helping the man.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "helfen"
+  },
+  {
+    "id": "de_case_043",
+    "sentence": "Er hilft ___ Kollegin.",
+    "english": "He helps the colleague.",
+    "answer": "der",
+    "case": "dative",
+    "trigger": "helfen"
+  },
+  {
+    "id": "de_case_044",
+    "sentence": "Ich danke ___ Lehrerin.",
+    "english": "I thank the teacher.",
+    "answer": "der",
+    "case": "dative",
+    "trigger": "danken"
+  },
+  {
+    "id": "de_case_045",
+    "sentence": "Das Buch gehört ___ Kind.",
+    "english": "The book belongs to the child.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "gehören"
+  },
+  {
+    "id": "de_case_046",
+    "sentence": "Das Auto gehört ___ Freund.",
+    "english": "The car belongs to a friend.",
+    "answer": "einem",
+    "case": "dative",
+    "trigger": "gehören"
+  },
+  {
+    "id": "de_case_047",
+    "sentence": "Das gefällt ___ Kind.",
+    "english": "The child likes that.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "gefallen"
+  },
+  {
+    "id": "de_case_048",
+    "sentence": "Ich gebe ___ Frau die Karte.",
+    "english": "I give the woman the card.",
+    "answer": "der",
+    "case": "dative",
+    "trigger": "indirect object"
+  },
+  {
+    "id": "de_case_049",
+    "sentence": "Er zeigt ___ Kollegen das Büro.",
+    "english": "He shows the colleague the office.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "indirect object"
+  },
+  {
+    "id": "de_case_050",
+    "sentence": "Ich fahre mit ___ Bus.",
+    "english": "I go by bus.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "mit"
+  },
+  {
+    "id": "de_case_051",
+    "sentence": "Sie fährt mit ___ Fahrrad.",
+    "english": "She goes by bike.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "mit"
+  },
+  {
+    "id": "de_case_052",
+    "sentence": "Sie spricht mit ___ Chef.",
+    "english": "She's speaking with the boss.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "mit"
+  },
+  {
+    "id": "de_case_053",
+    "sentence": "Ich spreche mit ___ Ärztin.",
+    "english": "I'm speaking with a doctor.",
+    "answer": "einer",
+    "case": "dative",
+    "trigger": "mit"
+  },
+  {
+    "id": "de_case_054",
+    "sentence": "Wir kommen aus ___ Stadt.",
+    "english": "We come from the city.",
+    "answer": "der",
+    "case": "dative",
+    "trigger": "aus"
+  },
+  {
+    "id": "de_case_055",
+    "sentence": "Er kommt aus ___ Dorf.",
+    "english": "He comes from the village.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "aus"
+  },
+  {
+    "id": "de_case_056",
+    "sentence": "Wir kommen aus ___ Land.",
+    "english": "We come from the country.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "aus"
+  },
+  {
+    "id": "de_case_057",
+    "sentence": "Er wohnt bei ___ Freundin.",
+    "english": "He lives at a friend's place.",
+    "answer": "einer",
+    "case": "dative",
+    "trigger": "bei"
+  },
+  {
+    "id": "de_case_058",
+    "sentence": "Sie arbeitet bei ___ Bank.",
+    "english": "She works at a bank.",
+    "answer": "einer",
+    "case": "dative",
+    "trigger": "bei"
+  },
+  {
+    "id": "de_case_059",
+    "sentence": "Nach ___ Arbeit gehe ich nach Hause.",
+    "english": "After work I go home.",
+    "answer": "der",
+    "case": "dative",
+    "trigger": "nach"
+  },
+  {
+    "id": "de_case_060",
+    "sentence": "Nach ___ Frühstück fahren wir los.",
+    "english": "After breakfast we set off.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "nach"
+  },
+  {
+    "id": "de_case_061",
+    "sentence": "Ich komme von ___ Bahnhof.",
+    "english": "I'm coming from the station.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "von"
+  },
+  {
+    "id": "de_case_062",
+    "sentence": "Wir gehen zu ___ Party.",
+    "english": "We're going to a party.",
+    "answer": "einer",
+    "case": "dative",
+    "trigger": "zu"
+  },
+  {
+    "id": "de_case_063",
+    "sentence": "Seit ___ Sommer lerne ich Deutsch.",
+    "english": "Since the summer I've been learning German.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "seit"
+  },
+  {
+    "id": "de_case_064",
+    "sentence": "Ich arbeite seit ___ Jahr hier.",
+    "english": "I've worked here for a year.",
+    "answer": "einem",
+    "case": "dative",
+    "trigger": "seit"
+  },
+  {
+    "id": "de_case_065",
+    "sentence": "Ich wohne bei ___ Eltern.",
+    "english": "I live with my parents.",
+    "answer": "den",
+    "case": "dative",
+    "trigger": "bei + plural"
+  },
+  {
+    "id": "de_case_066",
+    "sentence": "Wir fahren mit ___ Kindern.",
+    "english": "We're travelling with the children.",
+    "answer": "den",
+    "case": "dative",
+    "trigger": "mit + plural"
+  },
+  {
+    "id": "de_case_067",
+    "sentence": "Wir sitzen in ___ Küche.",
+    "english": "We're sitting in the kitchen.",
+    "answer": "der",
+    "case": "dative",
+    "trigger": "in + location"
+  },
+  {
+    "id": "de_case_068",
+    "sentence": "Sie wohnt in ___ Stadt.",
+    "english": "She lives in the city.",
+    "answer": "der",
+    "case": "dative",
+    "trigger": "in + location"
+  },
+  {
+    "id": "de_case_069",
+    "sentence": "Das Buch liegt auf ___ Tisch.",
+    "english": "The book is lying on the table.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "auf + location"
+  },
+  {
+    "id": "de_case_070",
+    "sentence": "Die Lampe steht neben ___ Bett.",
+    "english": "The lamp stands next to the bed.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "neben + location"
+  },
+  {
+    "id": "de_case_071",
+    "sentence": "Der Hund liegt unter ___ Stuhl.",
+    "english": "The dog is lying under the chair.",
+    "answer": "dem",
+    "case": "dative",
+    "trigger": "unter + location"
+  }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "id": "de1_001",
+  "english": "I live in London",
+  "target": "Ich wohne in London",
+  "category": "about me",
+  "level": 1,
+  "cloze": "wohne",
+  "tense": "present",
+  "pronoun": "ich"
+ },
+ {
+  "id": "de1_002",
+  "english": "I'm from England",
+  "target": "Ich komme aus England",
+  "category": "about me",
+  "level": 1,
+  "cloze": "komme",
+  "tense": "present",
+  "pronoun": "ich",
+  "note": "German says komme aus (come from), not 'bin aus'"
+ },
+ {
+  "id": "de1_003",
+  "english": "I have two sisters",
+  "target": "Ich habe zwei Schwestern",
+  "category": "about me",
+  "level": 1,
+  "cloze": "habe",
+  "tense": "present",
+  "pronoun": "ich"
+ },
+ {
+  "id": "de1_004",
+  "english": "I'm 30 years old",
+  "target": "Ich bin dreißig Jahre alt",
+  "category": "about me",
+  "level": 1,
+  "cloze": "bin",
+  "tense": "present",
+  "pronoun": "ich",
+  "note": "German uses sein for age: ich bin … alt"
+ }
+]

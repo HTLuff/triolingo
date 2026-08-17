@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Language, Mode, SessionFilters } from '../types';
+import { langConfig } from '../config/languages';
 
 interface ModeSelectorProps {
   language: Language;
@@ -18,32 +19,20 @@ const modes = [
   { id: 'flashcard' as Mode, icon: '🃏', title: 'Flashcards', desc: 'Flip to reveal', color: 'from-blue-500/20 to-indigo-500/20', border: 'border-blue-400/30' },
   { id: 'multiple-choice' as Mode, icon: '✏️', title: 'Multiple Choice', desc: 'Pick the translation', color: 'from-emerald-500/20 to-teal-500/20', border: 'border-emerald-400/30' },
   { id: 'quickfire' as Mode, icon: '⚡', title: 'Quickfire', desc: 'Conjugate against the clock', color: 'from-amber-500/20 to-yellow-500/20', border: 'border-amber-400/30' },
+  { id: 'noun-gender' as Mode, icon: '🎯', title: 'der / die / das', desc: 'Nail the noun genders', color: 'from-fuchsia-500/20 to-pink-500/20', border: 'border-fuchsia-400/30' },
+  { id: 'cases' as Mode, icon: '🧩', title: 'Cases', desc: 'Nominativ, Akkusativ, Dativ', color: 'from-lime-500/20 to-green-500/20', border: 'border-lime-400/30' },
   { id: 'story' as Mode, icon: '📖', title: 'Story', desc: 'Read a story at your level', color: 'from-sky-500/20 to-cyan-500/20', border: 'border-sky-400/30' },
   { id: 'sentence-builder' as Mode, icon: '🔀', title: 'Sentence Builder', desc: 'Arrange the words in order', color: 'from-amber-500/20 to-orange-500/20', border: 'border-amber-400/30' },
   { id: 'cloze' as Mode, icon: '🔤', title: 'Fill the Blank', desc: 'Complete the sentence', color: 'from-violet-500/20 to-purple-500/20', border: 'border-violet-400/30' },
   { id: 'typing' as Mode, icon: '⌨️', title: 'Type It Out', desc: 'Produce the full translation', color: 'from-rose-500/20 to-pink-500/20', border: 'border-rose-400/30' },
 ];
 
-const tenseLabels: Record<string, string> = {
-  'present': 'Present',
-  'present-continuous': 'Pres. cont.',
-  'present-perfect': 'Pres. perfect',
-  'preterite': 'Preterite',
-  'imperfect': 'Imperfect',
-  'future': 'Ir a...',
-  'future-simple': 'Future',
-  'conditional': 'Conditional',
-  'imperative': 'Imperative',
-  'expression': 'Expressions',
-};
-
-const langLabel: Record<Language, string> = { spanish: '🇪🇸 Español', japanese: '🇯🇵 日本語', czech: '🇨🇿 Čeština' };
-
 export default function ModeSelector({
   language, dueCount, availableCategories, availableTenses,
   filters, onFiltersChange, categoryProgress, onSelect, onBack,
 }: ModeSelectorProps) {
   const [showFilters, setShowFilters] = useState(false);
+  const config = langConfig(language);
 
   function toggleCategory(cat: string) {
     const next = filters.categories.includes(cat)
@@ -76,8 +65,8 @@ export default function ModeSelector({
 
       {/* Header */}
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-6 w-full max-w-md">
-        <div className="text-4xl mb-2">{language === 'spanish' ? '🇪🇸' : language === 'japanese' ? '🇯🇵' : '🇨🇿'}</div>
-        <h2 className="text-2xl font-bold text-white">{langLabel[language]}</h2>
+        <div className="text-4xl mb-2">{config.flag}</div>
+        <h2 className="text-2xl font-bold text-white">{config.flag} {config.name}</h2>
         <p className="text-white/50 text-sm mt-2">Choose your study mode</p>
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.2 }}
@@ -91,11 +80,14 @@ export default function ModeSelector({
 
       {/* Modes */}
       <div className="w-full max-w-md flex flex-col gap-3 mb-5">
-        {modes.filter(m => language === 'spanish' || m.id === 'flashcard' || m.id === 'multiple-choice').map((mode, i) => (
+        {config.modes
+          .map(id => modes.find(m => m.id === id))
+          .filter((m): m is (typeof modes)[number] => !!m)
+          .map((mode, i) => (
           <motion.button
             key={mode.id}
             initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 + i * 0.1, ease: 'easeOut' }}
+            transition={{ delay: 0.1 + Math.min(i * 0.06, 0.4), ease: 'easeOut' }}
             whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
             onClick={() => onSelect(mode.id)}
             className={`w-full p-5 rounded-2xl bg-gradient-to-br ${mode.color} border ${mode.border} backdrop-blur-sm flex items-center gap-4 text-left cursor-pointer`}
@@ -204,7 +196,7 @@ export default function ModeSelector({
                               active ? 'bg-emerald-500/30 border-emerald-400/50 text-emerald-200' : 'bg-white/5 border-white/15 text-white/50 hover:text-white/70'
                             }`}
                           >
-                            {tenseLabels[tense] ?? tense}
+                            {config.tenseLabels[tense] ?? tense}
                           </button>
                         );
                       })}

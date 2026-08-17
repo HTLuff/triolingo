@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { VocabCard, Language } from '../types';
+import { langConfig } from '../config/languages';
 
 interface MultipleChoiceProps {
   card: VocabCard;
@@ -70,12 +71,6 @@ export default function MultipleChoice({ card, allCards, language, reverse = fal
     return 'bg-white/5 border-white/10 text-white/30';
   }
 
-  const langLabel: Record<Language, string> = {
-    spanish: 'Spanish',
-    japanese: 'Japanese',
-    czech: 'Czech',
-  };
-
   return (
     <div className="flex flex-col items-center w-full max-w-md mx-auto px-4 gap-5">
       {/* Question */}
@@ -85,7 +80,7 @@ export default function MultipleChoice({ card, allCards, language, reverse = fal
         animate={{ opacity: 1, y: 0 }}
         className="w-full text-center"
       >
-        <p className="text-white/50 text-sm mb-2">{reverse ? `Translate into English` : `Translate into ${langLabel[language]}`}</p>
+        <p className="text-white/50 text-sm mb-2">{reverse ? `Translate into English` : `Translate into ${langConfig(language).english}`}</p>
         {reverse ? (
           <p className="font-bold text-white text-center leading-tight" style={{ fontSize: displayTarget(card, language).length > 20 ? '1.4rem' : displayTarget(card, language).length > 10 ? '2rem' : '2.5rem' }}>{displayTarget(card, language)}</p>
         ) : (
