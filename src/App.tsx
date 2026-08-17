@@ -1,6 +1,9 @@
 import { useState, useCallback, useMemo } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import type { Language, Mode, AppScreen, SessionResult, VocabCard, UserGender, SessionFilters, Story, StoryLevel } from './types';
+import type {
+  Language, Mode, AppScreen, SessionResult, VocabCard, UserGender, SessionFilters,
+  Story, StoryLevel, Verb, QuickfireConfig, QuickfireAnswer,
+} from './types';
 import { useSRS } from './hooks/useSRS';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import LanguageSelector from './components/LanguageSelector';
@@ -14,15 +17,21 @@ import TypingCard from './components/TypingCard';
 import SentenceBuilder from './components/SentenceBuilder';
 import StorySelect from './components/StorySelect';
 import StoryReader from './components/StoryReader';
+import QuickfireSetup from './components/QuickfireSetup';
+import Quickfire from './components/Quickfire';
+import QuickfireSummary from './components/QuickfireSummary';
 import ProgressBar from './components/ProgressBar';
 import ReviewSummary from './components/ReviewSummary';
+import { filterVerbs } from './utils/quickfire';
 
 import spanishData from './data/spanish.json';
 import japaneseData from './data/japanese.json';
 import czechData from './data/czech.json';
+import spanishVerbs from './data/spanish-verbs.json';
 import cafeMadrid from './data/stories/cafe-madrid.json';
 
 const story = cafeMadrid as Story;
+const verbs = spanishVerbs as Verb[];
 
 const vocabMap: Record<Language, VocabCard[]> = {
   spanish: spanishData as VocabCard[],
@@ -64,6 +73,15 @@ export default function App() {
   const [storyLevel, setStoryLevel] = useLocalStorage<StoryLevel>('triolingo_story_level', 'a0');
   const [storyCompleted, setStoryCompleted] = useLocalStorage<number[]>('triolingo_story_completed', []);
   const [chapterId, setChapterId] = useState<number>(1);
+
+  // Quickfire state
+  const [quickfireConfig, setQuickfireConfig] = useLocalStorage<QuickfireConfig>(
+    'triolingo_quickfire_config',
+    { tenses: ['present', 'preterite'], focus: 'all' },
+  );
+  const [quickfireBests, setQuickfireBests] = useLocalStorage<Record<string, number>>('triolingo_quickfire_bests', {});
+  const [quickfireAnswers, setQuickfireAnswers] = useState<QuickfireAnswer[]>([]);
+  const [quickfireNewBest, setQuickfireNewBest] = useState(false);
 
   void streak;
 
@@ -108,6 +126,8 @@ export default function App() {
     setMode(m);
     if (m === 'story') {
       setScreen('story-select');
+    } else if (m === 'quickfire') {
+      setScreen('quickfire-setup');
     } else if (language === 'spanish') {
       setScreen('level');
     } else {
@@ -141,6 +161,20 @@ export default function App() {
   }
 
   const currentChapter = story.chapters.find(c => c.id === chapterId) ?? story.chapters[0];
+
+  // Records are kept per setup — a present-only round isn't the same challenge as all six tenses.
+  const quickfireKey = `${quickfireConfig.focus}:${[...quickfireConfig.tenses].sort().join(',')}`;
+  const quickfireBest = quickfireBests[quickfireKey] ?? 0;
+  const quickfireVerbs = useMemo(() => filterVerbs(verbs, quickfireConfig.focus), [quickfireConfig.focus]);
+
+  function handleQuickfireFinish(answers: QuickfireAnswer[]) {
+    const score = answers.filter(a => a.correct).length;
+    const beat = score > quickfireBest;
+    if (beat) setQuickfireBests(prev => ({ ...prev, [quickfireKey]: score }));
+    setQuickfireAnswers(answers);
+    setQuickfireNewBest(beat);
+    setScreen('quickfire-summary');
+  }
 
   function updateStreak() {
     const today = new Date().toDateString();
@@ -290,6 +324,43 @@ export default function App() {
               onLevelChange={setStoryLevel}
               onComplete={handleCompleteChapter}
               onBack={() => setScreen('story-select')}
+            />
+          </motion.div>
+        )}
+
+        {screen === 'quickfire-setup' && (
+          <motion.div key="quickfire-setup" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }}>
+            <QuickfireSetup
+              config={quickfireConfig}
+              onConfigChange={setQuickfireConfig}
+              best={quickfireBest}
+              verbCount={quickfireVerbs.length}
+              onStart={() => setScreen('quickfire')}
+              onBack={() => setScreen('mode')}
+            />
+          </motion.div>
+        )}
+
+        {screen === 'quickfire' && (
+          <motion.div key="quickfire" initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }}>
+            <Quickfire
+              verbs={quickfireVerbs}
+              tenses={quickfireConfig.tenses}
+              onFinish={handleQuickfireFinish}
+              onQuit={() => setScreen('quickfire-setup')}
+            />
+          </motion.div>
+        )}
+
+        {screen === 'quickfire-summary' && (
+          <motion.div key="quickfire-summary" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0 }}>
+            <QuickfireSummary
+              answers={quickfireAnswers}
+              best={quickfireBest}
+              isNewBest={quickfireNewBest}
+              onReplay={() => setScreen('quickfire')}
+              onSettings={() => setScreen('quickfire-setup')}
+              onHome={() => setScreen('home')}
             />
           </motion.div>
         )}

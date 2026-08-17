@@ -1,5 +1,5 @@
 export type Language = 'spanish' | 'japanese' | 'czech';
-export type Mode = 'flashcard' | 'multiple-choice' | 'cloze' | 'typing' | 'sentence-builder' | 'story';
+export type Mode = 'flashcard' | 'multiple-choice' | 'cloze' | 'typing' | 'sentence-builder' | 'story' | 'quickfire';
 export type UserGender = 'male' | 'female';
 export type StoryLevel = 'a0' | 'a1' | 'a2';
 
@@ -62,7 +62,43 @@ export interface CardState extends VocabCard {
   srs: SRSData;
 }
 
-export type AppScreen = 'home' | 'gender' | 'mode' | 'level' | 'session' | 'summary' | 'story-select' | 'story-reader';
+export type AppScreen =
+  | 'home' | 'gender' | 'mode' | 'level' | 'session' | 'summary'
+  | 'story-select' | 'story-reader'
+  | 'quickfire-setup' | 'quickfire' | 'quickfire-summary';
+
+export type VerbTense = 'present' | 'preterite' | 'imperfect' | 'future' | 'conditional' | 'subjunctive';
+export type VerbPerson = 'yo' | 'tu' | 'el' | 'nosotros' | 'ellos';
+/** How the verb behaves: regular, spelling-only change, stem-changing, or fully irregular. */
+export type VerbKind = 'regular' | 'spelling' | 'stem' | 'irregular';
+/** Which slice of the verb list a quickfire round draws from. */
+export type VerbFocus = 'all' | 'tricky' | 'regular';
+
+export interface Verb {
+  infinitive: string;
+  english: string;
+  kind: VerbKind;
+  conjugations: Record<VerbTense, Record<VerbPerson, string>>;
+}
+
+export interface QuickfirePrompt {
+  verb: Verb;
+  tense: VerbTense;
+  person: VerbPerson;
+  answer: string;
+  options: string[];
+}
+
+export interface QuickfireAnswer {
+  prompt: QuickfirePrompt;
+  chosen: string;
+  correct: boolean;
+}
+
+export interface QuickfireConfig {
+  tenses: VerbTense[];
+  focus: VerbFocus;
+}
 
 export interface SessionResult {
   card: VocabCard;

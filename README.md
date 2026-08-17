@@ -78,6 +78,24 @@ Japanese cards support a `gender` field for gendered casual speech:
 | `category` | yes | groups cards (displayed as a badge) |
 | `gender` | no | Japanese only: `"all"` \| `"male"` \| `"female"` |
 
+## Quickfire verb data
+
+`src/data/spanish-verbs.json` is **generated** — edit `scripts/generate-verbs.py` and regenerate
+rather than hand-editing the JSON:
+
+```bash
+python3 scripts/generate-verbs.py
+```
+
+Adding a verb is usually one line in the `V` list. Regular endings, `-car`/`-gar`/`-zar` spelling
+changes, and subjunctive stems are handled by rule; irregular verbs take per-verb overrides
+(`sc`, `yo`, `pret_stem`, `fut_stem`, …) documented at the top of the script. The script prints
+every form it produces — read that output before committing, since each form is shown to a
+learner as a correct answer.
+
+The `kind` field drives the verb filter on the Quickfire setup screen: `regular` and `spelling`
+appear under "Regular only", `stem` and `irregular` under "Tricky only".
+
 ## Stack
 
 - [Vite](https://vitejs.dev) + React 18 + TypeScript

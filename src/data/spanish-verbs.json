@@ -1,0 +1,3579 @@
+[
+  {
+    "infinitive": "hablar",
+    "english": "to speak",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "hablo",
+        "tu": "hablas",
+        "el": "habla",
+        "nosotros": "hablamos",
+        "ellos": "hablan"
+      },
+      "preterite": {
+        "yo": "hablé",
+        "tu": "hablaste",
+        "el": "habló",
+        "nosotros": "hablamos",
+        "ellos": "hablaron"
+      },
+      "imperfect": {
+        "yo": "hablaba",
+        "tu": "hablabas",
+        "el": "hablaba",
+        "nosotros": "hablábamos",
+        "ellos": "hablaban"
+      },
+      "future": {
+        "yo": "hablaré",
+        "tu": "hablarás",
+        "el": "hablará",
+        "nosotros": "hablaremos",
+        "ellos": "hablarán"
+      },
+      "conditional": {
+        "yo": "hablaría",
+        "tu": "hablarías",
+        "el": "hablaría",
+        "nosotros": "hablaríamos",
+        "ellos": "hablarían"
+      },
+      "subjunctive": {
+        "yo": "hable",
+        "tu": "hables",
+        "el": "hable",
+        "nosotros": "hablemos",
+        "ellos": "hablen"
+      }
+    }
+  },
+  {
+    "infinitive": "trabajar",
+    "english": "to work",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "trabajo",
+        "tu": "trabajas",
+        "el": "trabaja",
+        "nosotros": "trabajamos",
+        "ellos": "trabajan"
+      },
+      "preterite": {
+        "yo": "trabajé",
+        "tu": "trabajaste",
+        "el": "trabajó",
+        "nosotros": "trabajamos",
+        "ellos": "trabajaron"
+      },
+      "imperfect": {
+        "yo": "trabajaba",
+        "tu": "trabajabas",
+        "el": "trabajaba",
+        "nosotros": "trabajábamos",
+        "ellos": "trabajaban"
+      },
+      "future": {
+        "yo": "trabajaré",
+        "tu": "trabajarás",
+        "el": "trabajará",
+        "nosotros": "trabajaremos",
+        "ellos": "trabajarán"
+      },
+      "conditional": {
+        "yo": "trabajaría",
+        "tu": "trabajarías",
+        "el": "trabajaría",
+        "nosotros": "trabajaríamos",
+        "ellos": "trabajarían"
+      },
+      "subjunctive": {
+        "yo": "trabaje",
+        "tu": "trabajes",
+        "el": "trabaje",
+        "nosotros": "trabajemos",
+        "ellos": "trabajen"
+      }
+    }
+  },
+  {
+    "infinitive": "estudiar",
+    "english": "to study",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "estudio",
+        "tu": "estudias",
+        "el": "estudia",
+        "nosotros": "estudiamos",
+        "ellos": "estudian"
+      },
+      "preterite": {
+        "yo": "estudié",
+        "tu": "estudiaste",
+        "el": "estudió",
+        "nosotros": "estudiamos",
+        "ellos": "estudiaron"
+      },
+      "imperfect": {
+        "yo": "estudiaba",
+        "tu": "estudiabas",
+        "el": "estudiaba",
+        "nosotros": "estudiábamos",
+        "ellos": "estudiaban"
+      },
+      "future": {
+        "yo": "estudiaré",
+        "tu": "estudiarás",
+        "el": "estudiará",
+        "nosotros": "estudiaremos",
+        "ellos": "estudiarán"
+      },
+      "conditional": {
+        "yo": "estudiaría",
+        "tu": "estudiarías",
+        "el": "estudiaría",
+        "nosotros": "estudiaríamos",
+        "ellos": "estudiarían"
+      },
+      "subjunctive": {
+        "yo": "estudie",
+        "tu": "estudies",
+        "el": "estudie",
+        "nosotros": "estudiemos",
+        "ellos": "estudien"
+      }
+    }
+  },
+  {
+    "infinitive": "tomar",
+    "english": "to take / drink",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "tomo",
+        "tu": "tomas",
+        "el": "toma",
+        "nosotros": "tomamos",
+        "ellos": "toman"
+      },
+      "preterite": {
+        "yo": "tomé",
+        "tu": "tomaste",
+        "el": "tomó",
+        "nosotros": "tomamos",
+        "ellos": "tomaron"
+      },
+      "imperfect": {
+        "yo": "tomaba",
+        "tu": "tomabas",
+        "el": "tomaba",
+        "nosotros": "tomábamos",
+        "ellos": "tomaban"
+      },
+      "future": {
+        "yo": "tomaré",
+        "tu": "tomarás",
+        "el": "tomará",
+        "nosotros": "tomaremos",
+        "ellos": "tomarán"
+      },
+      "conditional": {
+        "yo": "tomaría",
+        "tu": "tomarías",
+        "el": "tomaría",
+        "nosotros": "tomaríamos",
+        "ellos": "tomarían"
+      },
+      "subjunctive": {
+        "yo": "tome",
+        "tu": "tomes",
+        "el": "tome",
+        "nosotros": "tomemos",
+        "ellos": "tomen"
+      }
+    }
+  },
+  {
+    "infinitive": "llamar",
+    "english": "to call",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "llamo",
+        "tu": "llamas",
+        "el": "llama",
+        "nosotros": "llamamos",
+        "ellos": "llaman"
+      },
+      "preterite": {
+        "yo": "llamé",
+        "tu": "llamaste",
+        "el": "llamó",
+        "nosotros": "llamamos",
+        "ellos": "llamaron"
+      },
+      "imperfect": {
+        "yo": "llamaba",
+        "tu": "llamabas",
+        "el": "llamaba",
+        "nosotros": "llamábamos",
+        "ellos": "llamaban"
+      },
+      "future": {
+        "yo": "llamaré",
+        "tu": "llamarás",
+        "el": "llamará",
+        "nosotros": "llamaremos",
+        "ellos": "llamarán"
+      },
+      "conditional": {
+        "yo": "llamaría",
+        "tu": "llamarías",
+        "el": "llamaría",
+        "nosotros": "llamaríamos",
+        "ellos": "llamarían"
+      },
+      "subjunctive": {
+        "yo": "llame",
+        "tu": "llames",
+        "el": "llame",
+        "nosotros": "llamemos",
+        "ellos": "llamen"
+      }
+    }
+  },
+  {
+    "infinitive": "llevar",
+    "english": "to carry / wear",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "llevo",
+        "tu": "llevas",
+        "el": "lleva",
+        "nosotros": "llevamos",
+        "ellos": "llevan"
+      },
+      "preterite": {
+        "yo": "llevé",
+        "tu": "llevaste",
+        "el": "llevó",
+        "nosotros": "llevamos",
+        "ellos": "llevaron"
+      },
+      "imperfect": {
+        "yo": "llevaba",
+        "tu": "llevabas",
+        "el": "llevaba",
+        "nosotros": "llevábamos",
+        "ellos": "llevaban"
+      },
+      "future": {
+        "yo": "llevaré",
+        "tu": "llevarás",
+        "el": "llevará",
+        "nosotros": "llevaremos",
+        "ellos": "llevarán"
+      },
+      "conditional": {
+        "yo": "llevaría",
+        "tu": "llevarías",
+        "el": "llevaría",
+        "nosotros": "llevaríamos",
+        "ellos": "llevarían"
+      },
+      "subjunctive": {
+        "yo": "lleve",
+        "tu": "lleves",
+        "el": "lleve",
+        "nosotros": "llevemos",
+        "ellos": "lleven"
+      }
+    }
+  },
+  {
+    "infinitive": "dejar",
+    "english": "to leave / let",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "dejo",
+        "tu": "dejas",
+        "el": "deja",
+        "nosotros": "dejamos",
+        "ellos": "dejan"
+      },
+      "preterite": {
+        "yo": "dejé",
+        "tu": "dejaste",
+        "el": "dejó",
+        "nosotros": "dejamos",
+        "ellos": "dejaron"
+      },
+      "imperfect": {
+        "yo": "dejaba",
+        "tu": "dejabas",
+        "el": "dejaba",
+        "nosotros": "dejábamos",
+        "ellos": "dejaban"
+      },
+      "future": {
+        "yo": "dejaré",
+        "tu": "dejarás",
+        "el": "dejará",
+        "nosotros": "dejaremos",
+        "ellos": "dejarán"
+      },
+      "conditional": {
+        "yo": "dejaría",
+        "tu": "dejarías",
+        "el": "dejaría",
+        "nosotros": "dejaríamos",
+        "ellos": "dejarían"
+      },
+      "subjunctive": {
+        "yo": "deje",
+        "tu": "dejes",
+        "el": "deje",
+        "nosotros": "dejemos",
+        "ellos": "dejen"
+      }
+    }
+  },
+  {
+    "infinitive": "mirar",
+    "english": "to look at",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "miro",
+        "tu": "miras",
+        "el": "mira",
+        "nosotros": "miramos",
+        "ellos": "miran"
+      },
+      "preterite": {
+        "yo": "miré",
+        "tu": "miraste",
+        "el": "miró",
+        "nosotros": "miramos",
+        "ellos": "miraron"
+      },
+      "imperfect": {
+        "yo": "miraba",
+        "tu": "mirabas",
+        "el": "miraba",
+        "nosotros": "mirábamos",
+        "ellos": "miraban"
+      },
+      "future": {
+        "yo": "miraré",
+        "tu": "mirarás",
+        "el": "mirará",
+        "nosotros": "miraremos",
+        "ellos": "mirarán"
+      },
+      "conditional": {
+        "yo": "miraría",
+        "tu": "mirarías",
+        "el": "miraría",
+        "nosotros": "miraríamos",
+        "ellos": "mirarían"
+      },
+      "subjunctive": {
+        "yo": "mire",
+        "tu": "mires",
+        "el": "mire",
+        "nosotros": "miremos",
+        "ellos": "miren"
+      }
+    }
+  },
+  {
+    "infinitive": "esperar",
+    "english": "to wait / hope",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "espero",
+        "tu": "esperas",
+        "el": "espera",
+        "nosotros": "esperamos",
+        "ellos": "esperan"
+      },
+      "preterite": {
+        "yo": "esperé",
+        "tu": "esperaste",
+        "el": "esperó",
+        "nosotros": "esperamos",
+        "ellos": "esperaron"
+      },
+      "imperfect": {
+        "yo": "esperaba",
+        "tu": "esperabas",
+        "el": "esperaba",
+        "nosotros": "esperábamos",
+        "ellos": "esperaban"
+      },
+      "future": {
+        "yo": "esperaré",
+        "tu": "esperarás",
+        "el": "esperará",
+        "nosotros": "esperaremos",
+        "ellos": "esperarán"
+      },
+      "conditional": {
+        "yo": "esperaría",
+        "tu": "esperarías",
+        "el": "esperaría",
+        "nosotros": "esperaríamos",
+        "ellos": "esperarían"
+      },
+      "subjunctive": {
+        "yo": "espere",
+        "tu": "esperes",
+        "el": "espere",
+        "nosotros": "esperemos",
+        "ellos": "esperen"
+      }
+    }
+  },
+  {
+    "infinitive": "necesitar",
+    "english": "to need",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "necesito",
+        "tu": "necesitas",
+        "el": "necesita",
+        "nosotros": "necesitamos",
+        "ellos": "necesitan"
+      },
+      "preterite": {
+        "yo": "necesité",
+        "tu": "necesitaste",
+        "el": "necesitó",
+        "nosotros": "necesitamos",
+        "ellos": "necesitaron"
+      },
+      "imperfect": {
+        "yo": "necesitaba",
+        "tu": "necesitabas",
+        "el": "necesitaba",
+        "nosotros": "necesitábamos",
+        "ellos": "necesitaban"
+      },
+      "future": {
+        "yo": "necesitaré",
+        "tu": "necesitarás",
+        "el": "necesitará",
+        "nosotros": "necesitaremos",
+        "ellos": "necesitarán"
+      },
+      "conditional": {
+        "yo": "necesitaría",
+        "tu": "necesitarías",
+        "el": "necesitaría",
+        "nosotros": "necesitaríamos",
+        "ellos": "necesitarían"
+      },
+      "subjunctive": {
+        "yo": "necesite",
+        "tu": "necesites",
+        "el": "necesite",
+        "nosotros": "necesitemos",
+        "ellos": "necesiten"
+      }
+    }
+  },
+  {
+    "infinitive": "ayudar",
+    "english": "to help",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "ayudo",
+        "tu": "ayudas",
+        "el": "ayuda",
+        "nosotros": "ayudamos",
+        "ellos": "ayudan"
+      },
+      "preterite": {
+        "yo": "ayudé",
+        "tu": "ayudaste",
+        "el": "ayudó",
+        "nosotros": "ayudamos",
+        "ellos": "ayudaron"
+      },
+      "imperfect": {
+        "yo": "ayudaba",
+        "tu": "ayudabas",
+        "el": "ayudaba",
+        "nosotros": "ayudábamos",
+        "ellos": "ayudaban"
+      },
+      "future": {
+        "yo": "ayudaré",
+        "tu": "ayudarás",
+        "el": "ayudará",
+        "nosotros": "ayudaremos",
+        "ellos": "ayudarán"
+      },
+      "conditional": {
+        "yo": "ayudaría",
+        "tu": "ayudarías",
+        "el": "ayudaría",
+        "nosotros": "ayudaríamos",
+        "ellos": "ayudarían"
+      },
+      "subjunctive": {
+        "yo": "ayude",
+        "tu": "ayudes",
+        "el": "ayude",
+        "nosotros": "ayudemos",
+        "ellos": "ayuden"
+      }
+    }
+  },
+  {
+    "infinitive": "comprar",
+    "english": "to buy",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "compro",
+        "tu": "compras",
+        "el": "compra",
+        "nosotros": "compramos",
+        "ellos": "compran"
+      },
+      "preterite": {
+        "yo": "compré",
+        "tu": "compraste",
+        "el": "compró",
+        "nosotros": "compramos",
+        "ellos": "compraron"
+      },
+      "imperfect": {
+        "yo": "compraba",
+        "tu": "comprabas",
+        "el": "compraba",
+        "nosotros": "comprábamos",
+        "ellos": "compraban"
+      },
+      "future": {
+        "yo": "compraré",
+        "tu": "comprarás",
+        "el": "comprará",
+        "nosotros": "compraremos",
+        "ellos": "comprarán"
+      },
+      "conditional": {
+        "yo": "compraría",
+        "tu": "comprarías",
+        "el": "compraría",
+        "nosotros": "compraríamos",
+        "ellos": "comprarían"
+      },
+      "subjunctive": {
+        "yo": "compre",
+        "tu": "compres",
+        "el": "compre",
+        "nosotros": "compremos",
+        "ellos": "compren"
+      }
+    }
+  },
+  {
+    "infinitive": "escuchar",
+    "english": "to listen",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "escucho",
+        "tu": "escuchas",
+        "el": "escucha",
+        "nosotros": "escuchamos",
+        "ellos": "escuchan"
+      },
+      "preterite": {
+        "yo": "escuché",
+        "tu": "escuchaste",
+        "el": "escuchó",
+        "nosotros": "escuchamos",
+        "ellos": "escucharon"
+      },
+      "imperfect": {
+        "yo": "escuchaba",
+        "tu": "escuchabas",
+        "el": "escuchaba",
+        "nosotros": "escuchábamos",
+        "ellos": "escuchaban"
+      },
+      "future": {
+        "yo": "escucharé",
+        "tu": "escucharás",
+        "el": "escuchará",
+        "nosotros": "escucharemos",
+        "ellos": "escucharán"
+      },
+      "conditional": {
+        "yo": "escucharía",
+        "tu": "escucharías",
+        "el": "escucharía",
+        "nosotros": "escucharíamos",
+        "ellos": "escucharían"
+      },
+      "subjunctive": {
+        "yo": "escuche",
+        "tu": "escuches",
+        "el": "escuche",
+        "nosotros": "escuchemos",
+        "ellos": "escuchen"
+      }
+    }
+  },
+  {
+    "infinitive": "viajar",
+    "english": "to travel",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "viajo",
+        "tu": "viajas",
+        "el": "viaja",
+        "nosotros": "viajamos",
+        "ellos": "viajan"
+      },
+      "preterite": {
+        "yo": "viajé",
+        "tu": "viajaste",
+        "el": "viajó",
+        "nosotros": "viajamos",
+        "ellos": "viajaron"
+      },
+      "imperfect": {
+        "yo": "viajaba",
+        "tu": "viajabas",
+        "el": "viajaba",
+        "nosotros": "viajábamos",
+        "ellos": "viajaban"
+      },
+      "future": {
+        "yo": "viajaré",
+        "tu": "viajarás",
+        "el": "viajará",
+        "nosotros": "viajaremos",
+        "ellos": "viajarán"
+      },
+      "conditional": {
+        "yo": "viajaría",
+        "tu": "viajarías",
+        "el": "viajaría",
+        "nosotros": "viajaríamos",
+        "ellos": "viajarían"
+      },
+      "subjunctive": {
+        "yo": "viaje",
+        "tu": "viajes",
+        "el": "viaje",
+        "nosotros": "viajemos",
+        "ellos": "viajen"
+      }
+    }
+  },
+  {
+    "infinitive": "cocinar",
+    "english": "to cook",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "cocino",
+        "tu": "cocinas",
+        "el": "cocina",
+        "nosotros": "cocinamos",
+        "ellos": "cocinan"
+      },
+      "preterite": {
+        "yo": "cociné",
+        "tu": "cocinaste",
+        "el": "cocinó",
+        "nosotros": "cocinamos",
+        "ellos": "cocinaron"
+      },
+      "imperfect": {
+        "yo": "cocinaba",
+        "tu": "cocinabas",
+        "el": "cocinaba",
+        "nosotros": "cocinábamos",
+        "ellos": "cocinaban"
+      },
+      "future": {
+        "yo": "cocinaré",
+        "tu": "cocinarás",
+        "el": "cocinará",
+        "nosotros": "cocinaremos",
+        "ellos": "cocinarán"
+      },
+      "conditional": {
+        "yo": "cocinaría",
+        "tu": "cocinarías",
+        "el": "cocinaría",
+        "nosotros": "cocinaríamos",
+        "ellos": "cocinarían"
+      },
+      "subjunctive": {
+        "yo": "cocine",
+        "tu": "cocines",
+        "el": "cocine",
+        "nosotros": "cocinemos",
+        "ellos": "cocinen"
+      }
+    }
+  },
+  {
+    "infinitive": "caminar",
+    "english": "to walk",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "camino",
+        "tu": "caminas",
+        "el": "camina",
+        "nosotros": "caminamos",
+        "ellos": "caminan"
+      },
+      "preterite": {
+        "yo": "caminé",
+        "tu": "caminaste",
+        "el": "caminó",
+        "nosotros": "caminamos",
+        "ellos": "caminaron"
+      },
+      "imperfect": {
+        "yo": "caminaba",
+        "tu": "caminabas",
+        "el": "caminaba",
+        "nosotros": "caminábamos",
+        "ellos": "caminaban"
+      },
+      "future": {
+        "yo": "caminaré",
+        "tu": "caminarás",
+        "el": "caminará",
+        "nosotros": "caminaremos",
+        "ellos": "caminarán"
+      },
+      "conditional": {
+        "yo": "caminaría",
+        "tu": "caminarías",
+        "el": "caminaría",
+        "nosotros": "caminaríamos",
+        "ellos": "caminarían"
+      },
+      "subjunctive": {
+        "yo": "camine",
+        "tu": "camines",
+        "el": "camine",
+        "nosotros": "caminemos",
+        "ellos": "caminen"
+      }
+    }
+  },
+  {
+    "infinitive": "pasar",
+    "english": "to pass / spend (time)",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "paso",
+        "tu": "pasas",
+        "el": "pasa",
+        "nosotros": "pasamos",
+        "ellos": "pasan"
+      },
+      "preterite": {
+        "yo": "pasé",
+        "tu": "pasaste",
+        "el": "pasó",
+        "nosotros": "pasamos",
+        "ellos": "pasaron"
+      },
+      "imperfect": {
+        "yo": "pasaba",
+        "tu": "pasabas",
+        "el": "pasaba",
+        "nosotros": "pasábamos",
+        "ellos": "pasaban"
+      },
+      "future": {
+        "yo": "pasaré",
+        "tu": "pasarás",
+        "el": "pasará",
+        "nosotros": "pasaremos",
+        "ellos": "pasarán"
+      },
+      "conditional": {
+        "yo": "pasaría",
+        "tu": "pasarías",
+        "el": "pasaría",
+        "nosotros": "pasaríamos",
+        "ellos": "pasarían"
+      },
+      "subjunctive": {
+        "yo": "pase",
+        "tu": "pases",
+        "el": "pase",
+        "nosotros": "pasemos",
+        "ellos": "pasen"
+      }
+    }
+  },
+  {
+    "infinitive": "terminar",
+    "english": "to finish",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "termino",
+        "tu": "terminas",
+        "el": "termina",
+        "nosotros": "terminamos",
+        "ellos": "terminan"
+      },
+      "preterite": {
+        "yo": "terminé",
+        "tu": "terminaste",
+        "el": "terminó",
+        "nosotros": "terminamos",
+        "ellos": "terminaron"
+      },
+      "imperfect": {
+        "yo": "terminaba",
+        "tu": "terminabas",
+        "el": "terminaba",
+        "nosotros": "terminábamos",
+        "ellos": "terminaban"
+      },
+      "future": {
+        "yo": "terminaré",
+        "tu": "terminarás",
+        "el": "terminará",
+        "nosotros": "terminaremos",
+        "ellos": "terminarán"
+      },
+      "conditional": {
+        "yo": "terminaría",
+        "tu": "terminarías",
+        "el": "terminaría",
+        "nosotros": "terminaríamos",
+        "ellos": "terminarían"
+      },
+      "subjunctive": {
+        "yo": "termine",
+        "tu": "termines",
+        "el": "termine",
+        "nosotros": "terminemos",
+        "ellos": "terminen"
+      }
+    }
+  },
+  {
+    "infinitive": "usar",
+    "english": "to use",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "uso",
+        "tu": "usas",
+        "el": "usa",
+        "nosotros": "usamos",
+        "ellos": "usan"
+      },
+      "preterite": {
+        "yo": "usé",
+        "tu": "usaste",
+        "el": "usó",
+        "nosotros": "usamos",
+        "ellos": "usaron"
+      },
+      "imperfect": {
+        "yo": "usaba",
+        "tu": "usabas",
+        "el": "usaba",
+        "nosotros": "usábamos",
+        "ellos": "usaban"
+      },
+      "future": {
+        "yo": "usaré",
+        "tu": "usarás",
+        "el": "usará",
+        "nosotros": "usaremos",
+        "ellos": "usarán"
+      },
+      "conditional": {
+        "yo": "usaría",
+        "tu": "usarías",
+        "el": "usaría",
+        "nosotros": "usaríamos",
+        "ellos": "usarían"
+      },
+      "subjunctive": {
+        "yo": "use",
+        "tu": "uses",
+        "el": "use",
+        "nosotros": "usemos",
+        "ellos": "usen"
+      }
+    }
+  },
+  {
+    "infinitive": "entrar",
+    "english": "to enter",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "entro",
+        "tu": "entras",
+        "el": "entra",
+        "nosotros": "entramos",
+        "ellos": "entran"
+      },
+      "preterite": {
+        "yo": "entré",
+        "tu": "entraste",
+        "el": "entró",
+        "nosotros": "entramos",
+        "ellos": "entraron"
+      },
+      "imperfect": {
+        "yo": "entraba",
+        "tu": "entrabas",
+        "el": "entraba",
+        "nosotros": "entrábamos",
+        "ellos": "entraban"
+      },
+      "future": {
+        "yo": "entraré",
+        "tu": "entrarás",
+        "el": "entrará",
+        "nosotros": "entraremos",
+        "ellos": "entrarán"
+      },
+      "conditional": {
+        "yo": "entraría",
+        "tu": "entrarías",
+        "el": "entraría",
+        "nosotros": "entraríamos",
+        "ellos": "entrarían"
+      },
+      "subjunctive": {
+        "yo": "entre",
+        "tu": "entres",
+        "el": "entre",
+        "nosotros": "entremos",
+        "ellos": "entren"
+      }
+    }
+  },
+  {
+    "infinitive": "comer",
+    "english": "to eat",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "como",
+        "tu": "comes",
+        "el": "come",
+        "nosotros": "comemos",
+        "ellos": "comen"
+      },
+      "preterite": {
+        "yo": "comí",
+        "tu": "comiste",
+        "el": "comió",
+        "nosotros": "comimos",
+        "ellos": "comieron"
+      },
+      "imperfect": {
+        "yo": "comía",
+        "tu": "comías",
+        "el": "comía",
+        "nosotros": "comíamos",
+        "ellos": "comían"
+      },
+      "future": {
+        "yo": "comeré",
+        "tu": "comerás",
+        "el": "comerá",
+        "nosotros": "comeremos",
+        "ellos": "comerán"
+      },
+      "conditional": {
+        "yo": "comería",
+        "tu": "comerías",
+        "el": "comería",
+        "nosotros": "comeríamos",
+        "ellos": "comerían"
+      },
+      "subjunctive": {
+        "yo": "coma",
+        "tu": "comas",
+        "el": "coma",
+        "nosotros": "comamos",
+        "ellos": "coman"
+      }
+    }
+  },
+  {
+    "infinitive": "beber",
+    "english": "to drink",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "bebo",
+        "tu": "bebes",
+        "el": "bebe",
+        "nosotros": "bebemos",
+        "ellos": "beben"
+      },
+      "preterite": {
+        "yo": "bebí",
+        "tu": "bebiste",
+        "el": "bebió",
+        "nosotros": "bebimos",
+        "ellos": "bebieron"
+      },
+      "imperfect": {
+        "yo": "bebía",
+        "tu": "bebías",
+        "el": "bebía",
+        "nosotros": "bebíamos",
+        "ellos": "bebían"
+      },
+      "future": {
+        "yo": "beberé",
+        "tu": "beberás",
+        "el": "beberá",
+        "nosotros": "beberemos",
+        "ellos": "beberán"
+      },
+      "conditional": {
+        "yo": "bebería",
+        "tu": "beberías",
+        "el": "bebería",
+        "nosotros": "beberíamos",
+        "ellos": "beberían"
+      },
+      "subjunctive": {
+        "yo": "beba",
+        "tu": "bebas",
+        "el": "beba",
+        "nosotros": "bebamos",
+        "ellos": "beban"
+      }
+    }
+  },
+  {
+    "infinitive": "aprender",
+    "english": "to learn",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "aprendo",
+        "tu": "aprendes",
+        "el": "aprende",
+        "nosotros": "aprendemos",
+        "ellos": "aprenden"
+      },
+      "preterite": {
+        "yo": "aprendí",
+        "tu": "aprendiste",
+        "el": "aprendió",
+        "nosotros": "aprendimos",
+        "ellos": "aprendieron"
+      },
+      "imperfect": {
+        "yo": "aprendía",
+        "tu": "aprendías",
+        "el": "aprendía",
+        "nosotros": "aprendíamos",
+        "ellos": "aprendían"
+      },
+      "future": {
+        "yo": "aprenderé",
+        "tu": "aprenderás",
+        "el": "aprenderá",
+        "nosotros": "aprenderemos",
+        "ellos": "aprenderán"
+      },
+      "conditional": {
+        "yo": "aprendería",
+        "tu": "aprenderías",
+        "el": "aprendería",
+        "nosotros": "aprenderíamos",
+        "ellos": "aprenderían"
+      },
+      "subjunctive": {
+        "yo": "aprenda",
+        "tu": "aprendas",
+        "el": "aprenda",
+        "nosotros": "aprendamos",
+        "ellos": "aprendan"
+      }
+    }
+  },
+  {
+    "infinitive": "correr",
+    "english": "to run",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "corro",
+        "tu": "corres",
+        "el": "corre",
+        "nosotros": "corremos",
+        "ellos": "corren"
+      },
+      "preterite": {
+        "yo": "corrí",
+        "tu": "corriste",
+        "el": "corrió",
+        "nosotros": "corrimos",
+        "ellos": "corrieron"
+      },
+      "imperfect": {
+        "yo": "corría",
+        "tu": "corrías",
+        "el": "corría",
+        "nosotros": "corríamos",
+        "ellos": "corrían"
+      },
+      "future": {
+        "yo": "correré",
+        "tu": "correrás",
+        "el": "correrá",
+        "nosotros": "correremos",
+        "ellos": "correrán"
+      },
+      "conditional": {
+        "yo": "correría",
+        "tu": "correrías",
+        "el": "correría",
+        "nosotros": "correríamos",
+        "ellos": "correrían"
+      },
+      "subjunctive": {
+        "yo": "corra",
+        "tu": "corras",
+        "el": "corra",
+        "nosotros": "corramos",
+        "ellos": "corran"
+      }
+    }
+  },
+  {
+    "infinitive": "comprender",
+    "english": "to understand",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "comprendo",
+        "tu": "comprendes",
+        "el": "comprende",
+        "nosotros": "comprendemos",
+        "ellos": "comprenden"
+      },
+      "preterite": {
+        "yo": "comprendí",
+        "tu": "comprendiste",
+        "el": "comprendió",
+        "nosotros": "comprendimos",
+        "ellos": "comprendieron"
+      },
+      "imperfect": {
+        "yo": "comprendía",
+        "tu": "comprendías",
+        "el": "comprendía",
+        "nosotros": "comprendíamos",
+        "ellos": "comprendían"
+      },
+      "future": {
+        "yo": "comprenderé",
+        "tu": "comprenderás",
+        "el": "comprenderá",
+        "nosotros": "comprenderemos",
+        "ellos": "comprenderán"
+      },
+      "conditional": {
+        "yo": "comprendería",
+        "tu": "comprenderías",
+        "el": "comprendería",
+        "nosotros": "comprenderíamos",
+        "ellos": "comprenderían"
+      },
+      "subjunctive": {
+        "yo": "comprenda",
+        "tu": "comprendas",
+        "el": "comprenda",
+        "nosotros": "comprendamos",
+        "ellos": "comprendan"
+      }
+    }
+  },
+  {
+    "infinitive": "deber",
+    "english": "to owe / should",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "debo",
+        "tu": "debes",
+        "el": "debe",
+        "nosotros": "debemos",
+        "ellos": "deben"
+      },
+      "preterite": {
+        "yo": "debí",
+        "tu": "debiste",
+        "el": "debió",
+        "nosotros": "debimos",
+        "ellos": "debieron"
+      },
+      "imperfect": {
+        "yo": "debía",
+        "tu": "debías",
+        "el": "debía",
+        "nosotros": "debíamos",
+        "ellos": "debían"
+      },
+      "future": {
+        "yo": "deberé",
+        "tu": "deberás",
+        "el": "deberá",
+        "nosotros": "deberemos",
+        "ellos": "deberán"
+      },
+      "conditional": {
+        "yo": "debería",
+        "tu": "deberías",
+        "el": "debería",
+        "nosotros": "deberíamos",
+        "ellos": "deberían"
+      },
+      "subjunctive": {
+        "yo": "deba",
+        "tu": "debas",
+        "el": "deba",
+        "nosotros": "debamos",
+        "ellos": "deban"
+      }
+    }
+  },
+  {
+    "infinitive": "vender",
+    "english": "to sell",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "vendo",
+        "tu": "vendes",
+        "el": "vende",
+        "nosotros": "vendemos",
+        "ellos": "venden"
+      },
+      "preterite": {
+        "yo": "vendí",
+        "tu": "vendiste",
+        "el": "vendió",
+        "nosotros": "vendimos",
+        "ellos": "vendieron"
+      },
+      "imperfect": {
+        "yo": "vendía",
+        "tu": "vendías",
+        "el": "vendía",
+        "nosotros": "vendíamos",
+        "ellos": "vendían"
+      },
+      "future": {
+        "yo": "venderé",
+        "tu": "venderás",
+        "el": "venderá",
+        "nosotros": "venderemos",
+        "ellos": "venderán"
+      },
+      "conditional": {
+        "yo": "vendería",
+        "tu": "venderías",
+        "el": "vendería",
+        "nosotros": "venderíamos",
+        "ellos": "venderían"
+      },
+      "subjunctive": {
+        "yo": "venda",
+        "tu": "vendas",
+        "el": "venda",
+        "nosotros": "vendamos",
+        "ellos": "vendan"
+      }
+    }
+  },
+  {
+    "infinitive": "vivir",
+    "english": "to live",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "vivo",
+        "tu": "vives",
+        "el": "vive",
+        "nosotros": "vivimos",
+        "ellos": "viven"
+      },
+      "preterite": {
+        "yo": "viví",
+        "tu": "viviste",
+        "el": "vivió",
+        "nosotros": "vivimos",
+        "ellos": "vivieron"
+      },
+      "imperfect": {
+        "yo": "vivía",
+        "tu": "vivías",
+        "el": "vivía",
+        "nosotros": "vivíamos",
+        "ellos": "vivían"
+      },
+      "future": {
+        "yo": "viviré",
+        "tu": "vivirás",
+        "el": "vivirá",
+        "nosotros": "viviremos",
+        "ellos": "vivirán"
+      },
+      "conditional": {
+        "yo": "viviría",
+        "tu": "vivirías",
+        "el": "viviría",
+        "nosotros": "viviríamos",
+        "ellos": "vivirían"
+      },
+      "subjunctive": {
+        "yo": "viva",
+        "tu": "vivas",
+        "el": "viva",
+        "nosotros": "vivamos",
+        "ellos": "vivan"
+      }
+    }
+  },
+  {
+    "infinitive": "escribir",
+    "english": "to write",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "escribo",
+        "tu": "escribes",
+        "el": "escribe",
+        "nosotros": "escribimos",
+        "ellos": "escriben"
+      },
+      "preterite": {
+        "yo": "escribí",
+        "tu": "escribiste",
+        "el": "escribió",
+        "nosotros": "escribimos",
+        "ellos": "escribieron"
+      },
+      "imperfect": {
+        "yo": "escribía",
+        "tu": "escribías",
+        "el": "escribía",
+        "nosotros": "escribíamos",
+        "ellos": "escribían"
+      },
+      "future": {
+        "yo": "escribiré",
+        "tu": "escribirás",
+        "el": "escribirá",
+        "nosotros": "escribiremos",
+        "ellos": "escribirán"
+      },
+      "conditional": {
+        "yo": "escribiría",
+        "tu": "escribirías",
+        "el": "escribiría",
+        "nosotros": "escribiríamos",
+        "ellos": "escribirían"
+      },
+      "subjunctive": {
+        "yo": "escriba",
+        "tu": "escribas",
+        "el": "escriba",
+        "nosotros": "escribamos",
+        "ellos": "escriban"
+      }
+    }
+  },
+  {
+    "infinitive": "abrir",
+    "english": "to open",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "abro",
+        "tu": "abres",
+        "el": "abre",
+        "nosotros": "abrimos",
+        "ellos": "abren"
+      },
+      "preterite": {
+        "yo": "abrí",
+        "tu": "abriste",
+        "el": "abrió",
+        "nosotros": "abrimos",
+        "ellos": "abrieron"
+      },
+      "imperfect": {
+        "yo": "abría",
+        "tu": "abrías",
+        "el": "abría",
+        "nosotros": "abríamos",
+        "ellos": "abrían"
+      },
+      "future": {
+        "yo": "abriré",
+        "tu": "abrirás",
+        "el": "abrirá",
+        "nosotros": "abriremos",
+        "ellos": "abrirán"
+      },
+      "conditional": {
+        "yo": "abriría",
+        "tu": "abrirías",
+        "el": "abriría",
+        "nosotros": "abriríamos",
+        "ellos": "abrirían"
+      },
+      "subjunctive": {
+        "yo": "abra",
+        "tu": "abras",
+        "el": "abra",
+        "nosotros": "abramos",
+        "ellos": "abran"
+      }
+    }
+  },
+  {
+    "infinitive": "recibir",
+    "english": "to receive",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "recibo",
+        "tu": "recibes",
+        "el": "recibe",
+        "nosotros": "recibimos",
+        "ellos": "reciben"
+      },
+      "preterite": {
+        "yo": "recibí",
+        "tu": "recibiste",
+        "el": "recibió",
+        "nosotros": "recibimos",
+        "ellos": "recibieron"
+      },
+      "imperfect": {
+        "yo": "recibía",
+        "tu": "recibías",
+        "el": "recibía",
+        "nosotros": "recibíamos",
+        "ellos": "recibían"
+      },
+      "future": {
+        "yo": "recibiré",
+        "tu": "recibirás",
+        "el": "recibirá",
+        "nosotros": "recibiremos",
+        "ellos": "recibirán"
+      },
+      "conditional": {
+        "yo": "recibiría",
+        "tu": "recibirías",
+        "el": "recibiría",
+        "nosotros": "recibiríamos",
+        "ellos": "recibirían"
+      },
+      "subjunctive": {
+        "yo": "reciba",
+        "tu": "recibas",
+        "el": "reciba",
+        "nosotros": "recibamos",
+        "ellos": "reciban"
+      }
+    }
+  },
+  {
+    "infinitive": "decidir",
+    "english": "to decide",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "decido",
+        "tu": "decides",
+        "el": "decide",
+        "nosotros": "decidimos",
+        "ellos": "deciden"
+      },
+      "preterite": {
+        "yo": "decidí",
+        "tu": "decidiste",
+        "el": "decidió",
+        "nosotros": "decidimos",
+        "ellos": "decidieron"
+      },
+      "imperfect": {
+        "yo": "decidía",
+        "tu": "decidías",
+        "el": "decidía",
+        "nosotros": "decidíamos",
+        "ellos": "decidían"
+      },
+      "future": {
+        "yo": "decidiré",
+        "tu": "decidirás",
+        "el": "decidirá",
+        "nosotros": "decidiremos",
+        "ellos": "decidirán"
+      },
+      "conditional": {
+        "yo": "decidiría",
+        "tu": "decidirías",
+        "el": "decidiría",
+        "nosotros": "decidiríamos",
+        "ellos": "decidirían"
+      },
+      "subjunctive": {
+        "yo": "decida",
+        "tu": "decidas",
+        "el": "decida",
+        "nosotros": "decidamos",
+        "ellos": "decidan"
+      }
+    }
+  },
+  {
+    "infinitive": "subir",
+    "english": "to go up",
+    "kind": "regular",
+    "conjugations": {
+      "present": {
+        "yo": "subo",
+        "tu": "subes",
+        "el": "sube",
+        "nosotros": "subimos",
+        "ellos": "suben"
+      },
+      "preterite": {
+        "yo": "subí",
+        "tu": "subiste",
+        "el": "subió",
+        "nosotros": "subimos",
+        "ellos": "subieron"
+      },
+      "imperfect": {
+        "yo": "subía",
+        "tu": "subías",
+        "el": "subía",
+        "nosotros": "subíamos",
+        "ellos": "subían"
+      },
+      "future": {
+        "yo": "subiré",
+        "tu": "subirás",
+        "el": "subirá",
+        "nosotros": "subiremos",
+        "ellos": "subirán"
+      },
+      "conditional": {
+        "yo": "subiría",
+        "tu": "subirías",
+        "el": "subiría",
+        "nosotros": "subiríamos",
+        "ellos": "subirían"
+      },
+      "subjunctive": {
+        "yo": "suba",
+        "tu": "subas",
+        "el": "suba",
+        "nosotros": "subamos",
+        "ellos": "suban"
+      }
+    }
+  },
+  {
+    "infinitive": "llegar",
+    "english": "to arrive",
+    "kind": "spelling",
+    "conjugations": {
+      "present": {
+        "yo": "llego",
+        "tu": "llegas",
+        "el": "llega",
+        "nosotros": "llegamos",
+        "ellos": "llegan"
+      },
+      "preterite": {
+        "yo": "llegué",
+        "tu": "llegaste",
+        "el": "llegó",
+        "nosotros": "llegamos",
+        "ellos": "llegaron"
+      },
+      "imperfect": {
+        "yo": "llegaba",
+        "tu": "llegabas",
+        "el": "llegaba",
+        "nosotros": "llegábamos",
+        "ellos": "llegaban"
+      },
+      "future": {
+        "yo": "llegaré",
+        "tu": "llegarás",
+        "el": "llegará",
+        "nosotros": "llegaremos",
+        "ellos": "llegarán"
+      },
+      "conditional": {
+        "yo": "llegaría",
+        "tu": "llegarías",
+        "el": "llegaría",
+        "nosotros": "llegaríamos",
+        "ellos": "llegarían"
+      },
+      "subjunctive": {
+        "yo": "llegue",
+        "tu": "llegues",
+        "el": "llegue",
+        "nosotros": "lleguemos",
+        "ellos": "lleguen"
+      }
+    }
+  },
+  {
+    "infinitive": "pagar",
+    "english": "to pay",
+    "kind": "spelling",
+    "conjugations": {
+      "present": {
+        "yo": "pago",
+        "tu": "pagas",
+        "el": "paga",
+        "nosotros": "pagamos",
+        "ellos": "pagan"
+      },
+      "preterite": {
+        "yo": "pagué",
+        "tu": "pagaste",
+        "el": "pagó",
+        "nosotros": "pagamos",
+        "ellos": "pagaron"
+      },
+      "imperfect": {
+        "yo": "pagaba",
+        "tu": "pagabas",
+        "el": "pagaba",
+        "nosotros": "pagábamos",
+        "ellos": "pagaban"
+      },
+      "future": {
+        "yo": "pagaré",
+        "tu": "pagarás",
+        "el": "pagará",
+        "nosotros": "pagaremos",
+        "ellos": "pagarán"
+      },
+      "conditional": {
+        "yo": "pagaría",
+        "tu": "pagarías",
+        "el": "pagaría",
+        "nosotros": "pagaríamos",
+        "ellos": "pagarían"
+      },
+      "subjunctive": {
+        "yo": "pague",
+        "tu": "pagues",
+        "el": "pague",
+        "nosotros": "paguemos",
+        "ellos": "paguen"
+      }
+    }
+  },
+  {
+    "infinitive": "buscar",
+    "english": "to look for",
+    "kind": "spelling",
+    "conjugations": {
+      "present": {
+        "yo": "busco",
+        "tu": "buscas",
+        "el": "busca",
+        "nosotros": "buscamos",
+        "ellos": "buscan"
+      },
+      "preterite": {
+        "yo": "busqué",
+        "tu": "buscaste",
+        "el": "buscó",
+        "nosotros": "buscamos",
+        "ellos": "buscaron"
+      },
+      "imperfect": {
+        "yo": "buscaba",
+        "tu": "buscabas",
+        "el": "buscaba",
+        "nosotros": "buscábamos",
+        "ellos": "buscaban"
+      },
+      "future": {
+        "yo": "buscaré",
+        "tu": "buscarás",
+        "el": "buscará",
+        "nosotros": "buscaremos",
+        "ellos": "buscarán"
+      },
+      "conditional": {
+        "yo": "buscaría",
+        "tu": "buscarías",
+        "el": "buscaría",
+        "nosotros": "buscaríamos",
+        "ellos": "buscarían"
+      },
+      "subjunctive": {
+        "yo": "busque",
+        "tu": "busques",
+        "el": "busque",
+        "nosotros": "busquemos",
+        "ellos": "busquen"
+      }
+    }
+  },
+  {
+    "infinitive": "tocar",
+    "english": "to touch / play (music)",
+    "kind": "spelling",
+    "conjugations": {
+      "present": {
+        "yo": "toco",
+        "tu": "tocas",
+        "el": "toca",
+        "nosotros": "tocamos",
+        "ellos": "tocan"
+      },
+      "preterite": {
+        "yo": "toqué",
+        "tu": "tocaste",
+        "el": "tocó",
+        "nosotros": "tocamos",
+        "ellos": "tocaron"
+      },
+      "imperfect": {
+        "yo": "tocaba",
+        "tu": "tocabas",
+        "el": "tocaba",
+        "nosotros": "tocábamos",
+        "ellos": "tocaban"
+      },
+      "future": {
+        "yo": "tocaré",
+        "tu": "tocarás",
+        "el": "tocará",
+        "nosotros": "tocaremos",
+        "ellos": "tocarán"
+      },
+      "conditional": {
+        "yo": "tocaría",
+        "tu": "tocarías",
+        "el": "tocaría",
+        "nosotros": "tocaríamos",
+        "ellos": "tocarían"
+      },
+      "subjunctive": {
+        "yo": "toque",
+        "tu": "toques",
+        "el": "toque",
+        "nosotros": "toquemos",
+        "ellos": "toquen"
+      }
+    }
+  },
+  {
+    "infinitive": "leer",
+    "english": "to read",
+    "kind": "spelling",
+    "conjugations": {
+      "present": {
+        "yo": "leo",
+        "tu": "lees",
+        "el": "lee",
+        "nosotros": "leemos",
+        "ellos": "leen"
+      },
+      "preterite": {
+        "yo": "leí",
+        "tu": "leíste",
+        "el": "leyó",
+        "nosotros": "leímos",
+        "ellos": "leyeron"
+      },
+      "imperfect": {
+        "yo": "leía",
+        "tu": "leías",
+        "el": "leía",
+        "nosotros": "leíamos",
+        "ellos": "leían"
+      },
+      "future": {
+        "yo": "leeré",
+        "tu": "leerás",
+        "el": "leerá",
+        "nosotros": "leeremos",
+        "ellos": "leerán"
+      },
+      "conditional": {
+        "yo": "leería",
+        "tu": "leerías",
+        "el": "leería",
+        "nosotros": "leeríamos",
+        "ellos": "leerían"
+      },
+      "subjunctive": {
+        "yo": "lea",
+        "tu": "leas",
+        "el": "lea",
+        "nosotros": "leamos",
+        "ellos": "lean"
+      }
+    }
+  },
+  {
+    "infinitive": "creer",
+    "english": "to believe",
+    "kind": "spelling",
+    "conjugations": {
+      "present": {
+        "yo": "creo",
+        "tu": "crees",
+        "el": "cree",
+        "nosotros": "creemos",
+        "ellos": "creen"
+      },
+      "preterite": {
+        "yo": "creí",
+        "tu": "creíste",
+        "el": "creyó",
+        "nosotros": "creímos",
+        "ellos": "creyeron"
+      },
+      "imperfect": {
+        "yo": "creía",
+        "tu": "creías",
+        "el": "creía",
+        "nosotros": "creíamos",
+        "ellos": "creían"
+      },
+      "future": {
+        "yo": "creeré",
+        "tu": "creerás",
+        "el": "creerá",
+        "nosotros": "creeremos",
+        "ellos": "creerán"
+      },
+      "conditional": {
+        "yo": "creería",
+        "tu": "creerías",
+        "el": "creería",
+        "nosotros": "creeríamos",
+        "ellos": "creerían"
+      },
+      "subjunctive": {
+        "yo": "crea",
+        "tu": "creas",
+        "el": "crea",
+        "nosotros": "creamos",
+        "ellos": "crean"
+      }
+    }
+  },
+  {
+    "infinitive": "pensar",
+    "english": "to think",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "pienso",
+        "tu": "piensas",
+        "el": "piensa",
+        "nosotros": "pensamos",
+        "ellos": "piensan"
+      },
+      "preterite": {
+        "yo": "pensé",
+        "tu": "pensaste",
+        "el": "pensó",
+        "nosotros": "pensamos",
+        "ellos": "pensaron"
+      },
+      "imperfect": {
+        "yo": "pensaba",
+        "tu": "pensabas",
+        "el": "pensaba",
+        "nosotros": "pensábamos",
+        "ellos": "pensaban"
+      },
+      "future": {
+        "yo": "pensaré",
+        "tu": "pensarás",
+        "el": "pensará",
+        "nosotros": "pensaremos",
+        "ellos": "pensarán"
+      },
+      "conditional": {
+        "yo": "pensaría",
+        "tu": "pensarías",
+        "el": "pensaría",
+        "nosotros": "pensaríamos",
+        "ellos": "pensarían"
+      },
+      "subjunctive": {
+        "yo": "piense",
+        "tu": "pienses",
+        "el": "piense",
+        "nosotros": "pensemos",
+        "ellos": "piensen"
+      }
+    }
+  },
+  {
+    "infinitive": "cerrar",
+    "english": "to close",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "cierro",
+        "tu": "cierras",
+        "el": "cierra",
+        "nosotros": "cerramos",
+        "ellos": "cierran"
+      },
+      "preterite": {
+        "yo": "cerré",
+        "tu": "cerraste",
+        "el": "cerró",
+        "nosotros": "cerramos",
+        "ellos": "cerraron"
+      },
+      "imperfect": {
+        "yo": "cerraba",
+        "tu": "cerrabas",
+        "el": "cerraba",
+        "nosotros": "cerrábamos",
+        "ellos": "cerraban"
+      },
+      "future": {
+        "yo": "cerraré",
+        "tu": "cerrarás",
+        "el": "cerrará",
+        "nosotros": "cerraremos",
+        "ellos": "cerrarán"
+      },
+      "conditional": {
+        "yo": "cerraría",
+        "tu": "cerrarías",
+        "el": "cerraría",
+        "nosotros": "cerraríamos",
+        "ellos": "cerrarían"
+      },
+      "subjunctive": {
+        "yo": "cierre",
+        "tu": "cierres",
+        "el": "cierre",
+        "nosotros": "cerremos",
+        "ellos": "cierren"
+      }
+    }
+  },
+  {
+    "infinitive": "empezar",
+    "english": "to begin",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "empiezo",
+        "tu": "empiezas",
+        "el": "empieza",
+        "nosotros": "empezamos",
+        "ellos": "empiezan"
+      },
+      "preterite": {
+        "yo": "empecé",
+        "tu": "empezaste",
+        "el": "empezó",
+        "nosotros": "empezamos",
+        "ellos": "empezaron"
+      },
+      "imperfect": {
+        "yo": "empezaba",
+        "tu": "empezabas",
+        "el": "empezaba",
+        "nosotros": "empezábamos",
+        "ellos": "empezaban"
+      },
+      "future": {
+        "yo": "empezaré",
+        "tu": "empezarás",
+        "el": "empezará",
+        "nosotros": "empezaremos",
+        "ellos": "empezarán"
+      },
+      "conditional": {
+        "yo": "empezaría",
+        "tu": "empezarías",
+        "el": "empezaría",
+        "nosotros": "empezaríamos",
+        "ellos": "empezarían"
+      },
+      "subjunctive": {
+        "yo": "empiece",
+        "tu": "empieces",
+        "el": "empiece",
+        "nosotros": "empecemos",
+        "ellos": "empiecen"
+      }
+    }
+  },
+  {
+    "infinitive": "entender",
+    "english": "to understand",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "entiendo",
+        "tu": "entiendes",
+        "el": "entiende",
+        "nosotros": "entendemos",
+        "ellos": "entienden"
+      },
+      "preterite": {
+        "yo": "entendí",
+        "tu": "entendiste",
+        "el": "entendió",
+        "nosotros": "entendimos",
+        "ellos": "entendieron"
+      },
+      "imperfect": {
+        "yo": "entendía",
+        "tu": "entendías",
+        "el": "entendía",
+        "nosotros": "entendíamos",
+        "ellos": "entendían"
+      },
+      "future": {
+        "yo": "entenderé",
+        "tu": "entenderás",
+        "el": "entenderá",
+        "nosotros": "entenderemos",
+        "ellos": "entenderán"
+      },
+      "conditional": {
+        "yo": "entendería",
+        "tu": "entenderías",
+        "el": "entendería",
+        "nosotros": "entenderíamos",
+        "ellos": "entenderían"
+      },
+      "subjunctive": {
+        "yo": "entienda",
+        "tu": "entiendas",
+        "el": "entienda",
+        "nosotros": "entendamos",
+        "ellos": "entiendan"
+      }
+    }
+  },
+  {
+    "infinitive": "perder",
+    "english": "to lose",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "pierdo",
+        "tu": "pierdes",
+        "el": "pierde",
+        "nosotros": "perdemos",
+        "ellos": "pierden"
+      },
+      "preterite": {
+        "yo": "perdí",
+        "tu": "perdiste",
+        "el": "perdió",
+        "nosotros": "perdimos",
+        "ellos": "perdieron"
+      },
+      "imperfect": {
+        "yo": "perdía",
+        "tu": "perdías",
+        "el": "perdía",
+        "nosotros": "perdíamos",
+        "ellos": "perdían"
+      },
+      "future": {
+        "yo": "perderé",
+        "tu": "perderás",
+        "el": "perderá",
+        "nosotros": "perderemos",
+        "ellos": "perderán"
+      },
+      "conditional": {
+        "yo": "perdería",
+        "tu": "perderías",
+        "el": "perdería",
+        "nosotros": "perderíamos",
+        "ellos": "perderían"
+      },
+      "subjunctive": {
+        "yo": "pierda",
+        "tu": "pierdas",
+        "el": "pierda",
+        "nosotros": "perdamos",
+        "ellos": "pierdan"
+      }
+    }
+  },
+  {
+    "infinitive": "volver",
+    "english": "to return",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "vuelvo",
+        "tu": "vuelves",
+        "el": "vuelve",
+        "nosotros": "volvemos",
+        "ellos": "vuelven"
+      },
+      "preterite": {
+        "yo": "volví",
+        "tu": "volviste",
+        "el": "volvió",
+        "nosotros": "volvimos",
+        "ellos": "volvieron"
+      },
+      "imperfect": {
+        "yo": "volvía",
+        "tu": "volvías",
+        "el": "volvía",
+        "nosotros": "volvíamos",
+        "ellos": "volvían"
+      },
+      "future": {
+        "yo": "volveré",
+        "tu": "volverás",
+        "el": "volverá",
+        "nosotros": "volveremos",
+        "ellos": "volverán"
+      },
+      "conditional": {
+        "yo": "volvería",
+        "tu": "volverías",
+        "el": "volvería",
+        "nosotros": "volveríamos",
+        "ellos": "volverían"
+      },
+      "subjunctive": {
+        "yo": "vuelva",
+        "tu": "vuelvas",
+        "el": "vuelva",
+        "nosotros": "volvamos",
+        "ellos": "vuelvan"
+      }
+    }
+  },
+  {
+    "infinitive": "contar",
+    "english": "to count / tell",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "cuento",
+        "tu": "cuentas",
+        "el": "cuenta",
+        "nosotros": "contamos",
+        "ellos": "cuentan"
+      },
+      "preterite": {
+        "yo": "conté",
+        "tu": "contaste",
+        "el": "contó",
+        "nosotros": "contamos",
+        "ellos": "contaron"
+      },
+      "imperfect": {
+        "yo": "contaba",
+        "tu": "contabas",
+        "el": "contaba",
+        "nosotros": "contábamos",
+        "ellos": "contaban"
+      },
+      "future": {
+        "yo": "contaré",
+        "tu": "contarás",
+        "el": "contará",
+        "nosotros": "contaremos",
+        "ellos": "contarán"
+      },
+      "conditional": {
+        "yo": "contaría",
+        "tu": "contarías",
+        "el": "contaría",
+        "nosotros": "contaríamos",
+        "ellos": "contarían"
+      },
+      "subjunctive": {
+        "yo": "cuente",
+        "tu": "cuentes",
+        "el": "cuente",
+        "nosotros": "contemos",
+        "ellos": "cuenten"
+      }
+    }
+  },
+  {
+    "infinitive": "encontrar",
+    "english": "to find",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "encuentro",
+        "tu": "encuentras",
+        "el": "encuentra",
+        "nosotros": "encontramos",
+        "ellos": "encuentran"
+      },
+      "preterite": {
+        "yo": "encontré",
+        "tu": "encontraste",
+        "el": "encontró",
+        "nosotros": "encontramos",
+        "ellos": "encontraron"
+      },
+      "imperfect": {
+        "yo": "encontraba",
+        "tu": "encontrabas",
+        "el": "encontraba",
+        "nosotros": "encontrábamos",
+        "ellos": "encontraban"
+      },
+      "future": {
+        "yo": "encontraré",
+        "tu": "encontrarás",
+        "el": "encontrará",
+        "nosotros": "encontraremos",
+        "ellos": "encontrarán"
+      },
+      "conditional": {
+        "yo": "encontraría",
+        "tu": "encontrarías",
+        "el": "encontraría",
+        "nosotros": "encontraríamos",
+        "ellos": "encontrarían"
+      },
+      "subjunctive": {
+        "yo": "encuentre",
+        "tu": "encuentres",
+        "el": "encuentre",
+        "nosotros": "encontremos",
+        "ellos": "encuentren"
+      }
+    }
+  },
+  {
+    "infinitive": "recordar",
+    "english": "to remember",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "recuerdo",
+        "tu": "recuerdas",
+        "el": "recuerda",
+        "nosotros": "recordamos",
+        "ellos": "recuerdan"
+      },
+      "preterite": {
+        "yo": "recordé",
+        "tu": "recordaste",
+        "el": "recordó",
+        "nosotros": "recordamos",
+        "ellos": "recordaron"
+      },
+      "imperfect": {
+        "yo": "recordaba",
+        "tu": "recordabas",
+        "el": "recordaba",
+        "nosotros": "recordábamos",
+        "ellos": "recordaban"
+      },
+      "future": {
+        "yo": "recordaré",
+        "tu": "recordarás",
+        "el": "recordará",
+        "nosotros": "recordaremos",
+        "ellos": "recordarán"
+      },
+      "conditional": {
+        "yo": "recordaría",
+        "tu": "recordarías",
+        "el": "recordaría",
+        "nosotros": "recordaríamos",
+        "ellos": "recordarían"
+      },
+      "subjunctive": {
+        "yo": "recuerde",
+        "tu": "recuerdes",
+        "el": "recuerde",
+        "nosotros": "recordemos",
+        "ellos": "recuerden"
+      }
+    }
+  },
+  {
+    "infinitive": "dormir",
+    "english": "to sleep",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "duermo",
+        "tu": "duermes",
+        "el": "duerme",
+        "nosotros": "dormimos",
+        "ellos": "duermen"
+      },
+      "preterite": {
+        "yo": "dormí",
+        "tu": "dormiste",
+        "el": "durmió",
+        "nosotros": "dormimos",
+        "ellos": "durmieron"
+      },
+      "imperfect": {
+        "yo": "dormía",
+        "tu": "dormías",
+        "el": "dormía",
+        "nosotros": "dormíamos",
+        "ellos": "dormían"
+      },
+      "future": {
+        "yo": "dormiré",
+        "tu": "dormirás",
+        "el": "dormirá",
+        "nosotros": "dormiremos",
+        "ellos": "dormirán"
+      },
+      "conditional": {
+        "yo": "dormiría",
+        "tu": "dormirías",
+        "el": "dormiría",
+        "nosotros": "dormiríamos",
+        "ellos": "dormirían"
+      },
+      "subjunctive": {
+        "yo": "duerma",
+        "tu": "duermas",
+        "el": "duerma",
+        "nosotros": "durmamos",
+        "ellos": "duerman"
+      }
+    }
+  },
+  {
+    "infinitive": "pedir",
+    "english": "to ask for",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "pido",
+        "tu": "pides",
+        "el": "pide",
+        "nosotros": "pedimos",
+        "ellos": "piden"
+      },
+      "preterite": {
+        "yo": "pedí",
+        "tu": "pediste",
+        "el": "pidió",
+        "nosotros": "pedimos",
+        "ellos": "pidieron"
+      },
+      "imperfect": {
+        "yo": "pedía",
+        "tu": "pedías",
+        "el": "pedía",
+        "nosotros": "pedíamos",
+        "ellos": "pedían"
+      },
+      "future": {
+        "yo": "pediré",
+        "tu": "pedirás",
+        "el": "pedirá",
+        "nosotros": "pediremos",
+        "ellos": "pedirán"
+      },
+      "conditional": {
+        "yo": "pediría",
+        "tu": "pedirías",
+        "el": "pediría",
+        "nosotros": "pediríamos",
+        "ellos": "pedirían"
+      },
+      "subjunctive": {
+        "yo": "pida",
+        "tu": "pidas",
+        "el": "pida",
+        "nosotros": "pidamos",
+        "ellos": "pidan"
+      }
+    }
+  },
+  {
+    "infinitive": "servir",
+    "english": "to serve",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "sirvo",
+        "tu": "sirves",
+        "el": "sirve",
+        "nosotros": "servimos",
+        "ellos": "sirven"
+      },
+      "preterite": {
+        "yo": "serví",
+        "tu": "serviste",
+        "el": "sirvió",
+        "nosotros": "servimos",
+        "ellos": "sirvieron"
+      },
+      "imperfect": {
+        "yo": "servía",
+        "tu": "servías",
+        "el": "servía",
+        "nosotros": "servíamos",
+        "ellos": "servían"
+      },
+      "future": {
+        "yo": "serviré",
+        "tu": "servirás",
+        "el": "servirá",
+        "nosotros": "serviremos",
+        "ellos": "servirán"
+      },
+      "conditional": {
+        "yo": "serviría",
+        "tu": "servirías",
+        "el": "serviría",
+        "nosotros": "serviríamos",
+        "ellos": "servirían"
+      },
+      "subjunctive": {
+        "yo": "sirva",
+        "tu": "sirvas",
+        "el": "sirva",
+        "nosotros": "sirvamos",
+        "ellos": "sirvan"
+      }
+    }
+  },
+  {
+    "infinitive": "repetir",
+    "english": "to repeat",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "repito",
+        "tu": "repites",
+        "el": "repite",
+        "nosotros": "repetimos",
+        "ellos": "repiten"
+      },
+      "preterite": {
+        "yo": "repetí",
+        "tu": "repetiste",
+        "el": "repitió",
+        "nosotros": "repetimos",
+        "ellos": "repitieron"
+      },
+      "imperfect": {
+        "yo": "repetía",
+        "tu": "repetías",
+        "el": "repetía",
+        "nosotros": "repetíamos",
+        "ellos": "repetían"
+      },
+      "future": {
+        "yo": "repetiré",
+        "tu": "repetirás",
+        "el": "repetirá",
+        "nosotros": "repetiremos",
+        "ellos": "repetirán"
+      },
+      "conditional": {
+        "yo": "repetiría",
+        "tu": "repetirías",
+        "el": "repetiría",
+        "nosotros": "repetiríamos",
+        "ellos": "repetirían"
+      },
+      "subjunctive": {
+        "yo": "repita",
+        "tu": "repitas",
+        "el": "repita",
+        "nosotros": "repitamos",
+        "ellos": "repitan"
+      }
+    }
+  },
+  {
+    "infinitive": "sentir",
+    "english": "to feel",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "siento",
+        "tu": "sientes",
+        "el": "siente",
+        "nosotros": "sentimos",
+        "ellos": "sienten"
+      },
+      "preterite": {
+        "yo": "sentí",
+        "tu": "sentiste",
+        "el": "sintió",
+        "nosotros": "sentimos",
+        "ellos": "sintieron"
+      },
+      "imperfect": {
+        "yo": "sentía",
+        "tu": "sentías",
+        "el": "sentía",
+        "nosotros": "sentíamos",
+        "ellos": "sentían"
+      },
+      "future": {
+        "yo": "sentiré",
+        "tu": "sentirás",
+        "el": "sentirá",
+        "nosotros": "sentiremos",
+        "ellos": "sentirán"
+      },
+      "conditional": {
+        "yo": "sentiría",
+        "tu": "sentirías",
+        "el": "sentiría",
+        "nosotros": "sentiríamos",
+        "ellos": "sentirían"
+      },
+      "subjunctive": {
+        "yo": "sienta",
+        "tu": "sientas",
+        "el": "sienta",
+        "nosotros": "sintamos",
+        "ellos": "sientan"
+      }
+    }
+  },
+  {
+    "infinitive": "preferir",
+    "english": "to prefer",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "prefiero",
+        "tu": "prefieres",
+        "el": "prefiere",
+        "nosotros": "preferimos",
+        "ellos": "prefieren"
+      },
+      "preterite": {
+        "yo": "preferí",
+        "tu": "preferiste",
+        "el": "prefirió",
+        "nosotros": "preferimos",
+        "ellos": "prefirieron"
+      },
+      "imperfect": {
+        "yo": "prefería",
+        "tu": "preferías",
+        "el": "prefería",
+        "nosotros": "preferíamos",
+        "ellos": "preferían"
+      },
+      "future": {
+        "yo": "preferiré",
+        "tu": "preferirás",
+        "el": "preferirá",
+        "nosotros": "preferiremos",
+        "ellos": "preferirán"
+      },
+      "conditional": {
+        "yo": "preferiría",
+        "tu": "preferirías",
+        "el": "preferiría",
+        "nosotros": "preferiríamos",
+        "ellos": "preferirían"
+      },
+      "subjunctive": {
+        "yo": "prefiera",
+        "tu": "prefieras",
+        "el": "prefiera",
+        "nosotros": "prefiramos",
+        "ellos": "prefieran"
+      }
+    }
+  },
+  {
+    "infinitive": "jugar",
+    "english": "to play",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "juego",
+        "tu": "juegas",
+        "el": "juega",
+        "nosotros": "jugamos",
+        "ellos": "juegan"
+      },
+      "preterite": {
+        "yo": "jugué",
+        "tu": "jugaste",
+        "el": "jugó",
+        "nosotros": "jugamos",
+        "ellos": "jugaron"
+      },
+      "imperfect": {
+        "yo": "jugaba",
+        "tu": "jugabas",
+        "el": "jugaba",
+        "nosotros": "jugábamos",
+        "ellos": "jugaban"
+      },
+      "future": {
+        "yo": "jugaré",
+        "tu": "jugarás",
+        "el": "jugará",
+        "nosotros": "jugaremos",
+        "ellos": "jugarán"
+      },
+      "conditional": {
+        "yo": "jugaría",
+        "tu": "jugarías",
+        "el": "jugaría",
+        "nosotros": "jugaríamos",
+        "ellos": "jugarían"
+      },
+      "subjunctive": {
+        "yo": "juegue",
+        "tu": "juegues",
+        "el": "juegue",
+        "nosotros": "juguemos",
+        "ellos": "jueguen"
+      }
+    }
+  },
+  {
+    "infinitive": "seguir",
+    "english": "to follow / continue",
+    "kind": "stem",
+    "conjugations": {
+      "present": {
+        "yo": "sigo",
+        "tu": "sigues",
+        "el": "sigue",
+        "nosotros": "seguimos",
+        "ellos": "siguen"
+      },
+      "preterite": {
+        "yo": "seguí",
+        "tu": "seguiste",
+        "el": "siguió",
+        "nosotros": "seguimos",
+        "ellos": "siguieron"
+      },
+      "imperfect": {
+        "yo": "seguía",
+        "tu": "seguías",
+        "el": "seguía",
+        "nosotros": "seguíamos",
+        "ellos": "seguían"
+      },
+      "future": {
+        "yo": "seguiré",
+        "tu": "seguirás",
+        "el": "seguirá",
+        "nosotros": "seguiremos",
+        "ellos": "seguirán"
+      },
+      "conditional": {
+        "yo": "seguiría",
+        "tu": "seguirías",
+        "el": "seguiría",
+        "nosotros": "seguiríamos",
+        "ellos": "seguirían"
+      },
+      "subjunctive": {
+        "yo": "siga",
+        "tu": "sigas",
+        "el": "siga",
+        "nosotros": "sigamos",
+        "ellos": "sigan"
+      }
+    }
+  },
+  {
+    "infinitive": "ser",
+    "english": "to be (permanent)",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "soy",
+        "tu": "eres",
+        "el": "es",
+        "nosotros": "somos",
+        "ellos": "son"
+      },
+      "preterite": {
+        "yo": "fui",
+        "tu": "fuiste",
+        "el": "fue",
+        "nosotros": "fuimos",
+        "ellos": "fueron"
+      },
+      "imperfect": {
+        "yo": "era",
+        "tu": "eras",
+        "el": "era",
+        "nosotros": "éramos",
+        "ellos": "eran"
+      },
+      "future": {
+        "yo": "seré",
+        "tu": "serás",
+        "el": "será",
+        "nosotros": "seremos",
+        "ellos": "serán"
+      },
+      "conditional": {
+        "yo": "sería",
+        "tu": "serías",
+        "el": "sería",
+        "nosotros": "seríamos",
+        "ellos": "serían"
+      },
+      "subjunctive": {
+        "yo": "sea",
+        "tu": "seas",
+        "el": "sea",
+        "nosotros": "seamos",
+        "ellos": "sean"
+      }
+    }
+  },
+  {
+    "infinitive": "estar",
+    "english": "to be (state / place)",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "estoy",
+        "tu": "estás",
+        "el": "está",
+        "nosotros": "estamos",
+        "ellos": "están"
+      },
+      "preterite": {
+        "yo": "estuve",
+        "tu": "estuviste",
+        "el": "estuvo",
+        "nosotros": "estuvimos",
+        "ellos": "estuvieron"
+      },
+      "imperfect": {
+        "yo": "estaba",
+        "tu": "estabas",
+        "el": "estaba",
+        "nosotros": "estábamos",
+        "ellos": "estaban"
+      },
+      "future": {
+        "yo": "estaré",
+        "tu": "estarás",
+        "el": "estará",
+        "nosotros": "estaremos",
+        "ellos": "estarán"
+      },
+      "conditional": {
+        "yo": "estaría",
+        "tu": "estarías",
+        "el": "estaría",
+        "nosotros": "estaríamos",
+        "ellos": "estarían"
+      },
+      "subjunctive": {
+        "yo": "esté",
+        "tu": "estés",
+        "el": "esté",
+        "nosotros": "estemos",
+        "ellos": "estén"
+      }
+    }
+  },
+  {
+    "infinitive": "ir",
+    "english": "to go",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "voy",
+        "tu": "vas",
+        "el": "va",
+        "nosotros": "vamos",
+        "ellos": "van"
+      },
+      "preterite": {
+        "yo": "fui",
+        "tu": "fuiste",
+        "el": "fue",
+        "nosotros": "fuimos",
+        "ellos": "fueron"
+      },
+      "imperfect": {
+        "yo": "iba",
+        "tu": "ibas",
+        "el": "iba",
+        "nosotros": "íbamos",
+        "ellos": "iban"
+      },
+      "future": {
+        "yo": "iré",
+        "tu": "irás",
+        "el": "irá",
+        "nosotros": "iremos",
+        "ellos": "irán"
+      },
+      "conditional": {
+        "yo": "iría",
+        "tu": "irías",
+        "el": "iría",
+        "nosotros": "iríamos",
+        "ellos": "irían"
+      },
+      "subjunctive": {
+        "yo": "vaya",
+        "tu": "vayas",
+        "el": "vaya",
+        "nosotros": "vayamos",
+        "ellos": "vayan"
+      }
+    }
+  },
+  {
+    "infinitive": "tener",
+    "english": "to have",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "tengo",
+        "tu": "tienes",
+        "el": "tiene",
+        "nosotros": "tenemos",
+        "ellos": "tienen"
+      },
+      "preterite": {
+        "yo": "tuve",
+        "tu": "tuviste",
+        "el": "tuvo",
+        "nosotros": "tuvimos",
+        "ellos": "tuvieron"
+      },
+      "imperfect": {
+        "yo": "tenía",
+        "tu": "tenías",
+        "el": "tenía",
+        "nosotros": "teníamos",
+        "ellos": "tenían"
+      },
+      "future": {
+        "yo": "tendré",
+        "tu": "tendrás",
+        "el": "tendrá",
+        "nosotros": "tendremos",
+        "ellos": "tendrán"
+      },
+      "conditional": {
+        "yo": "tendría",
+        "tu": "tendrías",
+        "el": "tendría",
+        "nosotros": "tendríamos",
+        "ellos": "tendrían"
+      },
+      "subjunctive": {
+        "yo": "tenga",
+        "tu": "tengas",
+        "el": "tenga",
+        "nosotros": "tengamos",
+        "ellos": "tengan"
+      }
+    }
+  },
+  {
+    "infinitive": "hacer",
+    "english": "to do / make",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "hago",
+        "tu": "haces",
+        "el": "hace",
+        "nosotros": "hacemos",
+        "ellos": "hacen"
+      },
+      "preterite": {
+        "yo": "hice",
+        "tu": "hiciste",
+        "el": "hizo",
+        "nosotros": "hicimos",
+        "ellos": "hicieron"
+      },
+      "imperfect": {
+        "yo": "hacía",
+        "tu": "hacías",
+        "el": "hacía",
+        "nosotros": "hacíamos",
+        "ellos": "hacían"
+      },
+      "future": {
+        "yo": "haré",
+        "tu": "harás",
+        "el": "hará",
+        "nosotros": "haremos",
+        "ellos": "harán"
+      },
+      "conditional": {
+        "yo": "haría",
+        "tu": "harías",
+        "el": "haría",
+        "nosotros": "haríamos",
+        "ellos": "harían"
+      },
+      "subjunctive": {
+        "yo": "haga",
+        "tu": "hagas",
+        "el": "haga",
+        "nosotros": "hagamos",
+        "ellos": "hagan"
+      }
+    }
+  },
+  {
+    "infinitive": "poder",
+    "english": "to be able / can",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "puedo",
+        "tu": "puedes",
+        "el": "puede",
+        "nosotros": "podemos",
+        "ellos": "pueden"
+      },
+      "preterite": {
+        "yo": "pude",
+        "tu": "pudiste",
+        "el": "pudo",
+        "nosotros": "pudimos",
+        "ellos": "pudieron"
+      },
+      "imperfect": {
+        "yo": "podía",
+        "tu": "podías",
+        "el": "podía",
+        "nosotros": "podíamos",
+        "ellos": "podían"
+      },
+      "future": {
+        "yo": "podré",
+        "tu": "podrás",
+        "el": "podrá",
+        "nosotros": "podremos",
+        "ellos": "podrán"
+      },
+      "conditional": {
+        "yo": "podría",
+        "tu": "podrías",
+        "el": "podría",
+        "nosotros": "podríamos",
+        "ellos": "podrían"
+      },
+      "subjunctive": {
+        "yo": "pueda",
+        "tu": "puedas",
+        "el": "pueda",
+        "nosotros": "podamos",
+        "ellos": "puedan"
+      }
+    }
+  },
+  {
+    "infinitive": "decir",
+    "english": "to say / tell",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "digo",
+        "tu": "dices",
+        "el": "dice",
+        "nosotros": "decimos",
+        "ellos": "dicen"
+      },
+      "preterite": {
+        "yo": "dije",
+        "tu": "dijiste",
+        "el": "dijo",
+        "nosotros": "dijimos",
+        "ellos": "dijeron"
+      },
+      "imperfect": {
+        "yo": "decía",
+        "tu": "decías",
+        "el": "decía",
+        "nosotros": "decíamos",
+        "ellos": "decían"
+      },
+      "future": {
+        "yo": "diré",
+        "tu": "dirás",
+        "el": "dirá",
+        "nosotros": "diremos",
+        "ellos": "dirán"
+      },
+      "conditional": {
+        "yo": "diría",
+        "tu": "dirías",
+        "el": "diría",
+        "nosotros": "diríamos",
+        "ellos": "dirían"
+      },
+      "subjunctive": {
+        "yo": "diga",
+        "tu": "digas",
+        "el": "diga",
+        "nosotros": "digamos",
+        "ellos": "digan"
+      }
+    }
+  },
+  {
+    "infinitive": "ver",
+    "english": "to see",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "veo",
+        "tu": "ves",
+        "el": "ve",
+        "nosotros": "vemos",
+        "ellos": "ven"
+      },
+      "preterite": {
+        "yo": "vi",
+        "tu": "viste",
+        "el": "vio",
+        "nosotros": "vimos",
+        "ellos": "vieron"
+      },
+      "imperfect": {
+        "yo": "veía",
+        "tu": "veías",
+        "el": "veía",
+        "nosotros": "veíamos",
+        "ellos": "veían"
+      },
+      "future": {
+        "yo": "veré",
+        "tu": "verás",
+        "el": "verá",
+        "nosotros": "veremos",
+        "ellos": "verán"
+      },
+      "conditional": {
+        "yo": "vería",
+        "tu": "verías",
+        "el": "vería",
+        "nosotros": "veríamos",
+        "ellos": "verían"
+      },
+      "subjunctive": {
+        "yo": "vea",
+        "tu": "veas",
+        "el": "vea",
+        "nosotros": "veamos",
+        "ellos": "vean"
+      }
+    }
+  },
+  {
+    "infinitive": "dar",
+    "english": "to give",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "doy",
+        "tu": "das",
+        "el": "da",
+        "nosotros": "damos",
+        "ellos": "dan"
+      },
+      "preterite": {
+        "yo": "di",
+        "tu": "diste",
+        "el": "dio",
+        "nosotros": "dimos",
+        "ellos": "dieron"
+      },
+      "imperfect": {
+        "yo": "daba",
+        "tu": "dabas",
+        "el": "daba",
+        "nosotros": "dábamos",
+        "ellos": "daban"
+      },
+      "future": {
+        "yo": "daré",
+        "tu": "darás",
+        "el": "dará",
+        "nosotros": "daremos",
+        "ellos": "darán"
+      },
+      "conditional": {
+        "yo": "daría",
+        "tu": "darías",
+        "el": "daría",
+        "nosotros": "daríamos",
+        "ellos": "darían"
+      },
+      "subjunctive": {
+        "yo": "dé",
+        "tu": "des",
+        "el": "dé",
+        "nosotros": "demos",
+        "ellos": "den"
+      }
+    }
+  },
+  {
+    "infinitive": "saber",
+    "english": "to know (facts)",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "sé",
+        "tu": "sabes",
+        "el": "sabe",
+        "nosotros": "sabemos",
+        "ellos": "saben"
+      },
+      "preterite": {
+        "yo": "supe",
+        "tu": "supiste",
+        "el": "supo",
+        "nosotros": "supimos",
+        "ellos": "supieron"
+      },
+      "imperfect": {
+        "yo": "sabía",
+        "tu": "sabías",
+        "el": "sabía",
+        "nosotros": "sabíamos",
+        "ellos": "sabían"
+      },
+      "future": {
+        "yo": "sabré",
+        "tu": "sabrás",
+        "el": "sabrá",
+        "nosotros": "sabremos",
+        "ellos": "sabrán"
+      },
+      "conditional": {
+        "yo": "sabría",
+        "tu": "sabrías",
+        "el": "sabría",
+        "nosotros": "sabríamos",
+        "ellos": "sabrían"
+      },
+      "subjunctive": {
+        "yo": "sepa",
+        "tu": "sepas",
+        "el": "sepa",
+        "nosotros": "sepamos",
+        "ellos": "sepan"
+      }
+    }
+  },
+  {
+    "infinitive": "querer",
+    "english": "to want / love",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "quiero",
+        "tu": "quieres",
+        "el": "quiere",
+        "nosotros": "queremos",
+        "ellos": "quieren"
+      },
+      "preterite": {
+        "yo": "quise",
+        "tu": "quisiste",
+        "el": "quiso",
+        "nosotros": "quisimos",
+        "ellos": "quisieron"
+      },
+      "imperfect": {
+        "yo": "quería",
+        "tu": "querías",
+        "el": "quería",
+        "nosotros": "queríamos",
+        "ellos": "querían"
+      },
+      "future": {
+        "yo": "querré",
+        "tu": "querrás",
+        "el": "querrá",
+        "nosotros": "querremos",
+        "ellos": "querrán"
+      },
+      "conditional": {
+        "yo": "querría",
+        "tu": "querrías",
+        "el": "querría",
+        "nosotros": "querríamos",
+        "ellos": "querrían"
+      },
+      "subjunctive": {
+        "yo": "quiera",
+        "tu": "quieras",
+        "el": "quiera",
+        "nosotros": "queramos",
+        "ellos": "quieran"
+      }
+    }
+  },
+  {
+    "infinitive": "poner",
+    "english": "to put",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "pongo",
+        "tu": "pones",
+        "el": "pone",
+        "nosotros": "ponemos",
+        "ellos": "ponen"
+      },
+      "preterite": {
+        "yo": "puse",
+        "tu": "pusiste",
+        "el": "puso",
+        "nosotros": "pusimos",
+        "ellos": "pusieron"
+      },
+      "imperfect": {
+        "yo": "ponía",
+        "tu": "ponías",
+        "el": "ponía",
+        "nosotros": "poníamos",
+        "ellos": "ponían"
+      },
+      "future": {
+        "yo": "pondré",
+        "tu": "pondrás",
+        "el": "pondrá",
+        "nosotros": "pondremos",
+        "ellos": "pondrán"
+      },
+      "conditional": {
+        "yo": "pondría",
+        "tu": "pondrías",
+        "el": "pondría",
+        "nosotros": "pondríamos",
+        "ellos": "pondrían"
+      },
+      "subjunctive": {
+        "yo": "ponga",
+        "tu": "pongas",
+        "el": "ponga",
+        "nosotros": "pongamos",
+        "ellos": "pongan"
+      }
+    }
+  },
+  {
+    "infinitive": "venir",
+    "english": "to come",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "vengo",
+        "tu": "vienes",
+        "el": "viene",
+        "nosotros": "venimos",
+        "ellos": "vienen"
+      },
+      "preterite": {
+        "yo": "vine",
+        "tu": "viniste",
+        "el": "vino",
+        "nosotros": "vinimos",
+        "ellos": "vinieron"
+      },
+      "imperfect": {
+        "yo": "venía",
+        "tu": "venías",
+        "el": "venía",
+        "nosotros": "veníamos",
+        "ellos": "venían"
+      },
+      "future": {
+        "yo": "vendré",
+        "tu": "vendrás",
+        "el": "vendrá",
+        "nosotros": "vendremos",
+        "ellos": "vendrán"
+      },
+      "conditional": {
+        "yo": "vendría",
+        "tu": "vendrías",
+        "el": "vendría",
+        "nosotros": "vendríamos",
+        "ellos": "vendrían"
+      },
+      "subjunctive": {
+        "yo": "venga",
+        "tu": "vengas",
+        "el": "venga",
+        "nosotros": "vengamos",
+        "ellos": "vengan"
+      }
+    }
+  },
+  {
+    "infinitive": "salir",
+    "english": "to leave / go out",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "salgo",
+        "tu": "sales",
+        "el": "sale",
+        "nosotros": "salimos",
+        "ellos": "salen"
+      },
+      "preterite": {
+        "yo": "salí",
+        "tu": "saliste",
+        "el": "salió",
+        "nosotros": "salimos",
+        "ellos": "salieron"
+      },
+      "imperfect": {
+        "yo": "salía",
+        "tu": "salías",
+        "el": "salía",
+        "nosotros": "salíamos",
+        "ellos": "salían"
+      },
+      "future": {
+        "yo": "saldré",
+        "tu": "saldrás",
+        "el": "saldrá",
+        "nosotros": "saldremos",
+        "ellos": "saldrán"
+      },
+      "conditional": {
+        "yo": "saldría",
+        "tu": "saldrías",
+        "el": "saldría",
+        "nosotros": "saldríamos",
+        "ellos": "saldrían"
+      },
+      "subjunctive": {
+        "yo": "salga",
+        "tu": "salgas",
+        "el": "salga",
+        "nosotros": "salgamos",
+        "ellos": "salgan"
+      }
+    }
+  },
+  {
+    "infinitive": "traer",
+    "english": "to bring",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "traigo",
+        "tu": "traes",
+        "el": "trae",
+        "nosotros": "traemos",
+        "ellos": "traen"
+      },
+      "preterite": {
+        "yo": "traje",
+        "tu": "trajiste",
+        "el": "trajo",
+        "nosotros": "trajimos",
+        "ellos": "trajeron"
+      },
+      "imperfect": {
+        "yo": "traía",
+        "tu": "traías",
+        "el": "traía",
+        "nosotros": "traíamos",
+        "ellos": "traían"
+      },
+      "future": {
+        "yo": "traeré",
+        "tu": "traerás",
+        "el": "traerá",
+        "nosotros": "traeremos",
+        "ellos": "traerán"
+      },
+      "conditional": {
+        "yo": "traería",
+        "tu": "traerías",
+        "el": "traería",
+        "nosotros": "traeríamos",
+        "ellos": "traerían"
+      },
+      "subjunctive": {
+        "yo": "traiga",
+        "tu": "traigas",
+        "el": "traiga",
+        "nosotros": "traigamos",
+        "ellos": "traigan"
+      }
+    }
+  },
+  {
+    "infinitive": "conocer",
+    "english": "to know (people / places)",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "conozco",
+        "tu": "conoces",
+        "el": "conoce",
+        "nosotros": "conocemos",
+        "ellos": "conocen"
+      },
+      "preterite": {
+        "yo": "conocí",
+        "tu": "conociste",
+        "el": "conoció",
+        "nosotros": "conocimos",
+        "ellos": "conocieron"
+      },
+      "imperfect": {
+        "yo": "conocía",
+        "tu": "conocías",
+        "el": "conocía",
+        "nosotros": "conocíamos",
+        "ellos": "conocían"
+      },
+      "future": {
+        "yo": "conoceré",
+        "tu": "conocerás",
+        "el": "conocerá",
+        "nosotros": "conoceremos",
+        "ellos": "conocerán"
+      },
+      "conditional": {
+        "yo": "conocería",
+        "tu": "conocerías",
+        "el": "conocería",
+        "nosotros": "conoceríamos",
+        "ellos": "conocerían"
+      },
+      "subjunctive": {
+        "yo": "conozca",
+        "tu": "conozcas",
+        "el": "conozca",
+        "nosotros": "conozcamos",
+        "ellos": "conozcan"
+      }
+    }
+  },
+  {
+    "infinitive": "oír",
+    "english": "to hear",
+    "kind": "irregular",
+    "conjugations": {
+      "present": {
+        "yo": "oigo",
+        "tu": "oyes",
+        "el": "oye",
+        "nosotros": "oímos",
+        "ellos": "oyen"
+      },
+      "preterite": {
+        "yo": "oí",
+        "tu": "oíste",
+        "el": "oyó",
+        "nosotros": "oímos",
+        "ellos": "oyeron"
+      },
+      "imperfect": {
+        "yo": "oía",
+        "tu": "oías",
+        "el": "oía",
+        "nosotros": "oíamos",
+        "ellos": "oían"
+      },
+      "future": {
+        "yo": "oiré",
+        "tu": "oirás",
+        "el": "oirá",
+        "nosotros": "oiremos",
+        "ellos": "oirán"
+      },
+      "conditional": {
+        "yo": "oiría",
+        "tu": "oirías",
+        "el": "oiría",
+        "nosotros": "oiríamos",
+        "ellos": "oirían"
+      },
+      "subjunctive": {
+        "yo": "oiga",
+        "tu": "oigas",
+        "el": "oiga",
+        "nosotros": "oigamos",
+        "ellos": "oigan"
+      }
+    }
+  }
+]
